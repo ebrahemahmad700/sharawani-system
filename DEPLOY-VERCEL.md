@@ -114,15 +114,16 @@ Nothing on any screen will look different.
 
 ### 5. Deploy
 
-From the `app` directory:
+The Vercel project is connected to
+https://github.com/ebrahemahmad700/sharawani-system with Root Directory `app`.
+Every push to `main` deploys to production, and every other branch gets a
+preview deployment. There is nothing to run by hand.
 
-```
-vercel --prod
-```
+Migrations are not part of the deploy. Apply them with step 3 before pushing
+code that needs them.
 
-You need to run this yourself. The token you sent had to be treated as burned the
-moment it appeared in a chat log, and the tooling here blocks deployment
-commands anyway.
+To redeploy without a new commit, use Redeploy on the latest deployment in the
+Vercel dashboard.
 
 ### 6. Check it
 
