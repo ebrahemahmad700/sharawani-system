@@ -1,0 +1,15 @@
+import { launch, ctxFor, shotAround } from './lib.mjs';
+const browser = await launch();
+const { context, page } = await ctxFor(browser, 'hemin', 'i390');
+await page.goto('/inbox');
+const row = page.locator('tbody tr', { has: page.locator('.pill.ok', { hasText: 'گەیشتووە' }) }).first();
+console.log('rows with گەیشتووە:', await page.locator('tbody .pill', { hasText: /^گەیشتووە$/ }).count(), 'rows with وەرگیراوە:', await page.locator('tbody .pill', { hasText: 'وەرگیراوە' }).count());
+const pills = await row.locator('.pill').allTextContents();
+console.log(JSON.stringify({ pills }));
+await row.scrollIntoViewIfNeeded();
+await shotAround(page, row, 'vocab-i390-inbox-paper-pill', { above: 50, height: 180 });
+await page.goto('/documents/1240');
+const docPaper = await page.evaluate(() => [...document.querySelectorAll('table tr')].find(r => r.querySelector('th')?.textContent.includes('پەڕگەی کاغەزی'))?.querySelector('td')?.textContent.trim().replace(/\s+/g, ' '));
+console.log(JSON.stringify({ docPaper }));
+await context.close();
+await browser.close();

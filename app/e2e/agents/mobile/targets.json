@@ -1,0 +1,1337 @@
+[
+ {
+  "size": "i390",
+  "user": "shilan",
+  "path": "/documents/1230",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap37": {
+    "n": 1,
+    "ex": "on",
+    "near": "label.nav-toggle «پێڕست»"
+   },
+   "button.btn.secondary 38x40 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x40 gap8": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary.sound-toggle «دەنگی سکانەر»"
+   },
+   "a.attach-name 213x25 gap10": {
+    "n": 1,
+    "ex": "PDF MOBmjy67-contract.pdf",
+    "near": "a.btn.small «بینین»"
+   },
+   "summary 332x20 gap18": {
+    "n": 3,
+    "ex": "زیاتر",
+    "near": "button.btn.small.secondary «پشکنینی دەستکار»"
+   },
+   "input[checkbox] 332x24 gap12": {
+    "n": 2,
+    "ex": "1",
+    "near": "button.btn «ناردن»"
+   },
+   "summary 332x24 gap56": {
+    "n": 1,
+    "ex": "هەڵوەشاندنەوەی کتاب",
+    "near": "button.btn «وەرگرتنی ژمارەی»"
+   }
+  }
+ },
+ {
+  "size": "i390",
+  "user": "shilan",
+  "path": "/manifests",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap12": {
+    "n": 1,
+    "ex": "on",
+    "near": "label.nav-toggle «پێڕست»"
+   },
+   "button.btn.secondary 38x40 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x40 gap8": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "input[search] «گەڕان»"
+   },
+   "input[checkbox] 18x18 gap24": {
+    "n": 20,
+    "ex": "1190",
+    "near": "a.mono «ه/2026/669»"
+   },
+   "a.mono 75x15 gap24": {
+    "n": 20,
+    "ex": "ه/2026/669",
+    "near": "input[checkbox] «»"
+   },
+   "a 68x21 gap74": {
+    "n": 2,
+    "ex": "گ/2026/47",
+    "near": "a «گ/2026/46»"
+   },
+   "a 68x21 gap63": {
+    "n": 23,
+    "ex": "گ/2026/45",
+    "near": "a «گ/2026/44»"
+   }
+  }
+ },
+ {
+  "size": "i390",
+  "user": "shilan",
+  "path": "/inbox",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap12": {
+    "n": 1,
+    "ex": "on",
+    "near": "label.nav-toggle «پێڕست»"
+   },
+   "button.btn.secondary 38x40 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x40 gap8": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary.sound-toggle «دەنگی سکانەر»"
+   },
+   "a 78x21 (inline text link) gap35": {
+    "n": 1,
+    "ex": "لیستی گەیاندن",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.attach-name 275x26 gap10": {
+    "n": 31,
+    "ex": "ه/2026/720 hdr SECZ-7gvn0",
+    "near": "a.btn.small «ناردن»"
+   }
+  }
+ },
+ {
+  "size": "i390",
+  "user": "shilan",
+  "path": "/my-day",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap12": {
+    "n": 1,
+    "ex": "on",
+    "near": "label.nav-toggle «پێڕست»"
+   },
+   "button.btn.secondary 38x40 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x40 gap8": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a 75x15 gap69": {
+    "n": 24,
+    "ex": "ه/2026/200",
+    "near": "a «ه/2026/206»"
+   },
+   "a 75x15 gap101": {
+    "n": 4,
+    "ex": "ه/2026/543",
+    "near": "a «ه/2026/513»"
+   },
+   "a 75x15 gap90": {
+    "n": 13,
+    "ex": "ه/2026/548",
+    "near": "a «ه/2026/549»"
+   },
+   "a 75x15 gap112": {
+    "n": 14,
+    "ex": "ه/2026/553",
+    "near": "a «ه/2026/551»"
+   },
+   "a 75x15 gap123": {
+    "n": 2,
+    "ex": "ه/2026/652",
+    "near": "a «ه/2026/635»"
+   },
+   "a 75x15 gap103": {
+    "n": 2,
+    "ex": "ه/2026/669",
+    "near": "a «ه/2026/675»"
+   },
+   "a 75x15 gap114": {
+    "n": 1,
+    "ex": "ه/2026/679",
+    "near": "a «ه/2026/675»"
+   },
+   "a 75x15 gap134": {
+    "n": 1,
+    "ex": "ه/2026/700",
+    "near": "a «ه/2026/699»"
+   },
+   "a 75x15 gap29": {
+    "n": 2,
+    "ex": "ه/2026/545",
+    "near": "a «ه/2026/649»"
+   },
+   "a 75x15 gap38": {
+    "n": 1,
+    "ex": "ه/2026/667",
+    "near": "a «ه/2026/649»"
+   },
+   "a 75x15 gap47": {
+    "n": 2,
+    "ex": "ه/2026/701",
+    "near": "a «ه/2026/667»"
+   },
+   "a 75x15 gap26": {
+    "n": 5,
+    "ex": "ه/2026/545",
+    "near": "a «ه/2026/649»"
+   }
+  }
+ },
+ {
+  "size": "i390",
+  "user": "shilan",
+  "path": "/barcode?q=20260007099",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap12": {
+    "n": 1,
+    "ex": "on",
+    "near": "label.nav-toggle «پێڕست»"
+   },
+   "button.btn.secondary 38x40 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x40 gap8": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.mono 89x19 gap59": {
+    "n": 1,
+    "ex": "ه/2026/709",
+    "near": "button.btn «گەڕان»"
+   }
+  }
+ },
+ {
+  "size": "i390",
+  "user": "shilan",
+  "path": "/tray",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap36": {
+    "n": 1,
+    "ex": "on",
+    "near": "label.nav-toggle «پێڕست»"
+   },
+   "button.btn.secondary 38x40 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x40 gap8": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary.sound-toggle «دەنگی سکانەر»"
+   },
+   "input[checkbox] 332x24 gap38": {
+    "n": 1,
+    "ex": "1",
+    "near": "button.btn «زیادکردن بۆ سین»"
+   },
+   "a 71x21 gap20": {
+    "n": 10,
+    "ex": "ه/2026/709",
+    "near": "a «ه/2026/660»"
+   }
+  }
+ },
+ {
+  "size": "i390",
+  "user": "shilan",
+  "path": "/notifications",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap12": {
+    "n": 1,
+    "ex": "on",
+    "near": "label.nav-toggle «پێڕست»"
+   },
+   "button.btn.secondary 38x40 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x40 gap8": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "input[search] «گەڕان»"
+   }
+  }
+ },
+ {
+  "size": "i390",
+  "user": "hemin",
+  "path": "/log",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap12": {
+    "n": 1,
+    "ex": "on",
+    "near": "label.nav-toggle «پێڕست»"
+   },
+   "button.btn.secondary 38x40 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x40 gap8": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.mono 75x15 gap109": {
+    "n": 5,
+    "ex": "ه/2026/721",
+    "near": "a.mono «ه/2026/719»"
+   },
+   "summary 49x38 gap86": {
+    "n": 13,
+    "ex": "وردەکاری",
+    "near": "summary «وردەکاری»"
+   },
+   "a.mono 75x15 gap47": {
+    "n": 70,
+    "ex": "ه/2026/719",
+    "near": "a.mono «ه/2026/719»"
+   },
+   "summary 49x38 gap24": {
+    "n": 36,
+    "ex": "وردەکاری",
+    "near": "summary «وردەکاری»"
+   },
+   "summary 49x38 gap127": {
+    "n": 1,
+    "ex": "وردەکاری",
+    "near": "a.mono «ه/2026/711»"
+   }
+  }
+ },
+ {
+  "size": "i390",
+  "user": "aram",
+  "path": "/dashboard",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap12": {
+    "n": 1,
+    "ex": "on",
+    "near": "label.nav-toggle «پێڕست»"
+   },
+   "button.btn.secondary 38x40 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x40 gap8": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a 164x21 gap68": {
+    "n": 1,
+    "ex": "تاقیکردنەوەی ڕاستەوخۆ ai2",
+    "near": "a.spacer «هەمووی ببینە»"
+   },
+   "a.spacer 82x24 gap68": {
+    "n": 1,
+    "ex": "هەمووی ببینە",
+    "near": "a «تاقیکردنەوەی ڕا»"
+   },
+   "a 110x21 gap23": {
+    "n": 1,
+    "ex": "ژووری هات و دەرچوو",
+    "near": "a «نەخشەی بنەڕەتی»"
+   },
+   "a 90x21 (inline text link) gap23": {
+    "n": 2,
+    "ex": "نەخشەی بنەڕەتی",
+    "near": "a «ژووری هات و دەر»"
+   },
+   "a 112x21 (inline text link) gap23": {
+    "n": 1,
+    "ex": "گرێبەستە گشتییەکان",
+    "near": "a «نەخشەی بنەڕەتی»"
+   },
+   "a 56x21 gap23": {
+    "n": 1,
+    "ex": "ژووری یاسا",
+    "near": "a «گرێبەستە گشتییە»"
+   },
+   "a 84x21 gap23": {
+    "n": 1,
+    "ex": "ژووری زەوی و زار",
+    "near": "a «ژووری یاسا»"
+   },
+   "a 77x21 gap23": {
+    "n": 1,
+    "ex": "ژووری ژمێریاری",
+    "near": "a «ژووری زەوی و زا»"
+   },
+   "a 73x21 gap23": {
+    "n": 1,
+    "ex": "ژووری کارگێڕی",
+    "near": "a «ژووری ژمێریاری»"
+   },
+   "a 94x21 (inline text link) gap23": {
+    "n": 66,
+    "ex": "ژووری تاقیکردنەوە",
+    "near": "a «ژووری کارگێڕی»"
+   },
+   "a 151x21 gap23": {
+    "n": 1,
+    "ex": "ژووری تاقیکردنەوە 5qo88h8",
+    "near": "a «ژووری تاقیکردنە»"
+   },
+   "a 124x21 (inline text link) gap23": {
+    "n": 1,
+    "ex": "ژووری تاقیکردنەوە rad1",
+    "near": "a «ژووری تاقیکردنە»"
+   },
+   "a 109x21 (inline text link) gap23": {
+    "n": 1,
+    "ex": "ژووری بێ کتاب rad1",
+    "near": "a «ژووری تاقیکردنە»"
+   },
+   "a 58x21 gap23": {
+    "n": 1,
+    "ex": "هەڵە rad1",
+    "near": "a «ژووری بێ کتاب r»"
+   },
+   "a.spacer 73x24 gap311": {
+    "n": 1,
+    "ex": "تۆماری تەواو",
+    "near": "a.mono «ه/2026/709»"
+   },
+   "a.mono 75x15 (inline text link) gap311": {
+    "n": 1,
+    "ex": "ه/2026/709",
+    "near": "a.spacer «تۆماری تەواو»"
+   }
+  }
+ },
+ {
+  "size": "i390",
+  "user": "bafrin",
+  "path": "/leave",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap12": {
+    "n": 1,
+    "ex": "on",
+    "near": "label.nav-toggle «پێڕست»"
+   },
+   "button.btn.secondary 38x40 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x40 gap8": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "input[search] «گەڕان»"
+   }
+  }
+ },
+ {
+  "size": "i390",
+  "user": "karwan",
+  "path": "/archive/new",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap12": {
+    "n": 1,
+    "ex": "on",
+    "near": "label.nav-toggle «پێڕست»"
+   },
+   "button.btn.secondary 38x40 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x40 gap8": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "input[search] «گەڕان»"
+   }
+  }
+ },
+ {
+  "size": "t1024",
+  "user": "shilan",
+  "path": "/documents/1230",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap67": {
+    "n": 1,
+    "ex": "on",
+    "near": "a «ژووری هات و دەر»"
+   },
+   "a 216x40 gap2": {
+    "n": 14,
+    "ex": "ژووری هات و دەرچوو",
+    "near": "a «کتابە هاتووەکان»"
+   },
+   "a.whoami-link 88x18 (inline text link) gap46": {
+    "n": 1,
+    "ex": "گۆڕینی وشەی نهێنی",
+    "near": "button.btn.secondary.logout-btn «دەرچوون»"
+   },
+   "button.btn.secondary.logout-btn 36x30 gap40": {
+    "n": 1,
+    "ex": "دەرچوون",
+    "near": "a «ئاگادارکردنەوەک»"
+   },
+   "button.btn.secondary 38x32 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x32 gap10": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary «گەڕان»"
+   },
+   "button.btn.secondary.sound-toggle 52x38 gap10": {
+    "n": 1,
+    "ex": "دەنگی سکانەر",
+    "near": "a.btn.secondary.bell «ئاگادارکردنەوەک»"
+   },
+   "a.btn.small.secondary 102x32 gap51": {
+    "n": 1,
+    "ex": "پسوولەی داواکار",
+    "near": "a «مۆڵەتەکان»"
+   },
+   "a.attach-name 207x25 gap10": {
+    "n": 1,
+    "ex": "PDF MOBmjy67-contract.pdf",
+    "near": "a.btn.small «بینین»"
+   },
+   "a.btn.small 49x32 gap6": {
+    "n": 3,
+    "ex": "بینین",
+    "near": "a.btn.small.secondary «داگرتن»"
+   },
+   "a.btn.small.secondary 54x32 gap6": {
+    "n": 3,
+    "ex": "داگرتن",
+    "near": "a.btn.small «بینین»"
+   },
+   "summary 326x20 gap18": {
+    "n": 3,
+    "ex": "زیاتر",
+    "near": "button.btn.small.secondary «پشکنینی دەستکار»"
+   },
+   "button.btn.small.secondary 117x32 gap0": {
+    "n": 3,
+    "ex": "پشکنینی دەستکاری",
+    "near": "a.attach-name «PNG\n           »"
+   },
+   "input[checkbox] 326x24 gap12": {
+    "n": 2,
+    "ex": "1",
+    "near": "button.btn «ناردن»"
+   },
+   "summary 326x22 gap56": {
+    "n": 1,
+    "ex": "هەڵوەشاندنەوەی کتاب",
+    "near": "button.btn «وەرگرتنی ژمارەی»"
+   }
+  }
+ },
+ {
+  "size": "t1024",
+  "user": "shilan",
+  "path": "/manifests",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap67": {
+    "n": 1,
+    "ex": "on",
+    "near": "a «ژووری هات و دەر»"
+   },
+   "a 216x40 gap2": {
+    "n": 14,
+    "ex": "ژووری هات و دەرچوو",
+    "near": "a «کتابە هاتووەکان»"
+   },
+   "a.whoami-link 88x18 (inline text link) gap46": {
+    "n": 1,
+    "ex": "گۆڕینی وشەی نهێنی",
+    "near": "button.btn.secondary.logout-btn «دەرچوون»"
+   },
+   "button.btn.secondary.logout-btn 36x30 gap40": {
+    "n": 1,
+    "ex": "دەرچوون",
+    "near": "a «ئاگادارکردنەوەک»"
+   },
+   "button.btn.secondary 38x32 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x32 gap10": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary «گەڕان»"
+   },
+   "button.btn.secondary.sound-toggle 52x38 gap10": {
+    "n": 1,
+    "ex": "دەنگی سکانەر",
+    "near": "a.btn.secondary.bell «ئاگادارکردنەوەک»"
+   },
+   "input[checkbox] 18x18 gap28": {
+    "n": 3,
+    "ex": "1190",
+    "near": "a.mono «ه/2026/669»"
+   },
+   "a.mono 75x15 gap28": {
+    "n": 20,
+    "ex": "ه/2026/669",
+    "near": "input[checkbox] «»"
+   },
+   "input[checkbox] 18x18 gap27": {
+    "n": 17,
+    "ex": "1207",
+    "near": "input[checkbox] «»"
+   },
+   "a 68x21 gap65": {
+    "n": 25,
+    "ex": "گ/2026/47",
+    "near": "a «گ/2026/46»"
+   }
+  }
+ },
+ {
+  "size": "t1024",
+  "user": "shilan",
+  "path": "/inbox",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap67": {
+    "n": 1,
+    "ex": "on",
+    "near": "a «ژووری هات و دەر»"
+   },
+   "a 216x40 gap2": {
+    "n": 14,
+    "ex": "ژووری هات و دەرچوو",
+    "near": "a «کتابە هاتووەکان»"
+   },
+   "a.whoami-link 88x18 (inline text link) gap46": {
+    "n": 1,
+    "ex": "گۆڕینی وشەی نهێنی",
+    "near": "button.btn.secondary.logout-btn «دەرچوون»"
+   },
+   "button.btn.secondary.logout-btn 36x30 gap40": {
+    "n": 1,
+    "ex": "دەرچوون",
+    "near": "a «ئاگادارکردنەوەک»"
+   },
+   "button.btn.secondary 38x32 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x32 gap10": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary «گەڕان»"
+   },
+   "button.btn.secondary.sound-toggle 52x38 gap10": {
+    "n": 1,
+    "ex": "دەنگی سکانەر",
+    "near": "a.btn.secondary.bell «ئاگادارکردنەوەک»"
+   },
+   "a 78x21 (inline text link) gap99": {
+    "n": 1,
+    "ex": "لیستی گەیاندن",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.attach-name 649x23 gap10": {
+    "n": 48,
+    "ex": "ه/2026/720 hdr SECZ-7gvn0",
+    "near": "a.btn.small «ناردن»"
+   },
+   "a.btn.small 47x32 gap10": {
+    "n": 50,
+    "ex": "ناردن",
+    "near": "a.attach-name «ه/2026/720 hdr »"
+   }
+  }
+ },
+ {
+  "size": "t1024",
+  "user": "shilan",
+  "path": "/my-day",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap67": {
+    "n": 1,
+    "ex": "on",
+    "near": "a «ژووری هات و دەر»"
+   },
+   "a 216x40 gap2": {
+    "n": 14,
+    "ex": "ژووری هات و دەرچوو",
+    "near": "a «کتابە هاتووەکان»"
+   },
+   "a.whoami-link 88x18 (inline text link) gap46": {
+    "n": 1,
+    "ex": "گۆڕینی وشەی نهێنی",
+    "near": "button.btn.secondary.logout-btn «دەرچوون»"
+   },
+   "button.btn.secondary.logout-btn 36x30 gap40": {
+    "n": 1,
+    "ex": "دەرچوون",
+    "near": "a «ئاگادارکردنەوەک»"
+   },
+   "button.btn.secondary 38x32 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x32 gap10": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary «گەڕان»"
+   },
+   "button.btn.secondary.sound-toggle 52x38 gap10": {
+    "n": 1,
+    "ex": "دەنگی سکانەر",
+    "near": "a.btn.secondary.bell «ئاگادارکردنەوەک»"
+   },
+   "a 75x15 gap63": {
+    "n": 3,
+    "ex": "ه/2026/200",
+    "near": "a «کۆمپانیاکان»"
+   },
+   "a 75x15 gap69": {
+    "n": 1,
+    "ex": "ه/2026/224",
+    "near": "button.btn.secondary.logout-btn «دەرچوون»"
+   },
+   "a 75x15 gap71": {
+    "n": 20,
+    "ex": "ه/2026/233",
+    "near": "a «ه/2026/224»"
+   },
+   "a 75x15 gap103": {
+    "n": 4,
+    "ex": "ه/2026/543",
+    "near": "a «ه/2026/513»"
+   },
+   "a 75x15 gap92": {
+    "n": 13,
+    "ex": "ه/2026/548",
+    "near": "a «ه/2026/549»"
+   },
+   "a 75x15 gap114": {
+    "n": 14,
+    "ex": "ه/2026/553",
+    "near": "a «ه/2026/551»"
+   },
+   "a 75x15 gap125": {
+    "n": 2,
+    "ex": "ه/2026/652",
+    "near": "a «ه/2026/635»"
+   },
+   "a 75x15 gap105": {
+    "n": 2,
+    "ex": "ه/2026/669",
+    "near": "a «ه/2026/675»"
+   },
+   "a 75x15 gap116": {
+    "n": 1,
+    "ex": "ه/2026/679",
+    "near": "a «ه/2026/675»"
+   },
+   "a 75x15 gap136": {
+    "n": 1,
+    "ex": "ه/2026/700",
+    "near": "a «ه/2026/699»"
+   },
+   "a 75x15 gap31": {
+    "n": 2,
+    "ex": "ه/2026/545",
+    "near": "a «ه/2026/649»"
+   },
+   "a 75x15 gap40": {
+    "n": 3,
+    "ex": "ه/2026/667",
+    "near": "a «ه/2026/649»"
+   },
+   "a 75x15 gap28": {
+    "n": 5,
+    "ex": "ه/2026/545",
+    "near": "a «ه/2026/649»"
+   }
+  }
+ },
+ {
+  "size": "t1024",
+  "user": "shilan",
+  "path": "/barcode?q=20260007099",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap67": {
+    "n": 1,
+    "ex": "on",
+    "near": "a «ژووری هات و دەر»"
+   },
+   "a 216x40 gap2": {
+    "n": 14,
+    "ex": "ژووری هات و دەرچوو",
+    "near": "a «کتابە هاتووەکان»"
+   },
+   "a.whoami-link 88x18 (inline text link) gap46": {
+    "n": 1,
+    "ex": "گۆڕینی وشەی نهێنی",
+    "near": "button.btn.secondary.logout-btn «دەرچوون»"
+   },
+   "button.btn.secondary.logout-btn 36x30 gap40": {
+    "n": 1,
+    "ex": "دەرچوون",
+    "near": "a «ئاگادارکردنەوەک»"
+   },
+   "button.btn.secondary 38x32 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x32 gap10": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary «گەڕان»"
+   },
+   "button.btn.secondary.sound-toggle 52x38 gap10": {
+    "n": 1,
+    "ex": "دەنگی سکانەر",
+    "near": "a.btn.secondary.bell «ئاگادارکردنەوەک»"
+   },
+   "a.mono 89x19 gap51": {
+    "n": 1,
+    "ex": "ه/2026/709",
+    "near": "a «سینیی سکان»"
+   }
+  }
+ },
+ {
+  "size": "t1024",
+  "user": "shilan",
+  "path": "/tray",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap67": {
+    "n": 1,
+    "ex": "on",
+    "near": "a «ژووری هات و دەر»"
+   },
+   "a 216x40 gap2": {
+    "n": 14,
+    "ex": "ژووری هات و دەرچوو",
+    "near": "a «کتابە هاتووەکان»"
+   },
+   "a.whoami-link 88x18 (inline text link) gap46": {
+    "n": 1,
+    "ex": "گۆڕینی وشەی نهێنی",
+    "near": "button.btn.secondary.logout-btn «دەرچوون»"
+   },
+   "button.btn.secondary.logout-btn 36x30 gap40": {
+    "n": 1,
+    "ex": "دەرچوون",
+    "near": "a «ئاگادارکردنەوەک»"
+   },
+   "button.btn.secondary 38x32 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x32 gap10": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary «گەڕان»"
+   },
+   "button.btn.secondary.sound-toggle 52x38 gap10": {
+    "n": 1,
+    "ex": "دەنگی سکانەر",
+    "near": "a.btn.secondary.bell «ئاگادارکردنەوەک»"
+   },
+   "input[checkbox] 706x24 gap38": {
+    "n": 1,
+    "ex": "1",
+    "near": "button.btn «زیادکردن بۆ سین»"
+   },
+   "a 71x21 gap22": {
+    "n": 10,
+    "ex": "ه/2026/709",
+    "near": "a «ه/2026/660»"
+   }
+  }
+ },
+ {
+  "size": "t1024",
+  "user": "shilan",
+  "path": "/notifications",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap67": {
+    "n": 1,
+    "ex": "on",
+    "near": "a «ژووری هات و دەر»"
+   },
+   "a 216x40 gap2": {
+    "n": 14,
+    "ex": "ژووری هات و دەرچوو",
+    "near": "a «کتابە هاتووەکان»"
+   },
+   "a.whoami-link 88x18 (inline text link) gap46": {
+    "n": 1,
+    "ex": "گۆڕینی وشەی نهێنی",
+    "near": "button.btn.secondary.logout-btn «دەرچوون»"
+   },
+   "button.btn.secondary.logout-btn 36x30 gap40": {
+    "n": 1,
+    "ex": "دەرچوون",
+    "near": "a «ئاگادارکردنەوەک»"
+   },
+   "button.btn.secondary 38x32 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x32 gap10": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary «گەڕان»"
+   },
+   "button.btn.secondary.sound-toggle 52x38 gap10": {
+    "n": 1,
+    "ex": "دەنگی سکانەر",
+    "near": "a.btn.secondary.bell «ئاگادارکردنەوەک»"
+   }
+  }
+ },
+ {
+  "size": "t1024",
+  "user": "hemin",
+  "path": "/log",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap67": {
+    "n": 1,
+    "ex": "on",
+    "near": "a «کتابی نوێ»"
+   },
+   "a 216x40 gap2": {
+    "n": 14,
+    "ex": "کتابی نوێ",
+    "near": "a «کتابە هاتووەکان»"
+   },
+   "a 216x40 gap0": {
+    "n": 1,
+    "ex": "تۆماری چالاکی",
+    "near": "button.btn.secondary.logout-btn «دەرچوون»"
+   },
+   "a.whoami-link 88x18 (inline text link) gap26": {
+    "n": 1,
+    "ex": "گۆڕینی وشەی نهێنی",
+    "near": "a «تۆماری چالاکی»"
+   },
+   "button.btn.secondary.logout-btn 36x30 gap0": {
+    "n": 1,
+    "ex": "دەرچوون",
+    "near": "a «تۆماری چالاکی»"
+   },
+   "button.btn.secondary 38x32 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x32 gap10": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary «گەڕان»"
+   },
+   "button.btn.secondary.sound-toggle 52x38 gap10": {
+    "n": 1,
+    "ex": "دەنگی سکانەر",
+    "near": "a.btn.secondary.bell «ئاگادارکردنەوەک»"
+   },
+   "a.mono 75x15 gap107": {
+    "n": 1,
+    "ex": "ه/2026/721",
+    "near": "input.filter-field[text] «ناوی بەکارهێنەر»"
+   },
+   "summary 52x38 gap85": {
+    "n": 1,
+    "ex": "وردەکاری",
+    "near": "summary «وردەکاری»"
+   },
+   "a.mono 75x15 gap47": {
+    "n": 2,
+    "ex": "ه/2026/719",
+    "near": "a.mono «ه/2026/719»"
+   },
+   "summary 52x38 gap23": {
+    "n": 4,
+    "ex": "وردەکاری",
+    "near": "summary «وردەکاری»"
+   },
+   "a.mono 75x15 gap44": {
+    "n": 2,
+    "ex": "ه/2026/719",
+    "near": "a.mono «ه/2026/719»"
+   },
+   "summary 52x38 gap21": {
+    "n": 2,
+    "ex": "وردەکاری",
+    "near": "summary «وردەکاری»"
+   },
+   "a.mono 75x15 gap109": {
+    "n": 1,
+    "ex": "ه/2026/718",
+    "near": "a.mono «ه/2026/719»"
+   },
+   "a.mono 75x15 gap49": {
+    "n": 66,
+    "ex": "ه/2026/711",
+    "near": "a.mono «ه/2026/711»"
+   },
+   "summary 52x38 gap153": {
+    "n": 1,
+    "ex": "وردەکاری",
+    "near": "a.mono «ه/2026/711»"
+   },
+   "summary 52x38 gap90": {
+    "n": 12,
+    "ex": "وردەکاری",
+    "near": "summary «وردەکاری»"
+   },
+   "summary 52x38 gap26": {
+    "n": 30,
+    "ex": "وردەکاری",
+    "near": "summary «وردەکاری»"
+   },
+   "a.mono 75x15 gap113": {
+    "n": 3,
+    "ex": "ه/2026/681",
+    "near": "a.mono «ه/2026/709»"
+   }
+  }
+ },
+ {
+  "size": "t1024",
+  "user": "aram",
+  "path": "/dashboard",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap67": {
+    "n": 1,
+    "ex": "on",
+    "near": "a «داشبۆردی گشتی»"
+   },
+   "a 216x40 gap2": {
+    "n": 17,
+    "ex": "داشبۆردی گشتی",
+    "near": "a «ژووری هات و دەر»"
+   },
+   "a 216x40 gap0": {
+    "n": 3,
+    "ex": "هەموو ژوورەکان",
+    "near": "button.btn.secondary.logout-btn «دەرچوون»"
+   },
+   "a.whoami-link 88x18 (inline text link) gap0": {
+    "n": 1,
+    "ex": "گۆڕینی وشەی نهێنی",
+    "near": "a «جۆرەکانی مامەڵە»"
+   },
+   "button.btn.secondary.logout-btn 36x30 gap0": {
+    "n": 1,
+    "ex": "دەرچوون",
+    "near": "a «هەموو ژوورەکان»"
+   },
+   "button.btn.secondary 38x32 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x32 gap10": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary «گەڕان»"
+   },
+   "button.btn.secondary.sound-toggle 52x38 gap10": {
+    "n": 1,
+    "ex": "دەنگی سکانەر",
+    "near": "a.btn.secondary.bell «ئاگادارکردنەوەک»"
+   },
+   "a 164x21 gap70": {
+    "n": 1,
+    "ex": "تاقیکردنەوەی ڕاستەوخۆ ai2",
+    "near": "a.spacer «هەمووی ببینە»"
+   },
+   "a.spacer 77x22 gap70": {
+    "n": 1,
+    "ex": "هەمووی ببینە",
+    "near": "a «تاقیکردنەوەی ڕا»"
+   },
+   "a 56x21 gap45": {
+    "n": 1,
+    "ex": "ژووری یاسا",
+    "near": "a «ژووری زەوی و زا»"
+   },
+   "a 39x43 gap22": {
+    "n": 1,
+    "ex": "ژووری کارگێڕی",
+    "near": "a «ژووری ژمێریاری»"
+   },
+   "a 58x21 gap45": {
+    "n": 1,
+    "ex": "هەڵە rad1",
+    "near": "a «ژووری بێ کتاب r»"
+   },
+   "a.spacer 68x22 gap111": {
+    "n": 1,
+    "ex": "تۆماری تەواو",
+    "near": "a.mono «ه/2026/709»"
+   },
+   "a.mono 75x15 (inline text link) gap111": {
+    "n": 1,
+    "ex": "ه/2026/709",
+    "near": "a.spacer «تۆماری تەواو»"
+   },
+   "a.mono 75x15 (inline text link) gap307": {
+    "n": 1,
+    "ex": "ه/2026/709",
+    "near": "a.mono «ه/2026/709»"
+   }
+  }
+ },
+ {
+  "size": "t1024",
+  "user": "bafrin",
+  "path": "/leave",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap67": {
+    "n": 1,
+    "ex": "on",
+    "near": "a «کتابی نوێ»"
+   },
+   "a 216x40 gap2": {
+    "n": 9,
+    "ex": "کتابی نوێ",
+    "near": "a «کتابە هاتووەکان»"
+   },
+   "a.whoami-link 88x18 (inline text link) gap46": {
+    "n": 1,
+    "ex": "گۆڕینی وشەی نهێنی",
+    "near": "button.btn.secondary.logout-btn «دەرچوون»"
+   },
+   "button.btn.secondary.logout-btn 36x30 gap46": {
+    "n": 1,
+    "ex": "دەرچوون",
+    "near": "a.whoami-link «گۆڕینی وشەی نهێ»"
+   },
+   "button.btn.secondary 38x32 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x32 gap10": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary «گەڕان»"
+   },
+   "button.btn.secondary.sound-toggle 52x38 gap10": {
+    "n": 1,
+    "ex": "دەنگی سکانەر",
+    "near": "a.btn.secondary.bell «ئاگادارکردنەوەک»"
+   },
+   "button.btn.small 84x32 gap6": {
+    "n": 3,
+    "ex": "پەسەندکردن",
+    "near": "button.btn.small.secondary «ڕەتکردنەوە»"
+   },
+   "button.btn.small.secondary 74x32 gap6": {
+    "n": 3,
+    "ex": "ڕەتکردنەوە",
+    "near": "button.btn.small «پەسەندکردن»"
+   }
+  }
+ },
+ {
+  "size": "t1024",
+  "user": "karwan",
+  "path": "/archive/new",
+  "small": {
+   "input#nav-toggle.nav-toggle-input[checkbox] 18x18 gap67": {
+    "n": 1,
+    "ex": "on",
+    "near": "a «کتابی نوێ»"
+   },
+   "a 216x40 gap2": {
+    "n": 11,
+    "ex": "کتابی نوێ",
+    "near": "a «کتابە هاتووەکان»"
+   },
+   "a.whoami-link 88x18 (inline text link) gap46": {
+    "n": 1,
+    "ex": "گۆڕینی وشەی نهێنی",
+    "near": "button.btn.secondary.logout-btn «دەرچوون»"
+   },
+   "button.btn.secondary.logout-btn 36x30 gap46": {
+    "n": 1,
+    "ex": "دەرچوون",
+    "near": "a.whoami-link «گۆڕینی وشەی نهێ»"
+   },
+   "button.btn.secondary 38x32 gap6": {
+    "n": 1,
+    "ex": "گەڕان",
+    "near": "input[search] «گەڕان»"
+   },
+   "a.btn.secondary.bell 38x32 gap10": {
+    "n": 1,
+    "ex": "ئاگادارکردنەوەکان",
+    "near": "button.btn.secondary «گەڕان»"
+   },
+   "button.btn.secondary.sound-toggle 52x38 gap10": {
+    "n": 1,
+    "ex": "دەنگی سکانەر",
+    "near": "a.btn.secondary.bell «ئاگادارکردنەوەک»"
+   }
+  }
+ },
+ {
+  "evidence": "manifest-checkbox",
+  "cb": [
+   18,
+   18
+  ],
+  "cell": [
+   45,
+   43
+  ],
+  "label": 0,
+  "aria": null,
+  "before": true,
+  "afterTap8pxBelow": false
+ },
+ {
+  "evidence": "attachments",
+  "removeBtn": {
+   "x": 78.765625,
+   "y": 409.515625,
+   "width": 61.03125,
+   "height": 24.796875
+  },
+  "moreSummary": {
+   "x": 29,
+   "y": 412.390625,
+   "width": 332,
+   "height": 20
+  }
+ },
+ {
+  "evidence": "viewer-zoom",
+  "zb": [
+   {
+    "t": "−",
+    "x": 333,
+    "w": 28,
+    "h": 40
+   },
+   {
+    "t": "پانی پەڕە",
+    "x": 264,
+    "w": 65,
+    "h": 40
+   },
+   {
+    "t": "+",
+    "x": 232,
+    "w": 29,
+    "h": 40
+   }
+  ]
+ },
+ {
+  "evidence": "tablet-1024-topbar",
+  "tb": [
+   {
+    "el": "whoami-link",
+    "text": "گۆڕینی وشەی نهێ",
+    "w": 88,
+    "h": 18
+   },
+   {
+    "el": "btn secondary logout-btn",
+    "text": "دەرچوون",
+    "w": 36,
+    "h": 30
+   },
+   {
+    "el": "INPUT",
+    "text": "گەڕان",
+    "w": 200,
+    "h": 42
+   },
+   {
+    "el": "btn secondary",
+    "text": "گەڕان",
+    "w": 38,
+    "h": 32
+   },
+   {
+    "el": "btn secondary bell",
+    "text": "ئاگادارکردنەوەک",
+    "w": 38,
+    "h": 32
+   },
+   {
+    "el": "btn secondary sound-toggle",
+    "text": "دەنگی سکانەر",
+    "w": 52,
+    "h": 38
+   },
+   {
+    "el": "btn",
+    "text": "نووسینی وەڵام",
+    "w": 112,
+    "h": 42
+   },
+   {
+    "el": "btn secondary",
+    "text": "چاپکردن",
+    "w": 78,
+    "h": 42
+   }
+  ],
+  "pointerCoarse": true
+ },
+ {
+  "evidence": "tablet-1024-leave-decide",
+  "r": [
+   {
+    "t": "پەسەندکردن",
+    "w": 84,
+    "h": 32,
+    "l": -32,
+    "r": 52
+   },
+   {
+    "t": "ڕەتکردنەوە",
+    "w": 74,
+    "h": 32,
+    "l": -22,
+    "r": 52
+   }
+  ]
+ }
+]

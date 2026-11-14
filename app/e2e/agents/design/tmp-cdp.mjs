@@ -1,0 +1,13 @@
+import { launch, ctxFor, settle, shotPath } from './lib.mjs';
+import { writeFileSync } from 'fs';
+const [path, name, size='1366x768', user='shilan'] = process.argv.slice(2);
+const [W,H] = size.split('x').map(Number);
+const browser = await launch();
+const ctx = await ctxFor(browser, user, { width: W, height: H });
+const page = await ctx.newPage();
+await page.goto(path); await settle(page); await page.waitForTimeout(1000);
+const cdp = await ctx.newCDPSession(page);
+const { data } = await cdp.send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: false });
+writeFileSync(shotPath('batch', `${name}.png`), Buffer.from(data, 'base64'));
+console.log(shotPath('batch', `${name}.png`));
+await browser.close();

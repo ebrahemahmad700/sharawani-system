@@ -1,0 +1,209 @@
+# docsys — the whole system in one command.
+#
+#   cp .env.example .env      then edit the three passwords
+#   docker compose up --build
+#
+# Then open http://localhost:3111
+#
+# The database port is deliberately NOT published. The application reaches it over
+# the private compose network. For a psql shell:
+#   docker compose exec db psql -U docsys_owner -d docsys
+
+name: docsys
+
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_SUPERUSER_PASSWORD:?set POSTGRES_SUPERUSER_PASSWORD in .env}
+      DOCSYS_DB_PASSWORD: ${DOCSYS_DB_PASSWORD:?set DOCSYS_DB_PASSWORD in .env}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # Runs once, as superuser, on an empty volume. Creates the five roles.
+      - ./app/db/docker-init:/docker-entrypoint-initdb.d:ro
+      - ./app/db/migrations/0000_roles.sql:/opt/docsys/0000_roles.sql:ro
+    healthcheck:
+      # docsys, not postgres: the roles script has to have finished before the
+      # application is allowed to connect and run migrations.
+      test: ["CMD-SHELL", "pg_isready -U postgres -d docsys"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+      start_period: 10s
+    restart: unless-stopped
+
+  app:
+    build: ./app
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL_OWNER:    postgres://docsys_owner:${DOCSYS_DB_PASSWORD}@db:5432/docsys
+      DATABASE_URL_APP:      postgres://docsys_app:${DOCSYS_DB_PASSWORD}@db:5432/docsys
+      DATABASE_URL_READONLY: postgres://docsys_readonly:${DOCSYS_DB_PASSWORD}@db:5432/docsys
+      CSRF_SECRET: ${CSRF_SECRET:?set CSRF_SECRET in .env}
+      FIXTURE_PASSWORD: ${FIXTURE_PASSWORD:-guhare-2026}
+      PORT: 3000
+      # The fixtures refuse a non-localhost database unless told otherwise, so that
+      # invented staff can never be loaded into a real one by accident. Inside this
+      # stack "db" IS the local database, so the guard is lifted here and nowhere else.
+      ALLOW_REMOTE_FIXTURES: "1"
+      # Plain HTTP on localhost. Set to true the moment there is TLS in front.
+      SECURE_COOKIES: ${SECURE_COOKIES:-false}
+      BASE: http://app:3000
+      # disk is right for a municipal server with its own hardware. pg puts the
+      # bytes in the database instead, for hosts with no durable filesystem.
+      FILE_STORAGE: ${FILE_STORAGE:-disk}
+      # Only needed where the jobs run over HTTP instead of as a process. The jobs
+      # service below is the real scheduler here, so this is for testing the
+      # serverless path locally. Without it every /api/cron/* request is a 404.
+      CRON_SECRET: ${CRON_SECRET:-}
+      # The assistant's model layer. Without this the assistant still works: the
+      # rules layer answers the five commonest questions offline and for nothing.
+      # The system_setting row 'assistant_backend' is the actual switch.
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      # Set to clamav (the service name) with --profile scan to switch scanning on.
+      CLAMD_HOST: ${CLAMD_HOST:-}
+      CLAM_FAIL_CLOSED: ${CLAM_FAIL_CLOSED:-false}
+      # A scanner that is not there: answers the eSCL requests a real one would and
+      # "scans" a test page. For trying the scan screens with no hardware, and for
+      # the tests. Leave unset on the municipal server once real scanners are added.
+      SCANNER_SIMULATOR: ${SCANNER_SIMULATOR:-}
+      # The upload ceiling in bytes. 60 MiB when unset. The serverless demo sets it
+      # to 4400000, because that host refuses any request over 4.5 MB before it
+      # reaches the application.
+      MAX_UPLOAD_BYTES: ${MAX_UPLOAD_BYTES:-}
+      ASSISTANT_MODEL: ${ASSISTANT_MODEL:-qwen/qwen3.8-27b}
+      DATABASE_URL_JOBS: postgres://docsys_jobs:${DOCSYS_DB_PASSWORD}@db:5432/docsys
+      # Web push. Without these the bell still works inside an open browser; what
+      # is missing is being told when the browser is shut. Generate a pair once
+      # with: docker compose run --rm app node scripts/vapid-keys.mjs
+      VAPID_PUBLIC_KEY:  ${VAPID_PUBLIC_KEY:-}
+      VAPID_PRIVATE_KEY: ${VAPID_PRIVATE_KEY:-}
+      VAPID_SUBJECT:     ${VAPID_SUBJECT:-mailto:it@rania.gov.krd}
+      # How long one event-stream connection is held before the browser is asked
+      # to reconnect. Ten minutes on a server of our own; the serverless default
+      # is twenty-five seconds and is set in code.
+      EVENTS_HOLD_MS: ${EVENTS_HOLD_MS:-600000}
+      # The corridor wall board. Open /board?key=<this> once on the machine
+      # driving the television and it keeps a cookie; nobody signs in after that.
+      # Unset, the board is reachable only by the mayor, his deputy and IT.
+      BOARD_TOKEN: ${BOARD_TOKEN:-}
+    ports:
+      - "${WEB_PORT:-3111}:3000"
+    volumes:
+      - files:/srv/files
+    restart: unless-stopped
+
+  jobs:
+    build: ./app
+    command: ["jobs"]
+    depends_on:
+      app:
+        condition: service_started
+    environment:
+      DATABASE_URL_JOBS: postgres://docsys_jobs:${DOCSYS_DB_PASSWORD}@db:5432/docsys
+      # The reader runs here rather than in the web server, so this process needs
+      # to know where the scans are and be able to open them.
+      FILE_STORAGE: ${FILE_STORAGE:-disk}
+      FILES_DIR: /srv/files
+      OCR_LANGS: ${OCR_LANGS:-Arabic+eng}
+      OCR_BATCH: ${OCR_BATCH:-20}
+      VAPID_PUBLIC_KEY:  ${VAPID_PUBLIC_KEY:-}
+      VAPID_PRIVATE_KEY: ${VAPID_PRIVATE_KEY:-}
+      VAPID_SUBJECT:     ${VAPID_SUBJECT:-mailto:it@rania.gov.krd}
+    volumes:
+      - files:/srv/files
+    restart: unless-stopped
+
+  # Backup. The only service here whose whole purpose is the day the others have
+  # already failed.
+  #
+  # It writes into ./backups on the host rather than into a docker volume, on
+  # purpose: a backup you cannot see in a file manager is a backup nobody copies
+  # onto a second disk, and copying it onto a second disk is the entire point.
+  # Getting that directory out of the building is the runbook's job and not this
+  # file's, because it depends on what the municipality has: a USB disk in a
+  # drawer, an rsync to the directorate, a share in another office.
+  #
+  # Everything it writes is encrypted before it touches the disk. See RESTORE.md.
+  backup:
+    build:
+      context: ./app
+      dockerfile: Dockerfile.backup
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      # The owner, not docsys_backup. A dump taken through a role that row-level
+      # security applies to succeeds and contains no letters. The long version is
+      # at the top of app/src/lib/backup.mjs.
+      DATABASE_URL_OWNER: postgres://docsys_owner:${DOCSYS_DB_PASSWORD}@db:5432/docsys
+      # Required. Without it this container takes no backups and says so once an
+      # hour in its log. Generate with: openssl rand -base64 32
+      BACKUP_PASSPHRASE: ${BACKUP_PASSPHRASE:-}
+      BACKUP_DIR: /srv/backups
+      FILE_STORAGE: ${FILE_STORAGE:-disk}
+      FILES_DIR: /srv/files
+      # So that a backup named 0200 was taken at two o'clock in Rania.
+      TZ: ${TZ:-Asia/Baghdad}
+      BACKUP_HOUR: ${BACKUP_HOUR:-2}
+      REHEARSE_DAY: ${REHEARSE_DAY:-0}
+      REHEARSE_HOUR: ${REHEARSE_HOUR:-3}
+      BACKUP_KEEP_DAILY: ${BACKUP_KEEP_DAILY:-14}
+      BACKUP_KEEP_WEEKLY: ${BACKUP_KEEP_WEEKLY:-8}
+      BACKUP_KEEP_MONTHLY: ${BACKUP_KEEP_MONTHLY:-12}
+      FIXTURE_PASSWORD: ${FIXTURE_PASSWORD:-guhare-2026}
+    volumes:
+      # Not read-only, because putting the scans back is one of this container's
+      # jobs and a restore that cannot restore them is not a restore.
+      - files:/srv/files
+      - ./backups:/srv/backups
+    restart: unless-stopped
+
+  # Virus scanning. Behind a profile because the image pulls roughly a quarter of
+  # a gigabyte of virus definitions on first start, and a colleague trying the
+  # system for an hour does not need to wait for that.
+  #
+  # On a municipal server it should be ON. Start everything with it:
+  #   docker compose --profile scan up -d
+  # and set CLAMD_HOST=clamav in .env so the application actually talks to it.
+  #
+  # Without it, uploads are still type-checked by their bytes and size-capped, and
+  # every file is labelled "not scanned" on screen rather than assumed clean.
+  clamav:
+    image: clamav/clamav:stable
+    profiles: ["scan"]
+    volumes:
+      - clamdb:/var/lib/clamav        # keep definitions across restarts
+    healthcheck:
+      test: ["CMD-SHELL", "clamdscan --ping 1 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+      start_period: 180s              # the first definition download is slow
+    restart: unless-stopped
+
+  # A temporary public URL, for showing the system to someone who cannot run it.
+  # Off by default. Start it deliberately:
+  #   docker compose --profile tunnel up -d tunnel
+  #   docker compose logs tunnel        # the URL is printed here
+  #
+  # Read this before you use it. The URL is public and unguessable but not secret:
+  # anyone who has it reaches the login page. Failed sign-ins are throttled now,
+  # but use it only with the invented fixture data, never with a real letter, and
+  # stop it when you are done:
+  #   docker compose --profile tunnel down
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    profiles: ["tunnel"]
+    command: tunnel --no-autoupdate --url http://app:3000
+    depends_on:
+      app:
+        condition: service_started
+    restart: unless-stopped
+
+volumes:
+  clamdb:
+  pgdata:
+  files:

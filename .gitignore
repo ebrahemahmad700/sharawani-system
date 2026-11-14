@@ -1,0 +1,22 @@
+.env
+node_modules/
+app/files/
+
+# Backups. Encrypted, but there is no reason for a copy of the register to be
+# in a source repository as well.
+/backups/
+
+# Browser test output
+app/e2e/test-results/
+app/e2e/playwright-report/
+app/e2e/audit-output/
+
+# Screenshots and crawl dumps written by the e2e agents. Regenerated on each run.
+app/e2e/agents/*/shots/
+app/e2e/agents/*/out/
+
+# Rendered PDFs. They contain the demo password, and the repo is public.
+/Rania-*.pdf
+
+# Personal Claude Code permissions.
+.claude/settings.local.json

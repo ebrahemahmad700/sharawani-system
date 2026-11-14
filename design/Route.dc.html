@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@500;600;700&family=Vazirmatn:wght@400;500;600;700&display=swap">
+  <style>
+    body { margin: 0; background: #F5F3ED; font-family: 'Vazirmatn', 'Noto Sans Arabic', Tahoma, 'Segoe UI', sans-serif; -webkit-font-smoothing: antialiased; }
+    * { box-sizing: border-box; }
+    a { color: #1B6A4C; text-decoration: none; }
+    a:hover { color: #0E3A28; }
+  </style>
+</helmet>
+
+<div dir="rtl" style="position: relative; width: 1440px; height: 900px; display: flex; background: #F5F3ED; color: #16241D; font-size: 13px; line-height: 1.75; overflow: hidden;">
+
+  <!-- ===== dimmed screen behind ===== -->
+  <aside style="width: 250px; flex: 0 0 250px; background: #0E3A28; display: flex; flex-direction: column; padding: 18px 14px; gap: 16px;">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0 4px;">
+      <div style="width: 38px; height: 38px; flex: 0 0 38px; border-radius: 10px; background: #C99A2E; color: #0E3A28; display: flex; align-items: center; justify-content: center;">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V10l7-5 7 5v11"/><path d="M9.5 21v-5.5h5V21"/></svg>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 1px;">
+        <div style="font-family: 'Noto Kufi Arabic', Tahoma, sans-serif; font-size: 14px; font-weight: 700; color: #FFFFFF; line-height: 1.5;">شارەوانی ڕانیە</div>
+        <div style="font-size: 10.5px; color: #88A99A; line-height: 1.5;">سیستەمی دۆکیومێنت</div>
+      </div>
+    </div>
+    <nav style="display: flex; flex-direction: column; gap: 3px; flex: 1;">
+      <div style="font-size: 10px; color: #6F9084; padding: 4px 10px;">کارەکانی ڕۆژانە</div>
+      <div style="display: flex; align-items: center; gap: 10px; height: 40px; padding: 0 10px; border-radius: 8px; color: #BFD4C8; font-size: 12.5px;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="1.6"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.6"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.6"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.6"/></svg>
+        <span style="flex: 1;">داشبۆردی گشتی</span>
+      </div>
+      <div style="position: relative; display: flex; align-items: center; gap: 10px; height: 40px; padding: 0 10px; border-radius: 8px; background: rgba(255,255,255,0.10); color: #FFFFFF; font-size: 12.5px; font-weight: 600;">
+        <div style="position: absolute; right: 0; top: 10px; bottom: 10px; width: 3px; border-radius: 2px; background: #C99A2E;"></div>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12.5h4.5l1.8 2.8h5.4l1.8-2.8H21"/><path d="M4.6 5.5h14.8L21 12.5v5.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18v-5.5z"/></svg>
+        <span style="flex: 1;">کتابەکانی من</span>
+        <span style="background: #C99A2E; color: #0E3A28; font-size: 10px; font-weight: 700; padding: 1px 7px; border-radius: 20px;">٩</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px; height: 40px; padding: 0 10px; border-radius: 8px; color: #BFD4C8; font-size: 12.5px;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m21 3-9.2 18-2.4-7.4L2 11.2z"/></svg>
+        <span style="flex: 1;">ناردراوەکان</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px; height: 40px; padding: 0 10px; border-radius: 8px; color: #BFD4C8; font-size: 12.5px;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M6 21V8h5v13"/><path d="M13 21V4h5v17"/></svg>
+        <span style="flex: 1;">هەموو ژوورەکان</span>
+      </div>
+    </nav>
+    <div style="border-top: 1px solid rgba(255,255,255,0.10); padding-top: 12px; display: flex; align-items: center; gap: 10px;">
+      <div style="width: 34px; height: 34px; flex: 0 0 34px; border-radius: 50%; background: #C99A2E; color: #0E3A28; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;">ئح</div>
+      <div style="display: flex; flex-direction: column; flex: 1; min-width: 0;">
+        <div style="font-size: 12px; color: #FFFFFF; font-weight: 600;">ئارام حەمە کەریم</div>
+        <div style="font-size: 10px; color: #88A99A;">سەرۆکی شارەوانی</div>
+      </div>
+    </div>
+  </aside>
+
+  <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+    <header style="height: 62px; flex: 0 0 62px; background: #FFFFFF; border-bottom: 1px solid #E4E1D6; display: flex; align-items: center; gap: 14px; padding: 0 24px;">
+      <div style="display: flex; align-items: center; gap: 9px; height: 38px; width: 390px; padding: 0 13px; border: 1px solid #E4E1D6; border-radius: 9px; background: #FAF9F5;">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#8A968E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+        <span style="font-size: 12.5px; color: #9AA69E;">گەڕان بە ژمارەی کتاب، بابەت، یان ناوی خاوەن…</span>
+      </div>
+      <div style="flex: 1;"></div>
+      <div style="font-size: 12.5px; color: #5C6B63;">چوارشەممە، ٢٠٢٦/٠٩/٠٩</div>
+    </header>
+
+    <main style="flex: 1; padding: 20px 24px; display: flex; flex-direction: column; gap: 16px; min-height: 0; overflow: hidden;">
+      <div style="display: flex; flex-direction: column; gap: 2px; height: 44px; flex: 0 0 44px;">
+        <div style="font-family: 'Noto Kufi Arabic', Tahoma, sans-serif; font-size: 20px; font-weight: 700; color: #16241D; line-height: 1.4;">کتابەکانی من</div>
+        <div style="font-size: 12px; color: #7A8880;">٩ کتاب چاوەڕوانی بڕیاری تۆن</div>
+      </div>
+      <div style="flex: 1; background: #FFFFFF; border: 1px solid #E4E1D6; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden;">
+        <div style="display: flex; align-items: center; gap: 12px; height: 34px; flex: 0 0 34px; padding: 0 16px; background: #FAF9F5; border-bottom: 1px solid #EFEDE5;">
+          <span style="width: 104px; font-size: 10.5px; font-weight: 600; color: #8A968E;">ژمارە</span>
+          <span style="flex: 1; font-size: 10.5px; font-weight: 600; color: #8A968E;">بابەت</span>
+          <span style="width: 150px; font-size: 10.5px; font-weight: 600; color: #8A968E;">لە کوێوە</span>
+          <span style="width: 90px; font-size: 10.5px; font-weight: 600; color: #8A968E;">بەروار</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 62px; padding: 0 16px; border-bottom: 1px solid #F1EFE7; background: #F3F8F4;">
+          <span style="width: 104px; font-size: 12.5px; font-weight: 700; color: #15503A;">ه‌/٢٠٢٦/٤٤٩٨</span>
+          <span style="flex: 1; font-size: 13px; color: #16241D;">گرێبەستی چاککردنەوەی ڕێگای سەرەکیی بازاڕ</span>
+          <span style="width: 150px; font-size: 12px; color: #5C6B63;">کۆمپانیای هەڵمەت</span>
+          <span style="width: 90px; font-size: 12px; color: #5C6B63;">٠٦/٠٩</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 62px; padding: 0 16px; border-bottom: 1px solid #F1EFE7;">
+          <span style="width: 104px; font-size: 12.5px; color: #3E4C45;">ه‌/٢٠٢٦/٤٥٢٠</span>
+          <span style="flex: 1; font-size: 13px; color: #16241D;">تەرخانکردنی بودجەی پڕۆژەی ئاوەڕۆی گەڕەکی هەواری شار</span>
+          <span style="width: 150px; font-size: 12px; color: #5C6B63;">پارێزگای سلێمانی</span>
+          <span style="width: 90px; font-size: 12px; color: #5C6B63;">٠٩/٠٩</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 62px; padding: 0 16px; border-bottom: 1px solid #F1EFE7;">
+          <span style="width: 104px; font-size: 12.5px; color: #3E4C45;">ه‌/٢٠٢٦/٤٥١٤</span>
+          <span style="flex: 1; font-size: 13px; color: #16241D;">داواکاری دروستکردنی پردی پێیاخ لە شەقامی سەرەکی</span>
+          <span style="width: 150px; font-size: 12px; color: #5C6B63;">لیژنەی گەڕەکی زێوە</span>
+          <span style="width: 90px; font-size: 12px; color: #5C6B63;">٠٧/٠٩</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 62px; padding: 0 16px; border-bottom: 1px solid #F1EFE7;">
+          <span style="width: 104px; font-size: 12.5px; color: #3E4C45;">ه‌/٢٠٢٦/٤٥٠٩</span>
+          <span style="flex: 1; font-size: 13px; color: #16241D;">ڕاپۆرتی مانگانەی بەڕێوەبەرایەتی خاوێنکاری</span>
+          <span style="width: 150px; font-size: 12px; color: #5C6B63;">بەڕێوەبەرایەتی خاوێنکاری</span>
+          <span style="width: 90px; font-size: 12px; color: #5C6B63;">٠٤/٠٩</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- ===== overlay + modal ===== -->
+  <div style="position: absolute; inset: 0; background: rgba(14,58,40,0.58); display: flex; align-items: center; justify-content: center;">
+
+    <div style="width: 760px; background: #FFFFFF; border-radius: 16px; box-shadow: 0 24px 64px rgba(11,30,21,0.36); display: flex; flex-direction: column; overflow: hidden;">
+
+      <div style="display: flex; align-items: center; gap: 12px; height: 64px; flex: 0 0 64px; padding: 0 22px; border-bottom: 1px solid #E4E1D6;">
+        <div style="display: flex; flex-direction: column; gap: 1px;">
+          <span style="font-family: 'Noto Kufi Arabic', Tahoma, sans-serif; font-size: 16px; font-weight: 700; color: #16241D;">ناردنی کتاب</span>
+          <span style="font-size: 11.5px; color: #7A8880;">ه‌/٢٠٢٦/٤٤٩٨ — گرێبەستی چاککردنەوەی ڕێگای سەرەکیی بازاڕ</span>
+        </div>
+        <div style="flex: 1;"></div>
+        <span style="display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 8px; border: 1px solid #E4E1D6; color: #5C6B63;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </span>
+      </div>
+
+      <div style="padding: 22px; display: flex; flex-direction: column; gap: 18px;">
+
+        <!-- mode -->
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;">
+          <div style="display: flex; gap: 12px; padding: 15px; border: 1px solid #DBD7CA; border-radius: 11px; background: #FFFFFF;">
+            <span style="width: 18px; height: 18px; flex: 0 0 18px; border-radius: 50%; border: 2px solid #CFCABA; background: #FFFFFF; margin-top: 2px;"></span>
+            <div style="display: flex; flex-direction: column; gap: 3px;">
+              <span style="font-size: 13.5px; font-weight: 700; color: #16241D;">بۆ یەک ژوور بە تاک</span>
+              <span style="font-size: 11.5px; color: #7A8880; line-height: 1.8;">کتابەکە دەچێتە یەک ژوور و لەوێ بڕیار دەدرێت</span>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 12px; padding: 15px; border: 2px solid #15503A; border-radius: 11px; background: #F3F8F4;">
+            <span style="width: 18px; height: 18px; flex: 0 0 18px; border-radius: 50%; border: 5px solid #15503A; background: #FFFFFF; margin-top: 2px;"></span>
+            <div style="display: flex; flex-direction: column; gap: 3px;">
+              <span style="font-size: 13.5px; font-weight: 700; color: #15503A;">بە ڕیزبەندی</span>
+              <span style="font-size: 11.5px; color: #4A5A51; line-height: 1.8;">کتابەکە بە زنجیرە دەڕوات، یەک ژوور لەدوای یەک</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- sequence -->
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="font-size: 12.5px; font-weight: 600; color: #3E4C45;">ڕیزبەندی ژوورەکان</span>
+            <span style="font-size: 11px; color: #9AA69E;">— بۆ گۆڕینی ڕیزبەندی ڕایانبکێشە</span>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 12px; height: 52px; padding: 0 14px; border: 1px solid #E4E1D6; border-radius: 10px; background: #FAF9F5;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#B5BDB6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7h8M8 12h8M8 17h8"/></svg>
+            <span style="width: 24px; height: 24px; border-radius: 7px; background: #15503A; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 11.5px; font-weight: 700;">١</span>
+            <span style="flex: 1; font-size: 13.5px; font-weight: 600; color: #16241D;">ژووری یاسا</span>
+            <span style="font-size: 11.5px; color: #5C6B63;">هێمن ڕەشید</span>
+            <span style="display: inline-flex; align-items: center; gap: 5px; height: 26px; padding: 0 10px; border-radius: 7px; border: 1px solid #E4E1D6; background: #FFFFFF; color: #5C6B63; font-size: 11px;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.2V12l3 2"/></svg>
+              <span>٢ ڕۆژ</span>
+            </span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#B5BDB6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 12px; height: 52px; padding: 0 14px; border: 1px solid #E4E1D6; border-radius: 10px; background: #FAF9F5;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#B5BDB6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7h8M8 12h8M8 17h8"/></svg>
+            <span style="width: 24px; height: 24px; border-radius: 7px; background: #15503A; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 11.5px; font-weight: 700;">٢</span>
+            <span style="flex: 1; font-size: 13.5px; font-weight: 600; color: #16241D;">گرێبەستە گشتییەکان — ژووری ١٤</span>
+            <span style="font-size: 11.5px; color: #5C6B63;">دلێر عەلی</span>
+            <span style="display: inline-flex; align-items: center; gap: 5px; height: 26px; padding: 0 10px; border-radius: 7px; border: 1px solid #E4E1D6; background: #FFFFFF; color: #5C6B63; font-size: 11px;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.2V12l3 2"/></svg>
+              <span>٣ ڕۆژ</span>
+            </span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#B5BDB6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 12px; height: 52px; padding: 0 14px; border: 1px solid #E4E1D6; border-radius: 10px; background: #FAF9F5;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#B5BDB6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7h8M8 12h8M8 17h8"/></svg>
+            <span style="width: 24px; height: 24px; border-radius: 7px; background: #15503A; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 11.5px; font-weight: 700;">٣</span>
+            <span style="flex: 1; font-size: 13.5px; font-weight: 600; color: #16241D;">نەخشەی بنەڕەتی — ژووری ٨ و ٩</span>
+            <span style="font-size: 11.5px; color: #5C6B63;">ژیان قادر</span>
+            <span style="display: inline-flex; align-items: center; gap: 5px; height: 26px; padding: 0 10px; border-radius: 7px; border: 1px solid #E4E1D6; background: #FFFFFF; color: #5C6B63; font-size: 11px;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.2V12l3 2"/></svg>
+              <span>٢ ڕۆژ</span>
+            </span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#B5BDB6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+          </div>
+
+          <div style="display: flex; align-items: center; justify-content: center; gap: 8px; height: 44px; border: 1.5px dashed #CFCABA; border-radius: 10px; color: #1B6A4C; font-size: 12.5px; font-weight: 600;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5v13M5.5 12h13"/></svg>
+            <span>زیادکردنی ژوورێکی تر بۆ ڕیزبەندی</span>
+          </div>
+        </div>
+
+        <!-- note -->
+        <label style="display: flex; flex-direction: column; gap: 8px;">
+          <span style="font-size: 12.5px; font-weight: 600; color: #3E4C45;">تێبینی بۆ ژوورەکان</span>
+          <span style="display: block; height: 64px; padding: 11px 13px; border: 1px solid #DBD7CA; border-radius: 10px; background: #FFFFFF; font-size: 12.5px; color: #16241D; line-height: 1.85;">تکایە بیروڕای یاسایی لەسەر مەرجی ٧ی گرێبەستەکە بدەن، پاشان بۆ گرێبەست بنێردرێت.</span>
+        </label>
+
+        <div style="display: flex; align-items: center; gap: 9px;">
+          <span style="width: 18px; height: 18px; border-radius: 5px; background: #15503A; display: flex; align-items: center; justify-content: center;">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg>
+          </span>
+          <span style="font-size: 12.5px; color: #3E4C45;">دوای تەواوبوونی ڕیزبەندییەکە بگەڕێتەوە بۆ من</span>
+        </div>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 12px; height: 74px; flex: 0 0 74px; padding: 0 22px; border-top: 1px solid #E4E1D6; background: #FAF9F5;">
+        <div style="display: flex; align-items: center; gap: 8px; font-size: 11.5px; color: #7A8880;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#9AA69E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 16v-5"/><path d="M12 8h.01"/></svg>
+          <span>هەموو گواستنەوەیەک لە تۆماری چالاکی هەڵدەگیرێت</span>
+        </div>
+        <div style="flex: 1;"></div>
+        <div style="display: flex; align-items: center; justify-content: center; height: 44px; padding: 0 18px; border-radius: 9px; border: 1px solid #DBD7CA; background: #FFFFFF; color: #3E4C45; font-size: 13px; font-weight: 600;">هەڵوەشاندنەوە</div>
+        <div style="display: flex; align-items: center; justify-content: center; gap: 9px; height: 44px; padding: 0 22px; border-radius: 9px; background: #15503A; color: #FFFFFF; font-size: 13px; font-weight: 600;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="m21 3-9.2 18-2.4-7.4L2 11.2z"/></svg>
+          <span>ناردن بۆ ٣ ژوور</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {}
+</script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+{
+ "thwrap /dashboard": [
+  [
+   {
+    "t": "چاوەڕوان",
+    "w": 59,
+    "lines": 2,
+    "wrap": "anywhere",
+    "ws": "normal"
+   }
+  ]
+ ],
+ "thwrap /companies": [
+  [
+   {
+    "t": "کتاب",
+    "w": 43,
+    "lines": 2,
+    "wrap": "anywhere",
+    "ws": "normal"
+   }
+  ]
+ ],
+ "thwrap /companies/93": [
+  [
+   {
+    "t": "بەروار",
+    "w": 50,
+    "lines": 2,
+    "wrap": "anywhere",
+    "ws": "normal"
+   },
+   {
+    "t": "ئێستا لای",
+    "w": 46,
+    "lines": 3,
+    "wrap": "anywhere",
+    "ws": "normal"
+   }
+  ]
+ ],
+ "thwrap /rooms": [],
+ "dashHeads": [
+  {
+   "h2": "ژوورەکان",
+   "link": "هەمووی ببینە",
+   "fs": "14px",
+   "fw": "400",
+   "deco": "underline"
+  },
+  {
+   "h2": "دوایین چالاکییەکان",
+   "link": "تۆماری تەواو",
+   "fs": "14px",
+   "fw": "400",
+   "deco": "underline"
+  }
+ ],
+ "dashAssistant": {
+  "assistant": [
+   "4px",
+   "1px",
+   "rgb(201, 154, 46)"
+  ],
+  "other": [
+   "10px",
+   "1px",
+   "rgb(233, 201, 198)"
+  ]
+ },
+ "dashCols": {
+  "firstColH": 5965,
+  "secondColH": 926,
+  "hole": 5039,
+  "roomRows": 81,
+  "avgRowH": 64
+ },
+ "emptyCompanies": [
+  "هیچ کۆمپانیایەک نەدۆزرایەوە."
+ ],
+ "emptyLog": {
+  "t": "هیچ کردارێک بەم پاڵاوتنە نەدۆزرایەوە.",
+  "inTd": true,
+  "pad": "44px 20px"
+ },
+ "nfCompany": {
+  "status": 404,
+  "h1": [
+   "نەدۆزرایەوە"
+  ],
+  "body": [
+   "ئەم پەڕەیە بوونی نییە. گەڕانەوە"
+  ]
+ },
+ "noticePassword": [
+  "وشەی نهێنی گۆڕدرا. دانیشتنەکانی تری ئەم هەژمارە کۆتایییان پێهێنرا."
+ ],
+ "logDetailsVisible": {
+  "open": false,
+  "ddVisible": 19.1875
+ },
+ "assistantPlaceholder": "بارکۆد، ژمارەی کتاب، ناو یان پارچە",
+ "dashAssistantPlaceholder": "پرسیارەکەت لێرە بنووسە",
+ "nfArchive": {
+  "status": 404,
+  "h1": [
+   "نەدۆزرایەوە"
+  ],
+  "body": [
+   "ئەم نەخشەیە نەدۆزرایەوە."
+  ],
+  "buttons": []
+ },
+ "emptyArchive": [
+  "هیچ نەخشەیەک نەدۆزرایەوە بۆ «zzqqxxnomatch»."
+ ],
+ "noticeArchive": [
+  "تۆمارکرا."
+ ],
+ "nfTemplate": {
+  "status": 404,
+  "h1": [
+   "نەدۆزرایەوە"
+  ],
+  "body": [
+   "ئەوەی داوات کرد نەدۆزرایەوە، یان ڕێگەت پێنەدراوە بیبینیت. گەڕانەوە"
+  ],
+  "buttons": [
+   "گەڕانەوە"
+  ]
+ },
+ "noticeLeave": [
+  "تۆمارکرا."
+ ],
+ "noticeTemplate": [
+  "پاشەکەوتکرا. ئێستا وەشانی ١یە."
+ ],
+ "leaveWhen": [
+  "٢٠٣٤/١٢/٢٥ — ٢٠٣٤/١٢/٢٧ · ساڵانە · ٣٠٢٥ ڕۆژی ماوە بۆ دەستپێکردن",
+  "٢٠٣٤/٠٥/١٩ — ٢٠٣٤/٠٥/٢١ · ساڵانە · ٢٨٠٥ ڕۆژی ماوە بۆ دەستپێکردن",
+  "٢٠٣٣/٠٣/٢٦ — ٢٠٣٣/٠٣/٢٨ · ساڵانە · ٢٣٨٦ ڕۆژی ماوە بۆ دەستپێکردن",
+  "٢٠٢٦/١١/١٦ — ٢٠٢٦/١١/١٧ · ساڵانە · ٦٤ ڕۆژی ماوە بۆ دەستپێکردن"
+ ],
+ "thwrap /admin/users": [
+  [
+   {
+    "t": "ڕۆڵ",
+    "w": 37,
+    "lines": 2,
+    "wrap": "anywhere",
+    "ws": "normal"
+   },
+   {
+    "t": "ژوور",
+    "w": 36,
+    "lines": 2,
+    "wrap": "anywhere",
+    "ws": "normal"
+   },
+   {
+    "t": "دوایین چوونەژوورەوە",
+    "w": 33,
+    "lines": 16,
+    "wrap": "anywhere",
+    "ws": "normal"
+   }
+  ]
+ ],
+ "thwrap /admin/rooms": [
+  [
+   {
+    "t": "کارمەند",
+    "w": 42,
+    "lines": 3,
+    "wrap": "anywhere",
+    "ws": "normal"
+   },
+   {
+    "t": "ماوە",
+    "w": 39,
+    "lines": 2,
+    "wrap": "anywhere",
+    "ws": "normal"
+   }
+  ]
+ ],
+ "thwrap /admin/doc-types": [
+  [
+   {
+    "t": "ڕۆژ",
+    "w": 38,
+    "lines": 2,
+    "wrap": "anywhere",
+    "ws": "normal"
+   },
+   {
+    "t": "بەکارهاتوو",
+    "w": 71,
+    "lines": 2,
+    "wrap": "anywhere",
+    "ws": "normal"
+   }
+  ]
+ ],
+ "thwrap /admin/scanners": [],
+ "noticeUsers": [
+  "تۆمارکرا."
+ ],
+ "usersHeadH": 341,
+ "roomsForm": [
+  {
+   "l": "ناو",
+   "x": 841,
+   "y": 165,
+   "w": 250,
+   "labelY": 165
+  },
+  {
+   "l": "کۆد",
+   "x": 575,
+   "y": 142,
+   "w": 250,
+   "labelY": 142
+  },
+  {
+   "l": "ژمارەی دەرگا",
+   "x": 309,
+   "y": 165,
+   "w": 250,
+   "labelY": 165
+  },
+  {
+   "l": "جۆر",
+   "x": 43,
+   "y": 163,
+   "w": 250,
+   "labelY": 163
+  },
+  {
+   "l": "ماوەی ئاسایی (ڕۆژ)",
+   "x": 841,
+   "y": 263,
+   "w": 250,
+   "labelY": 263
+  },
+  {
+   "l": "دروستکردنی ژوور",
+   "x": 43,
+   "y": 361,
+   "w": 1048,
+   "labelY": null
+  }
+ ],
+ "inactive": null,
+ "scannerRows": [
+  {
+   "op": "1",
+   "pill": "چالاک",
+   "btn": [
+    "btn small secondary:تاقیکردنەوە",
+    "btn small secondary:ناچالاککردن"
+   ]
+  },
+  {
+   "op": "1",
+   "pill": "ناچالاک",
+   "btn": [
+    "btn small secondary:تاقیکردنەوە",
+    "btn small secondary:چالاککردن"
+   ]
+  },
+  {
+   "op": "1",
+   "pill": "ناچالاک",
+   "btn": [
+    "btn small secondary:تاقیکردنەوە",
+    "btn small secondary:چالاککردن"
+   ]
+  },
+  {
+   "op": "1",
+   "pill": "ناچالاک",
+   "btn": [
+    "btn small secondary:تاقیکردنەوە",
+    "btn small secondary:چالاککردن"
+   ]
+  }
+ ],
+ "userRowsInactive": {
+  "op": "0.5",
+  "pill": "وشەی کاتی",
+  "btns": [
+   "btn small secondary:پاشەکەوت",
+   "btn small secondary:چالاککردن"
+  ]
+ },
+ "phone": {
+  "soundDisplay": "flex",
+  "btnPad": "9px 16px",
+  "cardPad": "18px",
+  "cardRadius": "10px",
+  "cardMb": "18px",
+  "inputFs": "14px",
+  "leaveTableMinW": "620px",
+  "leaveTableW": 620,
+  "pinned": "sticky"
+ }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "npm install --include=optional",
+  "outputDirectory": ".",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index.js"
+    }
+  ],
+  "functions": {
+    "api/index.js": {
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron/seal",
+      "schedule": "45 20 * * *"
+    },
+    {
+      "path": "/api/cron/verify",
+      "schedule": "50 20 * * *"
+    },
+    {
+      "path": "/api/cron/deadlines",
+      "schedule": "30 4 * * *"
+    }
+  ]
+}

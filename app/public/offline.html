@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ckb" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E3A28">
+<title>پەیوەندی نییە — شارەوانی ڕانیە</title>
+<link rel="icon" href="/icons/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<!--
+  The page shown when the network is gone.
+
+  It deliberately shows nothing about any letter. A cached copy of the last page
+  somebody looked at would be more useful and would also be a copy of municipal
+  correspondence sitting on the disk of a shared machine, readable without a
+  password, for as long as the browser felt like keeping it. See the header of
+  sw.js.
+
+  No script. This file is served by the service worker with no server behind it,
+  so anything that needs the server would fail silently; the reload button is a
+  plain link.
+-->
+<div class="login-page">
+  <div class="login-card">
+    <div class="brand">
+      <div class="seal">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2A1F06"
+             stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4 4h11l5 5v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Z"/>
+          <path d="M15 4v5h5"/><path d="M8 13h8M8 17h5"/>
+        </svg>
+      </div>
+    </div>
+    <h1>پەیوەندی بە ڕاژەوە نییە</h1>
+    <p class="sub">
+      ئەم سیستەمە تۆماری ڕاستەقینەی شارەوانییە، بۆیە کۆپیی کۆن پیشان نادرێت.
+      کاتێک پەیوەندییەکە گەڕایەوە، هەموو شتێک وەک خۆی دەمێنێتەوە.
+    </p>
+    <a class="btn" href="/">هەوڵدانەوە</a>
+  </div>
+</div>
+</body>
+</html>

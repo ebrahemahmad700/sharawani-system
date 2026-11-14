@@ -1,0 +1,59 @@
+# Kurdish search corpus. One row per real thing a staff member types.
+# Tab separated. Never pruned: rows are only ever added.
+# expect: EQ        normalised query and stored text are identical
+#         EQ_PLOT   plot_key of both is identical
+#         EQ_NUM    the typed text resolves to that stored document number
+#         FUZZY(n)  differs after normalising; must appear in the top n results (needs the database)
+#         MISS      a known gap, expected to fail in v1, kept so the fix has a test waiting
+#         NEG_PLOT  must NOT produce the same plot key
+#         NEG_RANK  must rank above the named other record (needs the database)
+#
+# Rows 1 to 46 come from BUILD-PLAN.md section 6.4. Rows 47 onward are collected
+# by the lead sitting with the registry clerk and the archive clerk.
+id	typed	stored	expect	why
+1	سه‌رچنار	سەرچنار	EQ	older keyboard convention: heh + ZWNJ
+2	سرچنار	سەرچنار	FUZZY(3)	dropped vowel
+3	كريم	کەریم	FUZZY(3)	Arabic keyboard plus dropped ە
+4	عبدالله	عەبدوڵا	MISS	Arabic vs Kurdish spelling of one name. Open decision D-13
+5	بازار	بازاڕ	EQ	ring omitted
+6	گه‌ره‌ك	گەڕەک	EQ	heh+ZWNJ plus Arabic kaf
+7	هەلمەت	هەڵمەت	EQ	ring omitted
+8	رانيه	ڕانیە	EQ	typed entirely on an Arabic keyboard
+9	شارەوانى	شارەوانی	EQ	alef maksura
+10	هه‌واری شار	هەواری شار	EQ	heh+ZWNJ
+11	٢٤٧/٥	247/5	EQ_PLOT	Arabic-Indic digits
+12	247-5	247/5	EQ_PLOT	dash separator
+13	٢٤٧ / ٥	247/5	EQ_PLOT	spaces around the separator
+14	2475	247/5	NEG_PLOT	must NOT match: a different plot
+15	247	247/5	FUZZY(2)	prefix rule, tier 90; also matches 247/6
+16	مولەت	مۆڵەت	EQ	ۆ and ڵ both folded
+17	مولت	مۆڵەت	FUZZY(3)	two letters dropped
+18	بيناسازي	بیناسازی	EQ	Arabic yeh twice
+19	نه‌خشه‌	نەخشە	EQ	two heh+ZWNJ
+20	نخشە	نەخشە	FUZZY(3)	dropped vowel
+21	زیوه	زێوە	EQ	ێ folded and final heh
+22	ئاسو	ئاسۆ	EQ	ۆ folded
+23	دلیر	دلێر	EQ	the contracts head name on the screens
+24	أحمد	ئەحمەد	MISS	hamza-alef is not folded to ئ. Open decision D-13
+25	حەمەکەریم	حەمە کەریم	FUZZY(3)	missing space
+26	شــارەوانــی	شارەوانی	EQ	tatweel removed
+27	مُحەمەد	محەمەد	EQ	harakat removed
+28	DWG	dwg	EQ	Latin lower-cased
+29	پارچە ٢٤٧	داواکاری مۆڵەتی بیناسازی بۆ پارچە ٢٤٧/٥ لە گەڕەکی سەرچنار	FUZZY(1)	containment, tier 70
+30	ژوري ياسا	ژووری یاسا	FUZZY(1)	single vs double و; picker uses LIKE
+31	وه‌رگرتن	وەرگرتن	EQ	heh+ZWNJ
+32	خاوينكاري	خاوێنکاری	EQ	four folds in one word
+33	پارچە 892	بەڵێننامەی نەبوونی کێشەی یاسایی بۆ پارچە ٨٩٢	NEG_RANK	must rank above the 247/5 letter
+34	ھەولێر	هەولێر	EQ	heh doachashmee
+35	ریگای بازار	ڕێگای بازاڕ	EQ	three rings and ێ
+36	  گرێبەستە   گشتییەکان 	گرێبەستە گشتییەکان	EQ	whitespace collapsed and trimmed
+37	سليمانى	سلێمانی	EQ	Arabic yeh and alef maksura
+38	كومپانيا	کۆمپانیا	EQ	Arabic kaf and yeh, ۆ folded
+39	یاسا، گرێبەست	یاسا, گرێبەست	EQ	Arabic comma to ASCII
+40	پیداچونەوە	پێداچوونەوە	FUZZY(3)	single vs double و, ێ
+41	4498	ه/2026/4498	EQ_NUM	bare serial, current year assumed
+42	٤٤٩٨	ه/2026/4498	EQ_NUM	Arabic-Indic serial
+43	ه‌/٢٠٢٦/٤٤٩٨	ه/2026/4498	EQ_NUM	display form pasted back, carries ZWNJ
+44	2026/4498	ه/2026/4498	EQ_NUM	year and serial
+45	د/٢٠٢٦/١٨٧	د/2026/187	EQ_NUM	kind detected from the outgoing prefix
+46	187	ه/2026/187	FUZZY(2)	ambiguous: incoming shown first

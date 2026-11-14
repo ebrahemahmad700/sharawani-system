@@ -1,0 +1,65 @@
+200 login /login {"h1":"شارەوانی ڕانیە","sh":768,"ox":0,"over":0}
+200 login-signed-in /login {"h1":"شارەوانی ڕانیە","sh":768,"ox":0,"over":0}
+200 registry /registry {"h1":"ژووری هات و دەرچوو","sh":4253,"ox":0,"over":0}
+200 registry-new /registry/new {"h1":"تۆمارکردنی کتابی هاتوو","sh":1045,"ox":0,"over":0}
+200 inbox /inbox {"h1":"کتابە هاتووەکان — ژووری هات و دەرچوو","sh":4999,"ox":0,"over":0}
+200 my-day /my-day {"h1":"ڕۆژی من","sh":9279,"ox":0,"over":0}
+200 outgoing /outgoing {"h1":"ناردراوەکان","sh":9495,"ox":0,"over":0}
+200 search /documents?q=DZNbdc8m {"h1":"گەڕان بەدوای کتاب","sh":958,"ox":0,"over":0}
+200 search-empty /documents?q=zzzznothing {"h1":"گەڕان بەدوای کتاب","sh":768,"ox":0,"over":0}
+200 plot /plots?p=247/5 {"h1":"پارچە 247/5","sh":1966,"ox":0,"over":0}
+200 plots /plots {"h1":"فایلی پارچە","sh":768,"ox":0,"over":0}
+200 tray /tray {"h1":"سینیی سکان — ژووری هات و دەرچوو","sh":10617,"ox":0,"over":0}
+200 tray-item /tray/242 {"h1":"دیاریکردنی کتاب","sh":812,"ox":321,"over":5}
+200 barcode /barcode {"h1":"خوێندنەوەی بارکۆد","sh":768,"ox":0,"over":0}
+200 manifests /manifests {"h1":"لیستی گەیاندن","sh":5753,"ox":0,"over":0}
+200 manifest /manifests/46 {"h1":"لیستی گەیاندن ⁦گ/2026/46⁩","sh":805,"ox":0,"over":0}
+200 manifest-print /manifests/46/print {"h1":"لیستی گەیاندنی پەڕگە","sh":768,"ox":0,"over":0}
+200 companies /companies {"h1":"کۆمپانیاکان","sh":4004,"ox":0,"over":0}
+200 company /companies/93 {"h1":"DZNbdc8m کۆمپانیای ئاسۆی نوێ بۆ بیناسازی و بازرگانی گشتی و وەبەرهێنانی خانووبەرە","sh":2013,"ox":0,"over":0}
+200 company-edit /companies/93/edit {"h1":"دەستکاری DZNbdc8m کۆمپانیای ئاسۆی نوێ بۆ بیناسازی و بازرگانی گشتی و وەبەرهێنانی ","sh":1025,"ox":0,"over":0}
+200 company-new /companies/new {"h1":"کۆمپانیای نوێ","sh":977,"ox":0,"over":0}
+200 templates /templates {"h1":"تێمپلەیتەکان","sh":5466,"ox":0,"over":0}
+200 template-fill /templates/61 {"h1":"DZNbdc8m فۆرمی داواکاری مۆڵەتی درێژخایەنی کارمەندانی شارەوانی بە هەموو زانیارییە","sh":1990,"ox":0,"over":0}
+200 fill-print /fills/106/print {"h1":"شارەوانی ڕانیە","sh":768,"ox":0,"over":0}
+200 leave-clerk /leave {"h1":"مۆڵەتەکان","sh":768,"ox":0,"over":0}
+200 doc-types /admin/doc-types {"h1":"جۆرەکانی مامەڵە","sh":4090,"ox":0,"over":0}
+200 notifications /notifications {"h1":"ئاگادارکردنەوەکان","sh":5158,"ox":0,"over":0}
+200 password /password {"h1":"گۆڕینی وشەی نهێنی","sh":768,"ox":0,"over":0}
+200 reply-draft /documents/1197/reply {"h1":"وەڵامی ⁦ه/2026/676⁩","sh":1206,"ox":0,"over":0}
+200 reply-sent /documents/1198/reply {"h1":"وەڵامی ⁦ه/2026/677⁩","sh":955,"ox":0,"over":0}
+200 reply-print /documents/1198/reply/print {"h1":"شارەوانی ڕانیە","sh":877,"ox":0,"over":0}
+200 print /documents/1195/print {"h1":"شارەوانی ڕانیە","sh":1034,"ox":0,"over":0}
+200 receipt /documents/1195/receipt {"h1":"پسوولەی وەرگرتن","sh":2079,"ox":0,"over":0}
+200 doc-registered /documents/1195 {"h1":"کتابی ⁦ه/2026/674⁩","sh":3237,"ox":0,"over":2}
+200 doc-flow /documents/1196 {"h1":"کتابی ⁦ه/2026/675⁩","sh":3118,"ox":0,"over":2}
+200 doc-ready /documents/1197 {"h1":"کتابی ⁦ه/2026/676⁩","sh":2567,"ox":0,"over":0}
+200 doc-closed /documents/1198 {"h1":"کتابی ⁦ه/2026/677⁩","sh":2222,"ox":0,"over":0}
+200 doc-cancelled /documents/1199 {"h1":"کتابی ⁦ه/2026/678⁩","sh":1595,"ox":0,"over":0}
+200 doc-eight /documents/1200 {"h1":"کتابی ⁦ه/2026/679⁩","sh":8818,"ox":0,"over":0}
+200 photo /registry/photo {"h1":"وێنەگرتنی کتاب","sh":768,"ox":0,"over":0}
+200 scan /scan {"h1":"سکانکردن","sh":768,"ox":0,"over":0}
+404 not-found /this-page-does-not-exist {"h1":"نەدۆزرایەوە","sh":768,"ox":0,"over":0}
+404 doc-not-found /documents/99999999 {"h1":"نەدۆزرایەوە","sh":768,"ox":0,"over":0}
+403 not-allowed /admin/users {"h1":"ڕێگەپێنەدراو","sh":768,"ox":0,"over":0}
+200 not-allowed-log /log {"h1":"تۆماری چالاکی","sh":6786,"ox":0,"over":0}
+200 dashboard /dashboard {"h1":"داشبۆردی سەرۆکی شارەوانی","sh":8022,"ox":0,"over":0}
+200 rooms /rooms {"h1":"هەموو ژوورەکان","sh":3874,"ox":0,"over":0}
+200 log /log {"h1":"تۆماری چالاکی","sh":6786,"ox":0,"over":0}
+200 archive /archive {"h1":"ئەرشیفی نەخشە — ژووری ٨ و ٩","sh":6067,"ox":0,"over":0}
+200 scanners /admin/scanners {"h1":"سکانەرەکان","sh":888,"ox":0,"over":0}
+200 template-new /templates/new {"h1":"تێمپلەیتی نوێ","sh":1052,"ox":0,"over":0}
+200 leave-approver /leave {"h1":"مۆڵەتەکان","sh":11265,"ox":0,"over":0}
+200 inbox-mayor /inbox {"h1":"کتابە هاتووەکان — ژووری سەرۆکی شارەوانی","sh":1204,"ox":0,"over":0}
+200 archive-clerk /archive {"h1":"ئەرشیفی نەخشە — ژووری ٨ و ٩","sh":6067,"ox":0,"over":0}
+200 archive-entry /archive/222 {"h1":"پارچە 1234/56","sh":878,"ox":42,"over":2}
+200 archive-new /archive/new {"h1":"تۆمارکردنی نەخشە","sh":1081,"ox":0,"over":0}
+200 admin-users /admin/users {"h1":"کارمەندان","sh":14272,"ox":0,"over":0}
+200 admin-rooms /admin/rooms {"h1":"ژوورەکان","sh":21770,"ox":0,"over":0}
+200 admin-doc-types /admin/doc-types {"h1":"جۆرەکانی مامەڵە","sh":4086,"ox":0,"over":0}
+200 admin-scanners /admin/scanners {"h1":"سکانەرەکان","sh":884,"ox":0,"over":0}
+200 log-it /log {"h1":"تۆماری چالاکی","sh":6781,"ox":0,"over":0}
+200 inbox-legal /inbox {"h1":"کتابە هاتووەکان — ژووری یاسا","sh":17622,"ox":0,"over":0}
+200 my-day-head /my-day {"h1":"ڕۆژی من","sh":12970,"ox":0,"over":0}
+200 leave-sakar /leave {"h1":"مۆڵەتەکان","sh":9277,"ox":0,"over":0}
+200 rooms-directorate /rooms {"h1":"هەموو ژوورەکان","sh":3874,"ox":0,"over":0}

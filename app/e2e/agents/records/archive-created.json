@@ -1,0 +1,91 @@
+{
+  "mark": "rarc1",
+  "created": {
+    "dwg-nopreview": {
+      "id": "206",
+      "plot": "8567/1",
+      "status": 303,
+      "url": "http://localhost:3111/archive/206?saved=1",
+      "notices": [
+        "تۆمارکرا.",
+        "ئەوەی بارکردووە ناتوانێت خۆی پشتڕاستی بکاتەوە. کەسێکی تر دەبێت بیکات."
+      ]
+    },
+    "dwg-preview": {
+      "id": "207",
+      "plot": "8567/2",
+      "status": 303,
+      "url": "http://localhost:3111/archive/207?saved=1",
+      "notices": [
+        "تۆمارکرا.",
+        "ئەوەی بارکردووە ناتوانێت خۆی پشتڕاستی بکاتەوە. کەسێکی تر دەبێت بیکات."
+      ]
+    },
+    "dxf-preview": {
+      "id": "208",
+      "plot": "8567/3",
+      "status": 303,
+      "url": "http://localhost:3111/archive/208?saved=1",
+      "notices": [
+        "تۆمارکرا.",
+        "ئەوەی بارکردووە ناتوانێت خۆی پشتڕاستی بکاتەوە. کەسێکی تر دەبێت بیکات."
+      ]
+    },
+    "dxf-nopreview": {
+      "id": "209",
+      "plot": "8567/4",
+      "status": 303,
+      "url": "http://localhost:3111/archive/209?saved=1",
+      "notices": [
+        "تۆمارکرا.",
+        "ئەوەی بارکردووە ناتوانێت خۆی پشتڕاستی بکاتەوە. کەسێکی تر دەبێت بیکات."
+      ]
+    },
+    "pdf": {
+      "id": "210",
+      "plot": "8567/5",
+      "status": 303,
+      "url": "http://localhost:3111/archive/210?saved=1",
+      "notices": [
+        "تۆمارکرا.",
+        "ئەوەی بارکردووە ناتوانێت خۆی پشتڕاستی بکاتەوە. کەسێکی تر دەبێت بیکات."
+      ]
+    },
+    "jpg": {
+      "id": "211",
+      "plot": "8567/6",
+      "status": 303,
+      "url": "http://localhost:3111/archive/211?saved=1",
+      "notices": [
+        "تۆمارکرا.",
+        "ئەوەی بارکردووە ناتوانێت خۆی پشتڕاستی بکاتەوە. کەسێکی تر دەبێت بیکات."
+      ]
+    },
+    "png": {
+      "id": "212",
+      "plot": "8567/7",
+      "status": 303,
+      "url": "http://localhost:3111/archive/212?saved=1",
+      "notices": [
+        "تۆمارکرا.",
+        "ئەوەی بارکردووە ناتوانێت خۆی پشتڕاستی بکاتەوە. کەسێکی تر دەبێت بیکات."
+      ]
+    },
+    "tif": {
+      "id": "213",
+      "plot": "8567/8",
+      "status": 303,
+      "url": "http://localhost:3111/archive/213?saved=1",
+      "notices": [
+        "تۆمارکرا.",
+        "ئەوەی بارکردووە ناتوانێت خۆی پشتڕاستی بکاتەوە. کەسێکی تر دەبێت بیکات."
+      ]
+    },
+    "year-kurdish": "http://localhost:3111/archive/215?saved=1",
+    "year-2099": "http://localhost:3111/archive/216?saved=1",
+    "year-persian": "http://localhost:3111/archive/217?saved=1",
+    "long": "http://localhost:3111/archive/218?saved=1",
+    "dup0": "http://localhost:3111/archive/219?saved=1",
+    "dup1": "http://localhost:3111/archive/220?saved=1"
+  }
+}

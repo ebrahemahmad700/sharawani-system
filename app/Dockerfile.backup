@@ -1,0 +1,47 @@
+# docsys — the backup container.
+#
+# Its own image rather than a job inside the application's, for three reasons,
+# and each of them is the kind that only shows up at the worst moment.
+#
+# THE CLIENT TOOLS MUST MATCH THE SERVER
+#
+# pg_dump refuses to dump a server newer than itself. Debian bookworm, which the
+# application image is built on, ships the PostgreSQL 15 client; the database is
+# 16. Adding the upstream apt repository to the application image would work
+# until the day somebody upgrades the server and the nightly backup starts
+# failing for a reason nobody connects to the upgrade. Building FROM postgres:16
+# makes the match true by construction: the client here is the same build as the
+# server, always, because it is the same image.
+#
+# NODE, FOR THE PARTS THAT ARE NOT A SHELL PIPELINE
+#
+# Encryption with an authenticated cipher, a manifest, and a rehearsal that
+# compares a restored database against what was recorded. Written in shell those
+# are fragile; written in node they are ordinary. Node is copied in from the
+# official image rather than installed, because both images are bookworm and the
+# binary is all that is needed. No npm packages are installed here at all: the
+# backup tooling deliberately depends on nothing but node's standard library and
+# postgres's own client tools, so that it still runs on a day when the
+# application will not.
+#
+# IT HOLDS DIFFERENT KEYS
+#
+# This container needs the owner connection, which can read every letter in the
+# building, and the backup passphrase. The web server needs neither. Keeping them
+# in a separate container means a flaw in a web page cannot reach either one.
+
+FROM postgres:16
+
+COPY --from=node:20-bookworm /usr/local/bin/node /usr/local/bin/node
+
+WORKDIR /srv
+COPY --chown=postgres:postgres . .
+RUN chmod +x /srv/backup-entrypoint.sh \
+ && mkdir -p /srv/backups \
+ && chown postgres:postgres /srv/backups
+
+# The postgres image's entrypoint exists to start a server. This one does not
+# start anything; it takes backups of somebody else's.
+ENTRYPOINT ["/srv/backup-entrypoint.sh"]
+CMD ["schedule"]
+USER postgres

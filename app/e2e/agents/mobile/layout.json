@@ -1,0 +1,3787 @@
+[
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/registry",
+  "topbarH": 161,
+  "ih": 740,
+  "pct": 22,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ژووری هات و دەرچوو",
+    "sw": 55,
+    "cw": 50,
+    "sh": 69,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 60,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 6,
+    "firstRowText": "ه/2026/720 ٢٠٢٦/٠٩/١٣ hdr SECZ"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/registry/new",
+  "topbarH": 161,
+  "ih": 740,
+  "pct": 22,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "تۆمارکردنی کتابی هاتوو",
+    "sw": 85,
+    "cw": 50,
+    "sh": 69,
+    "ch": 43
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/inbox",
+  "topbarH": 113,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کتابە هاتووەکان — ژووری هات و دەرچوو",
+    "sw": 82,
+    "cw": 55,
+    "sh": 134,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 5,
+    "withActions": 5,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 7,
+    "firstRowText": "ه/2026/545 کتابی گەڕاندنەوە 2l"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/my-day",
+  "topbarH": 111,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ڕۆژی من",
+    "sw": 66,
+    "cw": 66,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 60,
+    "withActions": 53,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 6,
+    "firstRowText": "ه/2026/200 داواکاری تاقیکردنەو"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 5,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/545 کتابی گەڕاندنەوە 2l"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 5,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 3,
+    "firstRowText": "ه/2026/545 کتابی گەڕاندنەوە 2l"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/outgoing",
+  "topbarH": 111,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ناردراوەکان",
+    "sw": 85,
+    "cw": 66,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 29,
+    "withActions": 29,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 6,
+    "firstRowText": "ه/2026/193 تاقیکردنەوەی ئاگادا"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 81,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 7,
+    "firstRowText": "د/2026/81 ٢٠٢٦/٠٩/١٣ LTRvvaxe "
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/documents/1240",
+  "topbarH": 163,
+  "ih": 740,
+  "pct": 22,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کتابی ⁦ه/2026/719⁩",
+    "sw": 91,
+    "cw": 46,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "card",
+    "display": "block",
+    "overflowing": false,
+    "hasThead": false,
+    "rows": 7,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": null,
+    "thLastEmpty": null,
+    "headers": 7,
+    "firstRowText": "ژمارەی هاتووه/2026/719"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/tray",
+  "topbarH": 161,
+  "ih": 740,
+  "pct": 22,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "سینیی سکان — ژووری هات و دەرچوو",
+    "sw": 55,
+    "cw": 50,
+    "sh": 134,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 100,
+    "withActions": 100,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 5,
+    "firstRowText": "سکانی_DZNbdc8m_داواکاری_مۆڵەتی"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 10,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 3,
+    "firstRowText": "MOBk3elo-tray-page1.png ه/2026"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/barcode",
+  "topbarH": 111,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "خوێندنەوەی بارکۆد",
+    "sw": 91,
+    "cw": 66,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/manifests",
+  "topbarH": 111,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "لیستی گەیاندن",
+    "sw": 66,
+    "cw": 66,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/669 LTRvlkgj گەڕاندنەوە"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 8,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/686 LTRzng0s گەڕاندنەوە"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/543 داواکاری مۆڵەتی بین"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 8,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/463 نامەی بۆ ژووری یاسا"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/668 LTRvlkgj گەڕاندنەوە"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 25,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 7,
+    "firstRowText": "گ/2026/47 ژووری هات و دەرچوو ژ"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/companies",
+  "topbarH": 111,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کۆمپانیاکان",
+    "sw": 86,
+    "cw": 66,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 12,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 2,
+    "firstRowText": "مۆڵەت past rco1 بەسەرچووە"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 59,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 6,
+    "firstRowText": "co SECZ-m7woar R52312 چالاک ٠ "
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/leave",
+  "topbarH": 111,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "مۆڵەتەکان",
+    "sw": 79,
+    "cw": 66,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": false,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": null,
+    "thLastEmpty": null,
+    "headers": 0,
+    "firstRowText": "شع شیلان عومەر · ژووری هات و د"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/notifications",
+  "topbarH": 111,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ئاگادارکردنەوەکان",
+    "sw": 136,
+    "cw": 66,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/templates",
+  "topbarH": 111,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "تێمپلەیتەکان",
+    "sw": 97,
+    "cw": 66,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 1,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "ئاگادارکردنەوەی کارمەند و١ ئاگ"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 1,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "بڕیاری ئیداری و١ بڕیاری ئیداری"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 52,
+    "withActions": 52,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "خانەی بەکارنەهاتوو rtp1 و١ هەم"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 2,
+    "withActions": 2,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "مۆڵەتی تاقیکردنەوە rtp1 و١ هەم"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 2,
+    "withActions": 2,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "داواکاری مۆڵەت و١ فۆڕمی داواکا"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 1,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "TPLX SECZ-r1j3a7 و١ هەمووان پڕ"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 3,
+    "withActions": 3,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "مۆڵەتی کارمەند 0vjaqy8 و١ هەمو"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 1,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "نامەی ناوخۆیی و١ نامەی نێوان ژ"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 9,
+    "withActions": 9,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "مۆڵەتی ساکار rtp1 و١ ئاھەنگ نە"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/plots",
+  "topbarH": 111,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "فایلی پارچە",
+    "sw": 66,
+    "cw": 66,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "hemin",
+  "path": "/inbox",
+  "topbarH": 113,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کتابە هاتووەکان — ژووری یاسا",
+    "sw": 82,
+    "cw": 55,
+    "sh": 112,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 127,
+    "withActions": 127,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 7,
+    "firstRowText": "ه/2026/237 تاقیکردنەوەی ڕاستەو"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "hemin",
+  "path": "/log",
+  "topbarH": 111,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "تۆماری چالاکی",
+    "sw": 66,
+    "cw": 66,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 100,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 7,
+    "firstRowText": "1718 ٢٠٢٦/٠٩/١٣ ٠٤:٤١ هێمن ڕەش"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "aram",
+  "path": "/dashboard",
+  "topbarH": 111,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "داشبۆردی سەرۆکی شارەوانی",
+    "sw": 75,
+    "cw": 66,
+    "sh": 69,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/237 تاقیکردنەوەی ڕاستەو"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 75,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ژووری هات و دەرچوو شیلان عومەر"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": false,
+    "rows": 20,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": null,
+    "thLastEmpty": null,
+    "headers": 0,
+    "firstRowText": "٠٤:٤٢ شیلان عومەر بارکۆدێکی نە"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "aram",
+  "path": "/rooms",
+  "topbarH": 111,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "هەموو ژوورەکان",
+    "sw": 69,
+    "cw": 66,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 76,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ژووری هات و دەرچوو شیلان عومەر"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "aram",
+  "path": "/inbox",
+  "topbarH": 159,
+  "ih": 740,
+  "pct": 21,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کتابە هاتووەکان — ژووری سەرۆکی شارەوانی",
+    "sw": 82,
+    "cw": 41,
+    "sh": 134,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 7,
+    "withActions": 7,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 7,
+    "firstRowText": "ه/2026/416 یادداشتی ناوخۆیی بۆ"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "karwan",
+  "path": "/archive",
+  "topbarH": 161,
+  "ih": 740,
+  "pct": 22,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ئەرشیفی نەخشە — ژووری ٨ و ٩",
+    "sw": 71,
+    "cw": 48,
+    "sh": 112,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 60,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 7,
+    "firstRowText": "9988/7 نەخشەی MOBk3elo PDF ڕەف"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "karwan",
+  "path": "/archive/new",
+  "topbarH": 111,
+  "ih": 740,
+  "pct": 15,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "تۆمارکردنی نەخشە",
+    "sw": 85,
+    "cw": 66,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "itadmin",
+  "path": "/admin/users",
+  "topbarH": 66,
+  "ih": 740,
+  "pct": 9,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کارمەندان",
+    "sw": 174,
+    "cw": 174,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 89,
+    "withActions": 89,
+    "actionNotLast": 89,
+    "lastNotPinned": 0,
+    "actionOffscreen": 89,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 8,
+    "firstRowText": "ئن ئاھەنگ نەوزاد ahang کارمەند"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "s360",
+  "user": "itadmin",
+  "path": "/admin/rooms",
+  "topbarH": 66,
+  "ih": 740,
+  "pct": 9,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ژوورەکان",
+    "sw": 174,
+    "cw": 174,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 78,
+    "withActions": 78,
+    "actionNotLast": 78,
+    "lastNotPinned": 0,
+    "actionOffscreen": 78,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 8,
+    "firstRowText": "ژووری هات و دەرچوو REGISTRY — "
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/registry",
+  "topbarH": 161,
+  "ih": 844,
+  "pct": 19,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ژووری هات و دەرچوو",
+    "sw": 59,
+    "cw": 59,
+    "sh": 69,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 60,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 6,
+    "firstRowText": "ه/2026/720 ٢٠٢٦/٠٩/١٣ hdr SECZ"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/registry/new",
+  "topbarH": 161,
+  "ih": 844,
+  "pct": 19,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "تۆمارکردنی کتابی هاتوو",
+    "sw": 85,
+    "cw": 60,
+    "sh": 69,
+    "ch": 43
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/inbox",
+  "topbarH": 113,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کتابە هاتووەکان — ژووری هات و دەرچوو",
+    "sw": 82,
+    "cw": 66,
+    "sh": 134,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 5,
+    "withActions": 5,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 7,
+    "firstRowText": "ه/2026/545 کتابی گەڕاندنەوە 2l"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/my-day",
+  "topbarH": 111,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ڕۆژی من",
+    "sw": 79,
+    "cw": 79,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 60,
+    "withActions": 53,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 6,
+    "firstRowText": "ه/2026/200 داواکاری تاقیکردنەو"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 5,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/545 کتابی گەڕاندنەوە 2l"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 5,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 3,
+    "firstRowText": "ه/2026/545 کتابی گەڕاندنەوە 2l"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/outgoing",
+  "topbarH": 111,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ناردراوەکان",
+    "sw": 85,
+    "cw": 79,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 29,
+    "withActions": 29,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 6,
+    "firstRowText": "ه/2026/193 تاقیکردنەوەی ئاگادا"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 81,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 7,
+    "firstRowText": "د/2026/81 ٢٠٢٦/٠٩/١٣ LTRvvaxe "
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/documents/1240",
+  "topbarH": 163,
+  "ih": 844,
+  "pct": 19,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کتابی ⁦ه/2026/719⁩",
+    "sw": 91,
+    "cw": 55,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "card",
+    "display": "block",
+    "overflowing": false,
+    "hasThead": false,
+    "rows": 7,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": null,
+    "thLastEmpty": null,
+    "headers": 7,
+    "firstRowText": "ژمارەی هاتووه/2026/719"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/tray",
+  "topbarH": 161,
+  "ih": 844,
+  "pct": 19,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "سینیی سکان — ژووری هات و دەرچوو",
+    "sw": 60,
+    "cw": 60,
+    "sh": 134,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 100,
+    "withActions": 100,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 5,
+    "firstRowText": "سکانی_DZNbdc8m_داواکاری_مۆڵەتی"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 10,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 3,
+    "firstRowText": "MOBk3elo-tray-page1.png ه/2026"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/barcode",
+  "topbarH": 111,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "خوێندنەوەی بارکۆد",
+    "sw": 91,
+    "cw": 79,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/manifests",
+  "topbarH": 111,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "لیستی گەیاندن",
+    "sw": 79,
+    "cw": 79,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/669 LTRvlkgj گەڕاندنەوە"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 8,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/686 LTRzng0s گەڕاندنەوە"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/543 داواکاری مۆڵەتی بین"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 8,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/463 نامەی بۆ ژووری یاسا"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/668 LTRvlkgj گەڕاندنەوە"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 25,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 7,
+    "firstRowText": "گ/2026/47 ژووری هات و دەرچوو ژ"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/companies",
+  "topbarH": 111,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کۆمپانیاکان",
+    "sw": 86,
+    "cw": 79,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 12,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 2,
+    "firstRowText": "مۆڵەت past rco1 بەسەرچووە"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 59,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 6,
+    "firstRowText": "co SECZ-m7woar R52312 چالاک ٠ "
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/leave",
+  "topbarH": 111,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "مۆڵەتەکان",
+    "sw": 79,
+    "cw": 79,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": false,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": null,
+    "thLastEmpty": null,
+    "headers": 0,
+    "firstRowText": "شع شیلان عومەر · ژووری هات و د"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/notifications",
+  "topbarH": 111,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ئاگادارکردنەوەکان",
+    "sw": 136,
+    "cw": 79,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/templates",
+  "topbarH": 111,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "تێمپلەیتەکان",
+    "sw": 97,
+    "cw": 79,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 1,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "ئاگادارکردنەوەی کارمەند و١ ئاگ"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 1,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "بڕیاری ئیداری و١ بڕیاری ئیداری"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 52,
+    "withActions": 52,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "خانەی بەکارنەهاتوو rtp1 و١ هەم"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 2,
+    "withActions": 2,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "مۆڵەتی تاقیکردنەوە rtp1 و١ هەم"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 2,
+    "withActions": 2,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "داواکاری مۆڵەت و١ فۆڕمی داواکا"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 1,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "TPLX SECZ-r1j3a7 و١ هەمووان پڕ"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 3,
+    "withActions": 3,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "مۆڵەتی کارمەند 0vjaqy8 و١ هەمو"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 1,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "نامەی ناوخۆیی و١ نامەی نێوان ژ"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 9,
+    "withActions": 9,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "مۆڵەتی ساکار rtp1 و١ ئاھەنگ نە"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/plots",
+  "topbarH": 111,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "فایلی پارچە",
+    "sw": 79,
+    "cw": 79,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "hemin",
+  "path": "/inbox",
+  "topbarH": 113,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کتابە هاتووەکان — ژووری یاسا",
+    "sw": 82,
+    "cw": 66,
+    "sh": 112,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 127,
+    "withActions": 127,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 7,
+    "firstRowText": "ه/2026/237 تاقیکردنەوەی ڕاستەو"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "hemin",
+  "path": "/log",
+  "topbarH": 111,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "تۆماری چالاکی",
+    "sw": 79,
+    "cw": 79,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 100,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 7,
+    "firstRowText": "1718 ٢٠٢٦/٠٩/١٣ ٠٤:٤١ هێمن ڕەش"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "aram",
+  "path": "/dashboard",
+  "topbarH": 111,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "داشبۆردی سەرۆکی شارەوانی",
+    "sw": 79,
+    "cw": 79,
+    "sh": 69,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/237 تاقیکردنەوەی ڕاستەو"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 75,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ژووری هات و دەرچوو شیلان عومەر"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": false,
+    "rows": 20,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": null,
+    "thLastEmpty": null,
+    "headers": 0,
+    "firstRowText": "٠٤:٤٢ شیلان عومەر بارکۆدێکی نە"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "aram",
+  "path": "/rooms",
+  "topbarH": 111,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "هەموو ژوورەکان",
+    "sw": 79,
+    "cw": 79,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 76,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ژووری هات و دەرچوو شیلان عومەر"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "aram",
+  "path": "/inbox",
+  "topbarH": 159,
+  "ih": 844,
+  "pct": 19,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کتابە هاتووەکان — ژووری سەرۆکی شارەوانی",
+    "sw": 82,
+    "cw": 49,
+    "sh": 134,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 7,
+    "withActions": 7,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 7,
+    "firstRowText": "ه/2026/416 یادداشتی ناوخۆیی بۆ"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "karwan",
+  "path": "/archive",
+  "topbarH": 161,
+  "ih": 844,
+  "pct": 19,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ئەرشیفی نەخشە — ژووری ٨ و ٩",
+    "sw": 71,
+    "cw": 58,
+    "sh": 112,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 60,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 7,
+    "firstRowText": "9988/7 نەخشەی MOBk3elo PDF ڕەف"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "karwan",
+  "path": "/archive/new",
+  "topbarH": 111,
+  "ih": 844,
+  "pct": 13,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "تۆمارکردنی نەخشە",
+    "sw": 85,
+    "cw": 79,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "itadmin",
+  "path": "/admin/users",
+  "topbarH": 66,
+  "ih": 844,
+  "pct": 8,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کارمەندان",
+    "sw": 204,
+    "cw": 204,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 89,
+    "withActions": 89,
+    "actionNotLast": 89,
+    "lastNotPinned": 0,
+    "actionOffscreen": 89,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 8,
+    "firstRowText": "ئن ئاھەنگ نەوزاد ahang کارمەند"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "i390",
+  "user": "itadmin",
+  "path": "/admin/rooms",
+  "topbarH": 66,
+  "ih": 844,
+  "pct": 8,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ژوورەکان",
+    "sw": 204,
+    "cw": 204,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 78,
+    "withActions": 78,
+    "actionNotLast": 78,
+    "lastNotPinned": 0,
+    "actionOffscreen": 78,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 8,
+    "firstRowText": "ژووری هات و دەرچوو REGISTRY — "
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/registry",
+  "topbarH": 113,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ژووری هات و دەرچوو",
+    "sw": 227,
+    "cw": 227,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 60,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 6,
+    "firstRowText": "ه/2026/720 ٢٠٢٦/٠٩/١٣ hdr SECZ"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/registry/new",
+  "topbarH": 113,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "تۆمارکردنی کتابی هاتوو",
+    "sw": 228,
+    "cw": 228,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/inbox",
+  "topbarH": 113,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کتابە هاتووەکان — ژووری هات و دەرچوو",
+    "sw": 246,
+    "cw": 246,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 5,
+    "withActions": 5,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 7,
+    "firstRowText": "ه/2026/545 کتابی گەڕاندنەوە 2l"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/my-day",
+  "topbarH": 111,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ڕۆژی من",
+    "sw": 330,
+    "cw": 330,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 60,
+    "withActions": 53,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 6,
+    "firstRowText": "ه/2026/200 داواکاری تاقیکردنەو"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 5,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/545 کتابی گەڕاندنەوە 2l"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 5,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 3,
+    "firstRowText": "ه/2026/545 کتابی گەڕاندنەوە 2l"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/outgoing",
+  "topbarH": 111,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ناردراوەکان",
+    "sw": 330,
+    "cw": 330,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 29,
+    "withActions": 29,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 6,
+    "firstRowText": "ه/2026/193 تاقیکردنەوەی ئاگادا"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 81,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 7,
+    "firstRowText": "د/2026/81 ٢٠٢٦/٠٩/١٣ LTRvvaxe "
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/documents/1240",
+  "topbarH": 113,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کتابی ⁦ه/2026/719⁩",
+    "sw": 212,
+    "cw": 212,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "card",
+    "display": "block",
+    "overflowing": false,
+    "hasThead": false,
+    "rows": 7,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": null,
+    "thLastEmpty": null,
+    "headers": 7,
+    "firstRowText": "ژمارەی هاتووه/2026/719"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/tray",
+  "topbarH": 113,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "سینیی سکان — ژووری هات و دەرچوو",
+    "sw": 228,
+    "cw": 228,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 100,
+    "withActions": 100,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 5,
+    "firstRowText": "سکانی_DZNbdc8m_داواکاری_مۆڵەتی"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 10,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 3,
+    "firstRowText": "MOBk3elo-tray-page1.png ه/2026"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/barcode",
+  "topbarH": 111,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "خوێندنەوەی بارکۆد",
+    "sw": 330,
+    "cw": 330,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/manifests",
+  "topbarH": 111,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "لیستی گەیاندن",
+    "sw": 330,
+    "cw": 330,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/669 LTRvlkgj گەڕاندنەوە"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 8,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/686 LTRzng0s گەڕاندنەوە"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/543 داواکاری مۆڵەتی بین"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 8,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/463 نامەی بۆ ژووری یاسا"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/668 LTRvlkgj گەڕاندنەوە"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 25,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 7,
+    "firstRowText": "گ/2026/47 ژووری هات و دەرچوو ژ"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/companies",
+  "topbarH": 111,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کۆمپانیاکان",
+    "sw": 330,
+    "cw": 330,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 12,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 2,
+    "firstRowText": "مۆڵەت past rco1 بەسەرچووە"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 59,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 6,
+    "firstRowText": "co SECZ-m7woar R52312 چالاک ٠ "
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/leave",
+  "topbarH": 111,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "مۆڵەتەکان",
+    "sw": 330,
+    "cw": 330,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": false,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": null,
+    "thLastEmpty": null,
+    "headers": 0,
+    "firstRowText": "شع شیلان عومەر · ژووری هات و د"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/notifications",
+  "topbarH": 111,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ئاگادارکردنەوەکان",
+    "sw": 330,
+    "cw": 330,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/templates",
+  "topbarH": 111,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "تێمپلەیتەکان",
+    "sw": 330,
+    "cw": 330,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 1,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "ئاگادارکردنەوەی کارمەند و١ ئاگ"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 1,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "بڕیاری ئیداری و١ بڕیاری ئیداری"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 52,
+    "withActions": 52,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "خانەی بەکارنەهاتوو rtp1 و١ هەم"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 2,
+    "withActions": 2,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "مۆڵەتی تاقیکردنەوە rtp1 و١ هەم"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 2,
+    "withActions": 2,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "داواکاری مۆڵەت و١ فۆڕمی داواکا"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 1,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "TPLX SECZ-r1j3a7 و١ هەمووان پڕ"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 3,
+    "withActions": 3,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "مۆڵەتی کارمەند 0vjaqy8 و١ هەمو"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 1,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "نامەی ناوخۆیی و١ نامەی نێوان ژ"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 9,
+    "withActions": 9,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 4,
+    "firstRowText": "مۆڵەتی ساکار rtp1 و١ ئاھەنگ نە"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "shilan",
+  "path": "/plots",
+  "topbarH": 111,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "فایلی پارچە",
+    "sw": 330,
+    "cw": 330,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "hemin",
+  "path": "/inbox",
+  "topbarH": 113,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کتابە هاتووەکان — ژووری یاسا",
+    "sw": 246,
+    "cw": 246,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 127,
+    "withActions": 127,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 7,
+    "firstRowText": "ه/2026/237 تاقیکردنەوەی ڕاستەو"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "hemin",
+  "path": "/log",
+  "topbarH": 111,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "تۆماری چالاکی",
+    "sw": 330,
+    "cw": 330,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 100,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 7,
+    "firstRowText": "1718 ٢٠٢٦/٠٩/١٣ ٠٤:٤١ هێمن ڕەش"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "aram",
+  "path": "/dashboard",
+  "topbarH": 111,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "داشبۆردی سەرۆکی شارەوانی",
+    "sw": 330,
+    "cw": 330,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 1,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ه/2026/237 تاقیکردنەوەی ڕاستەو"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 75,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ژووری هات و دەرچوو شیلان عومەر"
+   },
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": false,
+    "rows": 20,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": null,
+    "thLastEmpty": null,
+    "headers": 0,
+    "firstRowText": "٠٤:٤٣ شیلان عومەر بارکۆدێکی نە"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "aram",
+  "path": "/rooms",
+  "topbarH": 111,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "هەموو ژوورەکان",
+    "sw": 330,
+    "cw": 330,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 76,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "static",
+    "thLastEmpty": false,
+    "headers": 5,
+    "firstRowText": "ژووری هات و دەرچوو شیلان عومەر"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "aram",
+  "path": "/inbox",
+  "topbarH": 113,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کتابە هاتووەکان — ژووری سەرۆکی شارەوانی",
+    "sw": 192,
+    "cw": 192,
+    "sh": 69,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 7,
+    "withActions": 7,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 7,
+    "firstRowText": "ه/2026/416 یادداشتی ناوخۆیی بۆ"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "karwan",
+  "path": "/archive",
+  "topbarH": 113,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ئەرشیفی نەخشە — ژووری ٨ و ٩",
+    "sw": 221,
+    "cw": 221,
+    "sh": 48,
+    "ch": 43
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 60,
+    "withActions": 0,
+    "actionNotLast": 0,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 7,
+    "firstRowText": "9988/7 نەخشەی MOBk3elo PDF ڕەف"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "karwan",
+  "path": "/archive/new",
+  "topbarH": 111,
+  "ih": 1024,
+  "pct": 11,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "تۆمارکردنی نەخشە",
+    "sw": 330,
+    "cw": 330,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": []
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "itadmin",
+  "path": "/admin/users",
+  "topbarH": 66,
+  "ih": 1024,
+  "pct": 6,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "کارمەندان",
+    "sw": 582,
+    "cw": 582,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": true,
+    "hasThead": true,
+    "rows": 89,
+    "withActions": 89,
+    "actionNotLast": 89,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 8,
+    "firstRowText": "ئن ئاھەنگ نەوزاد ahang کارمەند"
+   }
+  ]
+ },
+ {
+  "kind": "screen",
+  "size": "t768",
+  "user": "itadmin",
+  "path": "/admin/rooms",
+  "topbarH": 66,
+  "ih": 1024,
+  "pct": 6,
+  "clipped": [
+   {
+    "el": "h1",
+    "text": "ژوورەکان",
+    "sw": 582,
+    "cw": 582,
+    "sh": 26,
+    "ch": 22
+   }
+  ],
+  "tables": [
+   {
+    "in": "table-wrap",
+    "display": "table",
+    "overflowing": false,
+    "hasThead": true,
+    "rows": 78,
+    "withActions": 78,
+    "actionNotLast": 78,
+    "lastNotPinned": 0,
+    "actionOffscreen": 0,
+    "thPinned": "sticky",
+    "thLastEmpty": true,
+    "headers": 8,
+    "firstRowText": "ژووری هات و دەرچوو REGISTRY — "
+   }
+  ]
+ },
+ {
+  "kind": "anchor",
+  "size": "s360",
+  "hash": "close",
+  "targetTop": 0,
+  "headingTop": 19,
+  "headingBottom": 45,
+  "topbarBottom": 163,
+  "headingHidden": true,
+  "scrollPaddingTop": "auto"
+ },
+ {
+  "kind": "anchor",
+  "size": "s360",
+  "hash": "attachments",
+  "targetTop": 0,
+  "headingTop": 19,
+  "headingBottom": 44,
+  "topbarBottom": 163,
+  "headingHidden": true,
+  "scrollPaddingTop": "auto"
+ },
+ {
+  "kind": "anchor",
+  "size": "i390",
+  "hash": "close",
+  "targetTop": 14,
+  "headingTop": 33,
+  "headingBottom": 58,
+  "topbarBottom": 163,
+  "headingHidden": true,
+  "scrollPaddingTop": "auto"
+ },
+ {
+  "kind": "anchor",
+  "size": "i390",
+  "hash": "attachments",
+  "targetTop": 0,
+  "headingTop": 19,
+  "headingBottom": 45,
+  "topbarBottom": 163,
+  "headingHidden": true,
+  "scrollPaddingTop": "auto"
+ },
+ {
+  "kind": "anchor",
+  "size": "a412",
+  "hash": "close",
+  "targetTop": 85,
+  "headingTop": 104,
+  "headingBottom": 130,
+  "topbarBottom": 163,
+  "headingHidden": true,
+  "scrollPaddingTop": "auto"
+ },
+ {
+  "kind": "anchor",
+  "size": "a412",
+  "hash": "attachments",
+  "targetTop": 0,
+  "headingTop": 19,
+  "headingBottom": 45,
+  "topbarBottom": 163,
+  "headingHidden": true,
+  "scrollPaddingTop": "auto"
+ },
+ {
+  "kind": "anchor",
+  "size": "t768",
+  "hash": "close",
+  "targetTop": 189,
+  "headingTop": 208,
+  "headingBottom": 234,
+  "topbarBottom": 113,
+  "headingHidden": false,
+  "scrollPaddingTop": "auto"
+ },
+ {
+  "kind": "anchor",
+  "size": "t768",
+  "hash": "attachments",
+  "targetTop": 0,
+  "headingTop": 19,
+  "headingBottom": 45,
+  "topbarBottom": 113,
+  "headingHidden": true,
+  "scrollPaddingTop": "auto"
+ },
+ {
+  "kind": "anchor",
+  "size": "t1024",
+  "hash": "close",
+  "targetTop": 186,
+  "headingTop": 205,
+  "headingBottom": 230,
+  "topbarBottom": 119,
+  "headingHidden": false,
+  "scrollPaddingTop": "auto"
+ },
+ {
+  "kind": "anchor",
+  "size": "t1024",
+  "hash": "attachments",
+  "targetTop": 0,
+  "headingTop": 19,
+  "headingBottom": 44,
+  "topbarBottom": 119,
+  "headingHidden": true,
+  "scrollPaddingTop": "auto"
+ },
+ {
+  "kind": "drawer",
+  "size": "s360",
+  "pageScrollBehindDrawer": {
+   "before": 0,
+   "afterWheel": 400
+  },
+  "left": 96,
+  "w": 264,
+  "navScroll": true,
+  "expanded": null
+ },
+ {
+  "kind": "drawer",
+  "size": "i390",
+  "pageScrollBehindDrawer": {
+   "before": 0,
+   "afterWheel": 400
+  },
+  "left": 126,
+  "w": 264,
+  "navScroll": false,
+  "expanded": null
+ },
+ {
+  "kind": "drawer",
+  "size": "a412",
+  "pageScrollBehindDrawer": {
+   "before": 0,
+   "afterWheel": 400
+  },
+  "left": 148,
+  "w": 264,
+  "navScroll": false,
+  "expanded": null
+ },
+ {
+  "kind": "drawer",
+  "size": "t768",
+  "pageScrollBehindDrawer": {
+   "before": 0,
+   "afterWheel": 400
+  },
+  "left": 504,
+  "w": 264,
+  "navScroll": false,
+  "expanded": null
+ },
+ {
+  "kind": "landscape-phone",
+  "path": "/inbox",
+  "topbarH": 113,
+  "ih": 390,
+  "sw": 844,
+  "iw": 844,
+  "pct": 29
+ },
+ {
+  "kind": "landscape-phone",
+  "path": "/documents/1240",
+  "topbarH": 113,
+  "ih": 390,
+  "sw": 844,
+  "iw": 844,
+  "pct": 29
+ },
+ {
+  "kind": "landscape-phone",
+  "path": "/registry/new",
+  "topbarH": 113,
+  "ih": 390,
+  "sw": 844,
+  "iw": 844,
+  "pct": 29
+ },
+ {
+  "kind": "landscape-phone",
+  "path": "/barcode",
+  "topbarH": 111,
+  "ih": 390,
+  "sw": 844,
+  "iw": 844,
+  "pct": 28
+ },
+ {
+  "kind": "landscape-drawer",
+  "navScrollH": 608,
+  "navClientH": 175,
+  "whoTop": 303,
+  "whoBottom": 390,
+  "ih": 390
+ },
+ {
+  "kind": "rotate-with-drawer-open",
+  "landscape": {
+   "open": true,
+   "sb": 580,
+   "sw": 844,
+   "iw": 844
+  },
+  "tablet": {
+   "open": true,
+   "backdrop": "none",
+   "sw": 1024
+  },
+  "backToPortrait": {
+   "open": true,
+   "sbLeft": 126,
+   "backdrop": "block"
+  }
+ },
+ {
+  "kind": "keyboard",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/documents/1240",
+  "sel": "#note_body",
+  "raw": {
+   "focused": true,
+   "fieldTop": 328,
+   "fieldBottom": 412,
+   "topbarBottom": 163,
+   "ih": 400,
+   "visibleRows": 71.765625,
+   "fieldH": 84
+  },
+  "centred": {
+   "focused": true,
+   "fieldTop": 158,
+   "fieldBottom": 242,
+   "topbarBottom": 163,
+   "ih": 400,
+   "visibleRows": 79.65625,
+   "fieldH": 84
+  },
+  "nearest": {
+   "focused": true,
+   "fieldTop": 158,
+   "fieldBottom": 242,
+   "topbarBottom": 163,
+   "ih": 400,
+   "visibleRows": 79.65625,
+   "fieldH": 84
+  },
+  "covered": true
+ },
+ {
+  "kind": "keyboard",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/documents/1240",
+  "sel": "#recipient",
+  "raw": {
+   "focused": true,
+   "fieldTop": 349,
+   "fieldBottom": 391,
+   "topbarBottom": 163,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "centred": {
+   "focused": true,
+   "fieldTop": 179,
+   "fieldBottom": 221,
+   "topbarBottom": 163,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "nearest": {
+   "focused": true,
+   "fieldTop": 179,
+   "fieldBottom": 221,
+   "topbarBottom": 163,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "covered": false
+ },
+ {
+  "kind": "keyboard",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/registry/new",
+  "sel": "#physical_folder",
+  "raw": {
+   "focused": true,
+   "fieldTop": 581,
+   "fieldBottom": 624,
+   "topbarBottom": 161,
+   "ih": 400,
+   "visibleRows": 0,
+   "fieldH": 42
+  },
+  "centred": {
+   "focused": true,
+   "fieldTop": 241,
+   "fieldBottom": 284,
+   "topbarBottom": 161,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "nearest": {
+   "focused": true,
+   "fieldTop": 241,
+   "fieldBottom": 284,
+   "topbarBottom": 161,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "covered": false
+ },
+ {
+  "kind": "keyboard",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/registry/new",
+  "sel": "#subject",
+  "raw": {
+   "focused": true,
+   "fieldTop": 390,
+   "fieldBottom": 433,
+   "topbarBottom": 161,
+   "ih": 400,
+   "visibleRows": 9.84375,
+   "fieldH": 42
+  },
+  "centred": {
+   "focused": true,
+   "fieldTop": 179,
+   "fieldBottom": 222,
+   "topbarBottom": 161,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "nearest": {
+   "focused": true,
+   "fieldTop": 179,
+   "fieldBottom": 222,
+   "topbarBottom": 161,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "covered": false
+ },
+ {
+  "kind": "keyboard",
+  "size": "s360",
+  "user": "karwan",
+  "path": "/archive/new",
+  "sel": "#folder_no",
+  "raw": {
+   "focused": true,
+   "fieldTop": 581,
+   "fieldBottom": 624,
+   "topbarBottom": 111,
+   "ih": 400,
+   "visibleRows": 0,
+   "fieldH": 42
+  },
+  "centred": {
+   "focused": true,
+   "fieldTop": 241,
+   "fieldBottom": 284,
+   "topbarBottom": 111,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "nearest": {
+   "focused": true,
+   "fieldTop": 241,
+   "fieldBottom": 284,
+   "topbarBottom": 111,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "covered": false
+ },
+ {
+  "kind": "keyboard",
+  "size": "s360",
+  "user": "shilan",
+  "path": "/barcode",
+  "sel": "#q",
+  "raw": {
+   "focused": true,
+   "fieldTop": 239,
+   "fieldBottom": 281,
+   "topbarBottom": 111,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "centred": {
+   "focused": true,
+   "fieldTop": 239,
+   "fieldBottom": 281,
+   "topbarBottom": 111,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "nearest": {
+   "focused": true,
+   "fieldTop": 239,
+   "fieldBottom": 281,
+   "topbarBottom": 111,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "covered": false
+ },
+ {
+  "kind": "keyboard",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/documents/1240",
+  "sel": "#note_body",
+  "raw": {
+   "focused": true,
+   "fieldTop": 380,
+   "fieldBottom": 464,
+   "topbarBottom": 163,
+   "ih": 400,
+   "visibleRows": 19.546875,
+   "fieldH": 84
+  },
+  "centred": {
+   "focused": true,
+   "fieldTop": 158,
+   "fieldBottom": 242,
+   "topbarBottom": 163,
+   "ih": 400,
+   "visibleRows": 79.875,
+   "fieldH": 84
+  },
+  "nearest": {
+   "focused": true,
+   "fieldTop": 158,
+   "fieldBottom": 242,
+   "topbarBottom": 163,
+   "ih": 400,
+   "visibleRows": 79.875,
+   "fieldH": 84
+  },
+  "covered": true
+ },
+ {
+  "kind": "keyboard",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/documents/1240",
+  "sel": "#recipient",
+  "raw": {
+   "focused": true,
+   "fieldTop": 401,
+   "fieldBottom": 443,
+   "topbarBottom": 163,
+   "ih": 400,
+   "visibleRows": 0,
+   "fieldH": 42
+  },
+  "centred": {
+   "focused": true,
+   "fieldTop": 179,
+   "fieldBottom": 221,
+   "topbarBottom": 163,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "nearest": {
+   "focused": true,
+   "fieldTop": 179,
+   "fieldBottom": 221,
+   "topbarBottom": 163,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "covered": false
+ },
+ {
+  "kind": "keyboard",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/registry/new",
+  "sel": "#physical_folder",
+  "raw": {
+   "focused": true,
+   "fieldTop": 685,
+   "fieldBottom": 727,
+   "topbarBottom": 161,
+   "ih": 400,
+   "visibleRows": 0,
+   "fieldH": 42
+  },
+  "centred": {
+   "focused": true,
+   "fieldTop": 241,
+   "fieldBottom": 283,
+   "topbarBottom": 161,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "nearest": {
+   "focused": true,
+   "fieldTop": 241,
+   "fieldBottom": 283,
+   "topbarBottom": 161,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "covered": false
+ },
+ {
+  "kind": "keyboard",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/registry/new",
+  "sel": "#subject",
+  "raw": {
+   "focused": true,
+   "fieldTop": 369,
+   "fieldBottom": 411,
+   "topbarBottom": 161,
+   "ih": 400,
+   "visibleRows": 31.4375,
+   "fieldH": 42
+  },
+  "centred": {
+   "focused": true,
+   "fieldTop": 179,
+   "fieldBottom": 221,
+   "topbarBottom": 161,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "nearest": {
+   "focused": true,
+   "fieldTop": 179,
+   "fieldBottom": 221,
+   "topbarBottom": 161,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "covered": false
+ },
+ {
+  "kind": "keyboard",
+  "size": "i390",
+  "user": "karwan",
+  "path": "/archive/new",
+  "sel": "#folder_no",
+  "raw": {
+   "focused": true,
+   "fieldTop": 685,
+   "fieldBottom": 728,
+   "topbarBottom": 111,
+   "ih": 400,
+   "visibleRows": 0,
+   "fieldH": 42
+  },
+  "centred": {
+   "focused": true,
+   "fieldTop": 241,
+   "fieldBottom": 284,
+   "topbarBottom": 111,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "nearest": {
+   "focused": true,
+   "fieldTop": 241,
+   "fieldBottom": 284,
+   "topbarBottom": 111,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "covered": false
+ },
+ {
+  "kind": "keyboard",
+  "size": "i390",
+  "user": "shilan",
+  "path": "/barcode",
+  "sel": "#q",
+  "raw": {
+   "focused": true,
+   "fieldTop": 239,
+   "fieldBottom": 281,
+   "topbarBottom": 111,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "centred": {
+   "focused": true,
+   "fieldTop": 239,
+   "fieldBottom": 281,
+   "topbarBottom": 111,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "nearest": {
+   "focused": true,
+   "fieldTop": 239,
+   "fieldBottom": 281,
+   "topbarBottom": 111,
+   "ih": 400,
+   "visibleRows": 42.390625,
+   "fieldH": 42
+  },
+  "covered": false
+ }
+]

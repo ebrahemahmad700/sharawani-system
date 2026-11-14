@@ -1,0 +1,165 @@
+s360 shilan /registry -> 200 sw=360 iw=360 offenders=0 small=2
+s360 shilan /registry/new -> 200 sw=360 iw=360 offenders=0 small=2
+s360 shilan /inbox -> 200 sw=360 iw=360 offenders=0 small=19
+s360 shilan /my-day -> 200 sw=360 iw=360 offenders=0 small=2
+s360 shilan /outgoing -> 200 sw=360 iw=360 offenders=0 small=2
+s360 shilan /documents?q=2026 -> 200 sw=360 iw=360 offenders=0 small=2
+s360 shilan /plots -> 200 sw=360 iw=360 offenders=0 small=2
+s360 shilan /tray -> 200 sw=360 iw=360 offenders=0 small=3
+s360 shilan /barcode -> 200 sw=360 iw=360 offenders=0 small=2
+s360 shilan /manifests -> 200 sw=360 iw=360 offenders=0 small=18
+s360 shilan /companies -> 200 sw=360 iw=360 offenders=0 small=2
+s360 shilan /templates -> 200 sw=360 iw=360 offenders=0 small=2
+s360 shilan /leave -> 200 sw=360 iw=360 offenders=0 small=2
+s360 shilan /admin/doc-types -> 200 sw=360 iw=360 offenders=0 small=3
+s360 shilan /notifications -> 200 sw=360 iw=360 offenders=0 small=2
+s360 shilan /registry/photo -> 200 sw=360 iw=360 offenders=0 small=2
+s360 shilan /password -> 200 sw=360 iw=360 offenders=0 small=2
+s360 shilan /scan -> 200 sw=360 iw=360 offenders=0 small=3
+i390 shilan /registry -> 200 sw=390 iw=390 offenders=0 small=2
+i390 shilan /registry/new -> 200 sw=390 iw=390 offenders=0 small=2
+i390 shilan /inbox -> 200 sw=390 iw=390 offenders=0 small=32
+i390 shilan /my-day -> 200 sw=390 iw=390 offenders=0 small=2
+i390 shilan /outgoing -> 200 sw=390 iw=390 offenders=0 small=2
+i390 shilan /documents?q=2026 -> 200 sw=390 iw=390 offenders=0 small=2
+i390 shilan /plots -> 200 sw=390 iw=390 offenders=0 small=2
+i390 shilan /tray -> 200 sw=390 iw=390 offenders=0 small=3
+i390 shilan /barcode -> 200 sw=390 iw=390 offenders=0 small=2
+i390 shilan /manifests -> 200 sw=390 iw=390 offenders=0 small=18
+i390 shilan /companies -> 200 sw=390 iw=390 offenders=0 small=2
+i390 shilan /templates -> 200 sw=390 iw=390 offenders=0 small=2
+i390 shilan /leave -> 200 sw=390 iw=390 offenders=0 small=2
+i390 shilan /admin/doc-types -> 200 sw=390 iw=390 offenders=0 small=3
+i390 shilan /notifications -> 200 sw=390 iw=390 offenders=0 small=2
+i390 shilan /registry/photo -> 200 sw=390 iw=390 offenders=0 small=2
+i390 shilan /password -> 200 sw=390 iw=390 offenders=0 small=2
+i390 shilan /scan -> 200 sw=390 iw=390 offenders=0 small=3
+a412 shilan /registry -> 200 sw=412 iw=412 offenders=0 small=2
+a412 shilan /registry/new -> 200 sw=412 iw=412 offenders=0 small=2
+a412 shilan /inbox -> 200 sw=412 iw=412 offenders=0 small=42
+a412 shilan /my-day -> 200 sw=412 iw=412 offenders=0 small=2
+a412 shilan /outgoing -> 200 sw=412 iw=412 offenders=0 small=2
+a412 shilan /documents?q=2026 -> 200 sw=412 iw=412 offenders=0 small=2
+a412 shilan /plots -> 200 sw=412 iw=412 offenders=0 small=2
+a412 shilan /tray -> 200 sw=412 iw=412 offenders=0 small=3
+a412 shilan /barcode -> 200 sw=412 iw=412 offenders=0 small=2
+a412 shilan /manifests -> 200 sw=412 iw=412 offenders=0 small=19
+a412 shilan /companies -> 200 sw=412 iw=412 offenders=0 small=2
+a412 shilan /templates -> 200 sw=412 iw=412 offenders=0 small=2
+a412 shilan /leave -> 200 sw=412 iw=412 offenders=0 small=2
+a412 shilan /admin/doc-types -> 200 sw=412 iw=412 offenders=0 small=3
+a412 shilan /notifications -> 200 sw=412 iw=412 offenders=0 small=2
+a412 shilan /registry/photo -> 200 sw=412 iw=412 offenders=0 small=2
+a412 shilan /password -> 200 sw=412 iw=412 offenders=0 small=2
+a412 shilan /scan -> 200 sw=412 iw=412 offenders=0 small=3
+t768 shilan /registry -> 200 sw=768 iw=768 offenders=0 small=2
+t768 shilan /registry/new -> 200 sw=768 iw=768 offenders=0 small=2
+t768 shilan /inbox -> 200 sw=768 iw=768 offenders=0 small=50
+t768 shilan /my-day -> 200 sw=768 iw=768 offenders=0 small=2
+t768 shilan /outgoing -> 200 sw=768 iw=768 offenders=0 small=2
+t768 shilan /documents?q=2026 -> 200 sw=768 iw=768 offenders=0 small=2
+t768 shilan /plots -> 200 sw=768 iw=768 offenders=0 small=2
+t768 shilan /tray -> 200 sw=768 iw=768 offenders=0 small=3
+t768 shilan /barcode -> 200 sw=768 iw=768 offenders=0 small=2
+t768 shilan /manifests -> 200 sw=768 iw=768 offenders=0 small=19
+t768 shilan /companies -> 200 sw=768 iw=768 offenders=0 small=2
+t768 shilan /templates -> 200 sw=768 iw=768 offenders=0 small=2
+t768 shilan /leave -> 200 sw=768 iw=768 offenders=0 small=2
+t768 shilan /admin/doc-types -> 200 sw=768 iw=768 offenders=0 small=3
+t768 shilan /notifications -> 200 sw=768 iw=768 offenders=0 small=2
+t768 shilan /registry/photo -> 200 sw=768 iw=768 offenders=0 small=2
+t768 shilan /password -> 200 sw=768 iw=768 offenders=0 small=2
+t768 shilan /scan -> 200 sw=768 iw=768 offenders=0 small=3
+t1024 shilan /registry -> 200 sw=1024 iw=1024 offenders=0 small=18
+t1024 shilan /registry/new -> 200 sw=1024 iw=1024 offenders=0 small=18
+t1024 shilan /inbox -> 200 sw=1024 iw=1024 offenders=0 small=116
+t1024 shilan /my-day -> 200 sw=1024 iw=1024 offenders=0 small=18
+t1024 shilan /outgoing -> 200 sw=1024 iw=1024 offenders=0 small=18
+t1024 shilan /documents?q=2026 -> 200 sw=1024 iw=1024 offenders=0 small=18
+t1024 shilan /plots -> 200 sw=1024 iw=1024 offenders=0 small=18
+t1024 shilan /tray -> 200 sw=1024 iw=1024 offenders=0 small=119
+t1024 shilan /barcode -> 200 sw=1024 iw=1024 offenders=0 small=18
+t1024 shilan /manifests -> 200 sw=1024 iw=1024 offenders=0 small=35
+t1024 shilan /companies -> 200 sw=1024 iw=1024 offenders=0 small=18
+t1024 shilan /templates -> 200 sw=1024 iw=1024 offenders=0 small=77
+t1024 shilan /leave -> 200 sw=1024 iw=1024 offenders=0 small=18
+t1024 shilan /admin/doc-types -> 200 sw=1024 iw=1024 offenders=0 small=74
+t1024 shilan /notifications -> 200 sw=1024 iw=1024 offenders=0 small=18
+t1024 shilan /registry/photo -> 200 sw=1024 iw=1024 offenders=0 small=18
+t1024 shilan /password -> 200 sw=1024 iw=1024 offenders=0 small=18
+t1024 shilan /scan -> 200 sw=1024 iw=1024 offenders=0 small=19
+s360 hemin /inbox -> 200 sw=360 iw=360 offenders=0 small=2
+s360 hemin /log -> 200 sw=360 iw=360 offenders=0 small=2
+s360 hemin /archive -> 200 sw=360 iw=360 offenders=0 small=2
+s360 hemin /rooms -> 403 sw=360 iw=360 offenders=0 small=2
+  problems: [
+  'console http://localhost:3111/rooms: Failed to load resource: the server responded with a status of 403 (Forbidden)'
+]
+i390 hemin /inbox -> 200 sw=390 iw=390 offenders=0 small=7
+i390 hemin /log -> 200 sw=390 iw=390 offenders=0 small=2
+i390 hemin /archive -> 200 sw=390 iw=390 offenders=0 small=2
+i390 hemin /rooms -> 403 sw=390 iw=390 offenders=0 small=2
+  problems: [
+  'console http://localhost:3111/rooms: Failed to load resource: the server responded with a status of 403 (Forbidden)'
+]
+a412 hemin /inbox -> 200 sw=412 iw=412 offenders=0 small=8
+a412 hemin /log -> 200 sw=412 iw=412 offenders=0 small=2
+a412 hemin /archive -> 200 sw=412 iw=412 offenders=0 small=2
+a412 hemin /rooms -> 403 sw=412 iw=412 offenders=0 small=2
+  problems: [
+  'console http://localhost:3111/rooms: Failed to load resource: the server responded with a status of 403 (Forbidden)'
+]
+t768 hemin /inbox -> 200 sw=768 iw=768 offenders=0 small=9
+t768 hemin /log -> 200 sw=768 iw=768 offenders=0 small=51
+t768 hemin /archive -> 200 sw=768 iw=768 offenders=0 small=2
+t768 hemin /rooms -> 403 sw=768 iw=768 offenders=0 small=2
+  problems: [
+  'console http://localhost:3111/rooms: Failed to load resource: the server responded with a status of 403 (Forbidden)'
+]
+t1024 hemin /inbox -> 200 sw=1024 iw=1024 offenders=0 small=33
+t1024 hemin /log -> 200 sw=1024 iw=1024 offenders=0 small=68
+t1024 hemin /archive -> 200 sw=1024 iw=1024 offenders=0 small=19
+t1024 hemin /rooms -> 403 sw=1024 iw=1024 offenders=0 small=19
+  problems: [
+  'console http://localhost:3111/rooms: Failed to load resource: the server responded with a status of 403 (Forbidden)'
+]
+s360 karwan /archive -> 200 sw=360 iw=360 offenders=0 small=2
+s360 karwan /archive/new -> 200 sw=360 iw=360 offenders=0 small=2
+i390 karwan /archive -> 200 sw=390 iw=390 offenders=0 small=2
+i390 karwan /archive/new -> 200 sw=390 iw=390 offenders=0 small=2
+a412 karwan /archive -> 200 sw=412 iw=412 offenders=0 small=2
+a412 karwan /archive/new -> 200 sw=412 iw=412 offenders=0 small=2
+t768 karwan /archive -> 200 sw=768 iw=768 offenders=0 small=2
+t768 karwan /archive/new -> 200 sw=768 iw=768 offenders=0 small=2
+t1024 karwan /archive -> 200 sw=1024 iw=1024 offenders=0 small=15
+t1024 karwan /archive/new -> 200 sw=1024 iw=1024 offenders=0 small=15
+s360 bafrin /leave -> 200 sw=360 iw=360 offenders=0 small=2
+i390 bafrin /leave -> 200 sw=390 iw=390 offenders=0 small=2
+a412 bafrin /leave -> 200 sw=412 iw=412 offenders=0 small=2
+t768 bafrin /leave -> 200 sw=768 iw=768 offenders=0 small=2
+t1024 bafrin /leave -> 200 sw=1024 iw=1024 offenders=0 small=15
+s360 aram /dashboard -> 200 sw=360 iw=360 offenders=0 small=4
+s360 aram /rooms -> 200 sw=360 iw=360 offenders=0 small=2
+s360 aram /admin/scanners -> 200 sw=360 iw=360 offenders=0 small=2
+i390 aram /dashboard -> 200 sw=390 iw=390 offenders=0 small=4
+i390 aram /rooms -> 200 sw=390 iw=390 offenders=0 small=2
+i390 aram /admin/scanners -> 200 sw=390 iw=390 offenders=0 small=2
+a412 aram /dashboard -> 200 sw=412 iw=412 offenders=0 small=4
+a412 aram /rooms -> 200 sw=412 iw=412 offenders=0 small=2
+a412 aram /admin/scanners -> 200 sw=412 iw=412 offenders=0 small=2
+t768 aram /dashboard -> 200 sw=768 iw=768 offenders=0 small=4
+t768 aram /rooms -> 200 sw=768 iw=768 offenders=0 small=2
+t768 aram /admin/scanners -> 200 sw=768 iw=768 offenders=0 small=2
+t1024 aram /dashboard -> 200 sw=1024 iw=1024 offenders=0 small=26
+t1024 aram /rooms -> 200 sw=1024 iw=1024 offenders=0 small=24
+t1024 aram /admin/scanners -> 200 sw=1024 iw=1024 offenders=0 small=26
+s360 itadmin /admin/users -> 200 sw=360 iw=360 offenders=0 small=1
+s360 itadmin /admin/rooms -> 200 sw=360 iw=360 offenders=0 small=386
+i390 itadmin /admin/users -> 200 sw=390 iw=390 offenders=0 small=1
+i390 itadmin /admin/rooms -> 200 sw=390 iw=390 offenders=0 small=386
+a412 itadmin /admin/users -> 200 sw=412 iw=412 offenders=0 small=1
+a412 itadmin /admin/rooms -> 200 sw=412 iw=412 offenders=0 small=386
+t768 itadmin /admin/users -> 200 sw=768 iw=768 offenders=0 small=177
+t768 itadmin /admin/rooms -> 200 sw=768 iw=768 offenders=0 small=386
+t1024 itadmin /admin/users -> 200 sw=1024 iw=1024 offenders=0 small=361
+t1024 itadmin /admin/rooms -> 200 sw=1024 iw=1024 offenders=0 small=549

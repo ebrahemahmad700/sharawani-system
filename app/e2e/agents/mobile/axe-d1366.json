@@ -1,0 +1,1570 @@
+[
+ {
+  "user": null,
+  "path": "/login",
+  "axe": [
+   {
+    "id": "landmark-one-main",
+    "impact": "moderate",
+    "help": "Document should have one main landmark",
+    "nodes": 1,
+    "targets": [
+     {
+      "t": "html",
+      "html": "<html lang=\"ckb\" dir=\"rtl\">",
+      "msg": "Fix all of the following: Document does not have a main landmark"
+     }
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 4,
+    "targets": [
+     {
+      "t": "h1",
+      "html": "<h1>شارەوانی ڕانیە</h1>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": "p",
+      "html": "<p class=\"sub\">سیستەمی بەڕێوەبردنی دۆکیومێنت</p>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": ".field:nth-child(3)",
+      "html": "<div class=\"field\">\n            <label for=\"username\">ناوی بەکارهێنەر</label>\n            <input id=\"username\" name=\"username\" type=\"text\" dir=\"ltr\" required=\"\"",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": ".field:nth-child(4)",
+      "html": "<div class=\"field\">\n            <label for=\"password\">وشەی نهێنی</label>\n            <input id=\"password\" name=\"password\" type=\"password\" required=\"\" autocomple",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "چوونەژوورەوە — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "1",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 1,
+   "tables": [],
+   "live": [],
+   "notices": [],
+   "landmarks": {
+    "main": 0,
+    "nav": 0,
+    "header": 0
+   }
+  }
+ },
+ {
+  "user": null,
+  "path": "/track",
+  "axe": [
+   {
+    "id": "landmark-one-main",
+    "impact": "moderate",
+    "help": "Document should have one main landmark",
+    "nodes": 1,
+    "targets": [
+     {
+      "t": "html",
+      "html": "<html lang=\"ckb\" dir=\"rtl\">",
+      "msg": "Fix all of the following: Document does not have a main landmark"
+     }
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 6,
+    "targets": [
+     {
+      "t": "h1",
+      "html": "<h1>بەدواداچوونی داواکاری</h1>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": ".sub:nth-child(2)",
+      "html": "<p class=\"sub\">\n            ژمارەی بارکۆد و ژمارەی نهێنی سەر پسوولەکەت بنووسە بۆ زانینی ئەوەی\n            داواکارییەکەت گەیشتووەتە کوێ.\n          </p>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": ".field:nth-child(2)",
+      "html": "<div class=\"field\">\n              <label for=\"barcode\" class=\"required\">ژمارەی بارکۆد</label>\n              <input id=\"barcode\" name=\"barcode\" dir=\"ltr\" inputmo",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": ".field:nth-child(3)",
+      "html": "<div class=\"field\">\n              <label for=\"pin\" class=\"required\">ژمارەی نهێنی</label>\n              <input id=\"pin\" name=\"pin\" dir=\"ltr\" inputmode=\"numeric\" ",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": ".sub:nth-child(4)",
+      "html": "<p class=\"sub\" style=\"margin-top:18px;font-size:12px\">\n            ئەم پەڕەیە تەنها دۆخی داواکارییەکەت پیشان دەدات. ناوەڕۆکی هیچ کتابێک\n            لێرەوە دەرنا",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": "p:nth-child(5)",
+      "html": "<p style=\"margin-top:10px\"><a href=\"/login\">چوونەژوورەوەی کارمەندان</a></p>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "بەدواداچوونی داواکاری — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "1",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [],
+   "live": [],
+   "notices": [],
+   "landmarks": {
+    "main": 0,
+    "nav": 0,
+    "header": 0
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/registry",
+  "axe": [],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) ژووری هات و دەرچوو — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "1",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 6,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/registry/new",
+  "axe": [],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) تۆمارکردنی کتابی هاتوو — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "122",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [
+    {
+     "cls": "notice info",
+     "role": null
+    }
+   ],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/inbox",
+  "axe": [
+   {
+    "id": "empty-table-header",
+    "impact": "minor",
+    "help": "Table header text should not be empty",
+    "nodes": 1,
+    "targets": [
+     {
+      "t": "th:nth-child(7)",
+      "html": "<th></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) کتابە هاتووەکان — ژووری هات و دەرچوو — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "12",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 7,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [
+    {
+     "cls": "notice info",
+     "role": null
+    }
+   ],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/documents/1230",
+  "axe": [],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) کتابی ⁦ه/2026/709⁩ — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "12222222",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 7,
+     "thead": false,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [
+    "file-picked:polite",
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/attachments/306/view",
+  "axe": [
+   {
+    "id": "landmark-unique",
+    "impact": "moderate",
+    "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+    "nodes": 1,
+    "targets": [
+     {
+      "t": ".sidebar",
+      "html": "<aside class=\"sidebar\">",
+      "msg": "Fix any of the following: The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) MOBmjy67-contract.pdf — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "12",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [
+    "− title=بچووککردنەوە",
+    "+ title=گەورەکردن"
+   ],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/my-day",
+  "axe": [
+   {
+    "id": "empty-table-header",
+    "impact": "minor",
+    "help": "Table header text should not be empty",
+    "nodes": 1,
+    "targets": [
+     {
+      "t": "th:nth-child(6)",
+      "html": "<th></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) ڕۆژی من — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "1222",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 6,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 5,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    },
+    {
+     "th": 3,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/tray",
+  "axe": [
+   {
+    "id": "empty-table-header",
+    "impact": "minor",
+    "help": "Table header text should not be empty",
+    "nodes": 1,
+    "targets": [
+     {
+      "t": "th:nth-child(5)",
+      "html": "<th></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) سینیی سکان — ژووری هات و دەرچوو — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "1222",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 5,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 3,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [
+    "file-picked:polite",
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/tray/244",
+  "axe": [
+   {
+    "id": "landmark-unique",
+    "impact": "moderate",
+    "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+    "nodes": 1,
+    "targets": [
+     {
+      "t": ".sidebar",
+      "html": "<aside class=\"sidebar\">",
+      "msg": "Fix any of the following: The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) دیاریکردنی کتاب — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "12",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [
+    {
+     "src": "/tray/244/preview",
+     "alt": ""
+    }
+   ],
+   "svgsNoHidden": 0,
+   "tables": [],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/barcode?q=20260007099",
+  "axe": [],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) خوێندنەوەی بارکۆد — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "122",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 4,
+     "thead": false,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/manifests",
+  "axe": [
+   {
+    "id": "empty-table-header",
+    "impact": "minor",
+    "help": "Table header text should not be empty",
+    "nodes": 6,
+    "targets": [
+     {
+      "t": ".card:nth-child(1) > form[action=\"/manifests/new\"][method=\"post\"] > .table-wrap > table > thead > tr > th:nth-child(1)",
+      "html": "<th style=\"width:34px\"></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     },
+     {
+      "t": ".card:nth-child(2) > form[action=\"/manifests/new\"][method=\"post\"] > .table-wrap > table > thead > tr > th:nth-child(1)",
+      "html": "<th style=\"width:34px\"></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     },
+     {
+      "t": ".card:nth-child(3) > form[action=\"/manifests/new\"][method=\"post\"] > .table-wrap > table > thead > tr > th:nth-child(1)",
+      "html": "<th style=\"width:34px\"></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     },
+     {
+      "t": ".card:nth-child(4) > form[action=\"/manifests/new\"][method=\"post\"] > .table-wrap > table > thead > tr > th:nth-child(1)",
+      "html": "<th style=\"width:34px\"></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     },
+     {
+      "t": ".card:nth-child(5) > form[action=\"/manifests/new\"][method=\"post\"] > .table-wrap > table > thead > tr > th:nth-child(1)",
+      "html": "<th style=\"width:34px\"></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     },
+     {
+      "t": ".card:nth-child(6) > form[action=\"/manifests/new\"][method=\"post\"] > .table-wrap > table > thead > tr > th:nth-child(1)",
+      "html": "<th style=\"width:34px\"></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     }
+    ]
+   },
+   {
+    "id": "label",
+    "impact": "critical",
+    "help": "Form elements must have labels",
+    "nodes": 27,
+    "targets": [
+     {
+      "t": "input[value=\"1251\"]",
+      "html": "<input type=\"checkbox\" name=\"document_id\" value=\"1251\" checked=\"\">",
+      "msg": "Fix any of the following: Element does not have an implicit (wrapped) <label> Element does not have an explicit <label> aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references"
+     },
+     {
+      "t": "input[value=\"1190\"]",
+      "html": "<input type=\"checkbox\" name=\"document_id\" value=\"1190\" checked=\"\">",
+      "msg": "Fix any of the following: Element does not have an implicit (wrapped) <label> Element does not have an explicit <label> aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references"
+     },
+     {
+      "t": "input[value=\"1207\"]",
+      "html": "<input type=\"checkbox\" name=\"document_id\" value=\"1207\" checked=\"\">",
+      "msg": "Fix any of the following: Element does not have an implicit (wrapped) <label> Element does not have an explicit <label> aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references"
+     },
+     {
+      "t": "input[value=\"1208\"]",
+      "html": "<input type=\"checkbox\" name=\"document_id\" value=\"1208\" checked=\"\">",
+      "msg": "Fix any of the following: Element does not have an implicit (wrapped) <label> Element does not have an explicit <label> aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references"
+     },
+     {
+      "t": "input[value=\"1209\"]",
+      "html": "<input type=\"checkbox\" name=\"document_id\" value=\"1209\" checked=\"\">",
+      "msg": "Fix any of the following: Element does not have an implicit (wrapped) <label> Element does not have an explicit <label> aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references"
+     },
+     {
+      "t": "input[value=\"1210\"]",
+      "html": "<input type=\"checkbox\" name=\"document_id\" value=\"1210\" checked=\"\">",
+      "msg": "Fix any of the following: Element does not have an implicit (wrapped) <label> Element does not have an explicit <label> aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) لیستی گەیاندن — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "12222222",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 5,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 5,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 5,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 5,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 5,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 5,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 7,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/notifications",
+  "axe": [],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) ئاگادارکردنەوەکان — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "12",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/documents?q=MOB",
+  "axe": [],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) گەڕان بەدوای کتاب — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "1",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 6,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/registry/photo",
+  "axe": [],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) وێنەگرتنی کتاب — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "12",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [],
+   "live": [
+    "file-picked:polite",
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/companies",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "nodes": 58,
+    "targets": [
+     {
+      "t": "tr:nth-child(1) > td:nth-child(3) > .ok.pill",
+      "html": "<span class=\"pill ok\">چالاک</span>",
+      "msg": "Fix any of the following: Element has insufficient color contrast of 4.31 (foreground color: #2e7d5b, background color: #e6f1eb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+     },
+     {
+      "t": "tr:nth-child(2) > td:nth-child(3) > .ok.pill",
+      "html": "<span class=\"pill ok\">چالاک</span>",
+      "msg": "Fix any of the following: Element has insufficient color contrast of 4.31 (foreground color: #2e7d5b, background color: #e6f1eb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+     },
+     {
+      "t": "tr:nth-child(4) > td:nth-child(3) > .ok.pill",
+      "html": "<span class=\"pill ok\">چالاک</span>",
+      "msg": "Fix any of the following: Element has insufficient color contrast of 4.31 (foreground color: #2e7d5b, background color: #e6f1eb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+     },
+     {
+      "t": "tr:nth-child(5) > td:nth-child(3) > .ok.pill",
+      "html": "<span class=\"pill ok\">چالاک</span>",
+      "msg": "Fix any of the following: Element has insufficient color contrast of 4.31 (foreground color: #2e7d5b, background color: #e6f1eb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+     },
+     {
+      "t": "tr:nth-child(6) > td:nth-child(3) > .ok.pill",
+      "html": "<span class=\"pill ok\">چالاک</span>",
+      "msg": "Fix any of the following: Element has insufficient color contrast of 4.31 (foreground color: #2e7d5b, background color: #e6f1eb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+     },
+     {
+      "t": "tr:nth-child(7) > td:nth-child(3) > .ok.pill",
+      "html": "<span class=\"pill ok\">چالاک</span>",
+      "msg": "Fix any of the following: Element has insufficient color contrast of 4.31 (foreground color: #2e7d5b, background color: #e6f1eb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) کۆمپانیاکان — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "122",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 2,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    },
+    {
+     "th": 6,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/templates",
+  "axe": [
+   {
+    "id": "empty-table-header",
+    "impact": "minor",
+    "help": "Table header text should not be empty",
+    "nodes": 10,
+    "targets": [
+     {
+      "t": ".card:nth-child(1) > .table-wrap > table > thead > tr > th:nth-child(4)",
+      "html": "<th></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     },
+     {
+      "t": ".card:nth-child(2) > .table-wrap > table > thead > tr > th:nth-child(4)",
+      "html": "<th></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     },
+     {
+      "t": ".card:nth-child(3) > .table-wrap > table > thead > tr > th:nth-child(4)",
+      "html": "<th></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     },
+     {
+      "t": ".card:nth-child(4) > .table-wrap > table > thead > tr > th:nth-child(4)",
+      "html": "<th></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     },
+     {
+      "t": ".card:nth-child(5) > .table-wrap > table > thead > tr > th:nth-child(4)",
+      "html": "<th></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     },
+     {
+      "t": ".card:nth-child(6) > .table-wrap > table > thead > tr > th:nth-child(4)",
+      "html": "<th></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) تێمپلەیتەکان — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "12222222222",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 4,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 4,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 4,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 4,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 4,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 4,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 4,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 4,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 4,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    },
+    {
+     "th": 4,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/plots",
+  "axe": [],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(71) فایلی پارچە — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "12",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/documents/1230/receipt",
+  "axe": [
+   {
+    "id": "landmark-one-main",
+    "impact": "moderate",
+    "help": "Document should have one main landmark",
+    "nodes": 1,
+    "targets": [
+     {
+      "t": "html",
+      "html": "<html lang=\"ckb\" dir=\"rtl\">",
+      "msg": "Fix all of the following: Document does not have a main landmark"
+     }
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 14,
+    "targets": [
+     {
+      "t": ".switch",
+      "html": "<div class=\"switch\">\n        <a href=\"?format=slip\">پسوولەی بچووک</a> ·\n        <a href=\"?format=sheet\">پەڕەی A4</a>\n      </div>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": ".slip > h1",
+      "html": "<h1>پسوولەی وەرگرتن</h1>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": ".org",
+      "html": "<div class=\"org\">شارەوانی ڕانیە</div>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": "dl",
+      "html": "<dl>\n          <dt>ژمارەی کتاب</dt><dd dir=\"ltr\">ه/2026/709</dd>\n          <dt>بەروار</dt><dd>٢٠٢٦/٠٩/١٣</dd>\n          <dt>ناوی داواکار</dt><dd>نێردەر MOBk3elo",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": ".slip > div:nth-child(4)",
+      "html": "<div style=\"margin-top:2mm\">MOBk3elo نامەی تاقیکردنەوەی مۆبایل</div>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": ".pin",
+      "html": "<div class=\"pin\">\n          ژمارەی نهێنی\n          <b>728939</b>\n        </div>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "ه/2026/709 — پسوولە",
+   "h1": 2,
+   "levels": "11",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 5,
+     "thead": false,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [],
+   "notices": [],
+   "landmarks": {
+    "main": 0,
+    "nav": 0,
+    "header": 0
+   }
+  }
+ },
+ {
+  "user": "shilan",
+  "path": "/documents/1230/print",
+  "axe": [
+   {
+    "id": "landmark-one-main",
+    "impact": "moderate",
+    "help": "Document should have one main landmark",
+    "nodes": 1,
+    "targets": [
+     {
+      "t": "html",
+      "html": "<html lang=\"ckb\" dir=\"rtl\">",
+      "msg": "Fix all of the following: Document does not have a main landmark"
+     }
+    ]
+   },
+   {
+    "id": "region",
+    "impact": "moderate",
+    "help": "All page content should be contained by landmarks",
+    "nodes": 8,
+    "targets": [
+     {
+      "t": ".head > div:nth-child(2)",
+      "html": "<div>\n          <h1>شارەوانی ڕانیە</h1>\n          <div class=\"sub\">سیستەمی بەڕێوەبردنی دۆکیومێنت · پەڕەی دۆسیە</div>\n        </div>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": ".no",
+      "html": "<div class=\"no\">",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": ".openqr > span",
+      "html": "<span>کردنەوە لە مۆبایل</span>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": "table:nth-child(3)",
+      "html": "<table>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": "h2:nth-child(4)",
+      "html": "<h2>ڕێڕەوی کتاب</h2>",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     },
+     {
+      "t": ".trail",
+      "html": "<table class=\"trail\">",
+      "msg": "Fix any of the following: Some page content is not contained by landmarks"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "ه/2026/709 — چاپ",
+   "h1": 1,
+   "levels": "122",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 6,
+     "thead": false,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    },
+    {
+     "th": 6,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [],
+   "notices": [],
+   "landmarks": {
+    "main": 0,
+    "nav": 0,
+    "header": 0
+   }
+  }
+ },
+ {
+  "user": "bafrin",
+  "path": "/leave",
+  "axe": [],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(9) مۆڵەتەکان — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "122",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 0,
+     "thead": false,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "karwan",
+  "path": "/archive",
+  "axe": [
+   {
+    "id": "empty-table-header",
+    "impact": "minor",
+    "help": "Table header text should not be empty",
+    "nodes": 1,
+    "targets": [
+     {
+      "t": "th:nth-child(7)",
+      "html": "<th></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(13) ئەرشیفی نەخشە — ژووری ٨ و ٩ — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "1",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 7,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 1
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "karwan",
+  "path": "/archive/new",
+  "axe": [],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(13) تۆمارکردنی نەخشە — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "1222",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [],
+   "live": [
+    "file-picked:polite",
+    "file-picked:polite",
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "karwan",
+  "path": "/archive/224",
+  "axe": [],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(13) پارچە 9988/7 — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "1222",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 8,
+     "thead": false,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [
+    {
+     "cls": "notice info",
+     "role": null
+    }
+   ],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "aram",
+  "path": "/dashboard",
+  "axe": [],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(85) داشبۆردی سەرۆکی شارەوانی — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "122222",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 5,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    },
+    {
+     "th": 5,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    },
+    {
+     "th": 0,
+     "thead": false,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "hemin",
+  "path": "/log",
+  "axe": [],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "(64) تۆماری چالاکی — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "1",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 7,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 0
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ },
+ {
+  "user": "itadmin",
+  "path": "/admin/users",
+  "axe": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "nodes": 38,
+    "targets": [
+     {
+      "t": "tr:nth-child(94) > .mono > span[dir=\"ltr\"]",
+      "html": "<span dir=\"ltr\">audit.pwmd3pe</span>",
+      "msg": "Fix any of the following: Element has insufficient color contrast of 3.18 (foreground color: #8b928e, background color: #ffffff, font size: 10.1pt (13.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+     },
+     {
+      "t": "tr:nth-child(94) > td:nth-child(4)",
+      "html": "<td>کارمەندی ژوور</td>",
+      "msg": "Fix any of the following: Element has insufficient color contrast of 3.18 (foreground color: #8b928e, background color: #ffffff, font size: 10.1pt (13.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+     },
+     {
+      "t": "input[aria-label=\"پلەی کارمەندی پشکنین pwmd3pe\"]",
+      "html": "<input name=\"job_title\" type=\"text\" class=\"inline-field w-md\" maxlength=\"120\" placeholder=\"پلە\" aria-label=\"پلەی کارمەندی پشکنین pwmd3pe\" value=\"\">",
+      "msg": "Fix any of the following: Element has insufficient color contrast of 3.18 (foreground color: #8b928e, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+     },
+     {
+      "t": "form[action=\"/admin/users/97/contact\"] > .w-sm[name=\"phone_extension\"][maxlength=\"20\"]",
+      "html": "<input name=\"phone_extension\" type=\"text\" class=\"inline-field w-sm\" dir=\"ltr\" maxlength=\"20\" inputmode=\"numeric\" placeholder=\"ناوخۆ\" aria-label=\"ژمارەی ناوخۆی ک",
+      "msg": "Fix any of the following: Element has insufficient color contrast of 3.18 (foreground color: #8b928e, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+     },
+     {
+      "t": "form[action=\"/admin/users/97/contact\"] > .secondary.small[type=\"submit\"]",
+      "html": "<button class=\"btn small secondary\" type=\"submit\">پاشەکەوت</button>",
+      "msg": "Fix any of the following: Element has insufficient color contrast of 3.18 (foreground color: #8b928e, background color: #ffffff, font size: 9.4pt (12.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+     },
+     {
+      "t": "tr:nth-child(95) > .mono > span[dir=\"ltr\"]",
+      "html": "<span dir=\"ltr\">audit.u2rbvtz</span>",
+      "msg": "Fix any of the following: Element has insufficient color contrast of 3.18 (foreground color: #8b928e, background color: #ffffff, font size: 10.1pt (13.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+     }
+    ]
+   },
+   {
+    "id": "empty-table-header",
+    "impact": "minor",
+    "help": "Table header text should not be empty",
+    "nodes": 2,
+    "targets": [
+     {
+      "t": "th:nth-child(1)",
+      "html": "<th></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     },
+     {
+      "t": "th:nth-child(8)",
+      "html": "<th></th>",
+      "msg": "Fix any of the following: Element does not have text that is visible to screen readers"
+     }
+    ]
+   }
+  ],
+  "own": {
+   "lang": "ckb",
+   "dir": "rtl",
+   "title": "کارمەندان — شارەوانی ڕانیە",
+   "h1": 1,
+   "levels": "122",
+   "skips": [],
+   "unnamedButtons": [],
+   "titleOnly": [],
+   "symbolOnly": [],
+   "imgs": [],
+   "svgsNoHidden": 0,
+   "tables": [
+    {
+     "th": 8,
+     "thead": true,
+     "scopeOrHeaders": 0,
+     "caption": false,
+     "emptyTh": 2
+    }
+   ],
+   "live": [
+    "toasts:polite"
+   ],
+   "notices": [],
+   "landmarks": {
+    "main": 1,
+    "nav": 1,
+    "header": 1
+   }
+  }
+ }
+]

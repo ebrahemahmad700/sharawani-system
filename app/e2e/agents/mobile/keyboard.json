@@ -1,0 +1,261 @@
+[
+ {
+  "where": "desktop letter: details + file picker",
+  "openAfterEnter": true,
+  "nextAfterSummary": "button.btn.small.secondary",
+  "fileInputFocus": {
+   "el": "input#file-qie9bre.file-native[file]",
+   "text": "",
+   "x": 739,
+   "y": 338,
+   "w": 118,
+   "h": 42,
+   "offscreen": false,
+   "inClosedDrawer": false,
+   "underTopbar": false,
+   "outline": "solid 2px rgba(21, 80, 58, 0.45)",
+   "shadow": false,
+   "focusVisible": true,
+   "changedPixels": 680,
+   "clip": {
+    "x": 733,
+    "y": 332,
+    "width": 130,
+    "height": 54
+   }
+  },
+  "chooserOpenedBySpace": true,
+  "removeReached": {
+   "el": "button.remove",
+   "text": "لابردنی kbd-wrong.png",
+   "x": 871,
+   "y": 400,
+   "w": 61,
+   "h": 25,
+   "offscreen": false,
+   "inClosedDrawer": false,
+   "underTopbar": false,
+   "outline": "auto 1px rgb(16, 16, 16)",
+   "shadow": false,
+   "focusVisible": true,
+   "changedPixels": 352,
+   "clip": {
+    "x": 865,
+    "y": 394,
+    "width": 73,
+    "height": 37
+   }
+  },
+  "afterRemove": {
+   "files": 0,
+   "focus": "file-native"
+  }
+ },
+ {
+  "where": "desktop /registry/new",
+  "seq": [
+   "a«ژووری هات و دەرچوو»",
+   "a«کتابە هاتووەکان»",
+   "a«ڕۆژی من»",
+   "a«ناردراوەکان»",
+   "a«گەڕان بەدوای کتاب»",
+   "a«فایلی پارچە»",
+   "a«سینیی سکان»",
+   "a«خوێندنەوەی بارکۆد»",
+   "a«لیستی گەیاندن»",
+   "a«کۆمپانیاکان»",
+   "a«تێمپلەیتەکان»",
+   "a«مۆڵەتەکان»",
+   "a«جۆرەکانی مامەڵە»",
+   "a«ئاگادارکردنەوەکان»",
+   "a.whoami-link«گۆڕینی وشەی نهێنی»",
+   "button.btn.secondary.logout-btn«دەرچوون»",
+   "input[search]«گەڕان»",
+   "button.btn.secondary«گەڕان»",
+   "a.btn.secondary.bell«ئاگادارکردنەوەکان»",
+   "button.btn.secondary.sound-toggle«دەنگی سکانەر»",
+   "a.btn.secondary«سکانکردن لە سکانەر»",
+   "a.btn.secondary«وێنەگرتنی کتاب»",
+   "input#subject[text]«»",
+   "select#doc_type_option_id«داواکاری هاووڵاتی — گشتیداواکا»",
+   "a«جۆرەکانی مامەڵە»",
+   "select#sender_kind«هاووڵاتیکۆمپانیافەرمانگەی حکوم»",
+   "input#sender_name[text]«»",
+   "select#company_id«— هیچ — co SECZ-m7woarDZNbdc8m»",
+   "input#sender_contact[text]«»",
+   "select#priority«ئاساییپەلەزۆر پەلە»",
+   "input#plot_no[text]«»",
+   "input#neighbourhood[text]«»",
+   "input#physical_shelf[text]«»",
+   "input#physical_section[text]«»",
+   "input#physical_folder[text]«»",
+   "button.btn«تۆمارکردن و وەرگرتنی ژمارە»",
+   "a.btn.secondary«پاشگەزبوونەوە»",
+   "body«undefined»"
+  ]
+ },
+ {
+  "where": "desktop similar panel",
+  "panel": {
+   "shown": false,
+   "live": null,
+   "role": null,
+   "links": 0,
+   "beforeSubject": null,
+   "focusStill": "subject"
+  },
+  "shiftTabFromSubject": [
+   "a.btn.secondary«وێنەگرتنی کتاب»",
+   "a.btn.secondary«سکانکردن لە سکانەر»",
+   "button.btn.secondary.sound-toggle«دەنگی سکانەر»",
+   "a.btn.secondary.bell«ئاگادارکردنەوەکان»",
+   "button.btn.secondary«گەڕان»",
+   "input[search]«گەڕان»"
+  ]
+ },
+ {
+  "where": "desktop /archive/new",
+  "seq": [
+   "a«کتابی نوێ»",
+   "a«کتابە هاتووەکان»",
+   "a«ڕۆژی من»",
+   "a«گەڕان بەدوای کتاب»",
+   "a«فایلی پارچە»",
+   "a«ئەرشیفی نەخشە»",
+   "a«سینیی سکان»",
+   "a«خوێندنەوەی بارکۆد»",
+   "a«کۆمپانیاکان»",
+   "a«مۆڵەتەکان»",
+   "a«ئاگادارکردنەوەکان»",
+   "a.whoami-link«گۆڕینی وشەی نهێنی»",
+   "button.btn.secondary.logout-btn«دەرچوون»",
+   "input[search]«گەڕان»",
+   "button.btn.secondary«گەڕان»",
+   "a.btn.secondary.bell«ئاگادارکردنەوەکان»",
+   "button.btn.secondary.sound-toggle«دەنگی سکانەر»",
+   "input#file.file-native[file]«»",
+   "input#preview.file-native[file]«»",
+   "input#plot_no[text]«»",
+   "input#block[text]«»",
+   "input#neighbourhood[text]«»",
+   "input#title[text]«»",
+   "input#year[text]«»",
+   "input#owner_names[text]«»",
+   "input#shelf[text]«»",
+   "input#section[text]«»",
+   "input#box_no[text]«»",
+   "input#folder_no[text]«»",
+   "button.btn«تۆمارکردن»"
+  ]
+ },
+ {
+  "where": "phone /inbox first 26 stops",
+  "seq": [
+   "a«ژووری هات و دەرچوو» OFFSCREEN IN-CLOSED-DRAWER UNDER-TOPBAR",
+   "a«کتابە هاتووەکان ٦» OFFSCREEN IN-CLOSED-DRAWER",
+   "a«ڕۆژی من» OFFSCREEN IN-CLOSED-DRAWER",
+   "a«ناردراوەکان» OFFSCREEN IN-CLOSED-DRAWER",
+   "a«گەڕان بەدوای کتاب» OFFSCREEN IN-CLOSED-DRAWER",
+   "a«فایلی پارچە» OFFSCREEN IN-CLOSED-DRAWER",
+   "a«سینیی سکان» OFFSCREEN IN-CLOSED-DRAWER",
+   "a«خوێندنەوەی بارکۆد» OFFSCREEN IN-CLOSED-DRAWER",
+   "a«لیستی گەیاندن» OFFSCREEN IN-CLOSED-DRAWER",
+   "a«کۆمپانیاکان» OFFSCREEN IN-CLOSED-DRAWER",
+   "a«تێمپلەیتەکان» OFFSCREEN IN-CLOSED-DRAWER",
+   "a«مۆڵەتەکان» OFFSCREEN IN-CLOSED-DRAWER",
+   "a«جۆرەکانی مامەڵە» OFFSCREEN IN-CLOSED-DRAWER",
+   "a«ئاگادارکردنەوەکان» OFFSCREEN IN-CLOSED-DRAWER",
+   "a.whoami-link«گۆڕینی وشەی نهێنی» OFFSCREEN IN-CLOSED-DRAWER",
+   "button.btn.secondary.logout-btn«دەرچوون» OFFSCREEN IN-CLOSED-DRAWER",
+   "label.nav-toggle«پێڕست»",
+   "input[search]«گەڕان»",
+   "button.btn.secondary«گەڕان»",
+   "a.btn.secondary.bell«ئاگادارکردنەوەکان»",
+   "button.btn.secondary.sound-toggle«دەنگی سکانەر»",
+   "a.btn«کتابی نوێ»",
+   "a«لیستی گەیاندن»",
+   "a.attach-name«ه/2026/733 LTRr9y9u V3 ناردن ب»",
+   "a.btn.small«ناردن»",
+   "a.attach-name«ه/2026/720 hdr SECZ-7gvn0k»"
+  ],
+  "hiddenStops": 16
+ },
+ {
+  "where": "phone drawer keyboard",
+  "toggleFocus": {
+   "el": "label.nav-toggle",
+   "text": "پێڕست",
+   "x": 336,
+   "y": 33,
+   "w": 40,
+   "h": 40,
+   "offscreen": false,
+   "inClosedDrawer": false,
+   "underTopbar": false,
+   "outline": "auto 1px rgb(16, 16, 16)",
+   "shadow": false,
+   "focusVisible": true,
+   "changedPixels": 312,
+   "clip": {
+    "x": 330,
+    "y": 27,
+    "width": 52,
+    "height": 52
+   }
+  },
+  "opened": {
+   "checked": true,
+   "focus": "/registry",
+   "expanded": null
+  },
+  "walkFromFirstLink": [
+   "a«کتابە هاتووەکان ٦»",
+   "a«ڕۆژی من»",
+   "a«ناردراوەکان»",
+   "a«گەڕان بەدوای کتاب»",
+   "a«فایلی پارچە»",
+   "a«سینیی سکان»",
+   "a«خوێندنەوەی بارکۆد»",
+   "a«لیستی گەیاندن»",
+   "a«کۆمپانیاکان»",
+   "a«تێمپلەیتەکان»",
+   "a«مۆڵەتەکان»",
+   "a«جۆرەکانی مامەڵە»",
+   "a«ئاگادارکردنەوەکان»",
+   "a.whoami-link«گۆڕینی وشەی نهێنی»",
+   "button.btn.secondary.logout-btn«دەرچوون»",
+   "label.nav-toggle«پێڕست»",
+   "input[search]«گەڕان»",
+   "button.btn.secondary«گەڕان»",
+   "a.btn.secondary.bell«ئاگادارکردنەوەکان»",
+   "button.btn.secondary.sound-toggle«دەنگی سکانەر»",
+   "a.btn«کتابی نوێ»",
+   "a«لیستی گەیاندن»"
+  ],
+  "focusLeftDrawerWhileOpen": true,
+  "afterEsc": {
+   "checked": false,
+   "focusInSidebar": true,
+   "focus": "/my-day"
+  },
+  "afterEscOffscreen": true,
+  "spaceOpens": true
+ },
+ {
+  "where": "session-changed alertdialog",
+  "dlg": {
+   "present": true,
+   "focus": "نوێکردنەوەی پەڕە",
+   "modal": null,
+   "labelled": null
+  },
+  "tabFromButton": [
+   "body«undefined»",
+   "a«ژووری هات و دەرچوو»",
+   "a«کتابە هاتووەکان ٦»",
+   "a«ڕۆژی من»",
+   "a«ناردراوەکان»"
+  ],
+  "focusEscapesDialog": true
+ }
+]

@@ -1,0 +1,1396 @@
+<title>Rania Municipality Build Plan</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;600&family=Vazirmatn:wght@400;600&display=swap">
+<style>
+  :root {
+    --bg:        #F7F8F5;
+    --surface:   #FFFFFF;
+    --sunken:    #EFF1EC;
+    --ink:       #151C18;
+    --muted:     #56625B;
+    --faint:     #8A948D;
+    --rule:      #DFE2DA;
+    --rule-soft: #EBEDE6;
+    --green:     #14503A;
+    --green-ink: #14503A;
+    --green-bg:  #E9F0EB;
+    --gold:      #9A7415;
+    --gold-bg:   #F7EFDB;
+    --red:       #8F2C24;
+    --red-bg:    #F7E7E5;
+    --blue:      #2A5578;
+    --blue-bg:   #E8EEF4;
+    --shadow:    0 1px 2px rgba(21,28,24,.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg:        #111513;
+      --surface:   #181D1A;
+      --sunken:    #1E2421;
+      --ink:       #E7EBE6;
+      --muted:     #A0ACA4;
+      --faint:     #78847C;
+      --rule:      #2A322D;
+      --rule-soft: #222925;
+      --green:     #6BAE8C;
+      --green-ink: #8CC6A6;
+      --green-bg:  #172A21;
+      --gold:      #D3A94E;
+      --gold-bg:   #2B2416;
+      --red:       #DE8A82;
+      --red-bg:    #2E1C1A;
+      --blue:      #8AB4D8;
+      --blue-bg:   #17222C;
+      --shadow:    0 1px 2px rgba(0,0,0,.3);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg:        #111513;
+    --surface:   #181D1A;
+    --sunken:    #1E2421;
+    --ink:       #E7EBE6;
+    --muted:     #A0ACA4;
+    --faint:     #78847C;
+    --rule:      #2A322D;
+    --rule-soft: #222925;
+    --green:     #6BAE8C;
+    --green-ink: #8CC6A6;
+    --green-bg:  #172A21;
+    --gold:      #D3A94E;
+    --gold-bg:   #2B2416;
+    --red:       #DE8A82;
+    --red-bg:    #2E1C1A;
+    --blue:      #8AB4D8;
+    --blue-bg:   #17222C;
+    --shadow:    0 1px 2px rgba(0,0,0,.3);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    font-size: 16.5px;
+    line-height: 1.68;
+    -webkit-font-smoothing: antialiased;
+  }
+  .ku { font-family: 'Vazirmatn', Tahoma, sans-serif; font-size: .95em; }
+  code, kbd, pre { font-family: 'JetBrains Mono', ui-monospace, Consolas, monospace; }
+
+  a { color: var(--green-ink); text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
+  a:hover { color: var(--gold); }
+  :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 2px; }
+
+  /* ---------- masthead ---------- */
+  .masthead {
+    border-bottom: 1px solid var(--rule);
+    background: var(--surface);
+  }
+  .masthead-inner {
+    max-width: 1180px; margin: 0 auto; padding: 46px 32px 32px;
+    display: flex; flex-direction: column; gap: 18px;
+  }
+  .eyebrow {
+    font-family: 'Archivo', system-ui, sans-serif;
+    font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--gold);
+    display: flex; align-items: center; gap: 10px;
+  }
+  .eyebrow::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+  h1 {
+    font-family: 'Archivo', system-ui, sans-serif;
+    font-size: clamp(30px, 4.4vw, 44px); font-weight: 700; line-height: 1.12;
+    letter-spacing: -.02em; margin: 0; text-wrap: balance; max-width: 20ch;
+  }
+  .subtitle-ku { font-family: 'Vazirmatn', Tahoma, sans-serif; font-size: 18px; color: var(--muted); direction: rtl; }
+  .meta-row {
+    display: flex; flex-wrap: wrap; gap: 0 34px;
+    padding-top: 16px; border-top: 1px solid var(--rule-soft);
+    font-family: 'Archivo', system-ui, sans-serif; font-size: 12.5px;
+  }
+  .meta-row div { display: flex; flex-direction: column; gap: 2px; }
+  .meta-row dt { color: var(--faint); font-size: 10.5px; letter-spacing: .07em; text-transform: uppercase; font-weight: 600; }
+  .meta-row dd { margin: 0; color: var(--ink); font-weight: 500; }
+
+  /* ---------- layout ---------- */
+  .page {
+    max-width: 1180px; margin: 0 auto; padding: 0 32px 120px;
+    display: grid; grid-template-columns: 226px minmax(0, 1fr); gap: 60px;
+    align-items: start;
+  }
+  nav.toc {
+    position: sticky; top: 24px; padding-top: 44px;
+    font-family: 'Archivo', system-ui, sans-serif;
+    max-height: calc(100vh - 48px); overflow-y: auto;
+  }
+  nav.toc h2 {
+    font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--faint); font-weight: 600; margin: 0 0 12px;
+  }
+  nav.toc ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1px; counter-reset: toc; }
+  nav.toc a {
+    display: grid; grid-template-columns: 22px 1fr; gap: 8px;
+    padding: 5px 8px; border-radius: 5px;
+    font-size: 13px; color: var(--muted); text-decoration: none; line-height: 1.35;
+  }
+  nav.toc a::before { counter-increment: toc; content: counter(toc); color: var(--faint); font-variant-numeric: tabular-nums; font-size: 11.5px; padding-top: 1px; }
+  nav.toc a:hover { background: var(--sunken); color: var(--ink); }
+  nav.toc li.appendix a::before { content: "·"; }
+
+  main { padding-top: 44px; min-width: 0; }
+  section { scroll-margin-top: 24px; }
+  section + section { margin-top: 60px; }
+
+  h2.sec {
+    font-family: 'Archivo', system-ui, sans-serif;
+    font-size: 24px; font-weight: 700; letter-spacing: -.015em; line-height: 1.25;
+    margin: 0 0 6px; display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: baseline;
+  }
+  h2.sec .n {
+    font-size: 13px; font-weight: 600; color: var(--gold);
+    font-variant-numeric: tabular-nums; letter-spacing: 0;
+  }
+  .sec-rule { height: 2px; background: var(--ink); margin: 0 0 22px; }
+  .lede { color: var(--muted); font-size: 17px; margin: 0 0 22px; max-width: 66ch; }
+
+  h3 {
+    font-family: 'Archivo', system-ui, sans-serif;
+    font-size: 15.5px; font-weight: 700; letter-spacing: -.005em;
+    margin: 32px 0 10px; color: var(--ink);
+  }
+  h4 {
+    font-family: 'Archivo', system-ui, sans-serif;
+    font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase;
+    margin: 24px 0 8px; color: var(--faint);
+  }
+  p { margin: 0 0 14px; max-width: 68ch; }
+  strong { font-weight: 600; }
+  ul, ol { margin: 0 0 14px; padding-inline-start: 20px; max-width: 68ch; }
+  li { margin-bottom: 6px; }
+  li::marker { color: var(--faint); }
+
+  /* ---------- tables ---------- */
+  .scroller { overflow-x: auto; margin: 0 0 20px; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; font-family: 'Archivo', system-ui, sans-serif; }
+  th, td { text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--rule-soft); vertical-align: top; }
+  thead th {
+    background: var(--sunken); color: var(--faint);
+    font-size: 10.5px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase;
+    border-bottom: 1px solid var(--rule); white-space: nowrap; position: sticky; top: 0;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  td.num { font-variant-numeric: tabular-nums; color: var(--faint); font-size: 12.5px; white-space: nowrap; }
+  td.q { font-weight: 600; color: var(--gold); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .matrix td:not(:first-child) { text-align: center; }
+  .matrix th:not(:first-child) { text-align: center; }
+  .matrix td:first-child { white-space: nowrap; }
+  .y { color: var(--green-ink); font-weight: 700; }
+  .n { color: var(--red); font-weight: 700; }
+  .o { color: var(--gold); font-weight: 700; }
+  .dim { color: var(--faint); font-size: 12px; }
+
+  /* ---------- code ---------- */
+  pre {
+    background: var(--sunken); border: 1px solid var(--rule); border-left: 3px solid var(--green);
+    border-radius: 6px; padding: 15px 17px; overflow-x: auto;
+    font-size: 12.6px; line-height: 1.75; margin: 0 0 20px; color: var(--ink);
+  }
+  :not(pre) > code {
+    background: var(--sunken); border: 1px solid var(--rule-soft);
+    padding: 1px 5px; border-radius: 4px; font-size: .84em;
+  }
+
+  /* ---------- callouts ---------- */
+  .note {
+    border: 1px solid var(--rule); border-radius: 8px; background: var(--surface);
+    padding: 15px 17px; margin: 0 0 20px; box-shadow: var(--shadow);
+  }
+  .note p:last-child, .note ul:last-child { margin-bottom: 0; }
+  .note.warn { background: var(--gold-bg); border-color: color-mix(in srgb, var(--gold) 32%, transparent); }
+  .note.risk { background: var(--red-bg); border-color: color-mix(in srgb, var(--red) 30%, transparent); }
+  .note-title {
+    font-family: 'Archivo', system-ui, sans-serif; font-size: 11px; font-weight: 600;
+    letter-spacing: .08em; text-transform: uppercase; margin-bottom: 7px; display: block;
+  }
+  .note.warn .note-title { color: var(--gold); }
+  .note.risk .note-title { color: var(--red); }
+  .note .note-title { color: var(--faint); }
+
+  /* ---------- phases ---------- */
+  .phases { display: flex; flex-direction: column; gap: 0; margin: 0 0 8px; }
+  .phase {
+    display: grid; grid-template-columns: 74px 1fr; gap: 22px;
+    padding: 22px 0; border-top: 1px solid var(--rule);
+  }
+  .phase:last-child { border-bottom: 1px solid var(--rule); }
+  .phase-mark { display: flex; flex-direction: column; gap: 5px; }
+  .phase-num {
+    font-family: 'Archivo', system-ui, sans-serif; font-size: 30px; font-weight: 700;
+    line-height: 1; color: var(--gold); font-variant-numeric: tabular-nums;
+  }
+  .phase-dur {
+    font-family: 'Archivo', system-ui, sans-serif; font-size: 11px; font-weight: 600;
+    color: var(--faint); letter-spacing: .03em;
+  }
+  .phase h3 { margin: 0 0 8px; font-size: 17px; }
+  .phase-body p { margin-bottom: 10px; }
+  .phase-body ul { margin-bottom: 12px; }
+  .exit {
+    border-left: 2px solid var(--green); padding: 2px 0 2px 14px;
+    font-size: 14.5px; color: var(--muted); max-width: 66ch;
+  }
+  .exit b { font-family: 'Archivo', system-ui, sans-serif; font-size: 11px; letter-spacing: .07em;
+            text-transform: uppercase; color: var(--green-ink); display: block; margin-bottom: 3px; }
+
+  /* ---------- conversation flow ---------- */
+  .flow {
+    display: flex; flex-direction: column; gap: 1px;
+    background: var(--rule); border: 1px solid var(--rule); border-radius: 8px;
+    overflow: hidden; margin: 0 0 20px;
+  }
+  .flow-step {
+    background: var(--surface); padding: 12px 16px;
+    display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 14px; align-items: baseline;
+  }
+  .flow-who {
+    font-family: 'Archivo', system-ui, sans-serif; font-size: 10.5px; font-weight: 600;
+    letter-spacing: .07em; text-transform: uppercase; color: var(--faint);
+  }
+  .flow-say { font-size: 15px; color: var(--ink); }
+  .flow-code {
+    font-family: 'JetBrains Mono', monospace; font-size: 12.4px;
+    color: var(--green-ink); word-break: break-word;
+  }
+  .flow-tag {
+    grid-column: 2; font-family: 'Archivo', system-ui, sans-serif;
+    font-size: 11px; color: var(--gold); margin-top: 3px;
+  }
+
+  /* ---------- chips ---------- */
+  .chip {
+    display: inline-flex; align-items: center; gap: 5px; white-space: nowrap;
+    font-family: 'Archivo', system-ui, sans-serif; font-size: 11px; font-weight: 600;
+    padding: 2px 8px; border-radius: 4px; letter-spacing: .01em;
+  }
+  .chip.hi   { background: var(--red-bg);   color: var(--red); }
+  .chip.med  { background: var(--gold-bg);  color: var(--gold); }
+  .chip.low  { background: var(--green-bg); color: var(--green-ink); }
+  .chip.info { background: var(--blue-bg);  color: var(--blue); }
+
+  /* ---------- normalisation table ---------- */
+  .fold td:first-child, .fold td:nth-child(2) {
+    font-family: 'Vazirmatn', Tahoma, sans-serif; font-size: 19px;
+    text-align: center; width: 76px; direction: rtl;
+  }
+  .fold td:nth-child(2) { color: var(--green-ink); }
+  .fold td:nth-child(3) { font-family: 'JetBrains Mono', monospace; font-size: 11.5px; color: var(--faint); white-space: nowrap; }
+
+  /* ---------- checklist ---------- */
+  .done { list-style: none; padding: 0; margin: 0; max-width: 68ch; }
+  .done li {
+    display: grid; grid-template-columns: 20px 1fr; gap: 12px; align-items: start;
+    padding: 11px 0; border-bottom: 1px solid var(--rule-soft); margin: 0;
+  }
+  .done li::before {
+    content: ""; width: 15px; height: 15px; margin-top: 5px;
+    border: 1.5px solid var(--rule); border-radius: 3px; background: var(--surface);
+  }
+  .done li:last-child { border-bottom: none; }
+
+  /* ---------- register sample ---------- */
+  .regcard {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(168px, 1fr)); gap: 1px;
+    background: var(--rule); border: 1px solid var(--rule); border-radius: 8px;
+    overflow: hidden; margin: 0 0 20px;
+  }
+  .regcard > div { background: var(--surface); padding: 14px 16px; display: flex; flex-direction: column; gap: 3px; }
+  .regcard dt { font-family: 'Archivo', system-ui, sans-serif; font-size: 10px; letter-spacing: .08em;
+                text-transform: uppercase; color: var(--faint); font-weight: 600; }
+  .regcard dd { margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 15px; color: var(--ink); }
+  .regcard dd .ku { font-size: 15px; }
+
+  footer {
+    max-width: 1180px; margin: 0 auto; padding: 26px 32px 70px;
+    border-top: 1px solid var(--rule); color: var(--faint); font-size: 13px;
+    font-family: 'Archivo', system-ui, sans-serif;
+    display: flex; flex-wrap: wrap; gap: 8px 28px;
+  }
+
+  @media (max-width: 900px) {
+    .page { grid-template-columns: minmax(0, 1fr); gap: 0; }
+    nav.toc { position: static; max-height: none; padding-top: 34px; border-bottom: 1px solid var(--rule); padding-bottom: 20px; }
+    nav.toc ol { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0; }
+    main { padding-top: 34px; }
+    .phase { grid-template-columns: 56px 1fr; gap: 16px; }
+  }
+</style>
+
+<div class="masthead">
+  <div class="masthead-inner">
+    <div class="eyebrow">Build plan · Draft for municipality review</div>
+    <h1>Rania Municipality Document System</h1>
+    <div class="subtitle-ku">سیستەمی بەڕێوەبردنی دۆکیومێنتی شارەوانی ڕانیە</div>
+    <dl class="meta-row">
+      <div><dt>Version</dt><dd>1.0</dd></div>
+      <div><dt>Date</dt><dd>9 September 2026</dd></div>
+      <div><dt>Rooms in scope</dt><dd>25–30</dd></div>
+      <div><dt>Phases</dt><dd>0 through 5</dd></div>
+      <div><dt>Status</dt><dd>Awaiting answers to §2</dd></div>
+    </dl>
+  </div>
+</div>
+
+<div class="page">
+
+  <nav class="toc" aria-label="Contents">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#s1">What this system is</a></li>
+      <li><a href="#s2">Open questions</a></li>
+      <li><a href="#s3">Users and permissions</a></li>
+      <li><a href="#s4">Data model</a></li>
+      <li><a href="#s5">Core workflows</a></li>
+      <li><a href="#s6">Kurdish text handling</a></li>
+      <li><a href="#s7">Architecture</a></li>
+      <li><a href="#s8">Non-functional</a></li>
+      <li><a href="#s9">Screens</a></li>
+      <li><a href="#s10">Phases</a></li>
+      <li><a href="#s11">Digitisation track</a></li>
+      <li><a href="#s12">Rollout</a></li>
+      <li><a href="#s13">Risks</a></li>
+      <li><a href="#s14">Surprises</a></li>
+      <li><a href="#s15">Definition of done</a></li>
+      <li><a href="#s16">Budget categories</a></li>
+      <li class="appendix"><a href="#gloss">Glossary</a></li>
+    </ol>
+  </nav>
+
+  <main>
+
+    <!-- 1 -->
+    <section id="s1">
+      <h2 class="sec"><span class="n">01</span>What this system is</h2>
+      <div class="sec-rule"></div>
+      <p class="lede">Every official letter reaching the municipality is registered as incoming, routed through the rooms that must act on it, answered, and registered as outgoing when the case closes. Today that happens in a paper register book, and letters get lost between rooms.</p>
+      <p>This system mirrors that journey. It does not replace the paper letter. It tracks it, holds a scanned copy, records who held it and for how long, and makes any file findable again, both on screen and on the physical shelf.</p>
+
+      <div class="regcard">
+        <div><dt>Incoming number</dt><dd><span class="ku">ه‌/٢٠٢٦/٤٥٢١</span></dd></div>
+        <div><dt>Outgoing number</dt><dd><span class="ku">د/٢٠٢٦/١٨٧</span></dd></div>
+        <div><dt>Plot reference</dt><dd>247/5</dd></div>
+        <div><dt>Shelf location</dt><dd>C-12 · 47 · 2</dd></div>
+      </div>
+
+      <div class="note warn">
+        <span class="note-title">Non-goal</span>
+        <p>This is not a paperless office project. Staff will keep printing, signing by hand and stamping. The system's job is to know where every letter is, and to make the archive searchable.</p>
+      </div>
+    </section>
+
+    <!-- 2 -->
+    <section id="s2">
+      <h2 class="sec"><span class="n">02</span>Open questions</h2>
+      <div class="sec-rule"></div>
+      <p class="lede">These block design decisions. Each one changes the build. Send Q1, Q4, Q6 and Q7 to the municipality this week; they need no developer and they are the long-lead items.</p>
+
+      <div class="scroller">
+        <table>
+          <thead><tr><th></th><th>Question</th><th>Why it matters</th></tr></thead>
+          <tbody>
+            <tr><td class="q">Q1</td><td>Exact list of rooms, with numbers and the name of each head</td><td>Drives the org table, the sidebar and the routing picker</td></tr>
+            <tr><td class="q">Q2</td><td>Are the rooms flat, or grouped under directorates?</td><td>Decides whether the mayor's dashboard groups or lists, and whether directorate heads get their own overview</td></tr>
+            <tr><td class="q">Q3</td><td>Total staff count, and how many need a login</td><td>Sizes user administration and leave</td></tr>
+            <tr><td class="q">Q4</td><td>The exact number format in the current paper register</td><td>The system must produce numbers staff already recognise</td></tr>
+            <tr><td class="q">Q5</td><td>Average letters received per working day</td><td>Sizes storage and validates the dashboard figures</td></tr>
+            <tr><td class="q">Q6</td><td>How many drawings sit in rooms 8 and 9, and the current shelf scheme</td><td>The largest single work item in the project</td></tr>
+            <tr><td class="q">Q7</td><td>The written leave policy and approval chain</td><td>Cannot be guessed</td></tr>
+            <tr><td class="q">Q8</td><td>Existing server, LAN coverage, scanners and PC operating systems</td><td>Decides deployment and hardware budget</td></tr>
+            <tr><td class="q">Q9</td><td>Power reliability, generator and battery backup</td><td>Decides whether the app must survive hard shutdowns</td></tr>
+            <tr><td class="q">Q10</td><td>Who maintains the system after handover, and do they exist yet</td><td>Decides how boring the stack must be</td></tr>
+            <tr><td class="q">Q11</td><td>Legal retention period for municipal correspondence</td><td>Almost certainly means never delete</td></tr>
+            <tr><td class="q">Q12</td><td>Budget ceiling and any fixed deadline</td><td>Decides phasing</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 3 -->
+    <section id="s3">
+      <h2 class="sec"><span class="n">03</span>Users and permissions</h2>
+      <div class="sec-rule"></div>
+
+      <h3>Roles</h3>
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Role</th><th>Kurdish</th><th>Scope</th></tr></thead>
+          <tbody>
+            <tr><td>Mayor</td><td class="ku">سەرۆکی شارەوانی</td><td>Full visibility, routes anything anywhere, reads the log, can lock the system</td></tr>
+            <tr><td>Deputy mayor</td><td class="ku">جێگری سەرۆک</td><td>Same as mayor except system lock. Prevents a single point of failure</td></tr>
+            <tr><td>Directorate head</td><td class="ku">بەڕێوەبەر</td><td>Sees every room under their directorate the way the mayor sees all rooms</td></tr>
+            <tr><td>Room head</td><td class="ku">بەرپرسی ژوور</td><td>Owns one room's inbox. Acts and forwards</td></tr>
+            <tr><td>Room clerk</td><td class="ku">کارمەندی ژوور</td><td>Same room, forwarding optionally gated by the head</td></tr>
+            <tr><td>Registry clerk</td><td class="ku">کارمەندی هات و دەرچوو</td><td>Registers incoming and outgoing, closes cases. Does not act on content</td></tr>
+            <tr><td>Archive clerk</td><td class="ku">کارمەندی ئەرشیف</td><td>Rooms 8 and 9. Uploads drawings, owns physical location data</td></tr>
+            <tr><td>Administration</td><td class="ku">کارگێڕی</td><td>Templates and leave records</td></tr>
+            <tr><td>System administrator</td><td class="ku">بەڕێوەبەری سیستەم</td><td>Creates users and resets passwords. Cannot read letter contents</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Permission matrix</h3>
+      <div class="scroller">
+        <table class="matrix">
+          <thead><tr>
+            <th>Action</th><th>Mayor</th><th>Deputy</th><th>Dir.</th><th>Room head</th><th>Clerk</th><th>Registry</th><th>Archive</th><th>Admin</th><th>IT</th>
+          </tr></thead>
+          <tbody>
+            <tr><td>Register incoming</td><td class="y">✓</td><td class="y">✓</td><td></td><td></td><td></td><td class="y">✓</td><td></td><td></td><td></td></tr>
+            <tr><td>Register outgoing, close</td><td class="y">✓</td><td class="y">✓</td><td></td><td></td><td></td><td class="y">✓</td><td></td><td></td><td></td></tr>
+            <tr><td>Route to a single room</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="o">○</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Route by sequence</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Create saved routes</td><td class="y">✓</td><td class="y">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>See any room's inbox</td><td class="y">✓</td><td class="y">✓</td><td class="dim">own dir.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Upload to drawing archive</td><td class="y">✓</td><td></td><td></td><td></td><td></td><td></td><td class="y">✓</td><td></td><td></td></tr>
+            <tr><td>Edit physical location</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="y">✓</td><td></td><td></td></tr>
+            <tr><td>Manage templates</td><td class="y">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="y">✓</td><td></td></tr>
+            <tr><td>Approve leave</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td></td><td></td><td></td><td></td><td class="y">✓</td><td></td></tr>
+            <tr><td>Read activity log</td><td class="y">✓</td><td class="y">✓</td><td class="dim">own dir.</td><td class="dim">own room</td><td></td><td></td><td></td><td></td><td class="y">✓</td></tr>
+            <tr><td>Lock the system</td><td class="y">✓</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Manage users</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="y">✓</td></tr>
+            <tr><td>Read letter contents</td><td class="y">✓</td><td class="y">✓</td><td class="dim">own dir.</td><td class="dim">own room</td><td class="dim">own room</td><td class="y">✓</td><td></td><td></td><td class="n">✗</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="dim" style="font-family:'Archivo',system-ui,sans-serif;font-size:12.5px;">○ configurable per room. Nobody, including IT, can delete or edit an activity log row. The log is append-only at the database level.</p>
+    </section>
+
+    <!-- 4 -->
+    <section id="s4">
+      <h2 class="sec"><span class="n">04</span>Data model</h2>
+      <div class="sec-rule"></div>
+      <p class="lede">Six tables carry the system. Everything else is supporting detail.</p>
+
+      <h3>Organisation</h3>
+<pre>directorate
+  id, name, code, head_user_id, sort_order
+
+room
+  id, directorate_id, name, room_number   -- text, some rooms are "8/A"
+  kind              registry | office | archive | executive
+  head_user_id, deputy_user_id            -- deputy receives when head is on leave
+  default_due_days  int default 3         -- SLA for this room
+  is_active, sort_order
+
+user
+  id, full_name, username, password_hash, room_id, role,
+  phone, email, must_change_password, is_active, last_login_at</pre>
+
+      <h3>The document</h3>
+<pre>document
+  id
+  incoming_no       text unique     -- "ه‌/2026/4521"
+  incoming_seq      int             -- 4521, for ordering and gap detection
+  incoming_year, incoming_date, incoming_registered_by
+
+  outgoing_no, outgoing_seq, outgoing_year, outgoing_date   -- null until closed
+
+  subject
+  subject_search    text            -- normalised, indexed (see §6)
+  doc_type          citizen_request | company_request | gov_letter |
+                    internal | complaint | report | contract | leave_request
+  sender_kind, sender_name, sender_contact
+  priority          normal | urgent | very_urgent
+  status            draft | registered | in_flow | closed | cancelled
+
+  current_room_id   -- denormalised; drives every inbox query
+  current_step_id
+
+  plot_no, neighbourhood                        -- links to land records
+  physical_shelf, physical_folder, physical_section
+
+  closed_at, created_at, updated_at
+
+  index (current_room_id, status)
+  index (incoming_year, incoming_seq)
+  gin index (subject_search)</pre>
+
+      <h3>Routing, the engine</h3>
+<pre>routing_step
+  id, document_id
+  seq_no            int      -- position in the chain
+  sequence_group_id uuid     -- shared by all steps of one sequence send
+
+  from_room_id, to_room_id, assigned_by, assigned_to
+  sent_at, received_at, completed_at, due_at
+
+  status            waiting | active | done | skipped | returned | cancelled
+  action_taken      opinion | approved | rejected | forwarded |
+                    letter_attached | handwritten_reply | no_action
+  note              -- the mayor's instruction to this room
+  reply_note        -- what the room wrote back
+  return_to_assigner bool
+
+  index (to_room_id, status)
+  index (document_id, seq_no)</pre>
+
+      <div class="note">
+        <span class="note-title">How it works</span>
+        <p>Sending to one room inserts one row, status <code>active</code>. Sending by sequence inserts every row in one transaction: the first active, the rest waiting. When a room completes its step, the next waiting row in the same group is promoted and <code>document.current_room_id</code> moves with it. If the last step carries <code>return_to_assigner</code>, one more step is appended back to the assigner.</p>
+        <p>This single table produces the trail view, every inbox query, the overdue report and the elapsed-time figures. Nothing else needs storing.</p>
+      </div>
+
+      <h3>Saved routes</h3>
+      <p>At this many rooms the same chains repeat constantly. A building permit always travels the same way. This is the highest-value convenience feature in the system.</p>
+<pre>route_template        id, name, description, created_by, is_active
+route_template_step   id, route_template_id, seq_no, room_id, due_days</pre>
+
+      <h3>Files</h3>
+      <p>Two separate stores, on purpose. An attachment belongs to one letter. An archive drawing is referenced by many letters across many years.</p>
+<pre>attachment
+  id, document_id, routing_step_id
+  kind          original_scan | handwritten_reply | attached_letter |
+                drawing | supporting | outgoing_copy
+  original_name, stored_path, mime_type, size_bytes, page_count
+  sha256        -- integrity and duplicate detection
+  uploaded_by, uploaded_at
+
+archive_file                       -- rooms 8 and 9
+  id, title, title_search
+  plot_no, block, neighbourhood, owner_names, year
+  file_type     dwg | dxf | pdf | jpg | tif
+  stored_path, preview_path, size_bytes, sha256
+
+  shelf, folder_no, section, box_no      &lt;-- the physical location
+
+  uploaded_by, uploaded_at
+  verified_at   -- a second person confirmed the index data
+
+  gin index (title_search)
+  index (plot_no)
+  index (shelf, folder_no)
+
+document_archive_file   document_id, archive_file_id, linked_by, linked_at</pre>
+
+      <h3>Templates, leave, external sends, log</h3>
+<pre>template          id, name, room_id, body_html, field_schema jsonb, is_active
+template_fill     id, template_id, document_id, filled_by, values jsonb, printed_at
+
+leave_record      id, user_id, leave_type, start_date, end_date, working_days,
+                  status, approved_by, document_id, note
+
+external_send     id, document_id, channel (email|whatsapp|post|hand),
+                  recipient_name, subject, attachment_ids, sent_by, sent_at,
+                  status, response_received_at, response_attachment_id
+
+activity_log      -- append only, no update, no delete
+                  id, occurred_at, user_id, room_id, document_id,
+                  action, detail jsonb, ip_address
+
+system_setting    key, value jsonb, updated_by, updated_at
+                  -- includes system_locked, lock_message, lock_by, lock_at</pre>
+
+      <h3>Issuing numbers</h3>
+      <p>Numbers must never be composed by the browser. Two clerks registering in the same second will otherwise produce the same number.</p>
+<pre>number_counter    kind ('incoming'|'outgoing'), year, next_value
+                  primary key (kind, year)
+
+UPDATE number_counter
+   SET next_value = next_value + 1
+ WHERE kind = 'incoming' AND year = 2026
+RETURNING next_value - 1;</pre>
+      <div class="note warn">
+        <span class="note-title">Never reuse a number</span>
+        <p>Even a cancelled letter keeps its number and shows as cancelled. A gap in the register is exactly what an auditor looks for.</p>
+      </div>
+    </section>
+
+    <!-- 5 -->
+    <section id="s5">
+      <h2 class="sec"><span class="n">05</span>Core workflows</h2>
+      <div class="sec-rule"></div>
+
+      <h3>Register incoming</h3>
+      <ol>
+        <li>Letter arrives at the registry room and is scanned. The scan lands in a watched folder.</li>
+        <li>Clerk opens the registration form. The next number is shown, locked.</li>
+        <li>Clerk fills sender, subject, type and priority, then attaches the scan from the tray.</li>
+        <li>Clerk records the shelf where the paper original goes.</li>
+        <li>Save, either <em>register only</em> or <em>register and send</em>, which opens routing.</li>
+      </ol>
+
+      <h3>Route by sequence</h3>
+      <ol>
+        <li>Sender picks a saved route, or builds one by dragging rooms into order.</li>
+        <li>Each step gets its own due days.</li>
+        <li>Optionally, return to me when finished.</li>
+        <li>All steps created in one transaction, the first active. Each completion activates the next automatically.</li>
+      </ol>
+
+      <h3>A room answers</h3>
+      <p>Received time is stamped on first open. There are three ways to answer, and all three are real:</p>
+      <ul>
+        <li><strong>Print, write by hand on the back, scan, attach.</strong> This is how most rooms actually work and it must be a first-class path, not an afterthought.</li>
+        <li><strong>Attach a new letter</strong>, written in the system or uploaded.</li>
+        <li><strong>Note only</strong>, typed into the step.</li>
+      </ul>
+      <p>A room can also return a letter to whoever sent it with a reason. That creates a returned step, never a deletion.</p>
+
+      <h3>Close and register outgoing</h3>
+      <p>Registry sees documents whose last step is done, issues the outgoing number, picks which attachments go out, records the send channel and writes the reply summary. The case closes, the room assignment clears, and the document lives in the archive.</p>
+
+      <h3>Deputy delegation</h3>
+      <div class="note">
+        <p>When a leave record becomes active for a room head, incoming steps for that room are assigned to the deputy automatically and the inbox shows who is covering. When the leave ends, assignment reverts. Without this, letters stop dead in an empty room, which is precisely how the paper system fails today.</p>
+      </div>
+    </section>
+
+    <!-- 6 -->
+    <section id="s6">
+      <h2 class="sec"><span class="n">06</span>Kurdish text handling</h2>
+      <div class="sec-rule"></div>
+
+      <div class="note risk">
+        <span class="note-title">Highest technical risk in the project</span>
+        <p>If search does not work, the rooms 8 and 9 requirement fails, and that requirement is the reason the project exists. Sorani in Arabic script has heavy spelling variance. Staff type on mixed keyboards, and the same word appears three ways in the same folder.</p>
+      </div>
+
+      <h3>Normalisation table</h3>
+      <p>Apply on write into every <code>*_search</code> column, and apply identically to every query string. Keep the original text untouched for display.</p>
+
+      <div class="scroller">
+        <table class="fold">
+          <thead><tr><th>Input</th><th>Fold to</th><th>Code point</th><th>Reason</th></tr></thead>
+          <tbody>
+            <tr><td>ي</td><td>ی</td><td>U+064A → U+06CC</td><td>Arabic yeh from an Arabic keyboard</td></tr>
+            <tr><td>ك</td><td>ک</td><td>U+0643 → U+06A9</td><td>Arabic kaf</td></tr>
+            <tr><td>ه</td><td>ە</td><td>U+0647 → U+06D5</td><td>Word-final. The single most common Sorani error</td></tr>
+            <tr><td>ة</td><td>ە</td><td>U+0629 → U+06D5</td><td>Arabic teh marbuta</td></tr>
+            <tr><td>أ إ آ</td><td>ا</td><td>→ U+0627</td><td>Hamza carriers</td></tr>
+            <tr><td>ڕ</td><td>ر</td><td>U+0695 → U+0631</td><td>People omit the ring</td></tr>
+            <tr><td>ڵ</td><td>ل</td><td>U+06B5 → U+0644</td><td>People omit the ring</td></tr>
+            <tr><td>ۆ</td><td>و</td><td>U+06C6 → U+0648</td><td>Frequently confused</td></tr>
+            <tr><td>ێ</td><td>ی</td><td>U+06CE → U+06CC</td><td>Frequently confused</td></tr>
+            <tr><td>٠–٩</td><td>0–9</td><td>U+0660–0669</td><td>Arabic-Indic digits</td></tr>
+            <tr><td>۰–۹</td><td>0–9</td><td>U+06F0–06F9</td><td>Extended Arabic-Indic digits</td></tr>
+            <tr><td>‌</td><td><span class="dim">removed</span></td><td>U+200C / 200D / FEFF</td><td>Invisible joiners break every match</td></tr>
+            <tr><td>ـ</td><td><span class="dim">removed</span></td><td>U+0640</td><td>Decorative tatweel stretching</td></tr>
+            <tr><td>◌َ ◌ِ</td><td><span class="dim">removed</span></td><td>U+064B–U+0652</td><td>Harakat diacritics</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Folding <span class="ku">ڕ ڵ ۆ ێ</span> is deliberate. It loses precision but catches how people actually type. Precision comes back by ranking exact matches higher.</p>
+
+      <h3>Implementation</h3>
+      <ul>
+        <li>PostgreSQL with the <code>pg_trgm</code> extension, GIN trigram index on each search column.</li>
+        <li>Normalise the query, rank by <code>similarity()</code>, boost exact prefixes.</li>
+        <li>Plot numbers get their own exact-match path. <code>247/5</code>, <code>247-5</code> and <span class="ku">٢٤٧/٥</span> must all find the same record.</li>
+      </ul>
+
+      <h3>Display</h3>
+      <ul>
+        <li>Every page is right-to-left. Latin runs, meaning filenames and usernames, must be wrapped left-to-right or they render scrambled.</li>
+        <li>Noto Kufi Arabic for headings, Vazirmatn for body. Both cover <span class="ku">ڕ ڵ ۆ ێ ە</span>. Bundle them locally; the server is on a LAN with no guaranteed internet.</li>
+        <li>Arabic-Indic digits in the interface, Western digits in the database.</li>
+        <li>Kurdish alphabetical order is not Unicode code point order. Use a Kurdish collation for name lists, or accept the difference in version one and write it down as a known limitation.</li>
+      </ul>
+    </section>
+
+    <!-- 7 -->
+    <section id="s7">
+      <h2 class="sec"><span class="n">07</span>Architecture</h2>
+      <div class="sec-rule"></div>
+
+      <h3>Deployment</h3>
+      <p>On premises, inside the municipality building. Not cloud. Land records and citizen data should not leave the building, and the internet connection is not reliable enough to hold the office hostage.</p>
+<pre>                    [ Municipality LAN ]
+                            |
+   +------------------------+------------------------+
+   |                        |                        |
+[ Staff PCs ]        [ Network scanners ]      [ App server ]
+ browser only         scan-to-folder            web app
+                                                PostgreSQL
+                                                file storage
+                                                watched scan folder
+                                                on battery backup
+                            |
+              [ Backup drive + encrypted offsite copy ]</pre>
+
+      <h3>Stack</h3>
+      <p>Choose boring technology. Someone in Rania has to maintain this after handover.</p>
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Layer</th><th>Recommendation</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td>Database</td><td>PostgreSQL 16 or later</td><td>Trigram search for Kurdish, real transactions for number issuing, JSONB for the log</td></tr>
+            <tr><td>Backend</td><td>Whatever the team knows well</td><td>These are form-and-table screens. Familiarity beats fashion</td></tr>
+            <tr><td>Frontend</td><td>Server-rendered pages, light JavaScript</td><td>Not a single-page app. Fewer moving parts, works on old PCs, survives refresh</td></tr>
+            <tr><td>Files</td><td>Filesystem, <code>files/YYYY/MM/&lt;uuid&gt;</code></td><td>Never store binaries in the database</td></tr>
+            <tr><td>Auth</td><td>Local accounts, argon2, session cookies</td><td>No external identity provider on a LAN</td></tr>
+            <tr><td>Reports</td><td>Server-side PDF generation</td><td>Print is a first-class feature here</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>AutoCAD files</h3>
+      <p>DWG cannot be displayed in a browser. It is a closed binary format. Three options, in order of cost:</p>
+      <ol>
+        <li>Store and download only. Staff open it in AutoCAD.</li>
+        <li><strong>Require a PDF alongside.</strong> The uploader attaches both. Preview shows the PDF. Ship this in version one.</li>
+        <li>Server-side conversion. The free ODA File Converter handles DWG to DXF and PDF. Revisit once the archive is populated.</li>
+      </ol>
+
+      <h3>Scanning</h3>
+      <div class="note warn">
+        <span class="note-title">This detail decides adoption</span>
+        <p>One network scanner per floor, set to scan-to-folder. The server watches those folders and new files appear in a tray, tagged with scanner and timestamp. The clerk attaches in one click, with no file browsing and no USB drives.</p>
+        <p>If registering a letter takes four minutes of walking, staff will quietly go back to paper, and no screen in the design can save it.</p>
+      </div>
+
+      <h3>The system lock</h3>
+      <p>The mayor asked to be able to shut the system down. What he needs is a maintenance lock, not a power off: set a flag with a message, invalidate every session but his, refuse every login but his, and write the action to the log with who, when and why. Unlocking is one click. A literal power-off leaves no audit trail and no clean way back in.</p>
+
+      <h3>The assistant, a real bot, still free</h3>
+      <p>The mayor asked for something he can talk to, not a menu of buttons. That is achievable, offline, and at no licence cost. The design that makes it both smart and trustworthy is <strong>tool calling</strong>.</p>
+
+      <h4>How it works</h4>
+      <p>The model never answers from its own knowledge. It reads the question, decides which database function to call, receives real rows back, and writes the reply from those rows only.</p>
+
+      <div class="flow">
+        <div class="flow-step">
+          <span class="flow-who">Mayor</span>
+          <span class="flow-say ku" dir="rtl">کتابی ٤٤٩٨ لای کێیە؟</span>
+        </div>
+        <div class="flow-step">
+          <span class="flow-who">Model</span>
+          <span class="flow-code">find_document(number = "4498")</span>
+        </div>
+        <div class="flow-step">
+          <span class="flow-who">Database</span>
+          <span class="flow-code">{ current_room: "<span class="ku" dir="rtl">ژووری یاسا</span>", holder: "<span class="ku" dir="rtl">هێمن ڕەشید</span>", days_waiting: 3 }</span>
+        </div>
+        <div class="flow-step">
+          <span class="flow-who">Model</span>
+          <span class="flow-say ku" dir="rtl">کتابی ژ. ه‌/٢٠٢٦/٤٤٩٨ ئێستا لە ژووری یاسایە، لای هێمن ڕەشید، و ٣ ڕۆژە چاوەڕوانە.</span>
+        </div>
+        <div class="flow-step">
+          <span class="flow-who">Mayor</span>
+          <span class="flow-say ku" dir="rtl">ئەوەی پێش ئەوە لای کێ بوو؟</span>
+          <span class="flow-tag">follow-up, no number given</span>
+        </div>
+        <div class="flow-step">
+          <span class="flow-who">Model</span>
+          <span class="flow-code">document_trail(number = "4498")</span>
+          <span class="flow-tag">resolved from context</span>
+        </div>
+      </div>
+
+      <p>The model handles language. The database handles facts. That split is what makes it feel smart while making it structurally unable to invent a document number.</p>
+
+      <h4>The tools</h4>
+      <p>Eight functions cover almost everything the mayor described. Each takes typed arguments and returns rows.</p>
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Function</th><th>Answers</th></tr></thead>
+          <tbody>
+            <tr><td><code>find_document(number)</code></td><td>Where is letter N, and what is it about</td></tr>
+            <tr><td><code>document_trail(number)</code></td><td>Who has held it, for how long, and what they did</td></tr>
+            <tr><td><code>list_room_queue(room, status?, priority?, older_than_days?)</code></td><td>What is waiting in a room</td></tr>
+            <tr><td><code>find_overdue(room?, min_days?)</code></td><td>What is stuck, anywhere</td></tr>
+            <tr><td><code>count_documents(from, to, direction, room?)</code></td><td>Volume questions</td></tr>
+            <tr><td><code>room_performance(period)</code></td><td>Which rooms are slow</td></tr>
+            <tr><td><code>search_archive(query, plot?, neighbourhood?, year?)</code></td><td>Drawing lookups</td></tr>
+            <tr><td><code>staff_on_leave(date)</code></td><td>Who is away, and who is covering</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>These are the same queries the reports in §9 need. Build the reports and you already have most of the bot.</p>
+
+      <h4>Guard rails</h4>
+      <div class="note risk">
+        <span class="note-title">Non-negotiable, and easy to get wrong</span>
+        <ol>
+          <li><strong>Read-only database user.</strong> The bot's connection physically cannot write.</li>
+          <li><strong>No raw SQL from the model, ever.</strong> It calls named functions with typed arguments. Nothing else reaches the database.</li>
+          <li><strong>Permission filtering lives in the function, not the prompt.</strong> Every function takes the asking user's identity and returns only rows that user may see. Never enforce this in a system prompt, because a system prompt can be talked around.</li>
+          <li><strong>Every answer cites document numbers,</strong> and those come from rows, never from the model.</li>
+          <li><strong>No rows means no answer.</strong> The bot says it found nothing. It never fills the gap.</li>
+          <li><strong>Every question and answer</strong> is written to the activity log.</li>
+        </ol>
+      </div>
+
+      <h4>Three ways to run it</h4>
+      <p>The tool-calling design above is identical in all three. What changes is where the model runs, what it costs, and how good the Kurdish is.</p>
+      <div class="scroller">
+        <table>
+          <thead><tr><th></th><th>Local open model</th><th>Hosted open model</th><th>Hosted frontier</th></tr></thead>
+          <tbody>
+            <tr><td>Example</td><td>Qwen 14B on your own card</td><td>Qwen 235B via a provider</td><td>Claude Sonnet 5</td></tr>
+            <tr><td>Up-front</td><td class="num">$1,000–2,500</td><td class="num">$0</td><td class="num">$0</td></tr>
+            <tr><td>Monthly</td><td class="num">$0</td><td class="num">~$10–80</td><td class="num">~$430</td></tr>
+            <tr><td>Kurdish quality</td><td><span class="chip med">Adequate</span></td><td><span class="chip low">Good</span></td><td><span class="chip low">Very good</span></td></tr>
+            <tr><td>Works without internet</td><td><span class="chip low">Yes</span></td><td><span class="chip hi">No</span></td><td><span class="chip hi">No</span></td></tr>
+            <tr><td>Data leaving the building</td><td>Nothing</td><td>Questions and result rows</td><td>Questions and result rows</td></tr>
+            <tr><td>Operational burden</td><td>Serving, quantising, tuning</td><td>None</td><td>None</td></tr>
+            <tr><td>Ceiling</td><td>Fixed until you re-tune</td><td>Rises with the open models</td><td>Rises with the frontier</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note warn">
+        <span class="note-title">The choice is not really three-way on quality</span>
+        <p>Renting Qwen does not make Qwen better at Kurdish. Quality is a property of the model, not the host. The meaningful split is Qwen-class Kurdish, which you can have free on your own hardware, against frontier Kurdish, which only comes hosted.</p>
+      </div>
+
+      <h4>How to decide · measure, do not argue</h4>
+      <p>This question is settled cheaply with evidence rather than opinion.</p>
+      <ol>
+        <li>Write <strong>50 real Kurdish questions with correct answers</strong>, taken from what the mayor and room heads actually ask.</li>
+        <li>Run them through each candidate: local Qwen 14B, a hosted large Qwen, and a frontier model.</li>
+        <li>Have a Kurdish speaker grade the answers <strong>blind</strong>, not knowing which model produced which.</li>
+        <li>Pick the cheapest one that passes.</li>
+      </ol>
+      <p>That costs a few dollars in API calls and half a day of someone's time, and it replaces an argument with a number. Do it in phase 0, because it needs no working system, only the question list.</p>
+
+      <h4>Option A · local open model</h4>
+      <p>Free forever, works offline, nothing leaves the building. Covered in full below under the model table, the Kurdish quality techniques, and the capacity and hardware figures. The Kurdish is the weak point.</p>
+
+      <h4>Option B · hosted open model, Qwen and similar</h4>
+      <p>Renting an open model is dramatically cheaper than a frontier API, and for a municipal budget that matters. Indicative third-party pricing, which you should verify because these rates move constantly and vary by provider:</p>
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Model class</th><th>Indicative in / out per 1M</th><th>Monthly at our load</th></tr></thead>
+          <tbody>
+            <tr><td>Qwen3 8B class</td><td class="num">~$0.04 / $0.10</td><td class="num"><strong>~$10</strong></td></tr>
+            <tr><td>Qwen3 32B class</td><td class="num">~$0.10 / $0.30</td><td class="num"><strong>~$28</strong></td></tr>
+            <tr><td>Qwen3 235B class</td><td class="num">~$0.35 / $0.40</td><td class="num"><strong>~$80</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ol>
+        <li><strong>Hosting Qwen does not improve Qwen's Kurdish.</strong> Paying for a hosted 32B buys roughly what the graphics card buys for free, minus offline operation and minus data staying in the building. The genuine reason to rent rather than buy is access to the very large models you cannot run on one consumer card. A 235B-class Qwen writes noticeably better Kurdish than 14B, and $80 a month for that is a real bargain against $430.</li>
+        <li><strong>Know which provider you are actually talking to.</strong> Aggregators route to whoever is cheapest that minute. Quantisation, latency and quality vary between them, and some log prompts for training unless you opt out. For municipal data, read the retention policy of the specific provider, not the aggregator's.</li>
+        <li><strong>Data residency.</strong> The first-party Qwen API is operated from China. For a government body that is a question to answer deliberately, exactly as the privacy section answers it for any hosted option.</li>
+        <li><strong>Small models are unreliable at tool calling.</strong> Emitting valid JSON every time is what keeps the bot working at all. 32B and above is dependable; 7 to 8B is not. Do not buy the cheapest tier for a tool-calling agent, because a broken tool call is a broken answer.</li>
+      </ol>
+      <div class="note">
+        <span class="note-title">The efficient hybrid</span>
+        <p>Most questions are one lookup and one sentence, which a small model handles fine. Route only ambiguous or multi-step questions to a better model. Ninety percent cheap, ten percent good, and the mayor meets the better model precisely on the questions that need it.</p>
+      </div>
+
+      <h4>Option C · hosted frontier API</h4>
+
+
+      <h4>What actually crosses the wire</h4>
+      <p>This matters more than people assume, and the tool-calling design changes the answer. The API receives the question the user typed, and the rows a function returned: document number, subject line, room name, holder name, dates.</p>
+      <p>It never receives scanned letters, attachments, PDF contents or identity documents. The exposure is metadata, not correspondence. Subject lines do carry citizen names and plot numbers, so this is not nothing, but it is a far smaller surface than every letter leaving the country. Zero-retention arrangements are available from providers for organisations that require them.</p>
+
+      <h4>Cost at the load in the capacity table</h4>
+      <p>66,000 questions a month. Per question roughly 3,000 input tokens, of which about 2,000 is the fixed system prompt and tool schemas, and 400 output tokens. Prompt caching is the whole game: that 2,000-token prefix is byte-identical on every call, and cached it reads at about a tenth of the input price.</p>
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Model</th><th>Model ID</th><th>In / Out per 1M</th><th>Monthly, cached</th></tr></thead>
+          <tbody>
+            <tr><td>Claude Opus 5</td><td><code>claude-opus-5</code></td><td class="num">$5 / $25</td><td class="num"><strong>~$1,080</strong></td></tr>
+            <tr><td>Claude Sonnet 5</td><td><code>claude-sonnet-5</code></td><td class="num">$2 / $10</td><td class="num"><strong>~$430</strong></td></tr>
+            <tr><td>Claude Haiku 4.5</td><td><code>claude-haiku-4-5</code></td><td class="num">$1 / $5</td><td class="num"><strong>~$240</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Without caching those become roughly $1,650, $660 and $330. The cache is worth having.</p>
+
+      <h4>The caching trap that would cost you silently</h4>
+      <div class="note risk">
+        <span class="note-title">Minimum cacheable prefix is not smaller on cheaper models</span>
+        <p>A 2,000-token system prompt caches on Opus 5 and Sonnet 5. On Haiku 4.5 it silently does not cache at all: no error, no warning, just a bill around 40% higher than expected.</p>
+      </div>
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Model</th><th>Minimum prefix to cache</th></tr></thead>
+          <tbody>
+            <tr><td>Claude Opus 5</td><td class="num">512 tokens</td></tr>
+            <tr><td>Claude Sonnet 5</td><td class="num">1,024 tokens</td></tr>
+            <tr><td>Claude Haiku 4.5</td><td class="num">4,096 tokens</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The fix is a happy one. Pad the Haiku system prompt past 4,096 tokens with more hand-written Kurdish answer examples. That crosses the caching threshold and improves the Kurdish at the same time. Two problems, one edit.</p>
+
+      <h4>Caching rules to follow</h4>
+      <ol>
+        <li><strong>Freeze the system prompt.</strong> Never interpolate today's date, the user's name or a request ID into it. Anything at the front of the prefix invalidates everything after it on every call. Put dynamic context in the messages instead.</li>
+        <li><strong>Serialise tool definitions deterministically,</strong> sorted by name. Tools render at position zero, so reordering them invalidates the whole cache.</li>
+        <li><strong>Use the five-minute cache lifetime.</strong> Office-hours traffic keeps it warm continuously, and a read refreshes the timer for free.</li>
+        <li><strong>Verify with <code>cache_read_input_tokens</code>.</strong> If it is zero across repeated questions, something in the prefix is changing. This failure is silent: requests still succeed, the bill is just higher.</li>
+      </ol>
+
+      <h4>Recommendation</h4>
+      <p><strong>Claude Sonnet 5 is the sweet spot</strong> at roughly $430 a month: excellent Kurdish, strong tool calling, and a large context window. Claude Opus 5 is the better model and the right choice where quality outweighs cost. Claude Haiku 4.5 at roughly $240 is genuinely viable here, because the database does the reasoning and the model mostly has to phrase an answer.</p>
+      <p>A routing split is the efficient middle: routine lookups to Haiku, anything ambiguous or multi-step to Sonnet. That lands near $300 a month at close to Sonnet quality.</p>
+
+      <h4>The two real drawbacks</h4>
+      <ul>
+        <li><strong>It stops when the internet stops.</strong> Rania's connection is not guaranteed, and a bot the mayor relies on that dies with the link is worse than no bot. Keep the rules-and-SQL fast path as an offline fallback so questions still get answered when the line is down.</li>
+        <li><strong>It is a recurring bill.</strong> Sonnet 5 costs roughly $5,200 a year, against a one-time $1,000 to $2,500 for local hardware. The API buys quality, not savings.</li>
+      </ul>
+
+      <h4>Detail for the local option</h4>
+      <h4>Which model</h4>
+      <p>Tool calling needs a model that reliably emits structured JSON, which rules out the smallest ones.</p>
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Model</th><th>Licence</th><th>Tool calling</th><th>Sorani</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Qwen 3 14B</strong> or Qwen 2.5 14B Instruct</td><td><span class="chip low">Apache 2.0</span></td><td>Strong</td><td>Best of the open family for Arabic script</td></tr>
+            <tr><td>Qwen 3 32B</td><td><span class="chip low">Apache 2.0</span></td><td>Strongest</td><td>Noticeably better Kurdish, needs more VRAM</td></tr>
+            <tr><td>Gemma 3 12B</td><td><span class="chip low">Permits this use</span></td><td>Adequate</td><td>Reasonable</td></tr>
+            <tr><td>Mistral Small 3</td><td><span class="chip low">Apache 2.0</span></td><td>Strong</td><td>Weak Kurdish</td></tr>
+            <tr><td>Aya, Aya Expanse</td><td><span class="chip hi">Non-commercial</span></td><td>—</td><td>Avoid the licence question entirely</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Start with <strong>Qwen 3 14B quantised to 4-bit</strong>, served by Ollama. Move up to 32B if the Kurdish reads badly and the hardware allows.</p>
+
+      <h4>Making the Kurdish good</h4>
+      <p>This is where the effort actually goes. Three free techniques, and they compound.</p>
+      <ol>
+        <li><strong>Few-shot the system prompt.</strong> Put twenty correct, hand-written Kurdish answer sentences in the prompt. Open models write far better Sorani when they have real examples to pattern-match against. Cheapest win by a wide margin.</li>
+        <li><strong>Template the skeleton, let the model fill it.</strong> Give each tool a Kurdish answer template so the model adapts rather than composing from nothing.</li>
+        <li><strong>Fine-tune later, also free.</strong> After a few months, take several hundred real question-and-answer pairs from the log, correct the Kurdish by hand, and LoRA fine-tune Qwen with Unsloth on the same graphics card. No cloud, no cost, and the biggest single quality jump available.</li>
+      </ol>
+
+      <h4>Capacity, hardware and cost</h4>
+      <div class="note warn">
+        <span class="note-title">Hours is the wrong unit</span>
+        <p>Nobody generates text for five hours. People leave a chat panel open and ask a handful of questions. What sizes the machine is questions per day, and how many arrive in the same second.</p>
+      </div>
+
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Load estimate</th><th></th></tr></thead>
+          <tbody>
+            <tr><td>Staff with a login</td><td class="num">~150</td></tr>
+            <tr><td>Staff who actually use the bot</td><td class="num">~100</td></tr>
+            <tr><td>Questions per person per working day, heavy use</td><td class="num">30</td></tr>
+            <tr><td><strong>Questions per day</strong></td><td class="num"><strong>~3,000</strong></td></tr>
+            <tr><td>Average across an eight-hour day</td><td class="num">one every 10 s</td></tr>
+            <tr><td>Realistic peak, first hour of the morning</td><td class="num">1–2 per second</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Tokens per question</th><th></th></tr></thead>
+          <tbody>
+            <tr><td>System prompt: tool schemas plus Kurdish examples</td><td class="num">~2,000 cacheable</td></tr>
+            <tr><td>Conversation history</td><td class="num">~500</td></tr>
+            <tr><td>The question itself</td><td class="num">~50</td></tr>
+            <tr><td>Tool call the model emits</td><td class="num">~80</td></tr>
+            <tr><td>Rows returned by the database</td><td class="num">~400</td></tr>
+            <tr><td>The Kurdish answer</td><td class="num">~300</td></tr>
+            <tr><td><strong>Per question</strong></td><td class="num"><strong>~3,000 in · ~400 out</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Kurdish in Arabic script tokenises poorly, roughly two to three tokens per word against about 1.3 for English. The figures above already allow for that.</p>
+
+      <h4>What that means for hardware</h4>
+      <p>Three thousand questions at 400 output tokens each is 1.2 million output tokens a day. A used RTX 3090 running Qwen 14B at 4-bit, served with vLLM, produces roughly 400 to 800 tokens a second across batched users. The entire day's work is therefore thirty to fifty minutes of actual GPU time, spread across eight hours.</p>
+      <div class="note">
+        <span class="note-title">One card covers the whole municipality</span>
+        <p>The bot sits idle around 85% of the time even under heavy use. Adding more users barely moves the hardware requirement. What moves it is how many people press send at the same moment.</p>
+      </div>
+
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Staff using the bot</th><th>Questions/day</th><th>Card</th><th>Model</th></tr></thead>
+          <tbody>
+            <tr><td>Up to 30</td><td class="num">~900</td><td>Used RTX 3060, 12 GB</td><td>Qwen 14B, 4-bit</td></tr>
+            <tr><td>30 to 100</td><td class="num">~3,000</td><td>RTX 4060 Ti 16 GB, or used 3090</td><td>Qwen 14B, 4-bit</td></tr>
+            <tr><td>100 to 200</td><td class="num">~6,000</td><td>Used RTX 3090, 24 GB</td><td>Qwen 14B, or 32B for better Kurdish</td></tr>
+            <tr><td>Best possible Kurdish</td><td class="num">any</td><td>Two used 3090s, or one 48 GB card</td><td>Qwen 32B at higher precision</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>CPU-only is possible and free, but produces three to six words per second. One person will tolerate it. A building will not.</p>
+
+      <h4>Serve with vLLM, not Ollama, above about ten users</h4>
+      <p>Ollama is excellent for development and for a handful of people, but it does not batch concurrent requests well. vLLM is equally free and delivers roughly five to ten times the throughput on the same card. Develop on Ollama, deploy on vLLM.</p>
+      <p>At peak, twenty simultaneous questions on one 3090 means the last person waits eight to fifteen seconds. That is fine provided the interface shows a visible thinking state. Silence is what makes people think it is broken.</p>
+
+      <h4>Cost</h4>
+      <p>Indicative US dollars. Obtain local quotes, because prices in Iraq carry import margin and graphics card prices move constantly.</p>
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Item</th><th>One-time</th><th>Recurring</th></tr></thead>
+          <tbody>
+            <tr><td>Used RTX 3060, 12 GB</td><td class="num">$200–300</td><td class="num">—</td></tr>
+            <tr><td>Used RTX 3090, 24 GB</td><td class="num">$700–1,100</td><td class="num">—</td></tr>
+            <tr><td>The rest of the server, if not already budgeted</td><td class="num">$800–1,500</td><td class="num">—</td></tr>
+            <tr><td>Larger power supply and cooling</td><td class="num">$100–200</td><td class="num">—</td></tr>
+            <tr><td>Ollama, vLLM, Qwen weights, Unsloth</td><td class="num">$0</td><td class="num">$0</td></tr>
+            <tr><td>Electricity, ~350 W under load at ~15% duty</td><td class="num">—</td><td class="num">a few dollars a month</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>One purchase of roughly $1,000 to $2,500</strong> buys a machine that runs both the application and the bot. After that, effectively nothing.</p>
+
+      <h4>Set against the hosted API</h4>
+      <p>The same load hosted is roughly $10 to $80 a month on a Qwen-class open model, or $240 to $1,080 on a frontier model with caching. The card is a one-time purchase; hosting is a bill every month. Note that hosted Qwen and local Qwen give you the same Kurdish, so renting the small ones buys convenience rather than quality. Renting a very large Qwen, which no single consumer card can run, does buy quality.</p>
+
+      <h4>The fallback layer</h4>
+      <p>Keep a rules-and-SQL matcher, but as a fast path and a safety net, not as the product. The handful of most common questions skip the model entirely and answer instantly. If the graphics card, the model or the server is down, the bot degrades to templated answers instead of breaking.</p>
+
+      <h4>Effort, honestly</h4>
+      <p>The tool-calling bot is roughly five to seven weeks, against two to three for rules alone, and it needs the hardware above. In exchange the mayor gets follow-up questions, vague questions, combined conditions and a genuine conversation. That is what he asked for.</p>
+
+      <h4>What not to do, free cloud tiers</h4>
+      <div class="note warn">
+        <span class="note-title">Free, but not for this</span>
+        <p>Google AI Studio, Groq and others offer generous free tiers. The reason to avoid them here is not price. Every question would send municipal correspondence to a third-party server outside Iraq. Free tiers also carry rate limits, change without notice, and can be withdrawn entirely. A system the mayor depends on should not rest on someone else's promotional pricing.</p>
+      </div>
+
+      <p>One reframe is still worth making. Much of what people expect from a bot here is really good search. The trigram search in §6 costs nothing and answers "everything about plot 247/5" better than any language model would. Build the search well first, and the bot has less work left to do.</p>
+
+    </section>
+
+    <!-- 8 -->
+    <section id="s8">
+      <h2 class="sec"><span class="n">08</span>Non-functional requirements</h2>
+      <div class="sec-rule"></div>
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Area</th><th>Requirement</th></tr></thead>
+          <tbody>
+            <tr><td>Performance</td><td>Any inbox or search screen renders in under 2 seconds on a five-year-old office PC</td></tr>
+            <tr><td>Archive search</td><td>Results in under 3 seconds across the full drawing archive</td></tr>
+            <tr><td>Concurrency</td><td>50 simultaneous users without degradation</td></tr>
+            <tr><td>Availability</td><td>Office hours. Planned maintenance outside them</td></tr>
+            <tr><td>Backup</td><td>Nightly database dump plus incremental file sync to an external drive. Weekly encrypted copy taken off site</td></tr>
+            <tr><td>Restore</td><td>A documented drill before go-live and every six months after</td></tr>
+            <tr><td>Retention</td><td>Nothing is ever hard-deleted. Cancellation and archival are status changes</td></tr>
+            <tr><td>Audit</td><td>Every read of a document's contents is logged, not only every write</td></tr>
+            <tr><td>Passwords</td><td>Minimum length enforced, forced change on first login, no shared accounts</td></tr>
+            <tr><td>Sessions</td><td>Idle timeout, and a visible list of active sessions for the administrator</td></tr>
+            <tr><td>Data at rest</td><td>Full disk encryption on the server</td></tr>
+            <tr><td>Uploads</td><td>Type whitelist, size cap, virus scan on arrival. The stored path is never derived from the user-supplied filename</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 9 -->
+    <section id="s9">
+      <h2 class="sec"><span class="n">09</span>Screens</h2>
+      <div class="sec-rule"></div>
+      <p class="lede">Nine screens are designed and approved. The <a href="https://claude.ai/code/artifact/e79aee3b-ff63-4be9-bb23-2534bb0e78cb">design canvas</a> is the visual reference for build.</p>
+      <div class="scroller">
+        <table>
+          <thead><tr><th></th><th>Screen</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td class="num">1</td><td>Login</td><td><span class="chip low">Designed</span></td></tr>
+            <tr><td class="num">2</td><td>Mayor's dashboard</td><td><span class="chip med">Rework for 25–30 rooms</span></td></tr>
+            <tr><td class="num">3</td><td>Registry, incoming</td><td><span class="chip low">Designed</span></td></tr>
+            <tr><td class="num">4</td><td>Room inbox</td><td><span class="chip low">Designed</span></td></tr>
+            <tr><td class="num">5</td><td>Document detail and trail</td><td><span class="chip low">Designed</span></td></tr>
+            <tr><td class="num">6</td><td>Send by sequence</td><td><span class="chip med">Needs searchable room picker</span></td></tr>
+            <tr><td class="num">7</td><td>Drawing archive search</td><td><span class="chip low">Designed</span></td></tr>
+            <tr><td class="num">8</td><td>Templates and leave</td><td><span class="chip low">Designed</span></td></tr>
+            <tr><td class="num">9</td><td>Outgoing and close</td><td><span class="chip low">Designed</span></td></tr>
+            <tr><td class="num">10</td><td>Directorate head overview</td><td><span class="chip info">If Q2 is hierarchical</span></td></tr>
+            <tr><td class="num">11</td><td>User and room administration</td><td><span class="chip info">To design</span></td></tr>
+            <tr><td class="num">12</td><td>Activity log browser</td><td><span class="chip info">To design</span></td></tr>
+            <tr><td class="num">13</td><td>Reports</td><td><span class="chip info">To design</span></td></tr>
+            <tr><td class="num">14</td><td>Template fill and print</td><td><span class="chip info">To design</span></td></tr>
+            <tr><td class="num">15</td><td>Saved route management</td><td><span class="chip info">To design</span></td></tr>
+            <tr><td class="num">16</td><td>Scan tray</td><td><span class="chip info">To design</span></td></tr>
+            <tr><td class="num">17</td><td>System lock screen</td><td><span class="chip info">To design</span></td></tr>
+            <tr><td class="num">18</td><td>Global search results</td><td><span class="chip info">To design</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 10 -->
+    <section id="s10">
+      <h2 class="sec"><span class="n">10</span>Phases</h2>
+      <div class="sec-rule"></div>
+      <p class="lede">Durations assume one backend developer, one frontend developer and a part-time lead, with municipality staff supplying data entry. Adjust to your actual team.</p>
+
+      <div class="phases">
+
+        <div class="phase">
+          <div class="phase-mark"><span class="phase-num">0</span><span class="phase-dur">2 weeks</span></div>
+          <div class="phase-body">
+            <h3>Discovery</h3>
+            <ul>
+              <li>Interview the mayor, the registry clerk and three room heads.</li>
+              <li>Sit in the registry room for a full day and count letters.</li>
+              <li>Photograph the current register book pages.</li>
+              <li>Walk rooms 8 and 9. Count shelves and folders, estimate file volume.</li>
+              <li>Collect twenty real letters covering the common types.</li>
+              <li>Collect every blank form the office photocopies.</li>
+              <li>Audit the network, PCs, scanners and power.</li>
+            </ul>
+            <div class="exit"><b>Exit criteria</b>All twelve questions answered in writing, room list frozen, form inventory complete.</div>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-mark"><span class="phase-num">1</span><span class="phase-dur">6–8 weeks</span></div>
+          <div class="phase-body">
+            <h3>Registry and routing</h3>
+            <p>Replaces the paper register. This is where all the value is.</p>
+            <ul>
+              <li>Users, rooms, directorates, roles, login, system lock</li>
+              <li>Incoming registration with atomic numbering</li>
+              <li>Attachment upload and the scan tray</li>
+              <li>Routing to one room, and routing by sequence with saved routes</li>
+              <li>Room inbox with filters and tabs</li>
+              <li>Document detail with the full trail</li>
+              <li>The handwritten reply loop: print, scan, attach</li>
+              <li>Outgoing registration and case closing</li>
+              <li>Append-only activity log with the mayor's view</li>
+              <li>Mayor's dashboard, exception-first, grouped by directorate</li>
+              <li>Print views for the register book and any document</li>
+            </ul>
+            <div class="exit"><b>Exit criteria</b>A letter can be registered, routed through three rooms, answered by hand and closed entirely in the system. The printed register page matches the paper book format.</div>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-mark"><span class="phase-num">2</span><span class="phase-dur">4–6 weeks</span></div>
+          <div class="phase-body">
+            <h3>Drawing archive</h3>
+            <p>Development runs alongside a much longer data-entry track. See §11.</p>
+            <ul>
+              <li>Archive upload with plot, neighbourhood, year and physical location</li>
+              <li>Kurdish-normalised search with trigram ranking</li>
+              <li>Bulk upload for the digitisation team</li>
+              <li>Preview for PDF and images, download for DWG</li>
+              <li>Attach an archive file to a document</li>
+              <li>Duplicate detection by checksum</li>
+              <li>A verification queue so a second person confirms each index record</li>
+            </ul>
+            <div class="exit"><b>Exit criteria</b>Any drawing can be found by plot number, owner name or neighbourhood in under three seconds, and the result names the shelf the paper sits on.</div>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-mark"><span class="phase-num">3</span><span class="phase-dur">3–4 weeks</span></div>
+          <div class="phase-body">
+            <h3>Templates and leave</h3>
+            <ul>
+              <li>Template editor and field schema</li>
+              <li>Fill, preview, print, and optionally attach to a document</li>
+              <li>Leave request, approval chain and expiry warnings</li>
+              <li>Deputy delegation wired to leave records</li>
+            </ul>
+            <div class="exit"><b>Exit criteria</b>The six most-used paper forms are in the system, and a leave request flows from request to approval to automatic deputy handover.</div>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-mark"><span class="phase-num">4</span><span class="phase-dur">6–8 weeks</span></div>
+          <div class="phase-body">
+            <h3>External sending, reports, assistant</h3>
+            <ul>
+              <li>Email with attachments, and WhatsApp handoff, see §14</li>
+              <li>Inbound response capture, linking a reply back to its document</li>
+              <li>Reports: monthly volume, overdue by room, throughput, average close time</li>
+              <li>The tool-calling assistant on a local model, with a rules fast path behind it</li>
+            </ul>
+            <div class="exit"><b>Exit criteria</b>The mayor can ask in his own words, ask a follow-up without repeating the number, and get an answer that cites the document it came from.</div>
+          </div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-mark"><span class="phase-num">5</span><span class="phase-dur">3 weeks</span></div>
+          <div class="phase-body">
+            <h3>Hardening and handover</h3>
+            <ul>
+              <li>Load testing at 50 concurrent users</li>
+              <li>Full backup and restore drill in front of municipality IT</li>
+              <li>Security review of permissions, uploads and session handling</li>
+              <li>Administrator documentation in Kurdish</li>
+              <li>Training material and short screen recordings</li>
+              <li>Two weeks of hypercare after go-live</li>
+            </ul>
+            <div class="exit"><b>Exit criteria</b>Two municipality staff can create users, reset passwords and take a backup unaided.</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 11 -->
+    <section id="s11">
+      <h2 class="sec"><span class="n">11</span>The digitisation track</h2>
+      <div class="sec-rule"></div>
+
+      <div class="note risk">
+        <span class="note-title">Runs from day one, in parallel with everything</span>
+        <p>This is the long pole of the project. The archive in rooms 8 and 9 does not digitise itself. Someone has to open every folder, scan or photograph every drawing, and type in the plot number, neighbourhood and shelf position.</p>
+      </div>
+
+      <h3>Throughput</h3>
+      <p>Work the real figure once Q6 is answered. The shape of the calculation:</p>
+<pre>files ÷ (files per person-hour × hours per day × people) = working days</pre>
+      <p>Large-format drawings are slow. A realistic rate is 15 to 30 files per person-hour including indexing, and lower for fragile old paper. A ten-thousand-file archive with two people working full time is measured in months, not weeks.</p>
+
+      <h3>What is needed</h3>
+      <ul>
+        <li>A large-format scanner, or a copy stand with a good camera for oversized sheets</li>
+        <li>Two to three dedicated staff, not people doing this when they happen to be free</li>
+        <li>A frozen naming convention agreed before the first file is scanned</li>
+        <li>A daily target and a visible progress board</li>
+        <li>Quality control: a second person verifies a sample of every day's work</li>
+        <li>Start with the plots most often requested, not with folder 1. Value arrives sooner</li>
+      </ul>
+
+      <h3>Naming convention</h3>
+      <p>Agree this in week one and never change it.</p>
+<pre>&lt;plot&gt;_&lt;neighbourhood&gt;_&lt;type&gt;_&lt;year&gt;.&lt;ext&gt;
+
+247-5_sarchnar_tanzimi_2019.dwg</pre>
+      <p>The filename is a convenience and the database record is the truth. But a consistent filename makes recovery possible if the database is ever lost.</p>
+    </section>
+
+    <!-- 12 -->
+    <section id="s12">
+      <h2 class="sec"><span class="n">12</span>Rollout</h2>
+      <div class="sec-rule"></div>
+      <ol>
+        <li><strong>Pilot three rooms for four weeks:</strong> the registry, legal, and one busy room. Small enough to fix problems, real enough to prove the flow.</li>
+        <li><strong>Run in parallel with paper.</strong> Every letter is registered in both the book and the system. This is deliberately doubled work and it must be time-boxed to four weeks, or people will never let go of the book.</li>
+        <li><strong>Compare the two registers weekly.</strong> Any divergence is a bug or a training gap.</li>
+        <li><strong>Cut over</strong> only when a full week shows no divergence.</li>
+        <li><strong>Expand room by room</strong>, never all at once. Each room gets a one-hour session and a printed one-page guide in Kurdish.</li>
+      </ol>
+
+      <h3>Training</h3>
+      <ul>
+        <li>Registry clerks need the most: two half-day sessions.</li>
+        <li>Room heads need thirty minutes. Open, print, reply, forward.</li>
+        <li>The mayor needs fifteen minutes and a printed card.</li>
+        <li>Record short screen videos in Kurdish. People rewatch those. They do not reread manuals.</li>
+      </ul>
+    </section>
+
+    <!-- 13 -->
+    <section id="s13">
+      <h2 class="sec"><span class="n">13</span>Risks</h2>
+      <div class="sec-rule"></div>
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Risk</th><th>Likelihood</th><th>Mitigation</th></tr></thead>
+          <tbody>
+            <tr><td>Kurdish search does not match how people type</td><td><span class="chip hi">High</span></td><td>Implement §6 normalisation in phase 1, not phase 2. Test with real staff typing real queries</td></tr>
+            <tr><td>Archive digitisation is under-resourced</td><td><span class="chip hi">High</span></td><td>Fund and staff it from day one. Track daily throughput publicly</td></tr>
+            <tr><td>Scope creep into a full municipal ERP</td><td><span class="chip hi">High</span></td><td>Payroll, accounting, tax and citizen self-service are out of scope. Write it down and hold the line</td></tr>
+            <tr><td>Scanning is inconvenient, staff revert to paper</td><td><span class="chip med">Medium</span></td><td>Network scanners with scan-to-folder and the scan tray. Measure registration time</td></tr>
+            <tr><td>Power cuts corrupt data</td><td><span class="chip med">Medium</span></td><td>Battery backup, write-ahead logging, nightly verified backups</td></tr>
+            <tr><td>Room list changes mid-build</td><td><span class="chip med">Medium</span></td><td>Rooms are data, not code. Never hardcode a room anywhere</td></tr>
+            <tr><td>No maintainer after handover</td><td><span class="chip med">Medium</span></td><td>Boring stack, Kurdish documentation, train two municipality IT staff in phase 5</td></tr>
+            <tr><td>Open model writes poor Kurdish, mayor stops trusting the bot</td><td><span class="chip med">Medium</span></td><td>Few-shot the prompt with real Kurdish answers, template every skeleton, fine-tune from the log after a few months. Templated fallback always available</td></tr>
+            <tr><td>Mayor's dashboard unusable at 30 rooms</td><td><span class="chip med">Medium</span></td><td>Exception-first design, agreed with him before build starts</td></tr>
+            <tr><td>WhatsApp approval delays</td><td><span class="chip low">Low</span></td><td>Ship the link-based handoff first. See §14</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 14 -->
+    <section id="s14">
+      <h2 class="sec"><span class="n">14</span>Things that will surprise you</h2>
+      <div class="sec-rule"></div>
+      <ul>
+        <li><strong>WhatsApp cannot send arbitrary files</strong> without a Meta business account, a verified number and pre-approved message templates. Version one should open WhatsApp with the recipient and text prefilled and let the staff member attach the file. Full API integration is a phase 4 decision, not an assumption.</li>
+        <li><strong>Email from an on-premises server often lands in spam.</strong> Send through the municipality's existing mail provider over SMTP rather than directly from the box.</li>
+        <li><strong>Numbers must never be reused,</strong> even for cancelled letters. Auditors look for gaps.</li>
+        <li><strong>Old drawings are physically fragile.</strong> Budget for handling care, not just scanning speed.</li>
+        <li><strong>The register book may be a legal record.</strong> Confirm with the legal room whether the paper book must continue in parallel permanently. This changes the rollout plan.</li>
+      </ul>
+    </section>
+
+    <!-- 15 -->
+    <section id="s15">
+      <h2 class="sec"><span class="n">15</span>Definition of done</h2>
+      <div class="sec-rule"></div>
+      <ul class="done">
+        <li><span>A letter can be traced from arrival to closing without opening the paper book</span></li>
+        <li><span>The mayor can see which rooms are overdue in one screen, without scrolling</span></li>
+        <li><span>A drawing can be found by plot number and the result names its shelf and folder</span></li>
+        <li><span>A room head on leave has their letters received by their deputy automatically</span></li>
+        <li><span>The six most-used forms print correctly from the system</span></li>
+        <li><span>A restore from backup has been performed in front of municipality IT staff</span></li>
+        <li><span>Two municipality staff can create users, reset passwords and take a backup unaided</span></li>
+        <li><span>Administrator and user documentation exists in Kurdish</span></li>
+        <li><span>Four consecutive weeks with no divergence between the system and any paper record still kept</span></li>
+      </ul>
+    </section>
+
+    <!-- 16 -->
+    <section id="s16">
+      <h2 class="sec"><span class="n">16</span>Budget categories</h2>
+      <div class="sec-rule"></div>
+      <p class="lede">Prices are not estimated here. Obtain local quotes against these categories.</p>
+
+      <h4>Hardware</h4>
+      <ul>
+        <li>Application server with battery backup</li>
+        <li>Backup drives, on site and off site</li>
+        <li>Network scanners, one per floor</li>
+        <li>A large-format scanner or copy stand for the drawing archive</li>
+        <li>Network upgrades if the LAN does not reach every room</li>
+        <li>A graphics card for the assistant: used RTX 3060 12 GB at minimum, used RTX 3090 24 GB for the best Kurdish. One card serves the whole building</li>
+      </ul>
+
+      <h4>Software</h4>
+      <p>Every recommended component is open source, the assistant included. Budget nothing for licences unless the team chooses a commercial stack.</p>
+
+      <h4>People</h4>
+      <ul>
+        <li>Development team for the phase durations in §10</li>
+        <li>Two to three digitisation staff for the length of the archive track</li>
+        <li>Training delivery</li>
+        <li>A support retainer for the first year</li>
+      </ul>
+
+      <h4>Contingency</h4>
+      <p>The archive track is the least predictable item in the project. Carry contingency against it specifically, not spread evenly across everything.</p>
+    </section>
+
+    <!-- glossary -->
+    <section id="gloss">
+      <h2 class="sec"><span class="n">A</span>Glossary</h2>
+      <div class="sec-rule"></div>
+      <div class="scroller">
+        <table>
+          <thead><tr><th>Kurdish</th><th>English</th><th>Kurdish</th><th>English</th></tr></thead>
+          <tbody>
+            <tr><td class="ku">کتاب</td><td>official letter</td><td class="ku">مۆڵەت</td><td>leave, or permit by context</td></tr>
+            <tr><td class="ku">هاتوو</td><td>incoming</td><td class="ku">مۆڵەتی بیناسازی</td><td>building permit</td></tr>
+            <tr><td class="ku">دەرچوو</td><td>outgoing</td><td class="ku">پارچە</td><td>land plot</td></tr>
+            <tr><td class="ku">ژوور</td><td>room, office</td><td class="ku">گەڕەک</td><td>neighbourhood</td></tr>
+            <tr><td class="ku">بەڕێوەبەرایەتی</td><td>directorate</td><td class="ku">نەخشەی بنەڕەتی</td><td>master plan</td></tr>
+            <tr><td class="ku">ڕیزبەندی</td><td>sequence routing</td><td class="ku">گرێبەست</td><td>contract</td></tr>
+            <tr><td class="ku">هاوپێچ</td><td>attachment</td><td class="ku">زەوی و زار</td><td>land and property</td></tr>
+            <tr><td class="ku">بیروڕا</td><td>opinion</td><td class="ku">ژمێریار</td><td>accounts</td></tr>
+            <tr><td class="ku">تۆماری چالاکی</td><td>activity log</td><td class="ku">کارگێڕی</td><td>administration</td></tr>
+            <tr><td class="ku">ڕەفە</td><td>shelf</td><td class="ku">فۆڵدەر</td><td>folder</td></tr>
+            <tr><td class="ku">دۆسیە</td><td>case file</td><td class="ku">سەرۆکی شارەوانی</td><td>mayor</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <span>Rania Municipality Document System</span>
+  <span>Build plan v1.0 · 9 September 2026</span>
+  <span><a href="https://claude.ai/code/artifact/e79aee3b-ff63-4be9-bb23-2534bb0e78cb">Design canvas</a></span>
+  <span>Source: <code>PLAN.md</code></span>
+</footer>

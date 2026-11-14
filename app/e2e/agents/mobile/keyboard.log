@@ -1,0 +1,16 @@
+{"where":"desktop /login","seq":["input#username[text]«»","input#password[password]«»","button.btn«چوونەژوورەوە»","body«undefined»"]}
+{"where":"desktop /inbox first 30 stops","seq":["a«ژووری هات و دەرچوو»","a«کتابە هاتووەکان ٦»","a«ڕۆژی من»","a«ناردراوەکان»","a«گەڕان بەدوای کتاب»","a«فایلی پارچە»","a«سینیی سکان»","a«خوێندنەوەی بارکۆد»","a«لیستی گەیاندن»","a«کۆمپانیاکان»","a«تێمپلەیتەکان»","a«مۆڵەتەکان»","a«جۆرەکانی مامەڵە»","a«ئاگادارکردنەوەکان»","a.whoami-link«گۆڕینی وشەی نهێنی»","button.btn.secondary.logout-btn«دەرچوون»","input[search]«گەڕان»","button.btn.secondary«گەڕان»","a.btn.secondary.bell«ئاگادارکردنەوەکان»","button.btn.secondary.sound-toggle«دەنگی سکانەر»","a.btn«کتابی نوێ»","a«لیستی گەیاندن»","a.attach-name«ه/2026/733 LTRr9y9u V3 ناردن ب»","a.btn.small«ناردن»","a.attach-name«ه/2026/720 hdr SECZ-7gvn0k»","a.btn.small«ناردن»","a.attach-name«ه/2026/717 opt SECZ-gkl4po»","a.btn.small«ناردن»","a.attach-name«ه/2026/716 manifest SECZ-lb8g7»","a.btn.small«ناردن»"],"firstContentStop":21}
+{"where":"desktop /documents/1240","count":48,"seq":["a«ژووری هات و دەرچوو»","a«کتابە هاتووەکان»","a«ڕۆژی من»","a«ناردراوەکان»","a«گەڕان بەدوای کتاب»","a«فایلی پارچە»","a«سینیی سکان»","a«خوێندنەوەی بارکۆد»","a«لیستی گەیاندن»","a«کۆمپانیاکان»","a«تێمپلەیتەکان»","a«مۆڵەتەکان»","a«جۆرەکانی مامەڵە»","a«ئاگادارکردنەوەکان»","a.whoami-link«گۆڕینی وشەی نهێنی»","button.btn.secondary.logout-btn«دەرچوون»","input[search]«گەڕان»","button.btn.secondary«گەڕان»","a.btn.secondary.bell«ئاگادارکردنەوەکان»","button.btn.secondary.sound-toggle«دەنگی سکانەر»","a.btn«نووسینی وەڵام»","a.btn.secondary«چاپکردن»","a.btn.small.secondary«پسوولەی داواکار»","textarea#chase_note«تکایە بەدواداچوون بۆ ئەم کتابە»","button.btn.secondary«بیریان بخەرەوە»","textarea#note_body«»","button.btn.secondary«زیادکردن»","select«جۆری هاوپێچ»","input#file-bhvo4wf.file-native[file]«»","button.btn.secondary«لکاندن»","a.btn.secondary«سکانکردن لە سکانەر»","select#to_room«— ژوورێک هەڵبژێرە — ژووری هات »","input#note[text]«»","input[checkbox]«1»","button.btn«ناردن»","select«ژووری ١»","select«ژووری ٢»","select«ژووری ٣»","select«ژووری ٤»","input[checkbox]«1»","button.btn.gold«ناردن بە ڕیزبەندی»","input#recipient[text]«»","textarea#summary«»","select#channel«بە دەستبە پۆستبە ئیمەیڵبە واتس»","button.btn«وەرگرتنی ژمارەی دەرچوو و داخست»","summary«هەڵوەشاندنەوەی کتاب»","button.btn.secondary«گەڕاندنەوەی ناردنەکە»","body«undefined»"]}
+node:internal/process/esm_loader:97
+    internalBinding('errors').triggerUncaughtException(
+                              ^
+
+locator.focus: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('#attachments details.attach-more summary').first()[22m
+
+    at C:\Users\Ibrahim\Desktop\sharawani_system\app\e2e\agents\mobile\keyboard.mjs:101:13 {
+  name: 'TimeoutError'
+}
+
+Node.js v18.12.1

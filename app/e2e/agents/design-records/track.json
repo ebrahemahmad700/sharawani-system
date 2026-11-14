@@ -1,0 +1,204 @@
+{
+ "status": 200,
+ "desk": {
+  "url": "/track",
+  "vw": 1366,
+  "h1": {
+   "text": "بەدواداچوونی داواکاری",
+   "fs": "18px",
+   "fw": "600",
+   "ff": "\"Noto Kufi Arabic\""
+  },
+  "docTitle": "بەدواداچوونی داواکاری — شارەوانی ڕانیە",
+  "scrollW": 1366,
+  "pageH": 768,
+  "cards": [
+   {
+    "rect": {
+     "x": 423,
+     "y": 148,
+     "w": 520,
+     "h": 473
+    },
+    "pad": "30px 28px",
+    "radius": "14px",
+    "border": "0px rgb(22, 36, 29)",
+    "mb": "0px",
+    "maxW": "520px",
+    "head": null
+   }
+  ],
+  "buttons": [
+   {
+    "text": "پیشاندان",
+    "cls": "btn",
+    "bg": "rgb(21, 80, 58)",
+    "color": "rgb(255, 255, 255)",
+    "fs": "13.5px",
+    "pad": "9px 16px",
+    "h": 42,
+    "w": 464,
+    "top": false,
+    "pos": {
+     "fromRight": 0,
+     "fromLeft": 0,
+     "fullWidth": true,
+     "formW": 464
+    }
+   }
+  ],
+  "tables": [],
+  "empties": [],
+  "pills": [],
+  "notices": [],
+  "labels": [
+   {
+    "text": "ژمارەی بارکۆد",
+    "fs": "13px",
+    "color": "rgb(92, 107, 99)",
+    "req": true,
+    "rel": {
+     "above": true,
+     "fieldW": 464,
+     "fieldH": 42
+    },
+    "for": "barcode"
+   },
+   {
+    "text": "ژمارەی نهێنی",
+    "fs": "13px",
+    "color": "rgb(92, 107, 99)",
+    "req": true,
+    "rel": {
+     "above": true,
+     "fieldW": 464,
+     "fieldH": 42
+    },
+    "for": "pin"
+   }
+  ],
+  "hints": [],
+  "small": [
+   "13px p.sub :: ژمارەی بارکۆد و ژمارەی نهێنی سەر پسوولەک",
+   "13px label.required :: ژمارەی بارکۆد",
+   "12px p.sub [margin-top:18px;font-size:12px] :: ئەم پەڕەیە تەنها دۆخی داواکارییەکەت پیشا"
+  ],
+  "grids": [],
+  "latinDigits": [],
+  "inlineFs": [
+   "font-size:12px p.sub"
+  ],
+  "fieldRows": []
+ },
+ "phone": {
+  "url": "/track",
+  "vw": 390,
+  "h1": {
+   "text": "بەدواداچوونی داواکاری",
+   "fs": "18px",
+   "fw": "600",
+   "ff": "\"Noto Kufi Arabic\""
+  },
+  "docTitle": "بەدواداچوونی داواکاری — شارەوانی ڕانیە",
+  "scrollW": 390,
+  "pageH": 844,
+  "cards": [
+   {
+    "rect": {
+     "x": 20,
+     "y": 181,
+     "w": 350,
+     "h": 483
+    },
+    "pad": "24px 18px",
+    "radius": "14px",
+    "border": "0px rgb(22, 36, 29)",
+    "mb": "0px",
+    "maxW": "520px",
+    "head": null
+   }
+  ],
+  "buttons": [
+   {
+    "text": "پیشاندان",
+    "cls": "btn",
+    "bg": "rgb(21, 80, 58)",
+    "color": "rgb(255, 255, 255)",
+    "fs": "13.5px",
+    "pad": "9px 16px",
+    "h": 42,
+    "w": 314,
+    "top": false,
+    "pos": {
+     "fromRight": 0,
+     "fromLeft": 0,
+     "fullWidth": true,
+     "formW": 314
+    }
+   }
+  ],
+  "tables": [],
+  "empties": [],
+  "pills": [],
+  "notices": [],
+  "labels": [
+   {
+    "text": "ژمارەی بارکۆد",
+    "fs": "13px",
+    "color": "rgb(92, 107, 99)",
+    "req": true,
+    "rel": {
+     "above": true,
+     "fieldW": 314,
+     "fieldH": 42
+    },
+    "for": "barcode"
+   },
+   {
+    "text": "ژمارەی نهێنی",
+    "fs": "13px",
+    "color": "rgb(92, 107, 99)",
+    "req": true,
+    "rel": {
+     "above": true,
+     "fieldW": 314,
+     "fieldH": 42
+    },
+    "for": "pin"
+   }
+  ],
+  "hints": [],
+  "small": [
+   "13px p.sub :: ژمارەی بارکۆد و ژمارەی نهێنی سەر پسوولەک",
+   "13px label.required :: ژمارەی بارکۆد",
+   "12px p.sub [margin-top:18px;font-size:12px] :: ئەم پەڕەیە تەنها دۆخی داواکارییەکەت پیشا"
+  ],
+  "grids": [],
+  "latinDigits": [],
+  "inlineFs": [
+   "font-size:12px p.sub"
+  ],
+  "fieldRows": []
+ },
+ "extra": {
+  "card": [
+   "520px",
+   "24px 18px"
+  ],
+  "h1": [
+   "بەدواداچوونی داواکاری",
+   "18px"
+  ],
+  "btnW": 314,
+  "labels": [
+   [
+    "ژمارەی بارکۆد",
+    "required"
+   ],
+   [
+    "ژمارەی نهێنی",
+    "required"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+import { launch, ctxFor, settle, shotPath } from './lib.mjs';
+const browser = await launch();
+const ctx = await ctxFor(browser, 'shilan', { width: 1366, height: 768 });
+const page = await ctx.newPage();
+await page.goto('/tray/242'); await settle(page);
+console.log('t0', await page.evaluate(() => [scrollX, document.scrollingElement.scrollLeft, document.querySelector('.sidebar').getBoundingClientRect().left]));
+await page.waitForTimeout(2000);
+console.log('t2', await page.evaluate(() => [scrollX, document.scrollingElement.scrollLeft, document.querySelector('.sidebar').getBoundingClientRect().left, document.activeElement?.tagName]));
+await page.screenshot({ path: shotPath('batch', 'tray-item-1366-check.png') });
+await browser.close();

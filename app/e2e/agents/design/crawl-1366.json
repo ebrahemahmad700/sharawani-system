@@ -1,0 +1,6146 @@
+{
+  "aram": {
+    "landing": "/dashboard",
+    "nav": [
+      {
+        "href": "/dashboard",
+        "label": "داشبۆردی گشتی"
+      },
+      {
+        "href": "/registry",
+        "label": "ژووری هات و دەرچوو"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان"
+      },
+      {
+        "href": "/rooms",
+        "label": "هەموو ژوورەکان"
+      },
+      {
+        "href": "/admin/doc-types",
+        "label": "جۆرەکانی مامەڵە"
+      },
+      {
+        "href": "/admin/scanners",
+        "label": "سکانەرەکان"
+      },
+      {
+        "href": "/board",
+        "label": "تابلۆی کار"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان"
+      },
+      {
+        "href": "/log",
+        "label": "تۆماری چالاکی"
+      }
+    ],
+    "pages": [
+      {
+        "href": "/dashboard",
+        "label": "داشبۆردی گشتی",
+        "status": 200,
+        "h1": "داشبۆردی سەرۆکی شارەوانی",
+        "h2s": [
+          {
+            "text": "پێویستی بە سەرنجە",
+            "fs": "16px"
+          },
+          {
+            "text": "ژوورەکان",
+            "fs": "16px"
+          },
+          {
+            "text": "دوایین چالاکییەکان",
+            "fs": "16px"
+          },
+          {
+            "text": "یاریدەدەر",
+            "fs": "16px"
+          },
+          {
+            "text": "داخستنی سیستەم",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill danger|٣ ڕۆژ",
+          "pill ok|لە کاتدا",
+          "pill muted|پاک",
+          "pill info|لە مۆڵەتە",
+          "pill danger|١ دواکەوتوو"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn gold|بپرسە",
+          "btn danger|داخستنی سیستەم"
+        ],
+        "empties": [
+          "muted|٧١ ژوور جێگری دیارینەکراوە: نەخشەی بنەڕەتی، نەخشەی بنەڕەتی، ژووری زەوی و زار، ژووری ژمێریا",
+          "muted|بپرسە: کتابی ٤٤٩٨ لای کێیە؟ چی لە ژووری یاسا چاوەڕوانە؟ کام ژوور دواکەوتووە؟ کێ لە مۆڵەتە؟",
+          "muted|هەموو دانیشتنەکان کۆتایی دێن و هیچ کەس ناتوانێت بچێتە ژوورەوە جگە لە تۆ. کردنەوەی یەک کرتە"
+        ],
+        "arabic": [],
+        "latin": [
+          "xbr"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) داشبۆردی سەرۆکی شارەوانی — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/registry",
+        "label": "ژووری هات و دەرچوو",
+        "status": 200,
+        "h1": "ژووری هات و دەرچوو",
+        "h2s": [],
+        "pills": [
+          "pill info|تۆمارکراو",
+          "pill warn|لەژێر کاردا",
+          "pill ok|ئامادەی داخستن",
+          "pill muted|هەڵوەشێنراوە",
+          "pill muted|داخراو"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn|تۆمارکردنی کتابی نوێ",
+          "btn secondary|گەڕان"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "wjrt",
+          "htcai",
+          "yckxj",
+          "nxlyzi",
+          "wcbfv",
+          "pigy",
+          "hlzlsqx",
+          "vpp",
+          "wadfch",
+          "faazz",
+          "wxe",
+          "vpxhr",
+          "twnaw",
+          "kidd",
+          "kfpz",
+          "fyg",
+          "ydoni",
+          "liq",
+          "bdb",
+          "mhh",
+          "tdi",
+          "avojo",
+          "nczi",
+          "bcgoyc",
+          "jld",
+          "rbvtz",
+          "ellpza",
+          "xfrll",
+          "fsk",
+          "roxo",
+          "lxkah",
+          "ayc",
+          "cqb",
+          "woxrs",
+          "fevseczc",
+          "pseapcav",
+          "tocpulpr",
+          "yuaknaok"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) ژووری هات و دەرچوو — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان",
+        "status": 200,
+        "h1": "کتابە هاتووەکان — ژووری سەرۆکی شارەوانی",
+        "h2s": [],
+        "pills": [
+          "pill warn|نەگەیشتووە",
+          "pill ok|نوێ"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn|کتابی نوێ",
+          "btn secondary|کردنەوە"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "vja",
+          "jmujc",
+          "uasu",
+          "gmtn"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) کتابە هاتووەکان — ژووری سەرۆکی شارەوانی — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من",
+        "status": 200,
+        "h1": "ڕۆژی من",
+        "h2s": [
+          {
+            "text": "چاوەڕوانی ژوورەکانی تر — ١٠٠",
+            "fs": "16px"
+          },
+          {
+            "text": "ئەوانی تر لەسەر مێزی من — ٦",
+            "fs": "16px"
+          },
+          {
+            "text": "کاغەزەکەیان نەگەیشتووە — ٦",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill danger|١ دواکەوتوو",
+          "pill danger|دواکەوتوو",
+          "pill warn|نەگەیشتووە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn secondary|بیریان بخەرەوە"
+        ],
+        "empties": [
+          "muted|ئەم کتابانە تۆ ناردوتنە بۆ ژوورێکی تر و هێشتا نەگەڕاونەتەوە.",
+          "muted|تۆمارەکە گەیشتووە بەڵام پەڕگەی کاغەزی هێشتا وەرنەگیراوە."
+        ],
+        "arabic": [],
+        "latin": [
+          "xbr",
+          "jvxanf",
+          "byij",
+          "eif",
+          "hjiiv",
+          "quqd",
+          "jae",
+          "vjh",
+          "wtoe",
+          "ysuyq",
+          "pmvs",
+          "naebk",
+          "div",
+          "fuxq",
+          "ikkc",
+          "yxsjcfpw",
+          "xydw",
+          "nsijty",
+          "aif",
+          "tyl",
+          "sagz",
+          "jck",
+          "zyxh",
+          "pmr",
+          "ujwvrz",
+          "ieo",
+          "hyozcn",
+          "qpe",
+          "cwav",
+          "dqy",
+          "wljdqy",
+          "vja",
+          "eeqqj",
+          "ryd",
+          "lrzueklo",
+          "jmujc",
+          "kuri",
+          "qxu",
+          "fwyh",
+          "uasu",
+          "qjy",
+          "lwd",
+          "xyqwfu",
+          "gmtn",
+          "bjzs"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) ڕۆژی من — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان",
+        "status": 200,
+        "h1": "ناردراوەکان",
+        "h2s": [
+          {
+            "text": "ئامادەی داخستن ٢٤",
+            "fs": "16px"
+          },
+          {
+            "text": "ناردراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|٢٤"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn|داخستن"
+        ],
+        "empties": [
+          "muted|کارەکەیان تەواوبووە و چاوەڕوانی ژمارەی دەرچوون."
+        ],
+        "arabic": [],
+        "latin": [
+          "mou",
+          "kho",
+          "dsd",
+          "bekr",
+          "niud",
+          "hoy",
+          "mmeur",
+          "rbtlamm",
+          "mbkom",
+          "yfw",
+          "aeh",
+          "kxb",
+          "gpsic",
+          "hkrj",
+          "cisbjhj",
+          "uks",
+          "cvu",
+          "fajz",
+          "fsk",
+          "roxo",
+          "xfrll",
+          "wxe",
+          "faazz",
+          "wcbfv",
+          "vpxhr",
+          "lxkah",
+          "gfudqyye",
+          "arju",
+          "uuef",
+          "hyro",
+          "ibno",
+          "deru",
+          "gzzt",
+          "yxp"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) ناردراوەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب",
+        "status": 200,
+        "h1": "گەڕان بەدوای کتاب",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|ژمارە بە هەر شێوەیەک بنووسیت دەدۆزرێتەوە: ٤٤٩٨ یان 4498 یان ه/٢٠٢٦/٤٤٩٨.\n            هەروە"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) گەڕان بەدوای کتاب — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە",
+        "status": 200,
+        "h1": "فایلی پارچە",
+        "h2s": [
+          {
+            "text": "فایلی پارچە",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn|کردنەوە"
+        ],
+        "empties": [
+          "muted|ژمارەی پارچە بنووسە و هەموو ئەوەی تا ئێستا سەبارەت بەو پارچەیە ڕوویداوە\n          لە یەک ل"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) فایلی پارچە — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە",
+        "status": 200,
+        "h1": "ئەرشیفی نەخشە — ژووری ٨ و ٩",
+        "h2s": [],
+        "pills": [
+          "pill info|DWG",
+          "pill warn|پشتڕاست نەکراوە",
+          "pill muted|PDF",
+          "pill ok|پشتڕاستکراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn|تۆمارکردنی نەخشەی نوێ",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|٢٤٧/٥ و 247-5 و «٢٤٧ / ٥» هەمان پارچەن. تەنها ٢٤٧ بنووسە بۆ بینینی هەموو بەشەکانی."
+        ],
+        "arabic": [],
+        "latin": [
+          "faazz",
+          "DWG",
+          "PDF",
+          "xfrll",
+          "pgvh",
+          "vjaqy",
+          "hkrj",
+          "mbkom",
+          "uasu",
+          "jmujc",
+          "vja"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) ئەرشیفی نەخشە — ژووری ٨ و ٩ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان",
+        "status": 200,
+        "h1": "سینیی سکان — ژووری سەرۆکی شارەوانی",
+        "h2s": [
+          {
+            "text": "سکانە نوێیەکان",
+            "fs": "16px"
+          },
+          {
+            "text": "زیادکردنی سکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn|سکانکردن لە سکانەر",
+          "btn small|بینین و دیاریکردنی کتاب",
+          "btn secondary file-choose|هەڵبژاردنی فایلەکان",
+          "btn|زیادکردن بۆ سینی"
+        ],
+        "empties": [
+          "muted|پەڕەکانی سکانکراو لێرە چاوەڕوان دەکەن تا دیاری بکرێت سەر بە کام کتابن.\n            تەنها س"
+        ],
+        "arabic": [],
+        "latin": [
+          "SIMULATOR-",
+          "pdf",
+          "PDF",
+          "TIF"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) سینیی سکان — ژووری سەرۆکی شارەوانی — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد",
+        "status": 200,
+        "h1": "خوێندنەوەی بارکۆد",
+        "h2s": [
+          {
+            "text": "خوێندنەوەی بارکۆد",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|بارکۆدی سەر فۆڵدەرەکە سکان بکە، یان ژمارەی کتاب بنووسە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) خوێندنەوەی بارکۆد — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن",
+        "status": 200,
+        "h1": "لیستی گەیاندن",
+        "h2s": [
+          {
+            "text": "ناردن بۆ ژووری یاسا",
+            "fs": "16px"
+          },
+          {
+            "text": "ناردن بۆ نەخشەی بنەڕەتی (ژووری ٨)",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn|دروستکردنی لیستی گەیاندن"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "jvxanf",
+          "byij",
+          "eif",
+          "hjiiv",
+          "xbr",
+          "quqd",
+          "jae",
+          "vjh",
+          "wtoe",
+          "ysuyq",
+          "pmvs",
+          "naebk",
+          "div",
+          "fuxq",
+          "ikkc",
+          "yxsjcfpw",
+          "xydw",
+          "nsijty",
+          "aif",
+          "tyl",
+          "sagz",
+          "jck",
+          "zyxh",
+          "pmr",
+          "ujwvrz",
+          "ieo",
+          "hyozcn",
+          "qpe",
+          "cwav",
+          "dqy",
+          "wljdqy",
+          "eeqqj",
+          "ryd",
+          "lrzueklo",
+          "fwyh",
+          "lwd",
+          "rpe",
+          "lomwvd",
+          "jld",
+          "bcgoyc",
+          "kuri",
+          "qxu",
+          "qjy",
+          "xyqwfu",
+          "bjzs",
+          "yckxj"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) لیستی گەیاندن — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان",
+        "status": 200,
+        "h1": "کۆمپانیاکان",
+        "h2s": [
+          {
+            "text": "مۆڵەتی بەسەرچوو و نزیک لە بەسەرچوون",
+            "fs": "16px"
+          },
+          {
+            "text": "کۆمپانیاکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|١٨ ڕۆژ ماوە",
+          "pill ok|چالاک"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn|کۆمپانیای نوێ",
+          "btn secondary|گەڕان"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "TEST-",
+          "pgvh",
+          "REG-pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) کۆمپانیاکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان",
+        "status": 200,
+        "h1": "تێمپلەیتەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "بڕیار",
+            "fs": "16px"
+          },
+          {
+            "text": "تاقیکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "نامەی ناوخۆیی",
+            "fs": "16px"
+          },
+          {
+            "text": "دواین پڕکراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn|تێمپلەیتی نوێ",
+          "btn small|پڕکردنەوە",
+          "btn small|چاپ"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "vjaqy",
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) تێمپلەیتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان",
+        "status": 200,
+        "h1": "مۆڵەتەکان",
+        "h2s": [
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "هەموو مۆڵەتەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill danger|ژوورەکە جێگری نییە",
+          "pill warn|چاوەڕوانی بڕیار",
+          "pill ok|پەسەندکراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn|ناردنی داواکاری",
+          "btn small|پەسەندکردن",
+          "btn small secondary|ڕەتکردنەوە"
+        ],
+        "empties": [],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "vjaqy",
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) مۆڵەتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/rooms",
+        "label": "هەموو ژوورەکان",
+        "status": 200,
+        "h1": "هەموو ژوورەکان",
+        "h2s": [],
+        "pills": [
+          "pill ok|لە کاتدا",
+          "pill muted|پاک",
+          "pill info|لە مۆڵەتە",
+          "pill danger|١ دواکەوتوو"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) هەموو ژوورەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/admin/doc-types",
+        "label": "جۆرەکانی مامەڵە",
+        "status": 200,
+        "h1": "جۆرەکانی مامەڵە",
+        "h2s": [
+          {
+            "text": "جۆرەکانی مامەڵە",
+            "fs": "16px"
+          },
+          {
+            "text": "جۆری نوێ",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill muted|بنەڕەتی"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn small secondary|ناچالاککردن",
+          "btn small secondary|چالاککردن",
+          "btn|زیادکردن"
+        ],
+        "empties": [
+          "muted|ئەمانە ئەو هەڵبژاردانەن کە لە فۆڕمی تۆمارکردندا دەردەکەون. دەتوانیت\n            جۆری نوێ ز"
+        ],
+        "arabic": [],
+        "latin": [
+          "CITIZEN-REQ",
+          "COMPANY-REQ",
+          "GOV-LETTER",
+          "INTERNAL",
+          "COMPLAINT",
+          "REPORT",
+          "CONTRACT",
+          "LEAVE-REQ",
+          "OTHER",
+          "vjaqy",
+          "VJAQY",
+          "pgvh",
+          "T-PGVH"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) جۆرەکانی مامەڵە — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/admin/scanners",
+        "label": "سکانەرەکان",
+        "status": 200,
+        "h1": "سکانەرەکان",
+        "h2s": [
+          {
+            "text": "سکانەرەکانی تۆڕ",
+            "fs": "16px"
+          },
+          {
+            "text": "زیادکردنی سکانەر",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill ok|چالاک"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn small secondary|تاقیکردنەوە",
+          "btn small secondary|ناچالاککردن",
+          "btn|زیادکردن و تاقیکردنەوە"
+        ],
+        "empties": [
+          "muted|هەر سکانەر یان پرینتەرێکی فرە-کار کە AirScan یان Mopria (eSCL) دەناسێت. ناونیشانەکەی\n     "
+        ],
+        "arabic": [],
+        "latin": [
+          "AirScan",
+          "Mopria",
+          "eSCL",
+          "http",
+          "USB",
+          "SIMULATOR",
+          "docsys",
+          "simulated",
+          "scanner"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) سکانەرەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان",
+        "status": 200,
+        "h1": "ئاگادارکردنەوەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn secondary|هەمووی وەک خوێندراوە دابنێ"
+        ],
+        "empties": [
+          "muted|ئەم لیستە تەنها بۆ تۆیە. کەس نایبینێت، نە بەڕێوەبەری سیستەم و نە سەرۆکی شارەوانی.\n        "
+        ],
+        "arabic": [],
+        "latin": [
+          "faazz",
+          "xfrll",
+          "gmtn",
+          "hkrj",
+          "mbkom",
+          "uasu",
+          "jmujc",
+          "vja",
+          "mou"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) ئاگادارکردنەوەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/log",
+        "label": "تۆماری چالاکی",
+        "status": 200,
+        "h1": "تۆماری چالاکی",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٦٩",
+          "btn secondary sound-toggle|",
+          "btn secondary|پاڵاوتن",
+          "btn secondary|کۆنتر"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(69) تۆماری چالاکی — شارەوانی ڕانیە"
+      }
+    ],
+    "errors": []
+  },
+  "shilan": {
+    "landing": "/registry",
+    "nav": [
+      {
+        "href": "/registry",
+        "label": "ژووری هات و دەرچوو"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان"
+      },
+      {
+        "href": "/admin/doc-types",
+        "label": "جۆرەکانی مامەڵە"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان"
+      }
+    ],
+    "pages": [
+      {
+        "href": "/registry",
+        "label": "ژووری هات و دەرچوو",
+        "status": 200,
+        "h1": "ژووری هات و دەرچوو",
+        "h2s": [],
+        "pills": [
+          "pill info|تۆمارکراو",
+          "pill warn|لەژێر کاردا",
+          "pill ok|ئامادەی داخستن",
+          "pill muted|هەڵوەشێنراوە",
+          "pill muted|داخراو"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn|تۆمارکردنی کتابی نوێ",
+          "btn secondary|گەڕان"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "wjrt",
+          "htcai",
+          "yckxj",
+          "nxlyzi",
+          "wcbfv",
+          "pigy",
+          "hlzlsqx",
+          "vpp",
+          "wadfch",
+          "faazz",
+          "wxe",
+          "vpxhr",
+          "twnaw",
+          "kidd",
+          "kfpz",
+          "fyg",
+          "ydoni",
+          "liq",
+          "bdb",
+          "mhh",
+          "tdi",
+          "avojo",
+          "nczi",
+          "bcgoyc",
+          "jld",
+          "rbvtz",
+          "ellpza",
+          "xfrll",
+          "fsk",
+          "roxo",
+          "lxkah",
+          "ayc",
+          "cqb",
+          "woxrs",
+          "fevseczc",
+          "pseapcav",
+          "tocpulpr",
+          "yuaknaok"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) ژووری هات و دەرچوو — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان",
+        "status": 200,
+        "h1": "کتابە هاتووەکان — ژووری هات و دەرچوو",
+        "h2s": [
+          {
+            "text": "کتابە نوێیەکانی ئەم ژوورە کە هێشتا نەنێردراون\n              ",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|٥٠",
+          "pill warn|نەگەیشتووە",
+          "pill info|کراوەتەوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn|کتابی نوێ",
+          "btn small|ناردن",
+          "btn secondary|کردنەوە"
+        ],
+        "empties": [],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "wjrt",
+          "pigy",
+          "vpp",
+          "wadfch",
+          "faazz",
+          "ydoni",
+          "liq",
+          "bdb",
+          "avojo",
+          "nczi",
+          "rbvtz",
+          "ellpza",
+          "xfrll",
+          "woxrs",
+          "fevseczc",
+          "yuaknaok",
+          "qju",
+          "pwmd",
+          "yrnrgbw",
+          "hrwx",
+          "xffltpe",
+          "gmtn",
+          "lpe",
+          "jhe",
+          "nivi",
+          "hadbso",
+          "pfm",
+          "hkrj"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) کتابە هاتووەکان — ژووری هات و دەرچوو — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من",
+        "status": 200,
+        "h1": "ڕۆژی من",
+        "h2s": [
+          {
+            "text": "چاوەڕوانی ژوورەکانی تر — ٣٤",
+            "fs": "16px"
+          },
+          {
+            "text": "ئەوانی تر لەسەر مێزی من — ١",
+            "fs": "16px"
+          },
+          {
+            "text": "کاغەزەکەیان نەگەیشتووە — ١",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|نەگەیشتووە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn secondary|بیریان بخەرەوە"
+        ],
+        "empties": [
+          "muted|ئەم کتابانە تۆ ناردوتنە بۆ ژوورێکی تر و هێشتا نەگەڕاونەتەوە.",
+          "muted|تۆمارەکە گەیشتووە بەڵام پەڕگەی کاغەزی هێشتا وەرنەگیراوە."
+        ],
+        "arabic": [],
+        "latin": [
+          "dcjooej",
+          "xvmy",
+          "gmtn",
+          "xffltpe",
+          "yrnrgbw",
+          "pwmd",
+          "rbvtz",
+          "vpp"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) ڕۆژی من — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان",
+        "status": 200,
+        "h1": "ناردراوەکان",
+        "h2s": [
+          {
+            "text": "ئامادەی داخستن ٢٤",
+            "fs": "16px"
+          },
+          {
+            "text": "ناردراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|٢٤"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn|داخستن"
+        ],
+        "empties": [
+          "muted|کارەکەیان تەواوبووە و چاوەڕوانی ژمارەی دەرچوون."
+        ],
+        "arabic": [],
+        "latin": [
+          "mou",
+          "kho",
+          "dsd",
+          "bekr",
+          "niud",
+          "hoy",
+          "mmeur",
+          "rbtlamm",
+          "mbkom",
+          "yfw",
+          "aeh",
+          "kxb",
+          "gpsic",
+          "hkrj",
+          "cisbjhj",
+          "uks",
+          "cvu",
+          "fajz",
+          "fsk",
+          "roxo",
+          "xfrll",
+          "wxe",
+          "faazz",
+          "wcbfv",
+          "vpxhr",
+          "lxkah",
+          "gfudqyye",
+          "arju",
+          "uuef",
+          "hyro",
+          "ibno",
+          "deru",
+          "gzzt",
+          "yxp"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) ناردراوەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب",
+        "status": 200,
+        "h1": "گەڕان بەدوای کتاب",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|ژمارە بە هەر شێوەیەک بنووسیت دەدۆزرێتەوە: ٤٤٩٨ یان 4498 یان ه/٢٠٢٦/٤٤٩٨.\n            هەروە"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) گەڕان بەدوای کتاب — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە",
+        "status": 200,
+        "h1": "فایلی پارچە",
+        "h2s": [
+          {
+            "text": "فایلی پارچە",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn|کردنەوە"
+        ],
+        "empties": [
+          "muted|ژمارەی پارچە بنووسە و هەموو ئەوەی تا ئێستا سەبارەت بەو پارچەیە ڕوویداوە\n          لە یەک ل"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) فایلی پارچە — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان",
+        "status": 200,
+        "h1": "سینیی سکان — ژووری هات و دەرچوو",
+        "h2s": [
+          {
+            "text": "سکانە نوێیەکان",
+            "fs": "16px"
+          },
+          {
+            "text": "زیادکردنی سکان",
+            "fs": "16px"
+          },
+          {
+            "text": "دواین دیاریکراوەکانی تۆ",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn|سکانکردن لە سکانەر",
+          "btn small|بینین و دیاریکردنی کتاب",
+          "btn secondary file-choose|هەڵبژاردنی فایلەکان",
+          "btn|زیادکردن بۆ سینی"
+        ],
+        "empties": [
+          "muted|پەڕەکانی سکانکراو لێرە چاوەڕوان دەکەن تا دیاری بکرێت سەر بە کام کتابن.\n            تەنها س"
+        ],
+        "arabic": [],
+        "latin": [
+          "SIMULATOR-",
+          "pdf",
+          "b.pdf",
+          "SEP",
+          "a.pdf",
+          "FEEDER",
+          "photo-",
+          "scan",
+          "FLOOR",
+          "PDF",
+          "TIF",
+          "private-",
+          "faazz",
+          "private-xfrll"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) سینیی سکان — ژووری هات و دەرچوو — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد",
+        "status": 200,
+        "h1": "خوێندنەوەی بارکۆد",
+        "h2s": [
+          {
+            "text": "خوێندنەوەی بارکۆد",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|بارکۆدی سەر فۆڵدەرەکە سکان بکە، یان ژمارەی کتاب بنووسە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) خوێندنەوەی بارکۆد — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن",
+        "status": 200,
+        "h1": "لیستی گەیاندن",
+        "h2s": [
+          {
+            "text": "ناردن بۆ ژووری سەرۆکی شارەوانی",
+            "fs": "16px"
+          },
+          {
+            "text": "ناردن بۆ ژووری یاسا",
+            "fs": "16px"
+          },
+          {
+            "text": "لیستە پێشووەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill ok|وەرگیراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn|دروستکردنی لیستی گەیاندن"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "dcjooej",
+          "xvmy",
+          "xffltpe",
+          "yrnrgbw",
+          "pwmd",
+          "rbvtz",
+          "vpp"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) لیستی گەیاندن — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان",
+        "status": 200,
+        "h1": "کۆمپانیاکان",
+        "h2s": [
+          {
+            "text": "مۆڵەتی بەسەرچوو و نزیک لە بەسەرچوون",
+            "fs": "16px"
+          },
+          {
+            "text": "کۆمپانیاکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|١٨ ڕۆژ ماوە",
+          "pill ok|چالاک"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn|کۆمپانیای نوێ",
+          "btn secondary|گەڕان"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "TEST-",
+          "pgvh",
+          "REG-pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) کۆمپانیاکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان",
+        "status": 200,
+        "h1": "تێمپلەیتەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "بڕیار",
+            "fs": "16px"
+          },
+          {
+            "text": "تاقیکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "نامەی ناوخۆیی",
+            "fs": "16px"
+          },
+          {
+            "text": "دواین پڕکراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn small|پڕکردنەوە",
+          "btn small|چاپ"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "vjaqy",
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) تێمپلەیتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان",
+        "status": 200,
+        "h1": "مۆڵەتەکان",
+        "h2s": [
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەتەکانم",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn|ناردنی داواکاری"
+        ],
+        "empties": [
+          "empty|هیچ مۆڵەتێک نییە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) مۆڵەتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/admin/doc-types",
+        "label": "جۆرەکانی مامەڵە",
+        "status": 200,
+        "h1": "جۆرەکانی مامەڵە",
+        "h2s": [
+          {
+            "text": "جۆرەکانی مامەڵە",
+            "fs": "16px"
+          },
+          {
+            "text": "جۆری نوێ",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill muted|بنەڕەتی"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn small secondary|ناچالاککردن",
+          "btn small secondary|چالاککردن",
+          "btn|زیادکردن"
+        ],
+        "empties": [
+          "muted|ئەمانە ئەو هەڵبژاردانەن کە لە فۆڕمی تۆمارکردندا دەردەکەون. دەتوانیت\n            جۆری نوێ ز"
+        ],
+        "arabic": [],
+        "latin": [
+          "CITIZEN-REQ",
+          "COMPANY-REQ",
+          "GOV-LETTER",
+          "INTERNAL",
+          "COMPLAINT",
+          "REPORT",
+          "CONTRACT",
+          "LEAVE-REQ",
+          "OTHER",
+          "vjaqy",
+          "VJAQY",
+          "pgvh",
+          "T-PGVH"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) جۆرەکانی مامەڵە — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان",
+        "status": 200,
+        "h1": "ئاگادارکردنەوەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٥١",
+          "btn secondary sound-toggle|",
+          "btn secondary|هەمووی وەک خوێندراوە دابنێ"
+        ],
+        "empties": [
+          "muted|ئەم لیستە تەنها بۆ تۆیە. کەس نایبینێت، نە بەڕێوەبەری سیستەم و نە سەرۆکی شارەوانی.\n        "
+        ],
+        "arabic": [],
+        "latin": [
+          "wcbfv",
+          "wxe",
+          "vpxhr",
+          "fsk",
+          "roxo",
+          "lxkah",
+          "uks",
+          "cvu",
+          "gmtn",
+          "cisbjhj",
+          "gpsic",
+          "gfudqyye",
+          "yfw",
+          "rbtlamm",
+          "arju",
+          "mmeur",
+          "uuef",
+          "hyro",
+          "niud",
+          "hoy",
+          "ibno",
+          "dsd",
+          "bekr",
+          "kho",
+          "deru",
+          "gzzt",
+          "yxp"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(51) ئاگادارکردنەوەکان — شارەوانی ڕانیە"
+      }
+    ],
+    "errors": []
+  },
+  "ahang": {
+    "landing": "/inbox",
+    "nav": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان"
+      }
+    ],
+    "pages": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ",
+        "status": 200,
+        "h1": "کتابی نوێ",
+        "h2s": [
+          {
+            "text": "زانیاری کتاب",
+            "fs": "16px"
+          },
+          {
+            "text": "شوێنی فایلی کاغەز",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|",
+          "btn secondary|سکانکردن لە سکانەر",
+          "btn secondary|وێنەگرتنی کتاب",
+          "btn|تۆمارکردن و وەرگرتنی ژمارە",
+          "btn secondary|پاشگەزبوونەوە"
+        ],
+        "empties": [
+          "muted|ئەم کتابە ژمارەیەک لە هەمان تۆماری شارەوانی وەردەگرێت و لە ژووری ژووری هات و دەرچوو دەست پ",
+          "muted|بۆ ئەوەی دواتر بە دەست بدۆزرێتەوە، نەک تەنها لەسەر کۆمپیوتەر."
+        ],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) کتابی نوێ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان",
+        "status": 200,
+        "h1": "کتابە هاتووەکان — ژووری هات و دەرچوو",
+        "h2s": [
+          {
+            "text": "کتابە نوێیەکانی ئەم ژوورە کە هێشتا نەنێردراون\n              ",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|٥٠",
+          "pill warn|نەگەیشتووە",
+          "pill info|کراوەتەوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|",
+          "btn|کتابی نوێ",
+          "btn small|ناردن",
+          "btn secondary|کردنەوە"
+        ],
+        "empties": [],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "wjrt",
+          "pigy",
+          "vpp",
+          "wadfch",
+          "faazz",
+          "ydoni",
+          "liq",
+          "bdb",
+          "avojo",
+          "nczi",
+          "rbvtz",
+          "ellpza",
+          "xfrll",
+          "woxrs",
+          "fevseczc",
+          "yuaknaok",
+          "qju",
+          "pwmd",
+          "yrnrgbw",
+          "hrwx",
+          "xffltpe",
+          "gmtn",
+          "lpe",
+          "jhe",
+          "nivi",
+          "hadbso",
+          "pfm",
+          "hkrj"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) کتابە هاتووەکان — ژووری هات و دەرچوو — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من",
+        "status": 200,
+        "h1": "ڕۆژی من",
+        "h2s": [
+          {
+            "text": "چاوەڕوانی ژوورەکانی تر — ٠",
+            "fs": "16px"
+          },
+          {
+            "text": "ئەوانی تر لەسەر مێزی من — ١",
+            "fs": "16px"
+          },
+          {
+            "text": "کاغەزەکەیان نەگەیشتووە — ١",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|نەگەیشتووە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|"
+        ],
+        "empties": [
+          "muted|ئەم کتابانە تۆ ناردوتنە بۆ ژوورێکی تر و هێشتا نەگەڕاونەتەوە.",
+          "empty|هیچ کتابێکت لای کەس نییە. ڕۆژێکی باش.",
+          "muted|تۆمارەکە گەیشتووە بەڵام پەڕگەی کاغەزی هێشتا وەرنەگیراوە."
+        ],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "gmtn"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) ڕۆژی من — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان",
+        "status": 200,
+        "h1": "ناردراوەکان",
+        "h2s": [
+          {
+            "text": "ئامادەی داخستن ١٥",
+            "fs": "16px"
+          },
+          {
+            "text": "ناردراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|١٥"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|",
+          "btn|داخستن"
+        ],
+        "empties": [
+          "muted|کارەکەیان تەواوبووە و چاوەڕوانی ژمارەی دەرچوون."
+        ],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "kho",
+          "dsd",
+          "bekr",
+          "niud",
+          "hoy",
+          "mmeur",
+          "rbtlamm",
+          "yfw",
+          "aeh",
+          "kxb",
+          "gpsic",
+          "cisbjhj",
+          "uks",
+          "cvu",
+          "fajz",
+          "fsk",
+          "roxo",
+          "wxe",
+          "wcbfv",
+          "vpxhr",
+          "lxkah",
+          "gfudqyye",
+          "arju",
+          "uuef",
+          "hyro",
+          "ibno",
+          "deru",
+          "gzzt",
+          "yxp"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) ناردراوەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب",
+        "status": 200,
+        "h1": "گەڕان بەدوای کتاب",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|ژمارە بە هەر شێوەیەک بنووسیت دەدۆزرێتەوە: ٤٤٩٨ یان 4498 یان ه/٢٠٢٦/٤٤٩٨.\n            هەروە"
+        ],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) گەڕان بەدوای کتاب — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە",
+        "status": 200,
+        "h1": "فایلی پارچە",
+        "h2s": [
+          {
+            "text": "فایلی پارچە",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|",
+          "btn|کردنەوە"
+        ],
+        "empties": [
+          "muted|ژمارەی پارچە بنووسە و هەموو ئەوەی تا ئێستا سەبارەت بەو پارچەیە ڕوویداوە\n          لە یەک ل"
+        ],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) فایلی پارچە — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە",
+        "status": 200,
+        "h1": "ئەرشیفی نەخشە — ژووری ٨ و ٩",
+        "h2s": [],
+        "pills": [
+          "pill info|DWG",
+          "pill warn|پشتڕاست نەکراوە",
+          "pill muted|PDF",
+          "pill ok|پشتڕاستکراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|٢٤٧/٥ و 247-5 و «٢٤٧ / ٥» هەمان پارچەن. تەنها ٢٤٧ بنووسە بۆ بینینی هەموو بەشەکانی."
+        ],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "faazz",
+          "DWG",
+          "PDF",
+          "xfrll",
+          "pgvh",
+          "vjaqy",
+          "hkrj",
+          "mbkom",
+          "uasu",
+          "jmujc",
+          "vja"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) ئەرشیفی نەخشە — ژووری ٨ و ٩ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان",
+        "status": 200,
+        "h1": "سینیی سکان — ژووری هات و دەرچوو",
+        "h2s": [
+          {
+            "text": "سکانە نوێیەکان",
+            "fs": "16px"
+          },
+          {
+            "text": "زیادکردنی سکان",
+            "fs": "16px"
+          },
+          {
+            "text": "دواین دیاریکراوەکانی تۆ",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|",
+          "btn|سکانکردن لە سکانەر",
+          "btn small|بینین و دیاریکردنی کتاب",
+          "btn secondary file-choose|هەڵبژاردنی فایلەکان",
+          "btn|زیادکردن بۆ سینی"
+        ],
+        "empties": [
+          "muted|پەڕەکانی سکانکراو لێرە چاوەڕوان دەکەن تا دیاری بکرێت سەر بە کام کتابن.\n            تەنها س"
+        ],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "SIMULATOR-",
+          "pdf",
+          "b.pdf",
+          "SEP",
+          "a.pdf",
+          "FEEDER",
+          "PDF",
+          "TIF",
+          "page-",
+          "gmtn"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) سینیی سکان — ژووری هات و دەرچوو — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد",
+        "status": 200,
+        "h1": "خوێندنەوەی بارکۆد",
+        "h2s": [
+          {
+            "text": "خوێندنەوەی بارکۆد",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|بارکۆدی سەر فۆڵدەرەکە سکان بکە، یان ژمارەی کتاب بنووسە."
+        ],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) خوێندنەوەی بارکۆد — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن",
+        "status": 200,
+        "h1": "لیستی گەیاندن",
+        "h2s": [
+          {
+            "text": "ناردن بۆ ژووری سەرۆکی شارەوانی",
+            "fs": "16px"
+          },
+          {
+            "text": "ناردن بۆ ژووری یاسا",
+            "fs": "16px"
+          },
+          {
+            "text": "لیستە پێشووەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill ok|وەرگیراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|",
+          "btn|دروستکردنی لیستی گەیاندن"
+        ],
+        "empties": [],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "dcjooej",
+          "xvmy",
+          "xffltpe",
+          "yrnrgbw",
+          "pwmd",
+          "rbvtz",
+          "vpp"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) لیستی گەیاندن — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان",
+        "status": 200,
+        "h1": "کۆمپانیاکان",
+        "h2s": [
+          {
+            "text": "مۆڵەتی بەسەرچوو و نزیک لە بەسەرچوون",
+            "fs": "16px"
+          },
+          {
+            "text": "کۆمپانیاکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|١٨ ڕۆژ ماوە",
+          "pill ok|چالاک"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|",
+          "btn|کۆمپانیای نوێ",
+          "btn secondary|گەڕان"
+        ],
+        "empties": [],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "TEST-",
+          "pgvh",
+          "REG-pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) کۆمپانیاکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان",
+        "status": 200,
+        "h1": "تێمپلەیتەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "بڕیار",
+            "fs": "16px"
+          },
+          {
+            "text": "تاقیکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "نامەی ناوخۆیی",
+            "fs": "16px"
+          },
+          {
+            "text": "دواین پڕکراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|",
+          "btn small|پڕکردنەوە",
+          "btn small|چاپ"
+        ],
+        "empties": [],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "vjaqy",
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) تێمپلەیتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان",
+        "status": 200,
+        "h1": "مۆڵەتەکان",
+        "h2s": [
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەتەکانم",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|",
+          "btn|ناردنی داواکاری"
+        ],
+        "empties": [
+          "empty|هیچ مۆڵەتێک نییە."
+        ],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) مۆڵەتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان",
+        "status": 200,
+        "h1": "ئاگادارکردنەوەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٢٤",
+          "btn secondary sound-toggle|",
+          "btn secondary|هەمووی وەک خوێندراوە دابنێ"
+        ],
+        "empties": [
+          "muted|ئەم لیستە تەنها بۆ تۆیە. کەس نایبینێت، نە بەڕێوەبەری سیستەم و نە سەرۆکی شارەوانی.\n        "
+        ],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "gmtn"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(24) ئاگادارکردنەوەکان — شارەوانی ڕانیە"
+      }
+    ],
+    "errors": []
+  },
+  "hemin": {
+    "landing": "/inbox",
+    "nav": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان"
+      },
+      {
+        "href": "/log",
+        "label": "تۆماری چالاکی"
+      }
+    ],
+    "pages": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ",
+        "status": 200,
+        "h1": "کتابی نوێ",
+        "h2s": [
+          {
+            "text": "زانیاری کتاب",
+            "fs": "16px"
+          },
+          {
+            "text": "شوێنی فایلی کاغەز",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١١",
+          "btn secondary sound-toggle|",
+          "btn secondary|سکانکردن لە سکانەر",
+          "btn secondary|وێنەگرتنی کتاب",
+          "btn|تۆمارکردن و وەرگرتنی ژمارە",
+          "btn secondary|پاشگەزبوونەوە"
+        ],
+        "empties": [
+          "muted|ئەم کتابە ژمارەیەک لە هەمان تۆماری شارەوانی وەردەگرێت و لە ژووری ژووری یاسا دەست پێدەکات.\n",
+          "muted|بۆ ئەوەی دواتر بە دەست بدۆزرێتەوە، نەک تەنها لەسەر کۆمپیوتەر."
+        ],
+        "arabic": [],
+        "latin": [
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(11) کتابی نوێ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان",
+        "status": 200,
+        "h1": "کتابە هاتووەکان — ژووری یاسا",
+        "h2s": [
+          {
+            "text": "کتابە نوێیەکانی ئەم ژوورە کە هێشتا نەنێردراون\n              ",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|٥",
+          "pill warn|نەگەیشتووە",
+          "pill danger|دواکەوتووە",
+          "pill ok|نوێ",
+          "pill info|کراوەتەوە",
+          "pill ok|گەیشتووە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١١",
+          "btn secondary sound-toggle|",
+          "btn|کتابی نوێ",
+          "btn small|ناردن",
+          "btn secondary|کردنەوە"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "nxlyzi",
+          "jyt",
+          "ezw",
+          "aetmwb",
+          "xbr",
+          "jvxanf",
+          "byij",
+          "eif",
+          "hjiiv",
+          "quqd",
+          "jae",
+          "vjh",
+          "wtoe",
+          "ysuyq",
+          "pmvs",
+          "naebk",
+          "div",
+          "fuxq",
+          "ikkc",
+          "yxsjcfpw",
+          "xydw",
+          "nsijty",
+          "aif",
+          "tyl",
+          "sagz",
+          "jck",
+          "zyxh",
+          "pmr",
+          "ujwvrz",
+          "ieo",
+          "hyozcn",
+          "qpe",
+          "cwav",
+          "dqy",
+          "wljdqy",
+          "vja",
+          "eeqqj",
+          "ryd",
+          "lrzueklo",
+          "jmujc",
+          "dcjooej",
+          "xvmy",
+          "fwyh",
+          "lwd",
+          "xffltpe",
+          "yrnrgbw",
+          "pwmd",
+          "rpe",
+          "lomwvd",
+          "rbvtz",
+          "jld",
+          "bcgoyc",
+          "vpp"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(11) کتابە هاتووەکان — ژووری یاسا — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من",
+        "status": 200,
+        "h1": "ڕۆژی من",
+        "h2s": [
+          {
+            "text": "دواکەوتوو — ١",
+            "fs": "16px"
+          },
+          {
+            "text": "چاوەڕوانی ژوورەکانی تر — ٠",
+            "fs": "16px"
+          },
+          {
+            "text": "ئەوانی تر لەسەر مێزی من — ١٣٤",
+            "fs": "16px"
+          },
+          {
+            "text": "کاغەزەکەیان نەگەیشتووە — ١١٢",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill danger|٣ ڕۆژ دواکەوتوو",
+          "pill warn|نەگەیشتووە",
+          "pill ok|وەرگیراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١١",
+          "btn secondary sound-toggle|"
+        ],
+        "empties": [
+          "muted|ئەم کتابانە تۆ ناردوتنە بۆ ژوورێکی تر و هێشتا نەگەڕاونەتەوە.",
+          "empty|هیچ کتابێکت لای کەس نییە. ڕۆژێکی باش.",
+          "muted|تۆمارەکە گەیشتووە بەڵام پەڕگەی کاغەزی هێشتا وەرنەگیراوە."
+        ],
+        "arabic": [],
+        "latin": [
+          "xbr",
+          "jvxanf",
+          "byij",
+          "eif",
+          "hjiiv",
+          "quqd",
+          "jae",
+          "vjh",
+          "wtoe",
+          "ysuyq",
+          "pmvs",
+          "naebk",
+          "div",
+          "fuxq",
+          "ikkc",
+          "yxsjcfpw",
+          "xydw",
+          "nsijty",
+          "aif",
+          "tyl",
+          "sagz",
+          "jck",
+          "zyxh",
+          "pmr",
+          "ujwvrz",
+          "ieo",
+          "hyozcn",
+          "qpe",
+          "cwav",
+          "dqy",
+          "wljdqy",
+          "vja",
+          "eeqqj",
+          "ryd",
+          "lrzueklo",
+          "jmujc",
+          "dcjooej",
+          "tvzrg",
+          "xvmy",
+          "ihdml",
+          "fwyh",
+          "uasu",
+          "lwd",
+          "xffltpe",
+          "yrnrgbw",
+          "pwmd",
+          "rpe",
+          "lomwvd",
+          "rbvtz",
+          "jld",
+          "bcgoyc",
+          "vpp"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(11) ڕۆژی من — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان",
+        "status": 200,
+        "h1": "ناردراوەکان",
+        "h2s": [
+          {
+            "text": "ئامادەی داخستن ٢٤",
+            "fs": "16px"
+          },
+          {
+            "text": "ناردراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|٢٤"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٢",
+          "btn secondary sound-toggle|",
+          "btn|داخستن"
+        ],
+        "empties": [
+          "muted|کارەکەیان تەواوبووە و چاوەڕوانی ژمارەی دەرچوون."
+        ],
+        "arabic": [],
+        "latin": [
+          "mou",
+          "kho",
+          "dsd",
+          "bekr",
+          "niud",
+          "hoy",
+          "mmeur",
+          "rbtlamm",
+          "mbkom",
+          "yfw",
+          "aeh",
+          "kxb",
+          "gpsic",
+          "hkrj",
+          "cisbjhj",
+          "uks",
+          "cvu",
+          "fajz",
+          "fsk",
+          "roxo",
+          "xfrll",
+          "wxe",
+          "faazz",
+          "wcbfv",
+          "vpxhr",
+          "lxkah",
+          "gfudqyye",
+          "arju",
+          "uuef",
+          "hyro",
+          "ibno",
+          "deru",
+          "gzzt",
+          "yxp",
+          "bels"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(12) ناردراوەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب",
+        "status": 200,
+        "h1": "گەڕان بەدوای کتاب",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٢",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|ژمارە بە هەر شێوەیەک بنووسیت دەدۆزرێتەوە: ٤٤٩٨ یان 4498 یان ه/٢٠٢٦/٤٤٩٨.\n            هەروە"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(12) گەڕان بەدوای کتاب — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە",
+        "status": 200,
+        "h1": "فایلی پارچە",
+        "h2s": [
+          {
+            "text": "فایلی پارچە",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٢",
+          "btn secondary sound-toggle|",
+          "btn|کردنەوە"
+        ],
+        "empties": [
+          "muted|ژمارەی پارچە بنووسە و هەموو ئەوەی تا ئێستا سەبارەت بەو پارچەیە ڕوویداوە\n          لە یەک ل"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(12) فایلی پارچە — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە",
+        "status": 200,
+        "h1": "ئەرشیفی نەخشە — ژووری ٨ و ٩",
+        "h2s": [],
+        "pills": [
+          "pill info|DWG",
+          "pill warn|پشتڕاست نەکراوە",
+          "pill muted|PDF",
+          "pill ok|پشتڕاستکراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٢",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|٢٤٧/٥ و 247-5 و «٢٤٧ / ٥» هەمان پارچەن. تەنها ٢٤٧ بنووسە بۆ بینینی هەموو بەشەکانی."
+        ],
+        "arabic": [],
+        "latin": [
+          "faazz",
+          "DWG",
+          "PDF",
+          "xfrll",
+          "pgvh",
+          "vjaqy",
+          "hkrj",
+          "mbkom",
+          "uasu",
+          "jmujc",
+          "vja"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(12) ئەرشیفی نەخشە — ژووری ٨ و ٩ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان",
+        "status": 200,
+        "h1": "سینیی سکان — ژووری یاسا",
+        "h2s": [
+          {
+            "text": "سکانە نوێیەکان",
+            "fs": "16px"
+          },
+          {
+            "text": "زیادکردنی سکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٢",
+          "btn secondary sound-toggle|",
+          "btn|سکانکردن لە سکانەر",
+          "btn secondary file-choose|هەڵبژاردنی فایلەکان",
+          "btn|زیادکردن بۆ سینی"
+        ],
+        "empties": [
+          "muted|پەڕەکانی سکانکراو لێرە چاوەڕوان دەکەن تا دیاری بکرێت سەر بە کام کتابن.\n            تەنها س",
+          "empty|هیچ سکانێکی نوێ نییە."
+        ],
+        "arabic": [],
+        "latin": [
+          "PDF",
+          "TIF"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(12) سینیی سکان — ژووری یاسا — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد",
+        "status": 200,
+        "h1": "خوێندنەوەی بارکۆد",
+        "h2s": [
+          {
+            "text": "خوێندنەوەی بارکۆد",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٢",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|بارکۆدی سەر فۆڵدەرەکە سکان بکە، یان ژمارەی کتاب بنووسە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(12) خوێندنەوەی بارکۆد — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن",
+        "status": 200,
+        "h1": "لیستی گەیاندن",
+        "h2s": [
+          {
+            "text": "ناردن بۆ ژووری ژمێریاری",
+            "fs": "16px"
+          },
+          {
+            "text": "ناردن بۆ ژووری سەرۆکی شارەوانی",
+            "fs": "16px"
+          },
+          {
+            "text": "لیستە پێشووەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill ok|وەرگیراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٢",
+          "btn secondary sound-toggle|",
+          "btn|دروستکردنی لیستی گەیاندن"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "gmtn",
+          "vja",
+          "jmujc",
+          "uasu"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(12) لیستی گەیاندن — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان",
+        "status": 200,
+        "h1": "کۆمپانیاکان",
+        "h2s": [
+          {
+            "text": "مۆڵەتی بەسەرچوو و نزیک لە بەسەرچوون",
+            "fs": "16px"
+          },
+          {
+            "text": "کۆمپانیاکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|١٨ ڕۆژ ماوە",
+          "pill ok|چالاک"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٢",
+          "btn secondary sound-toggle|",
+          "btn|کۆمپانیای نوێ",
+          "btn secondary|گەڕان"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "TEST-",
+          "pgvh",
+          "REG-pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(12) کۆمپانیاکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان",
+        "status": 200,
+        "h1": "تێمپلەیتەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "بڕیار",
+            "fs": "16px"
+          },
+          {
+            "text": "تاقیکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "نامەی ناوخۆیی",
+            "fs": "16px"
+          },
+          {
+            "text": "دواین پڕکراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٢",
+          "btn secondary sound-toggle|",
+          "btn small|پڕکردنەوە",
+          "btn small|چاپ"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "vjaqy",
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(12) تێمپلەیتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان",
+        "status": 200,
+        "h1": "مۆڵەتەکان",
+        "h2s": [
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەتەکانم",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill ok|پەسەندکراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٢",
+          "btn secondary sound-toggle|",
+          "btn|ناردنی داواکاری"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(12) مۆڵەتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان",
+        "status": 200,
+        "h1": "ئاگادارکردنەوەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٢",
+          "btn secondary sound-toggle|",
+          "btn secondary|هەمووی وەک خوێندراوە دابنێ"
+        ],
+        "empties": [
+          "muted|ئەم لیستە تەنها بۆ تۆیە. کەس نایبینێت، نە بەڕێوەبەری سیستەم و نە سەرۆکی شارەوانی.\n        "
+        ],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "bels",
+          "wcbfv",
+          "vpp",
+          "faazz",
+          "wxe",
+          "vpxhr",
+          "bcgoyc",
+          "jld",
+          "rbvtz",
+          "xfrll",
+          "fsk",
+          "roxo",
+          "lxkah",
+          "lomwvd",
+          "rpe",
+          "pwmd",
+          "yrnrgbw",
+          "uks",
+          "cvu",
+          "xffltpe",
+          "gmtn",
+          "cisbjhj",
+          "hkrj",
+          "gpsic",
+          "gfudqyye",
+          "lwd",
+          "yfw",
+          "mbkom",
+          "uasu",
+          "fwyh",
+          "xvmy",
+          "dcjooej",
+          "jmujc",
+          "rbtlamm"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(12) ئاگادارکردنەوەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/log",
+        "label": "تۆماری چالاکی",
+        "status": 200,
+        "h1": "تۆماری چالاکی",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٢",
+          "btn secondary sound-toggle|",
+          "btn secondary|پاڵاوتن"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(12) تۆماری چالاکی — شارەوانی ڕانیە"
+      }
+    ],
+    "errors": []
+  },
+  "sakar": {
+    "landing": "/inbox",
+    "nav": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان"
+      }
+    ],
+    "pages": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ",
+        "status": 200,
+        "h1": "کتابی نوێ",
+        "h2s": [
+          {
+            "text": "زانیاری کتاب",
+            "fs": "16px"
+          },
+          {
+            "text": "شوێنی فایلی کاغەز",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn secondary|سکانکردن لە سکانەر",
+          "btn secondary|وێنەگرتنی کتاب",
+          "btn|تۆمارکردن و وەرگرتنی ژمارە",
+          "btn secondary|پاشگەزبوونەوە"
+        ],
+        "empties": [
+          "muted|ئەم کتابە ژمارەیەک لە هەمان تۆماری شارەوانی وەردەگرێت و لە ژووری ژووری یاسا دەست پێدەکات.\n",
+          "muted|بۆ ئەوەی دواتر بە دەست بدۆزرێتەوە، نەک تەنها لەسەر کۆمپیوتەر."
+        ],
+        "arabic": [],
+        "latin": [
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) کتابی نوێ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان",
+        "status": 200,
+        "h1": "کتابە هاتووەکان — ژووری یاسا",
+        "h2s": [
+          {
+            "text": "کتابە نوێیەکانی ئەم ژوورە کە هێشتا نەنێردراون\n              ",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|٦",
+          "pill warn|نەگەیشتووە",
+          "pill danger|دواکەوتووە",
+          "pill ok|نوێ",
+          "pill info|کراوەتەوە",
+          "pill ok|گەیشتووە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn|کتابی نوێ",
+          "btn small|ناردن",
+          "btn secondary|کردنەوە"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "nxlyzi",
+          "jyt",
+          "ezw",
+          "aetmwb",
+          "xbr",
+          "jvxanf",
+          "byij",
+          "eif",
+          "hjiiv",
+          "quqd",
+          "jae",
+          "vjh",
+          "wtoe",
+          "ysuyq",
+          "pmvs",
+          "naebk",
+          "div",
+          "fuxq",
+          "ikkc",
+          "yxsjcfpw",
+          "xydw",
+          "nsijty",
+          "aif",
+          "tyl",
+          "sagz",
+          "jck",
+          "zyxh",
+          "pmr",
+          "ujwvrz",
+          "ieo",
+          "hyozcn",
+          "qpe",
+          "cwav",
+          "dqy",
+          "wljdqy",
+          "vja",
+          "eeqqj",
+          "ryd",
+          "lrzueklo",
+          "jmujc",
+          "dcjooej",
+          "xvmy",
+          "fwyh",
+          "lwd",
+          "xffltpe",
+          "yrnrgbw",
+          "pwmd",
+          "rpe",
+          "lomwvd",
+          "rbvtz",
+          "jld",
+          "bcgoyc",
+          "vpp"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) کتابە هاتووەکان — ژووری یاسا — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من",
+        "status": 200,
+        "h1": "ڕۆژی من",
+        "h2s": [
+          {
+            "text": "دواکەوتوو — ١",
+            "fs": "16px"
+          },
+          {
+            "text": "چاوەڕوانی ژوورەکانی تر — ٥",
+            "fs": "16px"
+          },
+          {
+            "text": "ئەوانی تر لەسەر مێزی من — ١٣٤",
+            "fs": "16px"
+          },
+          {
+            "text": "کاغەزەکەیان نەگەیشتووە — ١١٢",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill danger|٣ ڕۆژ دواکەوتوو",
+          "pill warn|نەگەیشتووە",
+          "pill ok|وەرگیراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn secondary|بیریان بخەرەوە"
+        ],
+        "empties": [
+          "muted|ئەم کتابانە تۆ ناردوتنە بۆ ژوورێکی تر و هێشتا نەگەڕاونەتەوە.",
+          "muted|تۆمارەکە گەیشتووە بەڵام پەڕگەی کاغەزی هێشتا وەرنەگیراوە."
+        ],
+        "arabic": [],
+        "latin": [
+          "xbr",
+          "vja",
+          "jmujc",
+          "uasu",
+          "gmtn",
+          "jvxanf",
+          "byij",
+          "eif",
+          "hjiiv",
+          "quqd",
+          "jae",
+          "vjh",
+          "wtoe",
+          "ysuyq",
+          "pmvs",
+          "naebk",
+          "div",
+          "fuxq",
+          "ikkc",
+          "yxsjcfpw",
+          "xydw",
+          "nsijty",
+          "aif",
+          "tyl",
+          "sagz",
+          "jck",
+          "zyxh",
+          "pmr",
+          "ujwvrz",
+          "ieo",
+          "hyozcn",
+          "qpe",
+          "cwav",
+          "dqy",
+          "wljdqy",
+          "eeqqj",
+          "ryd",
+          "lrzueklo",
+          "dcjooej",
+          "tvzrg",
+          "xvmy",
+          "ihdml",
+          "fwyh",
+          "lwd",
+          "xffltpe",
+          "yrnrgbw",
+          "pwmd",
+          "rpe",
+          "lomwvd",
+          "rbvtz",
+          "jld",
+          "bcgoyc",
+          "vpp"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) ڕۆژی من — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان",
+        "status": 200,
+        "h1": "ناردراوەکان",
+        "h2s": [
+          {
+            "text": "ئامادەی داخستن ٢٥",
+            "fs": "16px"
+          },
+          {
+            "text": "ناردراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|٢٥"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn|داخستن"
+        ],
+        "empties": [
+          "muted|کارەکەیان تەواوبووە و چاوەڕوانی ژمارەی دەرچوون."
+        ],
+        "arabic": [],
+        "latin": [
+          "mou",
+          "kho",
+          "dsd",
+          "bekr",
+          "niud",
+          "hoy",
+          "mmeur",
+          "rbtlamm",
+          "mbkom",
+          "yfw",
+          "aeh",
+          "kxb",
+          "gpsic",
+          "hkrj",
+          "cisbjhj",
+          "uks",
+          "cvu",
+          "fajz",
+          "fsk",
+          "roxo",
+          "xfrll",
+          "wxe",
+          "faazz",
+          "wcbfv",
+          "bels",
+          "lswxzl",
+          "vpxhr",
+          "lxkah",
+          "gfudqyye",
+          "arju",
+          "uuef",
+          "hyro",
+          "ibno",
+          "deru",
+          "gzzt",
+          "yxp"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) ناردراوەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب",
+        "status": 200,
+        "h1": "گەڕان بەدوای کتاب",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|ژمارە بە هەر شێوەیەک بنووسیت دەدۆزرێتەوە: ٤٤٩٨ یان 4498 یان ه/٢٠٢٦/٤٤٩٨.\n            هەروە"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) گەڕان بەدوای کتاب — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە",
+        "status": 200,
+        "h1": "فایلی پارچە",
+        "h2s": [
+          {
+            "text": "فایلی پارچە",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn|کردنەوە"
+        ],
+        "empties": [
+          "muted|ژمارەی پارچە بنووسە و هەموو ئەوەی تا ئێستا سەبارەت بەو پارچەیە ڕوویداوە\n          لە یەک ل"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) فایلی پارچە — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە",
+        "status": 200,
+        "h1": "ئەرشیفی نەخشە — ژووری ٨ و ٩",
+        "h2s": [],
+        "pills": [
+          "pill info|DWG",
+          "pill warn|پشتڕاست نەکراوە",
+          "pill muted|PDF",
+          "pill ok|پشتڕاستکراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|٢٤٧/٥ و 247-5 و «٢٤٧ / ٥» هەمان پارچەن. تەنها ٢٤٧ بنووسە بۆ بینینی هەموو بەشەکانی."
+        ],
+        "arabic": [],
+        "latin": [
+          "faazz",
+          "DWG",
+          "PDF",
+          "xfrll",
+          "pgvh",
+          "vjaqy",
+          "hkrj",
+          "mbkom",
+          "uasu",
+          "jmujc",
+          "vja"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) ئەرشیفی نەخشە — ژووری ٨ و ٩ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان",
+        "status": 200,
+        "h1": "سینیی سکان — ژووری یاسا",
+        "h2s": [
+          {
+            "text": "سکانە نوێیەکان",
+            "fs": "16px"
+          },
+          {
+            "text": "زیادکردنی سکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn|سکانکردن لە سکانەر",
+          "btn secondary file-choose|هەڵبژاردنی فایلەکان",
+          "btn|زیادکردن بۆ سینی"
+        ],
+        "empties": [
+          "muted|پەڕەکانی سکانکراو لێرە چاوەڕوان دەکەن تا دیاری بکرێت سەر بە کام کتابن.\n            تەنها س",
+          "empty|هیچ سکانێکی نوێ نییە."
+        ],
+        "arabic": [],
+        "latin": [
+          "PDF",
+          "TIF"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) سینیی سکان — ژووری یاسا — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد",
+        "status": 200,
+        "h1": "خوێندنەوەی بارکۆد",
+        "h2s": [
+          {
+            "text": "خوێندنەوەی بارکۆد",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|بارکۆدی سەر فۆڵدەرەکە سکان بکە، یان ژمارەی کتاب بنووسە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) خوێندنەوەی بارکۆد — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن",
+        "status": 200,
+        "h1": "لیستی گەیاندن",
+        "h2s": [
+          {
+            "text": "ناردن بۆ ژووری ژمێریاری",
+            "fs": "16px"
+          },
+          {
+            "text": "ناردن بۆ ژووری سەرۆکی شارەوانی",
+            "fs": "16px"
+          },
+          {
+            "text": "لیستە پێشووەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill ok|وەرگیراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn|دروستکردنی لیستی گەیاندن"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "gmtn",
+          "vja",
+          "jmujc",
+          "uasu"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) لیستی گەیاندن — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان",
+        "status": 200,
+        "h1": "کۆمپانیاکان",
+        "h2s": [
+          {
+            "text": "مۆڵەتی بەسەرچوو و نزیک لە بەسەرچوون",
+            "fs": "16px"
+          },
+          {
+            "text": "کۆمپانیاکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|١٨ ڕۆژ ماوە",
+          "pill ok|چالاک"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn|کۆمپانیای نوێ",
+          "btn secondary|گەڕان"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "TEST-",
+          "pgvh",
+          "REG-pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) کۆمپانیاکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان",
+        "status": 200,
+        "h1": "تێمپلەیتەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "بڕیار",
+            "fs": "16px"
+          },
+          {
+            "text": "تاقیکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "نامەی ناوخۆیی",
+            "fs": "16px"
+          },
+          {
+            "text": "دواین پڕکراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn small|پڕکردنەوە",
+          "btn small|چاپ"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "vjaqy",
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) تێمپلەیتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان",
+        "status": 200,
+        "h1": "مۆڵەتەکان",
+        "h2s": [
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەتەکانم",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill ok|پەسەندکراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn|ناردنی داواکاری"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) مۆڵەتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان",
+        "status": 200,
+        "h1": "ئاگادارکردنەوەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٩٩+",
+          "btn secondary sound-toggle|",
+          "btn secondary|هەمووی وەک خوێندراوە دابنێ"
+        ],
+        "empties": [
+          "muted|ئەم لیستە تەنها بۆ تۆیە. کەس نایبینێت، نە بەڕێوەبەری سیستەم و نە سەرۆکی شارەوانی.\n        "
+        ],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "bels",
+          "wcbfv",
+          "vpp",
+          "faazz",
+          "wxe",
+          "vpxhr",
+          "bcgoyc",
+          "jld",
+          "rbvtz",
+          "xfrll",
+          "fsk",
+          "roxo",
+          "lxkah",
+          "lomwvd",
+          "rpe",
+          "pwmd",
+          "yrnrgbw",
+          "uks",
+          "cvu",
+          "xffltpe",
+          "gmtn",
+          "cisbjhj",
+          "hkrj",
+          "gpsic",
+          "gfudqyye",
+          "lwd",
+          "yfw",
+          "mbkom",
+          "uasu",
+          "fwyh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(296) ئاگادارکردنەوەکان — شارەوانی ڕانیە"
+      }
+    ],
+    "errors": []
+  },
+  "bafrin": {
+    "landing": "/leave",
+    "nav": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان"
+      }
+    ],
+    "pages": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ",
+        "status": 200,
+        "h1": "کتابی نوێ",
+        "h2s": [
+          {
+            "text": "زانیاری کتاب",
+            "fs": "16px"
+          },
+          {
+            "text": "شوێنی فایلی کاغەز",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|",
+          "btn|تۆمارکردن و وەرگرتنی ژمارە",
+          "btn secondary|پاشگەزبوونەوە"
+        ],
+        "empties": [
+          "muted|ئەم کتابە ژمارەیەک لە هەمان تۆماری شارەوانی وەردەگرێت و لە ژووری ژووری کارگێڕی دەست پێدەکا",
+          "muted|بۆ ئەوەی دواتر بە دەست بدۆزرێتەوە، نەک تەنها لەسەر کۆمپیوتەر."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "کتابی نوێ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان",
+        "status": 200,
+        "h1": "کتابە هاتووەکان — ژووری کارگێڕی",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|",
+          "btn|کتابی نوێ"
+        ],
+        "empties": [
+          "empty|هیچ کتابێکی چاوەڕوان نییە. ژوورەکە پاکە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "کتابە هاتووەکان — ژووری کارگێڕی — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من",
+        "status": 200,
+        "h1": "ڕۆژی من",
+        "h2s": [
+          {
+            "text": "چاوەڕوانی ژوورەکانی تر — ٠",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|"
+        ],
+        "empties": [
+          "muted|ئەم کتابانە تۆ ناردوتنە بۆ ژوورێکی تر و هێشتا نەگەڕاونەتەوە.",
+          "empty|هیچ کتابێکت لای کەس نییە. ڕۆژێکی باش."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "ڕۆژی من — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان",
+        "status": 200,
+        "h1": "ناردراوەکان",
+        "h2s": [
+          {
+            "text": "ئامادەی داخستن ٠",
+            "fs": "16px"
+          },
+          {
+            "text": "ناردراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill muted|٠"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|"
+        ],
+        "empties": [
+          "muted|کارەکەیان تەواوبووە و چاوەڕوانی ژمارەی دەرچوون.",
+          "empty|هیچ کتابێک چاوەڕوانی داخستن نییە.",
+          "empty|هێشتا هیچ کتابێک دەرنەچووە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "ناردراوەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب",
+        "status": 200,
+        "h1": "گەڕان بەدوای کتاب",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|ژمارە بە هەر شێوەیەک بنووسیت دەدۆزرێتەوە: ٤٤٩٨ یان 4498 یان ه/٢٠٢٦/٤٤٩٨.\n            هەروە"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "گەڕان بەدوای کتاب — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە",
+        "status": 200,
+        "h1": "فایلی پارچە",
+        "h2s": [
+          {
+            "text": "فایلی پارچە",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|",
+          "btn|کردنەوە"
+        ],
+        "empties": [
+          "muted|ژمارەی پارچە بنووسە و هەموو ئەوەی تا ئێستا سەبارەت بەو پارچەیە ڕوویداوە\n          لە یەک ل"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "فایلی پارچە — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان",
+        "status": 200,
+        "h1": "تێمپلەیتەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "بڕیار",
+            "fs": "16px"
+          },
+          {
+            "text": "تاقیکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "نامەی ناوخۆیی",
+            "fs": "16px"
+          },
+          {
+            "text": "دواین پڕکراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|",
+          "btn|تێمپلەیتی نوێ",
+          "btn small|پڕکردنەوە",
+          "btn small|چاپ"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "vjaqy",
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "تێمپلەیتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان",
+        "status": 200,
+        "h1": "مۆڵەتەکان",
+        "h2s": [
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "هەموو مۆڵەتەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill danger|ژوورەکە جێگری نییە",
+          "pill warn|چاوەڕوانی بڕیار",
+          "pill ok|پەسەندکراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|",
+          "btn|ناردنی داواکاری",
+          "btn small|پەسەندکردن",
+          "btn small secondary|ڕەتکردنەوە"
+        ],
+        "empties": [],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "vjaqy",
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "مۆڵەتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان",
+        "status": 200,
+        "h1": "ئاگادارکردنەوەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|",
+          "btn secondary|هەمووی وەک خوێندراوە دابنێ"
+        ],
+        "empties": [
+          "muted|ئەم لیستە تەنها بۆ تۆیە. کەس نایبینێت، نە بەڕێوەبەری سیستەم و نە سەرۆکی شارەوانی.\n        ",
+          "empty|هیچ ئاگادارکردنەوەیەک نییە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "ئاگادارکردنەوەکان — شارەوانی ڕانیە"
+      }
+    ],
+    "errors": []
+  },
+  "karwan": {
+    "landing": "/archive",
+    "nav": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان"
+      }
+    ],
+    "pages": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ",
+        "status": 200,
+        "h1": "کتابی نوێ",
+        "h2s": [
+          {
+            "text": "زانیاری کتاب",
+            "fs": "16px"
+          },
+          {
+            "text": "شوێنی فایلی کاغەز",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٣",
+          "btn secondary sound-toggle|",
+          "btn secondary|سکانکردن لە سکانەر",
+          "btn secondary|وێنەگرتنی کتاب",
+          "btn|تۆمارکردن و وەرگرتنی ژمارە",
+          "btn secondary|پاشگەزبوونەوە"
+        ],
+        "empties": [
+          "muted|ئەم کتابە ژمارەیەک لە هەمان تۆماری شارەوانی وەردەگرێت و لە ژووری نەخشەی بنەڕەتی دەست پێدەک",
+          "muted|بۆ ئەوەی دواتر بە دەست بدۆزرێتەوە، نەک تەنها لەسەر کۆمپیوتەر."
+        ],
+        "arabic": [],
+        "latin": [
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(13) کتابی نوێ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان",
+        "status": 200,
+        "h1": "کتابە هاتووەکان — نەخشەی بنەڕەتی (٨)",
+        "h2s": [],
+        "pills": [
+          "pill warn|نەگەیشتووە",
+          "pill info|کراوەتەوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٣",
+          "btn secondary sound-toggle|",
+          "btn|کتابی نوێ",
+          "btn secondary|کردنەوە"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "kuri",
+          "qxu",
+          "qjy",
+          "xyqwfu",
+          "bjzs",
+          "yckxj",
+          "cas"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(13) کتابە هاتووەکان — نەخشەی بنەڕەتی (٨) — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من",
+        "status": 200,
+        "h1": "ڕۆژی من",
+        "h2s": [
+          {
+            "text": "چاوەڕوانی ژوورەکانی تر — ٠",
+            "fs": "16px"
+          },
+          {
+            "text": "ئەوانی تر لەسەر مێزی من — ٧",
+            "fs": "16px"
+          },
+          {
+            "text": "کاغەزەکەیان نەگەیشتووە — ٧",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|نەگەیشتووە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٣",
+          "btn secondary sound-toggle|"
+        ],
+        "empties": [
+          "muted|ئەم کتابانە تۆ ناردوتنە بۆ ژوورێکی تر و هێشتا نەگەڕاونەتەوە.",
+          "empty|هیچ کتابێکت لای کەس نییە. ڕۆژێکی باش.",
+          "muted|تۆمارەکە گەیشتووە بەڵام پەڕگەی کاغەزی هێشتا وەرنەگیراوە."
+        ],
+        "arabic": [],
+        "latin": [
+          "kuri",
+          "qxu",
+          "jtyp",
+          "qjy",
+          "uhs",
+          "xyqwfu",
+          "bjzs",
+          "wry",
+          "yckxj",
+          "cas"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(13) ڕۆژی من — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب",
+        "status": 200,
+        "h1": "گەڕان بەدوای کتاب",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٣",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|ژمارە بە هەر شێوەیەک بنووسیت دەدۆزرێتەوە: ٤٤٩٨ یان 4498 یان ه/٢٠٢٦/٤٤٩٨.\n            هەروە"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(13) گەڕان بەدوای کتاب — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە",
+        "status": 200,
+        "h1": "فایلی پارچە",
+        "h2s": [
+          {
+            "text": "فایلی پارچە",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٣",
+          "btn secondary sound-toggle|",
+          "btn|کردنەوە"
+        ],
+        "empties": [
+          "muted|ژمارەی پارچە بنووسە و هەموو ئەوەی تا ئێستا سەبارەت بەو پارچەیە ڕوویداوە\n          لە یەک ل"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(13) فایلی پارچە — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە",
+        "status": 200,
+        "h1": "ئەرشیفی نەخشە — ژووری ٨ و ٩",
+        "h2s": [],
+        "pills": [
+          "pill info|DWG",
+          "pill warn|پشتڕاست نەکراوە",
+          "pill muted|PDF",
+          "pill ok|پشتڕاستکراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٣",
+          "btn secondary sound-toggle|",
+          "btn|تۆمارکردنی نەخشەی نوێ",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|٢٤٧/٥ و 247-5 و «٢٤٧ / ٥» هەمان پارچەن. تەنها ٢٤٧ بنووسە بۆ بینینی هەموو بەشەکانی."
+        ],
+        "arabic": [],
+        "latin": [
+          "faazz",
+          "DWG",
+          "PDF",
+          "xfrll",
+          "pgvh",
+          "vjaqy",
+          "hkrj",
+          "mbkom",
+          "uasu",
+          "jmujc",
+          "vja"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(13) ئەرشیفی نەخشە — ژووری ٨ و ٩ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان",
+        "status": 200,
+        "h1": "سینیی سکان — نەخشەی بنەڕەتی",
+        "h2s": [
+          {
+            "text": "سکانە نوێیەکان",
+            "fs": "16px"
+          },
+          {
+            "text": "زیادکردنی سکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٣",
+          "btn secondary sound-toggle|",
+          "btn|سکانکردن لە سکانەر",
+          "btn secondary file-choose|هەڵبژاردنی فایلەکان",
+          "btn|زیادکردن بۆ سینی"
+        ],
+        "empties": [
+          "muted|پەڕەکانی سکانکراو لێرە چاوەڕوان دەکەن تا دیاری بکرێت سەر بە کام کتابن.\n            تەنها س",
+          "empty|هیچ سکانێکی نوێ نییە."
+        ],
+        "arabic": [],
+        "latin": [
+          "PDF",
+          "TIF"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(13) سینیی سکان — نەخشەی بنەڕەتی — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد",
+        "status": 200,
+        "h1": "خوێندنەوەی بارکۆد",
+        "h2s": [
+          {
+            "text": "خوێندنەوەی بارکۆد",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٣",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|بارکۆدی سەر فۆڵدەرەکە سکان بکە، یان ژمارەی کتاب بنووسە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(13) خوێندنەوەی بارکۆد — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان",
+        "status": 200,
+        "h1": "کۆمپانیاکان",
+        "h2s": [
+          {
+            "text": "مۆڵەتی بەسەرچوو و نزیک لە بەسەرچوون",
+            "fs": "16px"
+          },
+          {
+            "text": "کۆمپانیاکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|١٨ ڕۆژ ماوە",
+          "pill ok|چالاک"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٣",
+          "btn secondary sound-toggle|",
+          "btn secondary|گەڕان"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "TEST-",
+          "pgvh",
+          "REG-pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(13) کۆمپانیاکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان",
+        "status": 200,
+        "h1": "مۆڵەتەکان",
+        "h2s": [
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەتەکانم",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٣",
+          "btn secondary sound-toggle|",
+          "btn|ناردنی داواکاری"
+        ],
+        "empties": [
+          "empty|هیچ مۆڵەتێک نییە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(13) مۆڵەتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان",
+        "status": 200,
+        "h1": "ئاگادارکردنەوەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١٣",
+          "btn secondary sound-toggle|",
+          "btn secondary|هەمووی وەک خوێندراوە دابنێ"
+        ],
+        "empties": [
+          "muted|ئەم لیستە تەنها بۆ تۆیە. کەس نایبینێت، نە بەڕێوەبەری سیستەم و نە سەرۆکی شارەوانی.\n        "
+        ],
+        "arabic": [],
+        "latin": [
+          "cas",
+          "yckxj",
+          "faazz",
+          "xfrll",
+          "bjzs",
+          "xyqwfu",
+          "hkrj",
+          "qjy",
+          "mbkom",
+          "uasu",
+          "qxu",
+          "kuri",
+          "jmujc",
+          "vja"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(13) ئاگادارکردنەوەکان — شارەوانی ڕانیە"
+      }
+    ],
+    "errors": []
+  },
+  "dana": {
+    "landing": "/rooms",
+    "nav": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان"
+      },
+      {
+        "href": "/rooms",
+        "label": "هەموو ژوورەکان"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان"
+      },
+      {
+        "href": "/log",
+        "label": "تۆماری چالاکی"
+      }
+    ],
+    "pages": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ",
+        "status": 200,
+        "h1": "کتابی نوێ",
+        "h2s": [
+          {
+            "text": "زانیاری کتاب",
+            "fs": "16px"
+          },
+          {
+            "text": "شوێنی فایلی کاغەز",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|",
+          "btn secondary|سکانکردن لە سکانەر",
+          "btn secondary|وێنەگرتنی کتاب",
+          "btn|تۆمارکردن و وەرگرتنی ژمارە",
+          "btn secondary|پاشگەزبوونەوە"
+        ],
+        "empties": [
+          "muted|ئەم کتابە ژمارەیەک لە هەمان تۆماری شارەوانی وەردەگرێت و لە ژووری ژووری زەوی و زار دەست پێد",
+          "muted|بۆ ئەوەی دواتر بە دەست بدۆزرێتەوە، نەک تەنها لەسەر کۆمپیوتەر."
+        ],
+        "arabic": [],
+        "latin": [
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) کتابی نوێ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان",
+        "status": 200,
+        "h1": "کتابە هاتووەکان — ژووری زەوی و زار",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|",
+          "btn|کتابی نوێ"
+        ],
+        "empties": [
+          "empty|هیچ کتابێکی چاوەڕوان نییە. ژوورەکە پاکە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) کتابە هاتووەکان — ژووری زەوی و زار — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من",
+        "status": 200,
+        "h1": "ڕۆژی من",
+        "h2s": [
+          {
+            "text": "چاوەڕوانی ژوورەکانی تر — ٠",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|"
+        ],
+        "empties": [
+          "muted|ئەم کتابانە تۆ ناردوتنە بۆ ژوورێکی تر و هێشتا نەگەڕاونەتەوە.",
+          "empty|هیچ کتابێکت لای کەس نییە. ڕۆژێکی باش."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) ڕۆژی من — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان",
+        "status": 200,
+        "h1": "ناردراوەکان",
+        "h2s": [
+          {
+            "text": "ئامادەی داخستن ٠",
+            "fs": "16px"
+          },
+          {
+            "text": "ناردراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill muted|٠"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|"
+        ],
+        "empties": [
+          "muted|کارەکەیان تەواوبووە و چاوەڕوانی ژمارەی دەرچوون.",
+          "empty|هیچ کتابێک چاوەڕوانی داخستن نییە.",
+          "empty|هێشتا هیچ کتابێک دەرنەچووە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) ناردراوەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب",
+        "status": 200,
+        "h1": "گەڕان بەدوای کتاب",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|ژمارە بە هەر شێوەیەک بنووسیت دەدۆزرێتەوە: ٤٤٩٨ یان 4498 یان ه/٢٠٢٦/٤٤٩٨.\n            هەروە"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) گەڕان بەدوای کتاب — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە",
+        "status": 200,
+        "h1": "فایلی پارچە",
+        "h2s": [
+          {
+            "text": "فایلی پارچە",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|",
+          "btn|کردنەوە"
+        ],
+        "empties": [
+          "muted|ژمارەی پارچە بنووسە و هەموو ئەوەی تا ئێستا سەبارەت بەو پارچەیە ڕوویداوە\n          لە یەک ل"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) فایلی پارچە — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە",
+        "status": 200,
+        "h1": "ئەرشیفی نەخشە — ژووری ٨ و ٩",
+        "h2s": [],
+        "pills": [
+          "pill info|DWG",
+          "pill warn|پشتڕاست نەکراوە",
+          "pill muted|PDF",
+          "pill ok|پشتڕاستکراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|٢٤٧/٥ و 247-5 و «٢٤٧ / ٥» هەمان پارچەن. تەنها ٢٤٧ بنووسە بۆ بینینی هەموو بەشەکانی."
+        ],
+        "arabic": [],
+        "latin": [
+          "faazz",
+          "DWG",
+          "PDF",
+          "xfrll",
+          "pgvh",
+          "vjaqy",
+          "hkrj",
+          "mbkom",
+          "uasu",
+          "jmujc",
+          "vja"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) ئەرشیفی نەخشە — ژووری ٨ و ٩ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان",
+        "status": 200,
+        "h1": "سینیی سکان — ژووری زەوی و زار",
+        "h2s": [
+          {
+            "text": "سکانە نوێیەکان",
+            "fs": "16px"
+          },
+          {
+            "text": "زیادکردنی سکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|",
+          "btn|سکانکردن لە سکانەر",
+          "btn secondary file-choose|هەڵبژاردنی فایلەکان",
+          "btn|زیادکردن بۆ سینی"
+        ],
+        "empties": [
+          "muted|پەڕەکانی سکانکراو لێرە چاوەڕوان دەکەن تا دیاری بکرێت سەر بە کام کتابن.\n            تەنها س",
+          "empty|هیچ سکانێکی نوێ نییە."
+        ],
+        "arabic": [],
+        "latin": [
+          "PDF",
+          "TIF"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) سینیی سکان — ژووری زەوی و زار — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد",
+        "status": 200,
+        "h1": "خوێندنەوەی بارکۆد",
+        "h2s": [
+          {
+            "text": "خوێندنەوەی بارکۆد",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|بارکۆدی سەر فۆڵدەرەکە سکان بکە، یان ژمارەی کتاب بنووسە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) خوێندنەوەی بارکۆد — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن",
+        "status": 200,
+        "h1": "لیستی گەیاندن",
+        "h2s": [
+          {
+            "text": "ناردنی پەڕگە",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|"
+        ],
+        "empties": [
+          "empty|هیچ پەڕگەیەکی کاغەزی لەم ژوورەوە چاوەڕوانی ناردن نییە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) لیستی گەیاندن — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان",
+        "status": 200,
+        "h1": "کۆمپانیاکان",
+        "h2s": [
+          {
+            "text": "مۆڵەتی بەسەرچوو و نزیک لە بەسەرچوون",
+            "fs": "16px"
+          },
+          {
+            "text": "کۆمپانیاکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|١٨ ڕۆژ ماوە",
+          "pill ok|چالاک"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|",
+          "btn secondary|گەڕان"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "TEST-",
+          "pgvh",
+          "REG-pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) کۆمپانیاکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان",
+        "status": 200,
+        "h1": "تێمپلەیتەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "بڕیار",
+            "fs": "16px"
+          },
+          {
+            "text": "تاقیکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "نامەی ناوخۆیی",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|",
+          "btn small|پڕکردنەوە"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "vjaqy",
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) تێمپلەیتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان",
+        "status": 200,
+        "h1": "مۆڵەتەکان",
+        "h2s": [
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "هەموو مۆڵەتەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill danger|ژوورەکە جێگری نییە",
+          "pill warn|چاوەڕوانی بڕیار",
+          "pill ok|پەسەندکراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|",
+          "btn|ناردنی داواکاری",
+          "btn small|پەسەندکردن",
+          "btn small secondary|ڕەتکردنەوە"
+        ],
+        "empties": [],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "vjaqy",
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) مۆڵەتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/rooms",
+        "label": "هەموو ژوورەکان",
+        "status": 200,
+        "h1": "هەموو ژوورەکان",
+        "h2s": [],
+        "pills": [
+          "pill muted|پاک",
+          "pill info|لە مۆڵەتە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) هەموو ژوورەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان",
+        "status": 200,
+        "h1": "ئاگادارکردنەوەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|",
+          "btn secondary|هەمووی وەک خوێندراوە دابنێ"
+        ],
+        "empties": [
+          "muted|ئەم لیستە تەنها بۆ تۆیە. کەس نایبینێت، نە بەڕێوەبەری سیستەم و نە سەرۆکی شارەوانی.\n        "
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) ئاگادارکردنەوەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/log",
+        "label": "تۆماری چالاکی",
+        "status": 200,
+        "h1": "تۆماری چالاکی",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|٤",
+          "btn secondary sound-toggle|",
+          "btn secondary|پاڵاوتن"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(4) تۆماری چالاکی — شارەوانی ڕانیە"
+      }
+    ],
+    "errors": []
+  },
+  "itadmin": {
+    "landing": "/admin/users",
+    "nav": [
+      {
+        "href": "/admin/doc-types",
+        "label": "جۆرەکانی مامەڵە"
+      },
+      {
+        "href": "/admin/users",
+        "label": "کارمەندان"
+      },
+      {
+        "href": "/admin/rooms",
+        "label": "ژوورەکان"
+      },
+      {
+        "href": "/admin/scanners",
+        "label": "سکانەرەکان"
+      },
+      {
+        "href": "/board",
+        "label": "تابلۆی کار"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان"
+      },
+      {
+        "href": "/log",
+        "label": "تۆماری چالاکی"
+      }
+    ],
+    "pages": [
+      {
+        "href": "/admin/doc-types",
+        "label": "جۆرەکانی مامەڵە",
+        "status": 200,
+        "h1": "جۆرەکانی مامەڵە",
+        "h2s": [
+          {
+            "text": "جۆرەکانی مامەڵە",
+            "fs": "16px"
+          },
+          {
+            "text": "جۆری نوێ",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill muted|بنەڕەتی"
+        ],
+        "btns": [
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|",
+          "btn small secondary|ناچالاککردن",
+          "btn small secondary|چالاککردن",
+          "btn|زیادکردن"
+        ],
+        "empties": [
+          "muted|ئەمانە ئەو هەڵبژاردانەن کە لە فۆڕمی تۆمارکردندا دەردەکەون. دەتوانیت\n            جۆری نوێ ز"
+        ],
+        "arabic": [],
+        "latin": [
+          "CITIZEN-REQ",
+          "COMPANY-REQ",
+          "GOV-LETTER",
+          "INTERNAL",
+          "COMPLAINT",
+          "REPORT",
+          "CONTRACT",
+          "LEAVE-REQ",
+          "OTHER",
+          "vjaqy",
+          "VJAQY",
+          "pgvh",
+          "T-PGVH"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "جۆرەکانی مامەڵە — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/admin/users",
+        "label": "کارمەندان",
+        "status": 200,
+        "h1": "کارمەندان",
+        "h2s": [
+          {
+            "text": "هەژمارەکان",
+            "fs": "16px"
+          },
+          {
+            "text": "هەژماری نوێ",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|وشەی کاتی"
+        ],
+        "btns": [
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|",
+          "btn small secondary|پاشەکەوت",
+          "btn small secondary|نوێکردنەوەی وشە",
+          "btn small danger-outline|ناچالاککردن",
+          "btn small secondary|چالاککردن",
+          "btn|دروستکردن"
+        ],
+        "empties": [],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "ahang",
+          "shilan",
+          "aram",
+          "nabaz",
+          "karwan",
+          "zhyan",
+          "dler",
+          "rebwar",
+          "sakar",
+          "hemin",
+          "dana",
+          "hersh",
+          "sozan",
+          "bafrin",
+          "shne",
+          "testvznwpp",
+          "testvzpqpt",
+          "testvzwxgm",
+          "testvzzd",
+          "testw",
+          "qkw",
+          "eps",
+          "wql",
+          "dzu",
+          "znj",
+          "alq",
+          "tvp",
+          "bard",
+          "gdaw",
+          "zqn",
+          "akbl",
+          "rtvm",
+          "sqzw",
+          "vac",
+          "tmt",
+          "testx",
+          "depi",
+          "afvt",
+          "bpyh",
+          "dfw",
+          "testxecou",
+          "testxedzu",
+          "testxesqr",
+          "testxewizp",
+          "testxhz",
+          "testxi",
+          "testxiixvv",
+          "testz",
+          "raz",
+          "plqn",
+          "aarc",
+          "testzaxiay",
+          "testuxg",
+          "testuzk",
+          "testuzl",
+          "testuznbd",
+          "testuzprza",
+          "testuzwlzd",
+          "testuzxhdl",
+          "testv",
+          "testvydh",
+          "testvyez",
+          "testvyna",
+          "testvyod",
+          "testvzl",
+          "testzaslmg",
+          "testzavgx",
+          "testzavz",
+          "testuxfc",
+          "itadmin",
+          "pwmd",
+          "audit.pwmd",
+          "rbvtz",
+          "audit.u",
+          "vpp",
+          "audit.vpp",
+          "yrnrgbw",
+          "audit.yrnrgbw",
+          "xffltpe",
+          "e.xffltpe"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "کارمەندان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/admin/rooms",
+        "label": "ژوورەکان",
+        "status": 200,
+        "h1": "ژوورەکان",
+        "h2s": [
+          {
+            "text": "ژووری نوێ",
+            "fs": "16px"
+          },
+          {
+            "text": "هەموو ژوورەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|",
+          "btn|دروستکردنی ژوور",
+          "btn small secondary|پاشەکەوت",
+          "btn small danger-outline|ناچالاککردن",
+          "btn small secondary|چالاککردن"
+        ],
+        "empties": [
+          "muted|ژوور ناسڕدرێتەوە. ژوورێک کە جارێک کتابی وەرگرتبێت بۆ هەمیشە لە ڕێڕەوەکاندا دەمێنێتەوە."
+        ],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [
+          "LEGAL",
+          "REGISTRY",
+          "MAYOR",
+          "PLAN",
+          "CONTRACTS",
+          "LAND",
+          "ACCOUNTS",
+          "ADMIN",
+          "TEST",
+          "XFC",
+          "ZNBBW",
+          "ZPRY",
+          "ZWLY",
+          "ZXHCI",
+          "YDGZ",
+          "YEYZI",
+          "YNA",
+          "YOD",
+          "ZNWO",
+          "ZPQNR",
+          "ZWXEW",
+          "ZZD",
+          "QJA",
+          "WOO",
+          "DYF",
+          "MZY",
+          "AKK",
+          "TUM",
+          "BAQ",
+          "JVU",
+          "WDX",
+          "AKA",
+          "DCZN",
+          "RTU",
+          "SQYH",
+          "TLE",
+          "DENO",
+          "AFUD",
+          "BPWZ",
+          "DFUK",
+          "ECOSC",
+          "EDZSM",
+          "ESQOI",
+          "EWIY",
+          "IIXU",
+          "PLOW",
+          "AAPK",
+          "ASLJS",
+          "AVGV",
+          "AVZ",
+          "AXI",
+          "xffltpe",
+          "XFFLTPE"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "ژوورەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/admin/scanners",
+        "label": "سکانەرەکان",
+        "status": 200,
+        "h1": "سکانەرەکان",
+        "h2s": [
+          {
+            "text": "سکانەرەکانی تۆڕ",
+            "fs": "16px"
+          },
+          {
+            "text": "زیادکردنی سکانەر",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill ok|چالاک"
+        ],
+        "btns": [
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|",
+          "btn small secondary|تاقیکردنەوە",
+          "btn small secondary|ناچالاککردن",
+          "btn|زیادکردن و تاقیکردنەوە"
+        ],
+        "empties": [
+          "muted|هەر سکانەر یان پرینتەرێکی فرە-کار کە AirScan یان Mopria (eSCL) دەناسێت. ناونیشانەکەی\n     "
+        ],
+        "arabic": [],
+        "latin": [
+          "AirScan",
+          "Mopria",
+          "eSCL",
+          "http",
+          "USB",
+          "SIMULATOR",
+          "docsys",
+          "simulated",
+          "scanner"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "سکانەرەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان",
+        "status": 200,
+        "h1": "ئاگادارکردنەوەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|",
+          "btn secondary|هەمووی وەک خوێندراوە دابنێ"
+        ],
+        "empties": [
+          "muted|ئەم لیستە تەنها بۆ تۆیە. کەس نایبینێت، نە بەڕێوەبەری سیستەم و نە سەرۆکی شارەوانی.\n        ",
+          "empty|هیچ ئاگادارکردنەوەیەک نییە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "ئاگادارکردنەوەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/log",
+        "label": "تۆماری چالاکی",
+        "status": 200,
+        "h1": "تۆماری چالاکی",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary bell|0",
+          "btn secondary sound-toggle|",
+          "btn secondary|پاڵاوتن",
+          "btn secondary|کۆنتر"
+        ],
+        "empties": [],
+        "arabic": [
+          "ئاھەنگ"
+        ],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "تۆماری چالاکی — شارەوانی ڕانیە"
+      }
+    ],
+    "errors": []
+  },
+  "hersh": {
+    "landing": "/inbox",
+    "nav": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان"
+      },
+      {
+        "href": "/log",
+        "label": "تۆماری چالاکی"
+      }
+    ],
+    "pages": [
+      {
+        "href": "/registry/new",
+        "label": "کتابی نوێ",
+        "status": 200,
+        "h1": "کتابی نوێ",
+        "h2s": [
+          {
+            "text": "زانیاری کتاب",
+            "fs": "16px"
+          },
+          {
+            "text": "شوێنی فایلی کاغەز",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|",
+          "btn secondary|سکانکردن لە سکانەر",
+          "btn secondary|وێنەگرتنی کتاب",
+          "btn|تۆمارکردن و وەرگرتنی ژمارە",
+          "btn secondary|پاشگەزبوونەوە"
+        ],
+        "empties": [
+          "muted|ئەم کتابە ژمارەیەک لە هەمان تۆماری شارەوانی وەردەگرێت و لە ژووری ژووری زەوی و زار دەست پێد",
+          "muted|بۆ ئەوەی دواتر بە دەست بدۆزرێتەوە، نەک تەنها لەسەر کۆمپیوتەر."
+        ],
+        "arabic": [],
+        "latin": [
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) کتابی نوێ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/inbox",
+        "label": "کتابە هاتووەکان",
+        "status": 200,
+        "h1": "کتابە هاتووەکان — ژووری زەوی و زار",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|",
+          "btn|کتابی نوێ"
+        ],
+        "empties": [
+          "empty|هیچ کتابێکی چاوەڕوان نییە. ژوورەکە پاکە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) کتابە هاتووەکان — ژووری زەوی و زار — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/my-day",
+        "label": "ڕۆژی من",
+        "status": 200,
+        "h1": "ڕۆژی من",
+        "h2s": [
+          {
+            "text": "چاوەڕوانی ژوورەکانی تر — ٠",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|"
+        ],
+        "empties": [
+          "muted|ئەم کتابانە تۆ ناردوتنە بۆ ژوورێکی تر و هێشتا نەگەڕاونەتەوە.",
+          "empty|هیچ کتابێکت لای کەس نییە. ڕۆژێکی باش."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) ڕۆژی من — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/outgoing",
+        "label": "ناردراوەکان",
+        "status": 200,
+        "h1": "ناردراوەکان",
+        "h2s": [
+          {
+            "text": "ئامادەی داخستن ٠",
+            "fs": "16px"
+          },
+          {
+            "text": "ناردراوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill muted|٠"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|"
+        ],
+        "empties": [
+          "muted|کارەکەیان تەواوبووە و چاوەڕوانی ژمارەی دەرچوون.",
+          "empty|هیچ کتابێک چاوەڕوانی داخستن نییە.",
+          "empty|هێشتا هیچ کتابێک دەرنەچووە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) ناردراوەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/documents",
+        "label": "گەڕان بەدوای کتاب",
+        "status": 200,
+        "h1": "گەڕان بەدوای کتاب",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|ژمارە بە هەر شێوەیەک بنووسیت دەدۆزرێتەوە: ٤٤٩٨ یان 4498 یان ه/٢٠٢٦/٤٤٩٨.\n            هەروە"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) گەڕان بەدوای کتاب — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/plots",
+        "label": "فایلی پارچە",
+        "status": 200,
+        "h1": "فایلی پارچە",
+        "h2s": [
+          {
+            "text": "فایلی پارچە",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|",
+          "btn|کردنەوە"
+        ],
+        "empties": [
+          "muted|ژمارەی پارچە بنووسە و هەموو ئەوەی تا ئێستا سەبارەت بەو پارچەیە ڕوویداوە\n          لە یەک ل"
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) فایلی پارچە — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/archive",
+        "label": "ئەرشیفی نەخشە",
+        "status": 200,
+        "h1": "ئەرشیفی نەخشە — ژووری ٨ و ٩",
+        "h2s": [],
+        "pills": [
+          "pill info|DWG",
+          "pill warn|پشتڕاست نەکراوە",
+          "pill muted|PDF",
+          "pill ok|پشتڕاستکراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|٢٤٧/٥ و 247-5 و «٢٤٧ / ٥» هەمان پارچەن. تەنها ٢٤٧ بنووسە بۆ بینینی هەموو بەشەکانی."
+        ],
+        "arabic": [],
+        "latin": [
+          "faazz",
+          "DWG",
+          "PDF",
+          "xfrll",
+          "pgvh",
+          "vjaqy",
+          "hkrj",
+          "mbkom",
+          "uasu",
+          "jmujc",
+          "vja"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) ئەرشیفی نەخشە — ژووری ٨ و ٩ — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/tray",
+        "label": "سینیی سکان",
+        "status": 200,
+        "h1": "سینیی سکان — ژووری زەوی و زار",
+        "h2s": [
+          {
+            "text": "سکانە نوێیەکان",
+            "fs": "16px"
+          },
+          {
+            "text": "زیادکردنی سکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|",
+          "btn|سکانکردن لە سکانەر",
+          "btn secondary file-choose|هەڵبژاردنی فایلەکان",
+          "btn|زیادکردن بۆ سینی"
+        ],
+        "empties": [
+          "muted|پەڕەکانی سکانکراو لێرە چاوەڕوان دەکەن تا دیاری بکرێت سەر بە کام کتابن.\n            تەنها س",
+          "empty|هیچ سکانێکی نوێ نییە."
+        ],
+        "arabic": [],
+        "latin": [
+          "PDF",
+          "TIF"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) سینیی سکان — ژووری زەوی و زار — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/barcode",
+        "label": "خوێندنەوەی بارکۆد",
+        "status": 200,
+        "h1": "خوێندنەوەی بارکۆد",
+        "h2s": [
+          {
+            "text": "خوێندنەوەی بارکۆد",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|",
+          "btn|گەڕان"
+        ],
+        "empties": [
+          "muted|بارکۆدی سەر فۆڵدەرەکە سکان بکە، یان ژمارەی کتاب بنووسە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) خوێندنەوەی بارکۆد — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/manifests",
+        "label": "لیستی گەیاندن",
+        "status": 200,
+        "h1": "لیستی گەیاندن",
+        "h2s": [
+          {
+            "text": "ناردنی پەڕگە",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|"
+        ],
+        "empties": [
+          "empty|هیچ پەڕگەیەکی کاغەزی لەم ژوورەوە چاوەڕوانی ناردن نییە."
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) لیستی گەیاندن — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/companies",
+        "label": "کۆمپانیاکان",
+        "status": 200,
+        "h1": "کۆمپانیاکان",
+        "h2s": [
+          {
+            "text": "مۆڵەتی بەسەرچوو و نزیک لە بەسەرچوون",
+            "fs": "16px"
+          },
+          {
+            "text": "کۆمپانیاکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill warn|١٨ ڕۆژ ماوە",
+          "pill ok|چالاک"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|",
+          "btn|کۆمپانیای نوێ",
+          "btn secondary|گەڕان"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "TEST-",
+          "pgvh",
+          "REG-pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) کۆمپانیاکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/templates",
+        "label": "تێمپلەیتەکان",
+        "status": 200,
+        "h1": "تێمپلەیتەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "بڕیار",
+            "fs": "16px"
+          },
+          {
+            "text": "تاقیکردنەوە",
+            "fs": "16px"
+          },
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "نامەی ناوخۆیی",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|",
+          "btn small|پڕکردنەوە"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "vjaqy",
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) تێمپلەیتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/leave",
+        "label": "مۆڵەتەکان",
+        "status": 200,
+        "h1": "مۆڵەتەکان",
+        "h2s": [
+          {
+            "text": "داواکاری مۆڵەت",
+            "fs": "16px"
+          },
+          {
+            "text": "مۆڵەتەکانم",
+            "fs": "16px"
+          }
+        ],
+        "pills": [
+          "pill danger|ژوورەکە جێگری نییە",
+          "pill warn|چاوەڕوانی بڕیار",
+          "pill ok|پەسەندکراوە"
+        ],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|",
+          "btn|ناردنی داواکاری"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [
+          "vjaqy",
+          "pgvh"
+        ],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) مۆڵەتەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/notifications",
+        "label": "ئاگادارکردنەوەکان",
+        "status": 200,
+        "h1": "ئاگادارکردنەوەکان",
+        "h2s": [
+          {
+            "text": "ئاگادارکردنەوەکان",
+            "fs": "16px"
+          }
+        ],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|",
+          "btn secondary|هەمووی وەک خوێندراوە دابنێ"
+        ],
+        "empties": [
+          "muted|ئەم لیستە تەنها بۆ تۆیە. کەس نایبینێت، نە بەڕێوەبەری سیستەم و نە سەرۆکی شارەوانی.\n        "
+        ],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) ئاگادارکردنەوەکان — شارەوانی ڕانیە"
+      },
+      {
+        "href": "/log",
+        "label": "تۆماری چالاکی",
+        "status": 200,
+        "h1": "تۆماری چالاکی",
+        "h2s": [],
+        "pills": [],
+        "btns": [
+          "btn secondary|",
+          "btn secondary bell|١",
+          "btn secondary sound-toggle|",
+          "btn secondary|پاڵاوتن"
+        ],
+        "empties": [],
+        "arabic": [],
+        "latin": [],
+        "mixed": [],
+        "overflowX": false,
+        "wide": [],
+        "title": "(1) تۆماری چالاکی — شارەوانی ڕانیە"
+      }
+    ],
+    "errors": []
+  }
+}

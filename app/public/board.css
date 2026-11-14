@@ -1,0 +1,159 @@
+/* The corridor wall board.
+   Its own stylesheet, not app.css, because everything here is sized for a
+   television read from four metres away rather than a screen read from fifty
+   centimetres. Sharing the palette, sharing nothing else. */
+
+:root {
+  --sidebar:  #0E3A28;
+  --deep:     #0A2A1D;
+  --gold:     #C99A2E;
+  --ink:      #EAF0EC;
+  --dim:      #8FA69A;
+  --ok:       #4FBF8B;
+  --warn:     #E0A93C;
+  --bad:      #E06B62;
+  --card:     rgba(255,255,255,.05);
+  --rule:     rgba(255,255,255,.10);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0; height: 100%;
+  background: radial-gradient(120% 90% at 70% 0%, #12482F 0%, var(--sidebar) 45%, var(--deep) 100%);
+  color: var(--ink);
+  font-family: Vazirmatn, "Noto Sans Arabic", Tahoma, sans-serif;
+  overflow: hidden;                 /* a wall board never scrolls */
+}
+
+body {
+  display: flex; flex-direction: column;
+  /* Sized against the viewport, so the same page is right on a 32 inch screen
+     in the corridor and on a laptop being used to set it up. */
+  font-size: clamp(14px, 1.1vw, 26px);
+  padding: 1.6vh 1.8vw;
+  gap: 1.4vh;
+}
+
+h1, h2, .brand, .n, .tile-n { font-family: "Noto Kufi Arabic", Vazirmatn, Tahoma, sans-serif; }
+
+/* --- top ------------------------------------------------------------------ */
+
+.board-top { display: flex; align-items: center; gap: 1.5vw; }
+.brand { font-size: 2.1em; font-weight: 700; line-height: 1.1; }
+.brand small { display: block; font-size: .42em; color: var(--gold); font-weight: 600; letter-spacing: .02em; }
+.clock {
+  margin-inline-start: auto; text-align: end;
+  font-size: 2.4em; font-weight: 700; font-variant-numeric: tabular-nums;
+  color: #fff;
+}
+.clock small { display: block; font-size: .36em; color: var(--dim); font-weight: 500; }
+
+/* The way back, shown only to somebody signed in. Quiet enough that it is not
+   the first thing read on a television, big enough to be a thumb's target on a
+   phone, where without it the only way off this page was the back gesture. */
+.board-exit {
+  display: inline-flex; align-items: center; gap: .4em;
+  min-height: 44px; padding: 0 .9em;
+  border: 1px solid var(--rule); border-radius: .5em;
+  background: var(--card); color: var(--ink);
+  font: inherit; font-size: .95em; text-decoration: none;
+  flex: none;
+}
+.board-exit:hover, .board-exit:focus-visible { background: rgba(255,255,255,.12); color: #fff; }
+.board-exit:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+/* --- the four figures ----------------------------------------------------- */
+
+.figures { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.1vw; }
+.fig {
+  background: var(--card); border: 1px solid var(--rule); border-radius: .6em;
+  padding: 1.1vh 1.1vw; text-align: center;
+}
+.fig .n { font-size: 3.4em; font-weight: 700; line-height: 1.05; }
+.fig .k { color: var(--dim); font-size: .95em; }
+.fig.late .n { color: var(--warn); }
+.fig.late.zero .n { color: var(--ok); }
+
+/* A figure that has just changed lifts for a moment. Long enough to catch an
+   eye crossing the corridor, short enough not to be a distraction all day. */
+@keyframes bump { 0% { transform: none } 30% { transform: scale(1.14) } 100% { transform: none } }
+.fig .n.changed, .tile-n.changed { animation: bump .6s ease; }
+
+/* --- rooms and feed ------------------------------------------------------- */
+
+.board-main {
+  flex: 1; min-height: 0;
+  display: grid; grid-template-columns: 1fr minmax(19vw, 26vw); gap: 1.1vw;
+}
+
+.tiles {
+  display: grid; gap: 1vw;
+  grid-template-columns: repeat(auto-fill, minmax(13vw, 1fr));
+  align-content: start;
+}
+.tile {
+  background: var(--card); border: 1px solid var(--rule); border-radius: .6em;
+  padding: 1vh 1vw; min-height: 8.5vh;
+  display: flex; flex-direction: column; justify-content: space-between;
+}
+.tile-name { font-size: .95em; color: var(--ink); line-height: 1.3; }
+.tile-name .rn { color: var(--dim); }
+.tile-n { font-size: 2.6em; font-weight: 700; line-height: 1; }
+.tile-sub { font-size: .8em; color: var(--dim); }
+/* A room holding nothing. Arabic-Indic zero is a dot, and at this size a row of
+   dots reads as damage rather than as calm, so the whole tile steps back
+   instead. */
+.tile.quiet { opacity: .42; }
+.tile.quiet .tile-n { color: var(--dim); }
+
+.tile.warn { border-color: rgba(224,169,60,.55); background: rgba(224,169,60,.10); }
+.tile.warn .tile-sub { color: var(--warn); }
+.tile.bad  { border-color: rgba(224,107,98,.60);  background: rgba(224,107,98,.12); }
+.tile.bad .tile-sub { color: var(--bad); }
+.tile.bad .tile-n { color: var(--bad); }
+
+.feed {
+  background: var(--card); border: 1px solid var(--rule); border-radius: .6em;
+  padding: 1vh 1vw; display: flex; flex-direction: column; min-height: 0;
+}
+.feed h2 { margin: 0 0 .6vh; font-size: 1.1em; color: var(--gold); font-weight: 600; }
+.feed ul { list-style: none; margin: 0; padding: 0; overflow: hidden; flex: 1; }
+.feed li {
+  display: flex; align-items: baseline; gap: .5em;
+  padding: .55vh 0; border-bottom: 1px solid var(--rule); font-size: .92em;
+}
+.feed li:last-child { border-bottom: 0; }
+.feed .what { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.feed .no { color: var(--gold); font-weight: 600; }
+.feed .when { color: var(--dim); font-size: .8em; font-variant-numeric: tabular-nums; }
+@keyframes slip { from { opacity: 0; transform: translateY(-.6em) } to { opacity: 1; transform: none } }
+.feed li.fresh { animation: slip .45s ease; }
+
+/* --- foot ----------------------------------------------------------------- */
+
+.board-foot {
+  display: flex; align-items: center; gap: .6em;
+  color: var(--dim); font-size: .8em;
+}
+.dot { width: .7em; height: .7em; border-radius: 50%; background: var(--bad); }
+.dot.live { background: var(--ok); }
+
+/* A narrow screen: somebody checking the board from a phone. The room tiles
+   keep their shape and the feed moves underneath rather than being cut off. */
+@media (max-width: 820px) {
+  body { font-size: 15px; }
+  /* The header now carries three things on a narrow screen, so it is allowed to
+     fall onto a second line rather than squeeze the clock off the edge. */
+  .board-top { flex-wrap: wrap; gap: .7em; }
+  .brand { font-size: 1.7em; }
+  .clock { font-size: 1.9em; }
+  .figures { grid-template-columns: repeat(2, 1fr); }
+  .board-main { grid-template-columns: 1fr; overflow-y: auto; }
+  .tiles { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+  html, body { overflow: auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fig .n.changed, .tile-n.changed, .feed li.fresh { animation: none; }
+}

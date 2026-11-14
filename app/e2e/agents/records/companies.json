@@ -1,0 +1,94 @@
+{
+  "mark": "rco1",
+  "companies": {
+    "full": {
+      "status": 303,
+      "url": "http://localhost:3111/companies/95",
+      "id": "95",
+      "notices": [],
+      "h1": "کۆمپانیای ئاسۆ rco1"
+    },
+    "past": {
+      "status": 303,
+      "url": "http://localhost:3111/companies/103",
+      "id": "103",
+      "notices": [],
+      "h1": "مۆڵەت past rco1"
+    },
+    "today": {
+      "status": 303,
+      "url": "http://localhost:3111/companies/104",
+      "id": "104",
+      "notices": [],
+      "h1": "مۆڵەت today rco1"
+    },
+    "tomorrow": {
+      "status": 303,
+      "url": "http://localhost:3111/companies/105",
+      "id": "105",
+      "notices": [],
+      "h1": "مۆڵەت tomorrow rco1"
+    },
+    "d15": {
+      "status": 303,
+      "url": "http://localhost:3111/companies/106",
+      "id": "106",
+      "notices": [],
+      "h1": "مۆڵەت d15 rco1"
+    },
+    "d30": {
+      "status": 303,
+      "url": "http://localhost:3111/companies/107",
+      "id": "107",
+      "notices": [],
+      "h1": "مۆڵەت d30 rco1"
+    },
+    "d31": {
+      "status": 303,
+      "url": "http://localhost:3111/companies/108",
+      "id": "108",
+      "notices": [],
+      "h1": "مۆڵەت d31 rco1"
+    },
+    "d45": {
+      "status": 303,
+      "url": "http://localhost:3111/companies/109",
+      "id": "109",
+      "notices": [],
+      "h1": "مۆڵەت d45 rco1"
+    },
+    "d59": {
+      "status": 303,
+      "url": "http://localhost:3111/companies/110",
+      "id": "110",
+      "notices": [],
+      "h1": "مۆڵەت d59 rco1"
+    },
+    "d60": {
+      "status": 303,
+      "url": "http://localhost:3111/companies/111",
+      "id": "111",
+      "notices": [],
+      "h1": "مۆڵەت d60 rco1"
+    },
+    "far": {
+      "status": 303,
+      "url": "http://localhost:3111/companies/112",
+      "id": "112",
+      "notices": [],
+      "h1": "مۆڵەت far rco1"
+    }
+  },
+  "letters": [
+    {
+      "id": 1211,
+      "no": "ه/2026/690",
+      "barcode": "20260006901"
+    },
+    {
+      "id": 1212,
+      "no": "ه/2026/691",
+      "barcode": "20260006919"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+import { browser, as, note, locShot } from './lib.mjs';
+const id = Number(process.argv[2]);
+const b = await browser();
+const { page } = await as(b, 'shilan');
+await page.goto(`/documents/${id}`);
+await locShot(page.locator('.card').first().locator('table'), 's01b-details-table');
+await locShot(page.locator('header.topbar h1'), 's01b-title');
+const plotTd = page.locator('tr:has(th:text("پارچە")) td');
+note('plot td font', await plotTd.evaluate(td => getComputedStyle(td).fontFamily), await plotTd.locator('div').evaluate(d => getComputedStyle(d).fontFamily));
+await b.close();

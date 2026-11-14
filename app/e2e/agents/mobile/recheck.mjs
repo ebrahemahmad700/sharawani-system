@@ -1,0 +1,15 @@
+import { launch, ctxFor } from './lib.mjs';
+const browser = await launch();
+const { context, page } = await ctxFor(browser, 'shilan', 'i390');
+await page.goto('/my-day');
+const row = page.locator('tr', { has: page.locator('a[href="/documents/1230"]') }).first();
+const cell = (await row.count()) ? (await row.locator('td').last().textContent()).trim() : 'row not found';
+await page.goto('/barcode?q=20260007099&ok=' + encodeURIComponent('پەڕگەی کاغەزی وەرگیرا.'));
+const notice = await page.locator('.content > .notice').textContent().catch(() => null);
+await page.goto('/inbox');
+const pills = await page.locator('tbody .pill').allTextContents();
+await page.goto('/manifests');
+const cbLabel = await page.locator('form[action="/manifests/new"] input[type=checkbox]').first().evaluate(e => ({ labels: e.labels.length, aria: e.getAttribute('aria-label') })).catch(() => null);
+console.log(JSON.stringify({ myDay1230: cell, barcodeOkNotice: notice, inboxPaperWords: [...new Set(pills)].filter(p => /گەیشتووە|وەرگیراوە/.test(p)), cbLabel }));
+await context.close();
+await browser.close();

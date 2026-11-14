@@ -1,0 +1,3005 @@
+{
+  "L1": {
+    "id": 1269,
+    "no": "ه/2026/748",
+    "barcode": "20260007487"
+  },
+  "L2": {
+    "id": 1270,
+    "no": "ه/2026/749",
+    "barcode": "20260007495"
+  },
+  "cmp": [
+    {
+      "id": 1,
+      "name": "ژووری هات و دەرچوو",
+      "roomsPending": 6,
+      "roomsLate": 0,
+      "dashPending": 6,
+      "inboxOpen": 6,
+      "inboxLate": 0,
+      "inboxRows": 6,
+      "inboxPaper": 6,
+      "boardOpen": 6,
+      "boardLate": 0,
+      "boardPaper": 6,
+      "unsent": 50
+    },
+    {
+      "id": 2,
+      "name": "ژووری سەرۆکی شارەوانی",
+      "roomsPending": 8,
+      "roomsLate": 0,
+      "dashPending": "-",
+      "inboxOpen": 8,
+      "inboxLate": 0,
+      "inboxRows": 8,
+      "inboxPaper": 8,
+      "boardOpen": 8,
+      "boardLate": 0,
+      "boardPaper": 8,
+      "unsent": 0
+    },
+    {
+      "id": 3,
+      "name": "نەخشەی بنەڕەتی (٨)",
+      "roomsPending": 7,
+      "roomsLate": 0,
+      "dashPending": 7,
+      "inboxOpen": 7,
+      "inboxLate": 0,
+      "inboxRows": 7,
+      "inboxPaper": 7,
+      "boardOpen": 7,
+      "boardLate": 0,
+      "boardPaper": 7,
+      "unsent": 1
+    },
+    {
+      "id": 4,
+      "name": "نەخشەی بنەڕەتی (٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 7,
+      "boardLate": 0,
+      "boardPaper": 7,
+      "unsent": 0
+    },
+    {
+      "id": 5,
+      "name": "گرێبەستە گشتییەکان (١٤)",
+      "roomsPending": 2,
+      "roomsLate": 0,
+      "dashPending": 2,
+      "inboxOpen": 2,
+      "inboxLate": 0,
+      "inboxRows": 2,
+      "inboxPaper": 1,
+      "boardOpen": 2,
+      "boardLate": 0,
+      "boardPaper": 1,
+      "unsent": 8
+    },
+    {
+      "id": 6,
+      "name": "ژووری یاسا",
+      "roomsPending": 143,
+      "roomsLate": 1,
+      "dashPending": 143,
+      "inboxOpen": 143,
+      "inboxLate": 1,
+      "inboxRows": 129,
+      "inboxPaper": 118,
+      "boardOpen": 143,
+      "boardLate": 1,
+      "boardPaper": 118,
+      "unsent": 8
+    },
+    {
+      "id": 7,
+      "name": "ژووری زەوی و زار",
+      "roomsPending": 7,
+      "roomsLate": 0,
+      "dashPending": 7,
+      "inboxOpen": 7,
+      "inboxLate": 0,
+      "inboxRows": 7,
+      "inboxPaper": 7,
+      "boardOpen": 7,
+      "boardLate": 0,
+      "boardPaper": 7,
+      "unsent": 1
+    },
+    {
+      "id": 8,
+      "name": "ژووری ژمێریاری",
+      "roomsPending": 26,
+      "roomsLate": 0,
+      "dashPending": 26,
+      "inboxOpen": 26,
+      "inboxLate": 0,
+      "inboxRows": 26,
+      "inboxPaper": 19,
+      "boardOpen": 26,
+      "boardLate": 0,
+      "boardPaper": 19,
+      "unsent": 0
+    },
+    {
+      "id": 9,
+      "name": "ژووری کارگێڕی",
+      "roomsPending": 1,
+      "roomsLate": 0,
+      "dashPending": 1,
+      "inboxOpen": 1,
+      "inboxLate": 0,
+      "inboxRows": 1,
+      "inboxPaper": 1,
+      "boardOpen": 1,
+      "boardLate": 0,
+      "boardPaper": 1,
+      "unsent": 1
+    },
+    {
+      "id": 10,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 12,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 14,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 16,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 18,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 20,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 22,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 24,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 26,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 28,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 30,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 32,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 34,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 36,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 47,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 49,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 51,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 53,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 55,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 57,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 59,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 61,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 63,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 65,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 67,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 69,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 71,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 73,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 75,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 77,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 79,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 81,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 83,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 85,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 87,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 89,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 91,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 93,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 95,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 97,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 99,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 101,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 103,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 105,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 107,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 109,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 111,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 113,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 115,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 117,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 119,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 121,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 123,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 125,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 127,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 129,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 131,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 133,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 135,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 137,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 139,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 141,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 143,
+      "name": "ژووری تاقیکردنەوە 5qo88h8",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 145,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 147,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 149,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 151,
+      "name": "ژووری تاقیکردنەوە (٩٩)",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    },
+    {
+      "id": 155,
+      "name": "ژووری بێ کتاب rad1 (٧٨)",
+      "roomsPending": 2,
+      "roomsLate": 0,
+      "dashPending": 2,
+      "inboxOpen": 2,
+      "inboxLate": 0,
+      "inboxRows": 2,
+      "inboxPaper": 2,
+      "boardOpen": 2,
+      "boardLate": 0,
+      "boardPaper": 2,
+      "unsent": 2
+    },
+    {
+      "id": 156,
+      "name": "هەڵە rad1",
+      "roomsPending": 0,
+      "roomsLate": 0,
+      "dashPending": 0,
+      "inboxOpen": 0,
+      "inboxLate": 0,
+      "inboxRows": 0,
+      "inboxPaper": 0,
+      "boardOpen": 0,
+      "boardLate": 0,
+      "boardPaper": 0,
+      "unsent": 0
+    }
+  ],
+  "dash0": {
+    "stats": {
+      "هاتووی ئەمڕۆ": 334,
+      "چاوەڕوانی بڕیاری من": 8,
+      "دواکەوتوو لە ژوورەکان": 1,
+      "دەرچووی ئەم مانگە": 83
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "name": "ژووری هات و دەرچوو",
+        "pending": 6,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 3,
+        "name": "نەخشەی بنەڕەتی (٨)",
+        "pending": 7,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 4,
+        "name": "نەخشەی بنەڕەتی (٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 5,
+        "name": "گرێبەستە گشتییەکان (١٤)",
+        "pending": 2,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 6,
+        "name": "ژووری یاسا",
+        "pending": 143,
+        "status": "١ دواکەوتوو",
+        "late": 1
+      },
+      {
+        "id": 7,
+        "name": "ژووری زەوی و زار",
+        "pending": 7,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 8,
+        "name": "ژووری ژمێریاری",
+        "pending": 26,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 9,
+        "name": "ژووری کارگێڕی",
+        "pending": 1,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 10,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 12,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 14,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 16,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 18,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 20,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 22,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 24,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 26,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 28,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 30,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 32,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 34,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 36,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 47,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 49,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 51,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 53,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 55,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 57,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 59,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 61,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 63,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 65,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 67,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 69,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 71,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 73,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 75,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 77,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 79,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 81,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 83,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 85,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 87,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 89,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 91,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 93,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 95,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 97,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 99,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 101,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 103,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 105,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 107,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 109,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 111,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 113,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 115,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 117,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 119,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 121,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 123,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 125,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 127,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 129,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 131,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 133,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 135,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 137,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 139,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 141,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 143,
+        "name": "ژووری تاقیکردنەوە 5qo88h8",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 145,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 147,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 149,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 151,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 155,
+        "name": "ژووری بێ کتاب rad1 (٧٨)",
+        "pending": 1,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 156,
+        "name": "هەڵە rad1",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      }
+    ],
+    "lateRows": 1
+  },
+  "dash1": {
+    "stats": {
+      "هاتووی ئەمڕۆ": 336,
+      "چاوەڕوانی بڕیاری من": 8,
+      "دواکەوتوو لە ژوورەکان": 1,
+      "دەرچووی ئەم مانگە": 83
+    },
+    "rooms": [
+      {
+        "id": 1,
+        "name": "ژووری هات و دەرچوو",
+        "pending": 6,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 3,
+        "name": "نەخشەی بنەڕەتی (٨)",
+        "pending": 7,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 4,
+        "name": "نەخشەی بنەڕەتی (٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 5,
+        "name": "گرێبەستە گشتییەکان (١٤)",
+        "pending": 2,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 6,
+        "name": "ژووری یاسا",
+        "pending": 143,
+        "status": "١ دواکەوتوو",
+        "late": 1
+      },
+      {
+        "id": 7,
+        "name": "ژووری زەوی و زار",
+        "pending": 7,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 8,
+        "name": "ژووری ژمێریاری",
+        "pending": 26,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 9,
+        "name": "ژووری کارگێڕی",
+        "pending": 1,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 10,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 12,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 14,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 16,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 18,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 20,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 22,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 24,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 26,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 28,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 30,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 32,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 34,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 36,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 47,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 49,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 51,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 53,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 55,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 57,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 59,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 61,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 63,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 65,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 67,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 69,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 71,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 73,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 75,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 77,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 79,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 81,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 83,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 85,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 87,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 89,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 91,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 93,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 95,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 97,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 99,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 101,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 103,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 105,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 107,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 109,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 111,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 113,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 115,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 117,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 119,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 121,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 123,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 125,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 127,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 129,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 131,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 133,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 135,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 137,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 139,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 141,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 143,
+        "name": "ژووری تاقیکردنەوە 5qo88h8",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 145,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 147,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 149,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 151,
+        "name": "ژووری تاقیکردنەوە (٩٩)",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      },
+      {
+        "id": 155,
+        "name": "ژووری بێ کتاب rad1 (٧٨)",
+        "pending": 2,
+        "status": "لە کاتدا",
+        "late": 0
+      },
+      {
+        "id": 156,
+        "name": "هەڵە rad1",
+        "pending": 0,
+        "status": "پاک",
+        "late": 0
+      }
+    ],
+    "lateRows": 1
+  },
+  "board2": {
+    "at": "2026-09-13T08:13:36+03",
+    "today": {
+      "late": 1,
+      "closed": 19,
+      "in_flow": 203,
+      "registered": 336
+    },
+    "rooms": [
+      {
+        "late": 1,
+        "name": "ژووری یاسا",
+        "open": 143,
+        "sort_order": 60,
+        "room_number": null,
+        "paper_waiting": 118
+      },
+      {
+        "late": 0,
+        "name": "ژووری ژمێریاری",
+        "open": 26,
+        "sort_order": 80,
+        "room_number": null,
+        "paper_waiting": 19
+      },
+      {
+        "late": 0,
+        "name": "ژووری سەرۆکی شارەوانی",
+        "open": 8,
+        "sort_order": 20,
+        "room_number": null,
+        "paper_waiting": 8
+      },
+      {
+        "late": 0,
+        "name": "نەخشەی بنەڕەتی",
+        "open": 7,
+        "sort_order": 30,
+        "room_number": "8",
+        "paper_waiting": 7
+      },
+      {
+        "late": 0,
+        "name": "ژووری زەوی و زار",
+        "open": 7,
+        "sort_order": 70,
+        "room_number": null,
+        "paper_waiting": 7
+      },
+      {
+        "late": 0,
+        "name": "ژووری هات و دەرچوو",
+        "open": 6,
+        "sort_order": 10,
+        "room_number": null,
+        "paper_waiting": 6
+      },
+      {
+        "late": 0,
+        "name": "گرێبەستە گشتییەکان",
+        "open": 2,
+        "sort_order": 50,
+        "room_number": "14",
+        "paper_waiting": 1
+      },
+      {
+        "late": 0,
+        "name": "ژووری بێ کتاب rad1",
+        "open": 2,
+        "sort_order": 800,
+        "room_number": "78",
+        "paper_waiting": 2
+      },
+      {
+        "late": 0,
+        "name": "ژووری کارگێڕی",
+        "open": 1,
+        "sort_order": 90,
+        "room_number": null,
+        "paper_waiting": 1
+      },
+      {
+        "late": 0,
+        "name": "نەخشەی بنەڕەتی",
+        "open": 0,
+        "sort_order": 40,
+        "room_number": "9",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 100,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 110,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 120,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 130,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 140,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 150,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 160,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 170,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 180,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 190,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 200,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 210,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 220,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 230,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 240,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 250,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 260,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 270,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 280,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 290,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 300,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 310,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 320,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 330,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 340,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 350,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 360,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 370,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 380,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 390,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 400,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 410,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 420,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 430,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 440,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 450,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 460,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 470,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 480,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 490,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 500,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 510,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 520,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 530,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 540,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 550,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 560,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 570,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 580,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 590,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 600,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 610,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 620,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 630,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 640,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 650,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 660,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 670,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 680,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 690,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 700,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 710,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە 5qo88h8",
+        "open": 0,
+        "sort_order": 720,
+        "room_number": null,
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 740,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 750,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 760,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "ژووری تاقیکردنەوە",
+        "open": 0,
+        "sort_order": 770,
+        "room_number": "99",
+        "paper_waiting": 0
+      },
+      {
+        "late": 0,
+        "name": "هەڵە rad1",
+        "open": 0,
+        "sort_order": 810,
+        "room_number": null,
+        "paper_waiting": 0
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-13T08:13:32.209298+03:00",
+        "says": "نێردرا بۆ",
+        "number": "ه/2026/749",
+        "room": "ژووری بێ کتاب rad1"
+      },
+      {
+        "at": "2026-09-13T08:13:31.388632+03:00",
+        "says": "تۆمارکرا",
+        "number": "ه/2026/749",
+        "room": "ژووری هات و دەرچوو"
+      },
+      {
+        "at": "2026-09-13T08:13:30.443182+03:00",
+        "says": "تۆمارکرا",
+        "number": "ه/2026/748",
+        "room": "ژووری هات و دەرچوو"
+      },
+      {
+        "at": "2026-09-13T08:10:52.187949+03:00",
+        "says": "تۆمارکرا",
+        "number": "ه/2026/747",
+        "room": "ژووری هات و دەرچوو"
+      },
+      {
+        "at": "2026-09-13T08:10:50.410636+03:00",
+        "says": "تۆمارکرا",
+        "number": "ه/2026/746",
+        "room": "ژووری هات و دەرچوو"
+      },
+      {
+        "at": "2026-09-13T08:04:34.258618+03:00",
+        "says": "کرایەوە لە",
+        "number": "ه/2026/719",
+        "room": "ژووری یاسا"
+      },
+      {
+        "at": "2026-09-13T08:03:47.726123+03:00",
+        "says": "تۆمارکرا",
+        "number": "ه/2026/745",
+        "room": "ژووری هات و دەرچوو"
+      },
+      {
+        "at": "2026-09-13T08:02:41.140786+03:00",
+        "says": "تۆمارکرا",
+        "number": "ه/2026/744",
+        "room": "ژووری هات و دەرچوو"
+      },
+      {
+        "at": "2026-09-13T07:57:18.549926+03:00",
+        "says": "نێردرا بۆ",
+        "number": "ه/2026/743",
+        "room": "ژووری بێ کتاب rad1"
+      },
+      {
+        "at": "2026-09-13T07:57:18.222508+03:00",
+        "says": "تۆمارکرا",
+        "number": "ه/2026/743",
+        "room": "ژووری هات و دەرچوو"
+      },
+      {
+        "at": "2026-09-13T07:57:17.644672+03:00",
+        "says": "تۆمارکرا",
+        "number": "ه/2026/742",
+        "room": "ژووری هات و دەرچوو"
+      },
+      {
+        "at": "2026-09-13T07:54:47.303714+03:00",
+        "says": "تۆمارکرا",
+        "number": "ه/2026/741",
+        "room": "ژووری بێ کتاب rad1"
+      },
+      {
+        "at": "2026-09-13T07:54:41.386696+03:00",
+        "says": "تۆمارکرا",
+        "number": "ه/2026/740",
+        "room": "ژووری بێ کتاب rad1"
+      },
+      {
+        "at": "2026-09-13T07:51:10.898024+03:00",
+        "says": "نێردرا بۆ",
+        "number": "ه/2026/739",
+        "room": "ژووری ژمێریاری"
+      }
+    ]
+  }
+}

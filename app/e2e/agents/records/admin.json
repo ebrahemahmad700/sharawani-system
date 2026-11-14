@@ -1,0 +1,49 @@
+{
+  "mark": "rad1",
+  "rooms": {
+    "roomA": "154",
+    "roomB": "155",
+    "junk": "156"
+  },
+  "users": {
+    "room_head": {
+      "username": "rad1.roomhead",
+      "temp": "q2jh-nwd7-zxna",
+      "password": "Head-rad1-2026!"
+    },
+    "room_clerk": {
+      "username": "rad1.roomclerk",
+      "temp": "dr46-gy8p-rpvf",
+      "password": "Taqi-rad1-2026!",
+      "temp2": "n6yy-nh5w-s9pw"
+    },
+    "registry_clerk": {
+      "username": "rad1.registryclerk",
+      "temp": "ggdp-c4sv-6npu"
+    },
+    "archive_clerk": {
+      "username": "rad1.archiveclerk",
+      "temp": "ty7p-x22y-x43w"
+    },
+    "hr": {
+      "username": "rad1.hr",
+      "temp": "enpq-36kq-ftue"
+    },
+    "directorate_head": {
+      "username": "rad1.directoratehead",
+      "temp": "az6h-bk5g-5hcd"
+    },
+    "deputy_mayor": {
+      "username": "rad1.deputymayor",
+      "temp": "pf2a-hpcr-cs7e"
+    },
+    "mayor": {
+      "username": "rad1.mayor",
+      "temp": "5gk9-drd3-h2bj"
+    },
+    "sysadmin": {
+      "username": "rad1.sysadmin",
+      "temp": "9xb3-5dcp-pdas"
+    }
+  }
+}

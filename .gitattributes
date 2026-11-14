@@ -1,0 +1,6 @@
+# Keep LF line endings in the repo and on checkout, so the shell entrypoints
+# still run inside Docker when the repo is cloned on Windows.
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.docx binary

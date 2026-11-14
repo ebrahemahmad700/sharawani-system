@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="شارەوانی ڕانیە">
+  <rect width="100" height="100" rx="22" fill="#0e3a28"/>
+  <circle cx="50" cy="50" r="34" fill="#c99a2e"/>
+  <rect x="35.4" y="31.9" width="29.2" height="36.1" rx="3" fill="#0b2c1e"/>
+  <g fill="#c99a2e">
+    <rect x="41.3" y="42.7" width="17.4" height="1.8" rx=".9"/>
+    <rect x="41.3" y="50.7" width="17.4" height="1.8" rx=".9"/>
+    <rect x="41.3" y="58.6" width="9.6" height="1.8" rx=".9"/>
+  </g>
+</svg>

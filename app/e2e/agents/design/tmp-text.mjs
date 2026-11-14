@@ -1,0 +1,10 @@
+import { launch, ctxFor, settle } from './lib.mjs';
+const [user, path, re] = process.argv.slice(2);
+const browser = await launch();
+const ctx = await ctxFor(browser, user);
+const page = await ctx.newPage();
+await page.goto(path); await settle(page);
+const t = await page.evaluate(() => document.querySelector('.content').innerText);
+const r = new RegExp(re, 'g');
+console.log(path, 'matches:', [...t.matchAll(r)].map(m => t.slice(Math.max(0, m.index - 40), m.index + 40).replace(/\s+/g, ' ')));
+await browser.close();
