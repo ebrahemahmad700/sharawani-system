@@ -17,6 +17,8 @@ import { registerIncoming, registerOutgoingAndClose, searchDocuments, findSimila
 import { page } from '../views/layout.mjs';
 import { html, raw, num, date, ltr } from '../lib/html.mjs';
 import { scannersFor } from '../lib/escl.mjs';
+import { logEvent } from '../lib/log.mjs';
+import { toCsv, sendCsv, exportRange } from '../lib/csv.mjs';
 
 const router = Router();
 
@@ -80,8 +82,11 @@ router.get('/registry', requireAuth, async (req, res, next) => {
       if (req.user.role === 'sysadmin') return res.redirect(303, '/admin/users');
       return res.redirect(303, qtext ? `/documents?q=${encodeURIComponent(qtext)}` : '/documents');
     }
-    const rows = await withActor(req.user, q =>
-      searchDocuments(q, { text: qtext, filters: {}, limit: 60, byUser: req.user, req }));
+    const { rows, promised } = await withActor(req.user, async q => ({
+      rows: await searchDocuments(q, { text: qtext, filters: {}, limit: 60, byUser: req.user, req }),
+      promised: await promisedReplies(q),
+    }));
+    const range = exportRange(req.query);
 
     res.send(page({
       user: req.user,
@@ -89,6 +94,8 @@ router.get('/registry', requireAuth, async (req, res, next) => {
       current: '/registry',
       actions: html`<a class="btn" href="/registry/new">کتابی نوێ</a>`,
       body: html`
+        ${promisedCard(promised)}
+
         <div class="card">
           <form method="get" action="/registry" class="row" role="search">
             <input type="search" name="q" value="${qtext}" aria-label="گەڕان لە تۆمار" placeholder="گەڕان بە ژمارە، بابەت، ناوی نێردەر یان ژمارەی پارچە">
@@ -109,15 +116,137 @@ router.get('/registry', requireAuth, async (req, res, next) => {
                   ${rows.map(d => html`<tr>
                     <td class="mono">${ltr(d.incoming_no)}</td>
                     <td>${date(d.incoming_date)}</td>
-                    <td><a href="/documents/${d.id}">${d.subject}</a></td>
+                    <td><a href="/documents/${d.id}">${d.subject}</a>${d.is_confidential ? html` <span class="pill danger">نهێنی</span>` : ''}</td>
                     <td>${d.sender_name}</td>
                     <td>${d.priority === 'very_urgent' ? html`<span class="pill danger">زۆر پەلە</span> ` : d.priority === 'urgent' ? html`<span class="pill warn">پەلە</span> ` : ''}${statusPill(d.status)}</td>
                     <td class="muted">${d.current_room_name ?? '—'}</td>
                   </tr>`)}
                 </tbody>
               </table></div>`}
-        </div>`,
+        </div>
+
+        ${exportCard('/registry/export.csv', range, 'تۆماری هاتوو بۆ Excel', 'هەموو ئەو کتابانەی لەم ماوەیەدا هاتوون، بە ژمارە، بابەت، نێردەر، دۆخ و ئێستا لای کێیە.')}`,
     }));
+  } catch (err) { next(err); }
+});
+
+// ---------------------------------------------------------------------------
+// The reply the applicant was promised (migration 0600)
+// ---------------------------------------------------------------------------
+
+/**
+ * Open letters whose promised reply date is today, within three days, or gone.
+ * The front desk made the promise at the counter, so the front desk sees it
+ * coming; the mayor's dashboard shows the same list.
+ */
+export async function promisedReplies(q, { limit = 30 } = {}) {
+  const { rows } = await q(`
+    SELECT d.id, d.incoming_no, d.subject, d.sender_name, d.reply_by, d.is_confidential,
+           (d.reply_by - current_date) AS days_left, r.name AS room_name
+      FROM document d LEFT JOIN room r ON r.id = d.current_room_id
+     WHERE d.reply_by IS NOT NULL AND d.reply_by <= current_date + 3
+       AND d.status IN ('registered', 'in_flow', 'ready_to_close')
+     ORDER BY d.reply_by, d.id
+     LIMIT $1`, [limit]);
+  return rows;
+}
+
+/** How the promise stands: late, today, or in N days. */
+export function replyByPill(daysLeft) {
+  if (daysLeft === null || daysLeft === undefined) return '';
+  const n = Number(daysLeft);
+  if (n < 0) return html`<span class="pill danger">${num(-n)} ڕۆژ دواکەوتووە</span>`;
+  if (n === 0) return html`<span class="pill danger">ئەمڕۆ</span>`;
+  if (n <= 3) return html`<span class="pill warn">${num(n)} ڕۆژی ماوە</span>`;
+  return html`<span class="pill muted">${num(n)} ڕۆژی ماوە</span>`;
+}
+
+export function promisedCard(rows) {
+  if (!rows.length) return '';
+  return html`
+    <div class="card attention">
+      <div class="card-head">
+        <h2>بەڵێنی وەڵامدانەوە <span class="pill muted">${num(rows.length)}</span></h2>
+      </div>
+      <p class="card-sub">ئەو کتابانەی بەرواری وەڵامدانەوەیان بە داواکار دراوە و ئەمڕۆ یان لە سێ ڕۆژی داهاتوودا دێت، یان تێپەڕیوە.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>ژمارە</th><th>بابەت</th><th>داواکار</th><th>ئێستا لای</th><th>بەڵێن دراوە بۆ</th></tr></thead>
+        <tbody>${rows.map(d => html`<tr>
+          <td class="mono">${ltr(d.incoming_no)}</td>
+          <td><a href="/documents/${d.id}">${d.subject}</a>${d.is_confidential ? html` <span class="pill danger">نهێنی</span>` : ''}</td>
+          <td>${d.sender_name}</td>
+          <td class="muted">${d.room_name ?? '—'}</td>
+          <td class="nowrap">${date(d.reply_by)} ${replyByPill(d.days_left)}</td>
+        </tr>`)}</tbody>
+      </table></div>
+    </div>`;
+}
+
+/** A date range and a download button, under a register. */
+export function exportCard(action, range, heading, sub) {
+  const key = action.replace(/[^a-z]/g, '');
+  return html`
+    <div class="card">
+      <h2>${heading}</h2>
+      <p class="card-sub">${sub} تەنها ئەو کتابانە دەچنە ناو فایلەکە کە تۆ دەتوانیت ببینیت.</p>
+      <form method="get" action="${action}" class="row">
+        <label for="from_${key}">لە</label>
+        <input id="from_${key}" name="from" type="date" dir="ltr" value="${range.from}">
+        <label for="to_${key}">بۆ</label>
+        <input id="to_${key}" name="to" type="date" dir="ltr" value="${range.to}">
+        <button class="btn secondary" type="submit">داگرتن بۆ Excel</button>
+      </form>
+    </div>`;
+}
+
+const STATUS_WORD = Object.fromEntries(Object.entries(STATUS_PILL).map(([k, [, l]]) => [k, l]));
+const PRIORITY_WORD = Object.fromEntries(PRIORITIES);
+const SENDER_WORD = Object.fromEntries(SENDER_KINDS);
+
+router.get('/registry/export.csv', requireAuth, async (req, res, next) => {
+  try {
+    if (!FRONT_DESK.includes(req.user.role)) return res.status(403).send('');
+    const range = exportRange(req.query);
+    const rows = await withActor(req.user, async q => {
+      // Row-level security decides which letters are in it, exactly as on the
+      // screen: a confidential letter the clerk may not open is not in their file.
+      const { rows } = await q(`
+        SELECT d.incoming_no, to_char(d.incoming_date, 'YYYY-MM-DD') AS incoming_date, d.subject,
+               coalesce(o.name, d.doc_type::text) AS type_name, d.sender_kind, d.sender_name, d.sender_contact,
+               d.priority, d.status, d.plot_no, d.neighbourhood, r.name AS current_room,
+               to_char(d.reply_by, 'YYYY-MM-DD') AS reply_by, d.is_confidential,
+               d.outgoing_no, to_char(d.outgoing_date, 'YYYY-MM-DD') AS outgoing_date,
+               u.full_name AS registered_by
+          FROM document d
+          LEFT JOIN doc_type_option o ON o.id = d.doc_type_option_id
+          LEFT JOIN room r ON r.id = d.current_room_id
+          LEFT JOIN app_user u ON u.id = d.incoming_registered_by
+         WHERE d.incoming_date BETWEEN $1::date AND $2::date
+         ORDER BY d.incoming_year, d.incoming_seq
+         LIMIT 50000`, [range.from, range.to]);
+      await logEvent(q, { action: 'export.registry', req, userId: req.user.id, roomId: req.user.roomId,
+        detail: { from: range.from, to: range.to, rows: rows.length } });
+      return rows;
+    });
+    sendCsv(res, `incoming-${range.from}-${range.to}.csv`, toCsv([
+      ['ژمارەی هاتوو', r => r.incoming_no],
+      ['بەرواری هاتوو', r => r.incoming_date],
+      ['بابەت', r => r.subject],
+      ['جۆری مامەڵە', r => r.type_name],
+      ['جۆری نێردەر', r => SENDER_WORD[r.sender_kind] ?? r.sender_kind],
+      ['نێردەر', r => r.sender_name],
+      ['پەیوەندی', r => r.sender_contact],
+      ['گرنگی', r => PRIORITY_WORD[r.priority] ?? r.priority],
+      ['دۆخ', r => STATUS_WORD[r.status] ?? r.status],
+      ['ئێستا لای', r => r.current_room],
+      ['پارچە', r => r.plot_no],
+      ['گەڕەک', r => r.neighbourhood],
+      ['بەڵێنی وەڵام', r => r.reply_by],
+      ['نهێنی', r => (r.is_confidential ? 'بەڵێ' : '')],
+      ['ژمارەی دەرچوو', r => r.outgoing_no],
+      ['بەرواری دەرچوو', r => r.outgoing_date],
+      ['تۆمارکرا لەلایەن', r => r.registered_by],
+    ], rows));
   } catch (err) { next(err); }
 });
 
@@ -297,6 +426,25 @@ function newForm({ user, csrf, error = null, values = {}, types = [], companies 
           </div>
         </div>
 
+        ${desk ? html`
+        <div class="card">
+          <h2>بەڵێن و نهێنی</h2>
+          <div class="grid cols-2">
+            <div class="field">
+              <label for="reply_by">بەرواری وەڵامدانەوە بە داواکار</label>
+              <input id="reply_by" name="reply_by" type="date" dir="ltr" value="${v('reply_by')}">
+              <div class="hint">ئەو ڕۆژەی بە داواکار دەڵێیت وەڵام وەردەگرێت. لەسەر پسوولەکە چاپ دەکرێت و هەموو ئەو ژوورانەی کتابەکەیان لایە دەیبینن.</div>
+            </div>
+            <div class="field">
+              <label class="row" style="margin-top:26px">
+                <input type="checkbox" name="is_confidential" value="1"${values.is_confidential ? ' checked' : ''}>
+                <span>کتابێکی نهێنییە</span>
+              </label>
+              <div class="hint">تەنها سەرۆک، جێگر، تۆ و ئەو ژوورانەی بۆیان دەنێردرێت دەیبینن. کارمەندانی تری ئەم ژوورە نایبینن.</div>
+            </div>
+          </div>
+        </div>` : ''}
+
         <div class="card">
           <h2>شوێنی کاغەز</h2>
           <p class="card-sub">
@@ -418,6 +566,8 @@ router.post('/registry/new', requireAuth, async (req, res, next) => {
       physicalFolder: b.physical_folder || null,
       relatedDocumentId: Number(b.related_document_id) || null,
       originRoomId: req.user.roomId ?? null,
+      isConfidential: b.is_confidential === '1',
+      replyBy: b.reply_by || null,
       byUser: req.user, req,
     }));
 

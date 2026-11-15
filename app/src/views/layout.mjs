@@ -249,8 +249,10 @@ function navFor(user, counts = {}) {
       ['mayor', 'deputy_mayor', 'directorate_head', 'room_head', 'room_clerk', 'registry_clerk', 'archive_clerk', 'hr']);
   add('/plots/map', 'نەخشەی پارچەکان', ICONS.map,
       ['mayor', 'deputy_mayor', 'directorate_head', 'room_head', 'room_clerk', 'registry_clerk', 'archive_clerk', 'hr']);
-  add('/archive', 'ئەرشیفی نەخشە', ICONS.archive,
-      ['mayor', 'deputy_mayor', 'directorate_head', 'room_head', 'room_clerk', 'archive_clerk']);
+  // Every room has its own archive since migration 0600, so everyone with a room
+  // has one to open. IT has no room and no archive.
+  add('/archive', 'ئەرشیفی ژوور', ICONS.archive,
+      ['mayor', 'deputy_mayor', 'directorate_head', 'room_head', 'room_clerk', 'registry_clerk', 'archive_clerk', 'hr']);
   add('/tray', 'سینیی سکان', ICONS.tray,
       ['registry_clerk', 'room_clerk', 'room_head', 'archive_clerk', 'mayor', 'deputy_mayor', 'directorate_head']);
   // Everyone who touches a paper folder. The barcode screen is how the folder in
@@ -423,7 +425,7 @@ export function authPage({ title, body, wide = false }) {
         <div class="auth-brand-mid">
           <div class="auth-eyebrow">لەم سیستەمەدا</div>
           <div class="auth-chips">
-            <span>تۆمارکردنی کتاب</span><span>ناردن بۆ ژوورەکان</span><span>ئەرشیفی نەخشە</span>
+            <span>تۆمارکردنی کتاب</span><span>ناردن بۆ ژوورەکان</span><span>ئەرشیفی ژوورەکان</span>
             <span>کۆمپانیاکان</span><span>مۆڵەت</span><span>بەدواداچوونی داواکاری</span>
           </div>
         </div>

@@ -289,6 +289,7 @@ router.get('/documents/:id(\\d+)/receipt', requireAuth, async (req, res, next) =
           <dt>بەروار</dt><dd>${date(doc.incoming_date)}</dd>
           <dt>ناوی داواکار</dt><dd>${doc.sender_name}</dd>
           ${doc.plot_no ? html`<dt>پارچە</dt><dd dir="ltr">${unifyDigits(doc.plot_no)}</dd>` : ''}
+          ${doc.reply_by ? html`<dt>وەڵام تا</dt><dd><strong>${date(doc.reply_by)}</strong></dd>` : ''}
         </dl>
 
         <div class="subject">${doc.subject}</div>
@@ -331,6 +332,7 @@ router.get('/documents/:id(\\d+)/receipt', requireAuth, async (req, res, next) =
           ${doc.plot_no ? html`<tr><th>پارچە</th><td dir="ltr">${unifyDigits(doc.plot_no)}</td></tr>` : ''}
           ${doc.neighbourhood ? html`<tr><th>گەڕەک</th><td>${doc.neighbourhood}</td></tr>` : ''}
           <tr><th>وەرگیرا لەلایەن</th><td>${doc.registered_by_name ?? ''}</td></tr>
+          ${doc.reply_by ? html`<tr><th>بەرواری وەڵامدانەوە</th><td><strong>${date(doc.reply_by)}</strong></td></tr>` : ''}
         </tbody></table>
 
         <div class="pinbox">

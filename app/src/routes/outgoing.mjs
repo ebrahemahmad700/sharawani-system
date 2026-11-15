@@ -11,7 +11,9 @@ import { withActor } from '../lib/db.mjs';
 import { requireAuth } from '../lib/auth.mjs';
 import { page } from '../views/layout.mjs';
 import { html, num, date, elapsed, ltr } from '../lib/html.mjs';
-import { CHANNELS } from './registry.mjs';
+import { CHANNELS, exportCard } from './registry.mjs';
+import { logEvent } from '../lib/log.mjs';
+import { toCsv, sendCsv, exportRange } from '../lib/csv.mjs';
 
 const router = Router();
 
@@ -71,8 +73,49 @@ router.get('/outgoing', requireAuth, async (req, res, next) => {
                 <td><a class="btn small secondary" href="/documents/${d.id}/compare">بەراورد</a></td>
               </tr>`)}</tbody>
             </table></div>`}
-        </div>`,
+        </div>
+
+        ${exportCard('/outgoing/export.csv', exportRange(req.query), 'تۆماری دەرچوو بۆ Excel',
+          'هەموو ئەو کتابانەی لەم ماوەیەدا ژمارەی دەرچوویان وەرگرتووە، بە وەرگر و ڕێگای ناردن.')}`,
     }));
+  } catch (err) { next(err); }
+});
+
+router.get('/outgoing/export.csv', requireAuth, async (req, res, next) => {
+  try {
+    if (req.user.role === 'sysadmin') return res.status(403).send('');
+    const range = exportRange(req.query);
+    const rows = await withActor(req.user, async q => {
+      // Under row-level security, like the screen: each person's file holds the
+      // letters they may open, and nothing else.
+      const { rows } = await q(`
+        SELECT d.outgoing_no, to_char(d.outgoing_date, 'YYYY-MM-DD') AS outgoing_date, d.subject,
+               d.outgoing_recipient, d.outgoing_channel, d.incoming_no,
+               to_char(d.incoming_date, 'YYYY-MM-DD') AS incoming_date, d.sender_name,
+               to_char(d.reply_by, 'YYYY-MM-DD') AS reply_by,
+               (d.reply_by IS NOT NULL AND d.outgoing_date > d.reply_by) AS late_reply,
+               u.full_name AS by_name
+          FROM document d LEFT JOIN app_user u ON u.id = d.outgoing_registered_by
+         WHERE d.outgoing_no IS NOT NULL AND d.outgoing_date BETWEEN $1::date AND $2::date
+         ORDER BY d.outgoing_year, d.outgoing_seq
+         LIMIT 50000`, [range.from, range.to]);
+      await logEvent(q, { action: 'export.outgoing', req, userId: req.user.id, roomId: req.user.roomId,
+        detail: { from: range.from, to: range.to, rows: rows.length } });
+      return rows;
+    });
+    sendCsv(res, `outgoing-${range.from}-${range.to}.csv`, toCsv([
+      ['ژمارەی دەرچوو', r => r.outgoing_no],
+      ['بەرواری دەرچوو', r => r.outgoing_date],
+      ['بابەت', r => r.subject],
+      ['وەرگر', r => r.outgoing_recipient],
+      ['ڕێگای ناردن', r => channelName(r.outgoing_channel)],
+      ['ژمارەی هاتوو', r => r.incoming_no],
+      ['بەرواری هاتوو', r => r.incoming_date],
+      ['نێردەری کتابی هاتوو', r => r.sender_name],
+      ['بەڵێنی وەڵام', r => r.reply_by],
+      ['دوای بەڵێن وەڵام درایەوە', r => (r.late_reply ? 'بەڵێ' : '')],
+      ['لەلایەن', r => r.by_name],
+    ], rows));
   } catch (err) { next(err); }
 });
 

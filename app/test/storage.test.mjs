@@ -118,7 +118,13 @@ for (const p of [
   { what: 'a drawing in the archive',
     find: `SELECT f.stored_path AS path, f.id FROM archive_file f
              WHERE f.stored_path IN (SELECT stored_path FROM file_blob) LIMIT 1`,
-    reader: `SELECT id FROM app_user WHERE role = 'archive_clerk' AND is_active LIMIT 1` },
+    // Since migration 0600 a drawing belongs to one room's archive.
+    reader: `SELECT u.id FROM app_user u JOIN archive_file f ON f.id = $1
+              WHERE u.is_active AND u.room_id = f.room_id ORDER BY u.id LIMIT 1`,
+    outsider: `SELECT u.id FROM app_user u JOIN archive_file f ON f.id = $1
+                WHERE u.is_active AND u.role IN ('room_clerk', 'room_head', 'archive_clerk', 'registry_clerk')
+                  AND u.room_id IS DISTINCT FROM f.room_id
+                ORDER BY u.id LIMIT 1` },
 ]) {
   const { rows: [row] } = await owner.query(p.find);
   if (!row) { console.log(`skip  ${p.what}: none stored as a blob`); continue; }

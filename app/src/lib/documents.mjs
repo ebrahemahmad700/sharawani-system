@@ -29,6 +29,7 @@ export async function registerIncoming(q, {
   physicalShelf = null, physicalFolder = null, physicalSection = null,
   incomingDate = null, docTypeOptionId = null, companyId = null,
   relatedDocumentId = null, originRoomId = undefined, byUser, req,
+  isConfidential = false, replyBy = null,
 }) {
   if (!subject || !String(subject).trim()) fail('subject_required', 'بابەت پێویستە.');
   if (!senderName || !String(senderName).trim()) fail('sender_required', 'ناوی نێردەر پێویستە.');
@@ -60,6 +61,18 @@ export async function registerIncoming(q, {
   // a registration into an error.
   const origin = originRoomId === undefined ? (byUser.roomId ?? null) : originRoomId;
 
+  // Migration 0600: the front desk and the mayor's office may mark a letter
+  // confidential and write down the date the applicant was promised an answer.
+  // Anyone else registering simply does not get the two fields; the form does not
+  // offer them and nothing sent is used.
+  const deskRole = ['registry_clerk', 'mayor', 'deputy_mayor'].includes(byUser.role);
+  isConfidential = deskRole && Boolean(isConfidential);
+  replyBy = deskRole ? parseReplyBy(replyBy) : null;
+  if (replyBy) {
+    const { rows: [ok] } = await q(`SELECT $1::date >= coalesce($2::date, current_date) AS ok`, [replyBy, incomingDate]);
+    if (!ok.ok) fail('bad_reply_by', 'بەرواری وەڵامدانەوە نابێت پێش بەرواری هاتن بێت.');
+  }
+
   const year = incomingDate ? new Date(incomingDate).getFullYear() : new Date().getFullYear();
 
   const { rows: [{ seq }] } = await q(`SELECT issue_number('incoming', $1) AS seq`, [year]);
@@ -70,14 +83,15 @@ export async function registerIncoming(q, {
        (incoming_seq, incoming_year, incoming_no, incoming_date, incoming_registered_by,
         subject, doc_type, sender_kind, sender_name, sender_contact, priority, status,
         plot_no, neighbourhood, physical_shelf, physical_folder, physical_section,
-        doc_type_option_id, origin_room_id)
+        doc_type_option_id, origin_room_id, is_confidential, reply_by)
      VALUES ($1, $2, $3, coalesce($4::date, current_date), $5,
              $6, $7, $8, $9, $10, $11, 'registered',
-             $12, $13, $14, $15, $16, $17, $18)
+             $12, $13, $14, $15, $16, $17, $18, $19, $20)
      RETURNING *`,
     [seq, year, no, incomingDate, byUser.id,
      String(subject).trim(), docType, senderKind, String(senderName).trim(), senderContact, priority,
-     plotNo, neighbourhood, physicalShelf, physicalFolder, physicalSection, docTypeOptionId, origin]);
+     plotNo, neighbourhood, physicalShelf, physicalFolder, physicalSection, docTypeOptionId, origin,
+     isConfidential, replyBy]);
 
   // The applicant's receipt needs a PIN, and issuing it here rather than at print
   // time means the number exists from the moment the letter does. Reprinting does
@@ -431,9 +445,50 @@ export async function searchDocuments(q, { text, filters = {}, limit = 50, byUse
 }
 
 /** One document with everything the screen needs. */
+/**
+ * A reply-by date from a form: YYYY-MM-DD in either kind of digit, or empty.
+ * Anything else is refused in words rather than reaching the database.
+ */
+export function parseReplyBy(v) {
+  const s = String(v ?? '').replace(/[٠-٩]/g, d => '٠١٢٣٤٥٦٧٨٩'.indexOf(d))
+                           .replace(/[۰-۹]/g, d => '۰۱۲۳۴۵۶۷۸۹'.indexOf(d)).trim();
+  if (!s) return null;
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(s) || Number.isNaN(new Date(s).getTime())) {
+    fail('bad_reply_by', 'بەرواری وەڵامدانەوە بە شێوەی ساڵ-مانگ-ڕۆژ بنووسە.');
+  }
+  return s;
+}
+
+/**
+ * Mark a letter confidential or not, and set or clear its reply-by date
+ * (migration 0600). The front desk and the mayor's office only; the database
+ * refuses anyone else too (trg_document_flags_guard).
+ */
+export async function setDocumentFlags(q, { documentId, isConfidential, replyBy, byUser, req }) {
+  if (!['registry_clerk', 'mayor', 'deputy_mayor'].includes(byUser.role)) {
+    fail('not_allowed', 'تەنها ژووری هات و دەرچوو و ژووری سەرۆک دەتوانن ئەمە بگۆڕن.');
+  }
+  const when = parseReplyBy(replyBy);
+  const { rows: [d] } = await q(
+    `SELECT id, is_confidential, reply_by, incoming_date, status FROM document WHERE id = $1`, [documentId]);
+  if (!d) fail('not_found', 'ئەم کتابە نەدۆزرایەوە.');
+  if (d.status === 'cancelled') fail('cancelled', 'کتابێکی هەڵوەشێنراو ناگۆڕدرێت.');
+  if (when) {
+    const { rows: [ok] } = await q(`SELECT $1::date >= $2::date AS ok`, [when, d.incoming_date]);
+    if (!ok.ok) fail('bad_reply_by', 'بەرواری وەڵامدانەوە نابێت پێش بەرواری هاتن بێت.');
+  }
+  const conf = Boolean(isConfidential);
+  await q(`UPDATE document SET is_confidential = $2, reply_by = $3::date WHERE id = $1`, [documentId, conf, when]);
+  await logEvent(q, {
+    action: 'document.flags_changed', req, userId: byUser.id, roomId: byUser.roomId, documentId,
+    detail: { confidential: conf, was_confidential: d.is_confidential, reply_by_set: Boolean(when) },
+  });
+}
+
 export async function getDocument(q, documentId) {
   const { rows } = await q(
     `SELECT d.*,
+            (d.reply_by - current_date) AS reply_days_left, to_char(d.reply_by, 'YYYY-MM-DD') AS reply_by_iso,
             r.name AS current_room_name, r.room_number AS current_room_number,
             ri.full_name AS registered_by_name,
             ro.full_name AS closed_by_name,

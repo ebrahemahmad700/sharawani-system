@@ -13,6 +13,7 @@ import { requireAuth, requireRole, roomContext } from '../lib/auth.mjs';
 import { overdue } from '../lib/routing.mjs';
 import { page } from '../views/layout.mjs';
 import { html, num, date, time, elapsed, ltr, initials } from '../lib/html.mjs';
+import { promisedReplies, promisedCard } from './registry.mjs';
 
 const router = Router();
 
@@ -34,6 +35,7 @@ export const ACTION_KU = {
   'document.registered': 'کتابی تۆمارکرد', 'document.updated': 'کتابی دەستکاری کرد',
   'document.viewed': 'کتابی کردەوە', 'document.printed': 'کتابی چاپکرد',
   'document.closed': 'کتابی داخست', 'document.cancelled': 'کتابی هەڵوەشاندەوە',
+  'document.flags_changed': 'نهێنی یان بەڵێنی وەڵامی کتابی گۆڕی',
   'document.legacy_imported': 'کتابی کۆنی هێنایە ناو سیستەم',
   'access.refused': 'داوای کتابێکی کرد کە ڕێگەی پێنەدرا', 'case.viewed': 'هەموو دۆسیەی کتابێکی بینی',
   'compare.viewed': 'هاتوو و دەرچووی کتابێکی بەراورد کرد',
@@ -74,6 +76,9 @@ export const ACTION_KU = {
   'archive.verified': 'نەخشەی پشتڕاستکردەوە', 'archive.linked': 'نەخشەی بە کتابەوە بەست',
   'archive.unlinked': 'نەخشەی لە کتاب لابرد', 'archive.location_changed': 'شوێنی نەخشەی گۆڕی',
   'archive.batch_opened': 'کۆمەڵێک نەخشەی کردەوە', 'archive.batch_qc': 'کۆمەڵێک نەخشەی پشکنی',
+  'archive.lent': 'فایلێکی ئەرشیفی دا بە کەسێک', 'archive.returned': 'فایلێکی ئەرشیف گەڕایەوە',
+  'export.registry': 'تۆماری هاتووی بۆ Excel داگرت', 'export.outgoing': 'تۆماری دەرچووی بۆ Excel داگرت',
+  'export.archive': 'ئەرشیفی بۆ Excel داگرت',
 
   'tray.detected': 'سکانێکی نوێ گەیشتە سینی', 'tray.claimed': 'سکانی بە کتابەوە بەست',
   'tray.archived': 'سکانی ناردە ئەرشیف',
@@ -120,7 +125,7 @@ export const ACTION_KU = {
 const ACTION_GROUPS = [
   ['', 'هەموو کردارەکان'], ['auth.', 'چوونەژوورەوە و دەرچوون'], ['document.', 'کتاب'],
   ['step.', 'ناردن و وەرگرتن'], ['note.', 'تێبینی'], ['attachment.', 'هاوپێچ'],
-  ['manifest.', 'لیستی گەیاندن'], ['archive.', 'ئەرشیفی نەخشە'], ['tray.', 'سینیی سکان'],
+  ['manifest.', 'لیستی گەیاندن'], ['archive.', 'ئەرشیفی ژوور'], ['tray.', 'سینیی سکان'],
   ['company.', 'کۆمپانیا'], ['template.', 'تێمپلەیت'], ['leave.', 'مۆڵەت'],
   ['user.', 'هەژمارەکان'], ['room.', 'ژوورەکان'], ['system.', 'سیستەم'],
   ['search.', 'گەڕان'], ['track.', 'بەدواداچوونی هاووڵاتی'], ['assistant.', 'یاریدەدەر'],
@@ -224,11 +229,13 @@ async function dashboardData(q) {
      WHERE l.action NOT LIKE 'document.viewed' AND l.action NOT LIKE 'search.%'
      ORDER BY l.id DESC LIMIT 40`);
 
+  const promised = await promisedReplies(q, { limit: 15 });
+
   const { rows: [lock] } = await q(`
     SELECT coalesce((SELECT value::boolean FROM system_setting WHERE key = 'system_locked'), false) AS locked,
            coalesce((SELECT value #>> '{}' FROM system_setting WHERE key = 'lock_message'), '') AS message`);
 
-  return { counts, rooms, late, recent, lock };
+  return { counts, rooms, late, recent, lock, promised };
 }
 
 function roomRow(r) {
@@ -254,7 +261,7 @@ function roomRow(r) {
 
 router.get('/dashboard', requireAuth, requireRole(...MAYORS), async (req, res, next) => {
   try {
-    const { counts, rooms, late, recent, lock } = await withActor(req.user, dashboardData);
+    const { counts, rooms, late, recent, lock, promised } = await withActor(req.user, dashboardData);
     const atRisk = rooms.filter(r => r.head_away && r.no_deputy);
     const reachedMayor = late.filter(l => l.rung >= 3);
     const noDeputy = rooms.filter(r => r.no_deputy && r.kind !== 'registry' && r.kind !== 'executive');
@@ -304,6 +311,8 @@ router.get('/dashboard', requireAuth, requireRole(...MAYORS), async (req, res, n
               </tr>`)}</tbody>
             </table></div>` : ''}
           </div>` : ''}
+
+        ${promisedCard(promised)}
 
         <!-- Rooms and the assistant on one side, the activity list on the other.
              The list takes the height of that side and scrolls inside itself, so

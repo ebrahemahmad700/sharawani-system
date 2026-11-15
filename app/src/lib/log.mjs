@@ -19,6 +19,8 @@ export const ACTIONS = new Set([
   // documents
   'document.registered', 'document.updated', 'document.viewed', 'document.printed',
   'document.closed', 'document.cancelled', 'document.legacy_imported',
+  // marked confidential or not, or the applicant's reply-by date set (migration 0600)
+  'document.flags_changed',
   // a letter or an attachment asked for and not shown: not there, or not yours.
   // Watched by migration 0530, which tells the mayor when IT asks, or anyone asks
   // many times.
@@ -58,6 +60,10 @@ export const ACTIONS = new Set([
   // the drawing archive
   'archive.uploaded', 'archive.updated', 'archive.viewed', 'archive.downloaded', 'archive.verified',
   'archive.linked', 'archive.unlinked', 'archive.location_changed', 'archive.batch_opened', 'archive.batch_qc',
+  // a file leaving its room's archive and coming back (migration 0600)
+  'archive.lent', 'archive.returned',
+  // a register downloaded as a spreadsheet: who took a copy of what, and how many rows
+  'export.registry', 'export.outgoing', 'export.archive',
   // scan tray
   'tray.detected', 'tray.claimed', 'tray.archived',
   // network scanners (migration 0470). Scanning itself is logged as what it
