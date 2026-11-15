@@ -972,7 +972,8 @@ export async function roomInbox(q, roomId, { limit = 100 } = {}) {
             s.paper_received_at,
             (s.due_at < now()) AS overdue,
             d.id AS document_id, d.incoming_no, d.barcode, d.subject, d.priority, d.doc_type,
-            d.sender_name, d.plot_no,
+            d.sender_name, d.plot_no, d.is_confidential, d.reply_by,
+            (d.reply_by - current_date) AS reply_days_left,
             fr.name AS from_room_name,
             ab.full_name AS assigned_by_name
        FROM routing_step s

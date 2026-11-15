@@ -169,7 +169,7 @@ VOCABULARY, use these exact words
 - late or past due is دواکەوتوو
 - leave is مۆڵەت, a deputy is جێگر
 - a plot is پارچە, a neighbourhood is گەڕەک (not قەزاگە)
-- the drawing archive is ئەرشیفی نەخشە, a shelf is ڕەف, a folder is دۆسیە`;
+- each room's archive is ئەرشیفی ژوور (the base map rooms' archive of drawings is ئەرشیفی نەخشە), a shelf is ڕەف, a folder is دۆسیە`;
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 

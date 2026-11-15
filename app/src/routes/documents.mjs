@@ -15,10 +15,10 @@ import {
   paperReceive, maySend, holdsStep, RoutingError,
 } from '../lib/routing.mjs';
 import { notFound, logRefusal } from '../lib/respond.mjs';
-import { getDocument, searchDocuments, cancelDocument, mayCancel, DocumentError } from '../lib/documents.mjs';
+import { getDocument, searchDocuments, cancelDocument, mayCancel, setDocumentFlags, DocumentError } from '../lib/documents.mjs';
 import { page } from '../views/layout.mjs';
 import { html, raw, num, date, time, elapsed, ago, ltr, ident, initials, ltrText } from '../lib/html.mjs';
-import { statusPill, DOC_TYPES, CHANNELS, options } from './registry.mjs';
+import { statusPill, DOC_TYPES, CHANNELS, options, replyByPill } from './registry.mjs';
 import { listAttachments, ATTACHMENT_KINDS, kindLabel, attachableTypes, acceptFor, typeLabel } from './attachments.mjs';
 import { MARGIN_WRITERS } from './margin.mjs';
 import { COMPARABLE } from './compare.mjs';
@@ -96,6 +96,7 @@ router.get('/documents', requireAuth, async (req, res, next) => {
                   <td>${date(d.incoming_date)}</td>
                   <td>
                     <a href="/documents/${d.id}">${d.subject}</a>
+                    ${d.is_confidential ? html` <span class="pill danger">نهێنی</span>` : ''}
                     ${Number(d.tier) === 40 ? html` <span class="pill info" title="ئەم وشانە لە ناو سکانێکی هاوپێچدا نووسراون">
                       لە ناو سکان
                     </span>` : ''}
@@ -198,6 +199,10 @@ router.get('/documents/:id(\\d+)', requireAuth, async (req, res, next) => {
     const canCompare = attachments.some(a => COMPARABLE.includes(a.mime_type));
     const iHoldIt = holdsIt;
     const iSentIt = active && active.assigned_by === req.user.id;
+    // Confidentiality and the applicant's reply-by date (migration 0600): the
+    // front desk, who promised it at the counter, and the mayor's office.
+    const canFlags = ['registry_clerk', 'mayor', 'deputy_mayor'].includes(req.user.role)
+                     && doc.status !== 'cancelled';
     const canClose = ['registry_clerk', 'mayor', 'deputy_mayor'].includes(req.user.role)
                      && ['ready_to_close', 'in_flow', 'registered'].includes(doc.status);
     // Writing the reply, or reading the one that was sent. A cancelled letter
@@ -248,12 +253,16 @@ router.get('/documents/:id(\\d+)', requireAuth, async (req, res, next) => {
             <div class="card">
               <div class="card-head">
                 <h2>${doc.subject}</h2>
-                <div class="end">${PRIORITY_PILL[doc.priority] ? html`<span class="pill ${PRIORITY_PILL[doc.priority][0]}">${PRIORITY_PILL[doc.priority][1]}</span>` : ''}${statusPill(doc.status)}</div>
+                <div class="end">${doc.is_confidential ? html`<span class="pill danger" title="تەنها سەرۆک، جێگر و ئەو ژوورانەی کتابەکەیان پێگەیشتووە دەیبینن">نهێنی</span>` : ''}${PRIORITY_PILL[doc.priority] ? html`<span class="pill ${PRIORITY_PILL[doc.priority][0]}">${PRIORITY_PILL[doc.priority][1]}</span>` : ''}${statusPill(doc.status)}</div>
               </div>
               <table class="kv">
                 <tbody>
                   <tr><th>ژمارەی هاتوو</th><td class="mono">${ltr(doc.incoming_no)}</td></tr>
                   <tr><th>بەرواری هاتوو</th><td>${date(doc.incoming_date)}</td></tr>
+                  ${doc.reply_by ? html`<tr><th>بەڵێنی وەڵام بۆ داواکار</th><td>
+                    ${date(doc.reply_by)}
+                    ${['closed', 'cancelled'].includes(doc.status) ? '' : replyByPill(doc.reply_days_left)}
+                  </td></tr>` : ''}
                   <tr><th>جۆر</th><td>${doc.type_name ? html`${doc.type_name} <span class="muted">(${DOC_TYPES.find(t => t[0] === doc.doc_type)?.[1] ?? doc.doc_type})</span>` : DOC_TYPES.find(t => t[0] === doc.doc_type)?.[1] ?? doc.doc_type}${doc.type_requires_seal ? html` <span class="pill info">پێویستی بە مۆری فەرمییە</span>` : ''}</td></tr>
                   <tr><th>نێردەر</th><td>${doc.sender_name}${doc.sender_contact ? html`<span class="cell-sub"><span dir="ltr">${doc.sender_contact}</span></span>` : ''}</td></tr>
                   ${doc.plot_no ? html`<tr><th>پارچە</th><td>
@@ -588,6 +597,30 @@ router.get('/documents/:id(\\d+)', requireAuth, async (req, res, next) => {
                 </form>
               </div>` : ''}
 
+            ${canFlags ? html`
+              <details class="card" id="flags"${req.query.flags ? ' open' : ''}>
+                <summary><strong>نهێنی و بەڵێنی وەڵام</strong></summary>
+                <form method="post" action="/documents/${doc.id}/flags" style="margin-top:12px">
+                  <input type="hidden" name="_csrf" value="${res.locals.csrf}">
+                  <div class="grid cols-2">
+                    <div class="field">
+                      <label for="reply_by">بەرواری وەڵامدانەوە بە داواکار</label>
+                      <input id="reply_by" name="reply_by" type="date" dir="ltr" value="${doc.reply_by_iso ?? ''}">
+                      <div class="hint">بەتاڵی بهێڵەوە بۆ لابردنی.</div>
+                    </div>
+                    <label class="row" style="margin-top:26px">
+                      <input type="checkbox" name="is_confidential" value="1"${doc.is_confidential ? ' checked' : ''}>
+                      <span>کتابێکی نهێنییە</span>
+                    </label>
+                  </div>
+                  <p class="hint">
+                    کتابی نهێنی تەنها سەرۆک، جێگر، ئەوەی تۆماری کردووە و ئەو ژوورانەی بۆیان نێردراوە دەیبینن.
+                    کارمەندانی تری ژووری هات و دەرچوو تا دەگەڕێتەوە بۆ داخستن نایبینن.
+                  </p>
+                  <button class="btn" type="submit">پاشەکەوتکردن</button>
+                </form>
+              </details>` : ''}
+
             ${canClose ? html`
               <div class="card" id="close">
                 <h2>داخستنی کتاب</h2>
@@ -688,6 +721,7 @@ const DONE = {
   margin:    'هامشەکە مۆرکرا و کتابەکە نێردرا.',
   stamp_incoming: 'مۆری هاتوو لەسەر سکانەکە دانرا.',
   stamp_outgoing: 'مۆری دەرچوو لەسەر سکانەکە دانرا.',
+  flags:     'پاشەکەوتکرا.',
 };
 
 const back = (res, id, err, done = null) =>
@@ -776,6 +810,12 @@ router.post('/documents/:id/return', requireAuth, handle((q, req, id) =>
 
 router.post('/documents/:id/recall', requireAuth, handle((q, req, id) =>
   recall(q, { documentId: id, byUser: req.user, stepId: stepOf(req), req }), 'recalled'));
+
+router.post('/documents/:id/flags', requireAuth, handle((q, req, id) =>
+  setDocumentFlags(q, {
+    documentId: id, isConfidential: req.body.is_confidential === '1',
+    replyBy: req.body.reply_by || null, byUser: req.user, req,
+  }), 'flags'));
 
 router.post('/documents/:id/cancel', requireAuth, handle((q, req, id) =>
   cancelDocument(q, { documentId: id, reason: req.body.reason, byUser: req.user, req }), 'cancelled'));

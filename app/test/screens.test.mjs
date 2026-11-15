@@ -68,12 +68,12 @@ console.log('--- every screen as every role ---');
 const SCREENS = {
   aram:    ['/dashboard', '/rooms', '/inbox', '/outgoing', '/documents', '/archive', '/leave', '/log', '/registry'],
   nabaz:   ['/dashboard', '/rooms', '/inbox', '/outgoing', '/documents', '/archive', '/leave', '/log'],
-  shilan:  ['/registry', '/registry/new', '/inbox', '/outgoing', '/documents', '/leave'],
+  shilan:  ['/registry', '/registry/new', '/inbox', '/outgoing', '/documents', '/leave', '/archive', '/archive/new'],
   hemin:   ['/inbox', '/outgoing', '/documents', '/archive', '/leave', '/log'],
   sakar:   ['/inbox', '/outgoing', '/documents', '/archive', '/leave'],
   karwan:  ['/archive', '/archive/new', '/inbox', '/documents', '/leave'],
   zhyan:   ['/archive'],
-  bafrin:  ['/leave', '/inbox', '/outgoing', '/documents'],
+  bafrin:  ['/leave', '/inbox', '/outgoing', '/documents', '/archive'],
   itadmin: ['/admin/users', '/admin/rooms', '/log'],
 };
 
@@ -249,10 +249,19 @@ check('the download carries the original name', (dl.headers.get('content-disposi
 const selfVerify = await ar.post(`${arPath}/verify`, {});
 check('the uploader cannot verify their own upload', selfVerify.location?.includes('error='), selfVerify.location);
 
-const other = sessions.zhyan;
+// Since migration 0600 each room has its own archive. Room 9 cannot see room
+// 8's drawing at all; the second pair of eyes comes from the mayor's office,
+// which may open every room's archive.
+const room9 = sessions.zhyan;
+const fromRoom9 = await room9.get(arPath);
+check('another room cannot open this archive record', fromRoom9.status === 404, `status ${fromRoom9.status}`);
+const room9Verify = await room9.post(`${arPath}/verify`, {});
+const stillUnverified = await ar.get(arPath);
+check('nor verify it', room9Verify.status === 303 && stillUnverified.body.includes('پشتڕاست نەکراوەتەوە'), room9Verify.location);
+const other = sessions.aram;
 await other.get(arPath);
 const verify = await other.post(`${arPath}/verify`, {});
-check('a second clerk can verify it', verify.status === 303 && verify.location?.includes('saved=1'), verify.location);
+check('the mayor can verify it', verify.status === 303 && verify.location?.includes('saved=1'), verify.location);
 const verified = await other.get(arPath);
 check('the record shows as verified', verified.body.includes('پشتڕاستکراوە') && !verified.body.includes('هێشتا پشتڕاست'));
 

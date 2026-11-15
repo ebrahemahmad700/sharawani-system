@@ -996,12 +996,13 @@ The `action` column is free text constrained to `area.verb`. This is the closed 
 |---|---|
 | auth | `auth.login`, `auth.login_failed`, `auth.logout`, `auth.session_revoked`, `auth.password_changed` |
 | system | `system.locked`, `system.unlocked`, `system.setting_changed` |
-| document | `document.registered`, `document.viewed`, `document.updated`, `document.cancelled`, `document.closed`, `document.legacy_imported`, `document.printed` |
+| document | `document.registered`, `document.viewed`, `document.updated`, `document.cancelled`, `document.closed`, `document.legacy_imported`, `document.printed`, `document.flags_changed` |
 | step | `step.sent`, `step.sequence_sent`, `step.activated`, `step.received`, `step.completed`, `step.forwarded`, `step.returned`, `step.recalled`, `step.skipped`, `step.cancelled`, `step.reassigned` |
 | attachment | `attachment.added`, `attachment.viewed`, `attachment.downloaded`, `attachment.printed`, `attachment.rejected_virus` |
 | tray | `tray.detected`, `tray.claimed`, `tray.archived` |
 | scanner | `scanner.added`, `scanner.changed` (a scan itself is logged as the `attachment.added` or `tray.detected` it produced, with `source: scanner`) |
-| archive | `archive.uploaded`, `archive.updated`, `archive.viewed`, `archive.downloaded`, `archive.verified`, `archive.linked`, `archive.unlinked`, `archive.location_changed`, `archive.batch_opened`, `archive.batch_qc` |
+| archive | `archive.uploaded`, `archive.updated`, `archive.viewed`, `archive.downloaded`, `archive.verified`, `archive.linked`, `archive.unlinked`, `archive.location_changed`, `archive.batch_opened`, `archive.batch_qc`, `archive.lent`, `archive.returned` |
+| export | `export.registry`, `export.outgoing`, `export.archive` (detail: the range or room and the row count, never the rows) |
 | template | `template.created`, `template.updated`, `template.deactivated`, `template.filled`, `template.printed` |
 | leave | `leave.requested`, `leave.approved`, `leave.rejected`, `leave.cancelled` |
 | delegation | `delegation.started`, `delegation.ended`, `delegation.ended_early` |

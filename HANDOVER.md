@@ -991,6 +991,49 @@ the municipality has, and a stale copy of that record is worse than no copy.
 
 ---
 
+## New: room archives, lending, Excel, confidential letters, reply-by dates
+
+Migration 0600. Five things, all enforced by the database as well as the screen.
+
+**Every room has its own archive — ئەرشیفی ژوور.** The archive was one shelf for
+rooms 8 and 9 that every room head could read. Now each record belongs to one
+room. Legal files Legal's folders, the front desk files its own, and nobody sees
+another room's archive. The mayor and deputy see every room's, with a room
+filter. A plot number is still required in the base map rooms and optional
+everywhere else. Existing drawings stayed with rooms 8 and 9. Verifying a record
+still needs a second person; in a one-person room that is the mayor or deputy.
+*Try:* as `hemin`, add a PDF to Legal's archive with no plot number. As `hersh`,
+try to find it by list, address and download. As `aram`, find it under «هەموو
+ژوورەکان».
+
+**Lending a file out — دەرچوون و گەڕانەوە.** On a record, write who took the
+folder, from which room, and when it must come back. The list shows who has it;
+an overdue one turns red at the top of the archive. One loan at a time per file,
+and a loan can only ever be closed, never edited. *Try:* lend it twice, return it
+twice, lend it from another room.
+
+**Excel — داگرتن بۆ Excel.** The incoming register (front desk), the outgoing
+register (everyone) and each archive download as a file Excel opens with the
+Kurdish intact. Each person's file holds only what they may already see, and
+every download is logged with its row count. A cell typed as a formula comes out
+as plain text.
+
+**Confidential letters — نهێنی.** At registration, or later on the letter, the
+front desk or the mayor's office can mark a letter confidential. Then it is seen
+by the mayor, the deputy, the clerk who registered it, and the rooms it is
+actually sent to — not by the rest of the front desk while it is elsewhere. It
+comes back to the front desk to be closed as usual. *Try:* register one as
+`shilan`, send it to Legal, and open it as `ahang`; then register one as `aram`
+and look for it as `shilan`, in search, the register and the Excel file.
+
+**Reply-by date — بەڵێنی وەڵام.** The date the applicant was told to expect an
+answer. Printed on the receipt, shown on the letter and in the inbox of the room
+holding it, and listed at the top of the front desk's register and on the mayor's
+dashboard from three days before it falls due. Only the front desk and the
+mayor's office may set or change it.
+
+---
+
 ## Walk through this first
 
 Half an hour, and it exercises most of the system.

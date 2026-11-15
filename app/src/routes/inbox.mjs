@@ -12,6 +12,7 @@ import { requireAuth, roomContext } from '../lib/auth.mjs';
 import { roomInbox } from '../lib/routing.mjs';
 import { page } from '../views/layout.mjs';
 import { html, num, date, elapsed, ltr, initials } from '../lib/html.mjs';
+import { replyByPill } from './registry.mjs';
 
 const router = Router();
 
@@ -189,6 +190,8 @@ router.get('/inbox', requireAuth, async (req, res, next) => {
                       <td>
                         <a href="/documents/${r.document_id}">${r.subject}</a>
                         ${pl ? html` <span class="pill ${pk}">${pl}</span>` : ''}
+                        ${r.is_confidential ? html` <span class="pill danger">نهێنی</span>` : ''}
+                        ${r.reply_by && Number(r.reply_days_left) <= 3 ? html`<span class="cell-sub">بەڵێنی وەڵام: ${date(r.reply_by)} ${replyByPill(r.reply_days_left)}</span>` : ''}
                         ${r.group_size > 1 ? html`
                           <span class="pill muted">${num(r.group_position)} لە ${num(r.group_size)}</span>` : ''}
                         ${r.note ? html`<span class="cell-sub">${r.note}</span>` : ''}
